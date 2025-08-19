@@ -1,53 +1,233 @@
-# Asterisk Recording Processor
+# Agriculture AI - Voice-to-AI Pipeline
 
-A comprehensive solution for processing Asterisk call recordings with automatic speech-to-text, translation, and text-to-speech capabilities using Google Cloud APIs.
+A comprehensive AI-powered agriculture advisory system that processes voice calls through Asterisk, transcribes them, and provides intelligent responses in local languages using LLM services.
 
-## 🚀 Quick Start
+## 🌾 Overview
 
-### One-Command Setup
-```bash
-./run.sh
+This project creates an Interactive Voice Response (IVR) system that:
+1. Receives voice calls through Asterisk PBX
+2. Records and transcribes conversations
+3. Processes queries using specialized AI agents (Weather, Soil, Pest, Scheme)
+4. Generates responses in local languages
+5. Converts responses back to audio for playback
+
+## 📋 Prerequisites
+
+- Docker and Docker Compose
+- Python 3.8+
+- Zoiper5 SoftPhone application
+- OpenRouter.ai API key
+- macOS (tested environment)
+
+## 🚀 Setup Instructions
+
+### Step 1: Get OpenRouter.ai API Key
+
+1. Visit [OpenRouter.ai](https://openrouter.ai)
+2. Create an account and generate an API key
+3. Replace the API key in `LLM_Server/llm_client.py`:
+   ```python
+   api_key="YOUR_OPENROUTER_API_KEY_HERE"
+   ```
+
+### Step 2: Install Zoiper5 SoftPhone
+
+1. Download Zoiper5 from [https://www.zoiper.com/en/voip-softphone/download/current](https://www.zoiper.com/en/voip-softphone/download/current)
+2. Install the application on your system
+3. Launch Zoiper5
+
+### Step 3: Configure Zoiper5
+
+1. Open Zoiper5 and click on "Settings" or "Preferences"
+2. Navigate to "Accounts" → "Add Account"
+3. Select "SIP" as the protocol
+4. Configure the account with these settings:
+   - **Username**: `6001`
+   - **Password**: `6001` 
+   - **Domain/Hostname**: `localhost`
+   - **Port**: `5060`
+   - **Account Type**: Free user
+5. Click "Create Account" and verify it registers successfully
+6. You should see a green status indicating the account is registered
+
+### Step 4: Start Docker Container
+
+1. Navigate to the project directory:
+   ```bash
+   cd /Users/apple/Desktop/Agricultre_AI
+   ```
+
+2. Start the Asterisk container using Docker Compose:
+   ```bash
+   docker-compose up -d
+   ```
+
+3. Verify the container is running:
+   ```bash
+   docker ps
+   ```
+
+4. Check container logs to ensure proper startup:
+   ```bash
+   docker logs asterisk-server
+   ```
+
+### Step 5: Start Audio Processing Pipelines
+
+1. **Start the Audio Fetcher Pipeline** (in a new terminal):
+   ```bash
+   cd /Users/apple/Desktop/Agricultre_AI
+   source venv/bin/activate && src/audio_fetcher.py
+   ```
+
+2. **Start the Transcript Monitor Pipeline** (in another new terminal):
+   ```bash
+   cd /Users/apple/Desktop/Agricultre_AI
+   source venv/bin/activate && transcript_monitor.py
+   ```
+
+### Step 6: Test the System
+
+#### Make a Test Call
+
+1. In Zoiper5, dial `9999` and press call
+2. Wait for the call to connect
+3. **Wait 3 seconds** after connection
+4. Start speaking your agriculture-related query in your preferred language
+5. Speak clearly for 10-15 seconds
+6. Hang up the call
+
+#### Verify Recording
+
+1. In Zoiper5, dial `1000` and press call
+2. Listen to your entire recorded conversation
+3. Verify it was captured properly
+4. Hang up when finished
+
+#### Check AI Response
+
+1. Wait 1-2 minutes for AI processing to complete
+2. Check the generated audio directory:
+   ```bash
+   ls -la recordings/generated_audio/
+   ```
+3. Play the latest audio file to hear the AI response in your local language
+
+## 🏗️ System Architecture
+
+### Components
+
+1. **Asterisk PBX**: Handles SIP calls and recording
+2. **Audio Fetcher**: Monitors and processes new recordings
+3. **Transcript Monitor**: Processes transcripts through AI agents
+4. **LLM Server**: Contains specialized AI agents:
+   - Weather Agent
+   - Soil Agent  
+   - Pest Agent
+   - Scheme Agent
+   - Orchestrator Agent
+
+### Workflow
+
+```
+Voice Call → Asterisk → Recording → Audio Fetcher → Transcription
+                                                        ↓
+AI Response ← Text-to-Speech ← LLM Agents ← Transcript Monitor
 ```
 
-This single command will:
-- ✅ Check and install prerequisites
-- ✅ Set up Python environment with dependencies
-- ✅ Configure Google Cloud credentials
-- ✅ Build and start Docker containers
-- ✅ Start automatic recording monitoring
-- ✅ Run system health checks
+## 📞 Key Phone Numbers
+
+- **9999**: Record a new query (speak after 3 seconds)
+- **1000**: Playback last recording for verification
 
 ## 📁 Project Structure
 
 ```
-asterisk/
-├── run.sh                      # 🎯 Main setup and runner script
+Agriculture_AI/
 ├── docker-compose.yml          # Docker services configuration
 ├── Dockerfile.processor        # Recording processor container
-├── .env                        # Environment variables
+├── transcript_monitor.py       # AI transcript processing pipeline
 ├── monitor_recordings.sh       # Log monitoring script
-├── test_system.py             # System validation script
 │
 ├── src/                        # 🐍 Python source code
-│   ├── recording_processor_google.py  # Main processor with Google Cloud APIs
-│   ├── start_monitoring.py           # Enhanced monitoring service
-│   └── tts_generator.py              # Text-to-speech generator
+│   ├── audio_fetcher.py       # Audio monitoring and fetching
+│   ├── recording_processor.py  # Audio transcription processor
+│   └── tts_generator.py       # Text-to-speech generator
 │
-├── config/                     # ⚙️ Configuration files
+├── LLM_Server/                # 🤖 AI Agents and Services
+│   ├── llm_client.py          # OpenRouter API client
+│   ├── orchestrator_agent.py  # Main AI coordinator
+│   ├── weather_agent.py       # Weather advice agent
+│   ├── soil_agent.py          # Soil analysis agent
+│   ├── pest_agent.py          # Pest management agent
+│   └── scheme_agent.py        # Government schemes agent
+│
+├── config/                    # ⚙️ Configuration files
 │   ├── requirements.txt       # Python dependencies
-│   └── processor_config.json  # Processing configuration
+│   ├── processor_config.json  # Processing configuration
+│   └── credentials.json       # API credentials
 │
-├── recordings/                 # 🎵 Audio processing directories
-│   ├── raw/                   # Input recordings
+├── recordings/                # 🎵 Audio processing directories
+│   ├── raw/                   # Original recordings
 │   ├── converted/             # Converted audio files
 │   ├── transcripts/           # Generated transcripts
-│   └── generated_audio/       # TTS output
+│   ├── responses/             # AI text responses
+│   └── generated_audio/       # AI audio responses (🎯 CHECK HERE)
 │
-├── monitor/                    # 👁️ Docker container monitoring
-├── logs/                       # 📊 Application logs
-├── etc/asterisk/              # ⚙️ Asterisk configuration
-└── sounds/                     # 🔊 Audio assets
+├── etc/asterisk/              # ⚙️ Asterisk PBX configuration
+├── logs/                      # � Application and system logs
+└── sounds/                    # 🔊 Audio assets and prompts
 ```
+
+## 🔧 Troubleshooting
+
+### Docker Issues
+- Ensure Docker is running: `docker ps`
+- Restart container: `docker-compose restart`
+- Check logs: `docker logs asterisk-server`
+
+### Zoiper5 Connection Issues
+- Verify localhost connectivity
+- Check if port 5060 is available: `netstat -an | grep 5060`
+- Restart Zoiper5 and re-register account
+
+### Audio Pipeline Issues
+- Check if Python dependencies are installed
+- Verify file permissions in recordings directory
+- Monitor logs in `logs/` directory for errors
+
+### No AI Response Generated
+- Verify OpenRouter.ai API key is correct and active
+- Check internet connectivity
+- Monitor `transcript_monitor.py` logs for processing errors
+- Ensure all required Python packages are installed
+
+### API Key Configuration
+The API key needs to be replaced in `LLM_Server/llm_client.py` around line 17:
+```python
+api_key="sk-or-v1-YOUR_NEW_API_KEY_HERE"
+```
+
+## 🎯 Expected Results
+
+After following all steps and making a test call:
+
+1. **Audio Recording**: Your voice query should be saved in `recordings/raw/`
+2. **Transcription**: Text transcript should appear in `recordings/transcripts/`
+3. **AI Processing**: The AI agents will analyze your agriculture query
+4. **Response Generation**: An audio response will be created in `recordings/generated_audio/`
+5. **Local Language**: The response will be in your preferred local language
+
+## 🌐 Supported Languages
+
+The system supports multiple languages for both input and output through Google's speech services and LLM translation capabilities.
+
+## � Development Notes
+
+- This system is designed for agriculture-focused queries
+- AI agents provide advice on weather, soil, pests, and government schemes
+- All responses are tailored to local agricultural practices
+- The system maintains conversation context for follow-up questions
 
 ## 🐳 Docker Services
 
@@ -91,180 +271,236 @@ asterisk/
 
 ### Service Control
 ```bash
-# Start all services
-./run.sh
+# Start Docker services
+docker-compose up -d
 
-# Stop all services
-./run.sh --stop
+# Stop services
+docker-compose down
 
 # View service status
-./run.sh --status
+docker ps
 
 # View live logs
-./run.sh --logs
-
-# Monitor processing logs
-./monitor_recordings.sh
+docker logs asterisk-server -f
 ```
 
-### Docker Commands
+### Pipeline Management
 ```bash
-# Manual service management
-docker-compose up -d              # Start services
-docker-compose down               # Stop services
-docker-compose restart           # Restart services
-docker-compose logs -f            # View logs
+# Start audio fetcher (Terminal 1)
+python3 src/audio_fetcher.py
 
-# Individual service control
-docker-compose restart asterisk
-docker-compose restart recording-processor
+# Start transcript monitor (Terminal 2)
+python3 transcript_monitor.py
+
+# Monitor LLM server logs
+tail -f LLM_Server/logs/*.log
 ```
 
-### Development Commands
-```bash
-# Test system health
-./test_system.py
+## 🔧 Configuration Files
 
-# Check Google Cloud credentials
-python src/recording_processor_google.py --test
+### Key Configuration Files
+- **LLM Client**: `LLM_Server/llm_client.py` (Update OpenRouter API key here)
+- **Docker Compose**: `docker-compose.yml` (Service definitions)
+- **Asterisk Config**: `etc/asterisk/` (PBX configuration)
+- **Credentials**: `config/credentials.json` (Google Cloud credentials)
 
-# Show system status
-python src/recording_processor_google.py --status
-
-# Generate TTS audio interactively
-python src/tts_generator.py --interactive
-
-# Process existing files manually
-python src/recording_processor_google.py
+### OpenRouter API Configuration
+```python
+# In LLM_Server/llm_client.py
+self.client = OpenAI(
+    base_url="https://openrouter.ai/api/v1",
+    api_key="sk-or-v1-YOUR_API_KEY_HERE"  # Replace this line
+)
 ```
 
-## 🔧 Configuration
+## 🤖 AI Agents
 
-### Environment Variables (.env)
-```bash
-# Google Cloud API
-GOOGLE_CLOUD_API_KEY=your_api_key_here
-GOOGLE_CLOUD_PROJECT_ID=your_project_id
+### Weather Agent
+- Provides weather forecasts and advisories
+- Offers climate-based farming recommendations
+- Suggests optimal planting and harvesting times
 
-# Container Settings
-CONTAINER_NAME=asterisk-server
-ASTERISK_IMAGE=andrius/asterisk:latest
+### Soil Agent
+- Analyzes soil health and composition
+- Recommends fertilizers and soil treatments
+- Provides irrigation and drainage advice
 
-# Port Configuration
-SIP_PORT=5060
-RTP_PORT_RANGE_START=10000
-RTP_PORT_RANGE_END=10099
-```
+### Pest Agent
+- Identifies common agricultural pests
+- Suggests organic and chemical control methods
+- Offers prevention strategies
 
-### Google Cloud Setup
-1. Create a Google Cloud Project
-2. Enable required APIs:
-   - Cloud Speech-to-Text API
-   - Cloud Translation API
-   - Cloud Text-to-Speech API
-3. Generate an API key
-4. Update `.env` file with your credentials
+### Scheme Agent
+- Information about government agricultural schemes
+- Subsidy and loan program details
+- Application processes and eligibility criteria
+
+### Orchestrator Agent
+- Routes queries to appropriate specialist agents
+- Combines responses from multiple agents
+- Ensures comprehensive agriculture advice
 
 ## 📊 Monitoring and Logging
 
-### Processing Logs
-- **Location**: `recordings/processor.log`
-- **Live Monitoring**: `./monitor_recordings.sh`
-- **Docker Logs**: `docker-compose logs recording-processor`
+### Log Locations
+- **Audio Fetcher**: `src/audio_fetcher.py` console output
+- **Transcript Monitor**: `transcript_monitor.py` console output
+- **Asterisk**: `logs/messages`
+- **LLM Processing**: `LLM_Server/logs/`
 
-### Service Health
-- **Asterisk Health**: HTTP endpoint on port 8088
-- **Processor Health**: File-based health checks
-- **Automatic Restart**: Services restart on failure
-
-## 🔄 Workflow
-
-1. **Recording Creation**: Asterisk creates call recordings
-2. **File Detection**: Monitoring service detects new files
-3. **Audio Conversion**: Files converted to optimal format
-4. **Speech Recognition**: Audio transcribed to text
-5. **Language Detection**: Source language identified
-6. **Translation**: Text translated if needed
-7. **Output Generation**: Results saved as JSON/text
-8. **TTS Generation**: Optional audio synthesis
-
-## 🚨 Troubleshooting
-
-### Common Issues
-
-**Services won't start**
+### Monitoring Commands
 ```bash
-# Check Docker status
-docker info
+# Monitor all logs
+tail -f logs/* LLM_Server/logs/*
 
-# View detailed logs
-docker-compose logs
+# Check recording processing
+ls -la recordings/*/
 
-# Restart services
-./run.sh --stop && ./run.sh
+# Monitor Docker container
+docker logs asterisk-server --follow
 ```
 
-**Processing not working**
-```bash
-# Check Google Cloud credentials
-./run.sh --test
+## 🔄 Complete Workflow Example
 
+1. **Setup Phase**:
+   ```bash
+   # Get OpenRouter API key and update llm_client.py
+   # Install and configure Zoiper5 with localhost:5060
+   # Start Docker container
+   docker-compose up -d
+   ```
+
+2. **Start Pipelines**:
+   ```bash
+   # Terminal 1: Audio processing
+   python3 src/audio_fetcher.py
+   
+   # Terminal 2: AI processing  
+   python3 transcript_monitor.py
+   ```
+
+3. **Make Test Call**:
+   ```bash
+   # In Zoiper5: Dial 9999
+   # Wait 3 seconds, then speak agriculture query
+   # Example: "What is the best time to plant wheat in my region?"
+   ```
+
+4. **Verify Recording**:
+   ```bash
+   # In Zoiper5: Dial 1000
+   # Listen to complete recording
+   ```
+
+5. **Check AI Response**:
+   ```bash
+   # Wait 1-2 minutes, then check:
+   ls -la recordings/generated_audio/
+   # Play the latest .wav file
+   ```
+
+## 🚨 Troubleshooting Guide
+
+### Zoiper5 Issues
+**Problem**: Cannot connect to localhost
+```bash
+# Check if Asterisk is running
+docker ps | grep asterisk
+
+# Verify port 5060 is accessible
+telnet localhost 5060
+
+# Restart Asterisk container
+docker-compose restart
+```
+
+### Pipeline Issues
+**Problem**: Audio fetcher not processing files
+```bash
 # Check file permissions
+ls -la recordings/raw/
+
+# Verify monitor directory exists
+ls -la monitor/
+
+# Check Python dependencies
+pip3 install -r config/requirements.txt
+```
+
+**Problem**: No AI response generated
+```bash
+# Verify OpenRouter API key
+curl -H "Authorization: Bearer sk-or-v1-YOUR_KEY" https://openrouter.ai/api/v1/models
+
+# Check transcript files exist
+ls -la recordings/transcripts/
+
+# Monitor transcript_monitor.py output for errors
+```
+
+### Audio Issues
+**Problem**: No recording created
+```bash
+# Check Asterisk dialplan configuration
+docker exec -it asterisk-server asterisk -rx "dialplan show"
+
+# Verify recording permissions
 ls -la recordings/
 
-# Monitor processing logs
-./monitor_recordings.sh
+# Check Asterisk CLI
+docker exec -it asterisk-server asterisk -r
 ```
 
-**Port conflicts**
-```bash
-# Check port usage
-netstat -tlnp | grep :5060
+## 🎯 Testing Scenarios
 
-# Modify ports in .env file
-SIP_PORT=5061
-```
+### Basic Agriculture Queries
+- "What's the weather forecast for farming this week?"
+- "My crops have yellow leaves, what should I do?"
+- "Which government schemes are available for farmers?"
+- "When should I plant tomatoes in my region?"
 
-### Log Files
-- **Setup**: `setup.log`
-- **Processing**: `recordings/processor.log`
-- **Asterisk**: `logs/messages`
-- **Docker**: `docker-compose logs`
+### Multi-language Testing
+- Test queries in Hindi, Telugu, Tamil, or other local languages
+- Verify responses are generated in the same language
+- Check audio quality of local language TTS
 
-## 🎛️ Advanced Configuration
+## 📱 Production Deployment
 
-### Custom Asterisk Configuration
-- Edit files in `etc/asterisk/`
-- Restart Asterisk: `docker-compose restart asterisk`
+### Security Considerations
+- Replace default Asterisk passwords
+- Use HTTPS for web interfaces
+- Implement firewall rules for SIP ports
+- Secure OpenRouter API keys
 
-### Processing Parameters
-- Modify `config/processor_config.json`
-- Adjust language settings in `.env`
-- Configure TTS voices and quality
+### Scaling Options
+- Use multiple Asterisk instances for high call volume
+- Implement load balancing for AI agents
+- Add Redis caching for frequently asked questions
+- Use database storage for conversation history
 
-### Performance Tuning
-- Adjust RTP port range for concurrent calls
-- Scale processing containers: `docker-compose up -d --scale recording-processor=3`
-- Optimize audio settings for quality vs. speed
+## 🎓 Educational Use
 
-## 🤝 Contributing
+This system serves as an excellent example of:
+- **VoIP Integration**: Asterisk PBX setup and configuration
+- **AI Pipeline Development**: Multi-stage processing workflows  
+- **Microservices Architecture**: Docker-based service coordination
+- **Speech Processing**: STT, TTS, and natural language processing
+- **Agriculture Technology**: Domain-specific AI applications
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test with `./run.sh --test`
-5. Submit a pull request
+## 🤝 Support and Community
+
+For technical support:
+1. Check troubleshooting section above
+2. Review logs in respective directories
+3. Verify all configuration files are properly set
+4. Test individual components separately
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🆘 Support
-
-- **Documentation**: See `docs/` folder
-- **Issues**: Check `docs/TROUBLESHOOTING.md`
-- **Logs**: Run `./monitor_recordings.sh`
+This project is part of the Capital One Hackathon submission - Agriculture AI Voice Assistant.
 
 ---
 
-**Ready to process your recordings? Just run `./run.sh` and you're good to go!** 🎉
+**🌾 Ready to help farmers with AI-powered voice assistance!** 
+
+Call 9999 → Speak your agriculture question → Get intelligent responses in your local language! 🎉
