@@ -1,0 +1,158 @@
+{
+  "pest_id": "PST034",
+  "common_name": "Tobacco Aphid",
+  "scientific_name": "Myzus persicae nicotianae",
+  "category": "Insect",
+  "description": "A major sucking pest of tobacco causing significant direct and indirect losses. Aphids suck plant sap making plants pale and sick, promote sooty mold development, and transmit viral diseases like rosette or bushy top, causing economic losses of 125 kg cured leaf per hectare.",
+
+  "identification": {
+    "physical_signs": [
+      "Small pinkish to brown or green soft-bodied insects on leaves",
+      "Pale and sickly appearance of affected plants",
+      "Retarded plant growth and stunting",
+      "Black sooty mold development on honeydew deposits",
+      "Curling and distortion of leaves",
+      "Presence of both winged and wingless forms"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["Seedling", "Vegetative", "Flowering", "Pre-harvest"],
+    "seasons": ["Peak from December to first week of January"],
+    "favourable_conditions": {
+      "climate": "Cool to moderate temperatures (15-25°C), moderate humidity",
+      "soil_type": ["All tobacco growing soil types"],
+      "soil_conditions": ["Moderate moisture"],
+      "ecological_factors": ["Dense planting", "High nitrogen fertilization", "Excessive sucker growth", "Poor air circulation"]
+    },
+    "geographical_distribution": [
+      "Andhra Pradesh (FCV tobacco belt)",
+      "Karnataka",
+      "Gujarat",
+      "West Bengal",
+      "Bihar",
+      "Uttar Pradesh",
+      "Assam",
+      "Tamil Nadu",
+      "Odisha"
+    ],
+    "crops_attacked": [
+      "Tobacco",
+      "Potato",
+      "Tomato",
+      "Peach",
+      "Various solanaceous crops",
+      "Brassicas",
+      "Pulses"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 20,
+    "max_crop_loss_percent": 35,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 15000,
+      "max_loss": 40000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "Yellow sticky traps for monitoring winged forms",
+      "Water sprays to dislodge aphids",
+      "Reflective mulches to repel aphids",
+      "Regular monitoring of aphid populations"
+    ],
+    "cultural_methods": [
+      "Early topping and effective sucker control",
+      "Balanced fertilization avoiding excess nitrogen",
+      "Proper plant spacing for good air circulation",
+      "Timely harvest to avoid late season infestations",
+      "Field sanitation",
+      "Crop rotation with non-host crops"
+    ],
+    "biological_control": [
+      {
+        "agent": "Chrysoperla carnea",
+        "method": "Green lacewing predator conservation"
+      },
+      {
+        "agent": "Coccinella septempunctata",
+        "method": "Ladybird beetle conservation"
+      },
+      {
+        "agent": "Pathogenic fungi",
+        "method": "Natural fungal diseases during wet seasons"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Imidacloprid 17.8% SL",
+          "dosage": "0.3 ml/litre water",
+          "application_stage": "Early vegetative stage"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Flonicamid 50% WG",
+          "dosage": "0.3 g/litre water",
+          "application_stage": "When aphid colonies are established"
+        },
+        {
+          "pesticide_name": "Thiamethoxam 25% WG",
+          "dosage": "0.2 g/litre water",
+          "application_stage": "Peak infestation period"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Confidor",
+      "active_ingredient": "Imidacloprid",
+      "formulation": "17.8% SL",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 280,
+        "unit": "100ml bottle"
+      }
+    },
+    {
+      "brand_name": "Ulala",
+      "active_ingredient": "Flonicamid",
+      "formulation": "50% WG",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 920,
+        "unit": "100g pack"
+      }
+    },
+    {
+      "brand_name": "Actara",
+      "active_ingredient": "Thiamethoxam",
+      "formulation": "25% WG",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 280,
+        "unit": "100g pack"
+      }
+    }
+  ],
+
+  "references": [
+    "http://eagri.org/eagri50/ENTO331/lecture15/007.html",
+    "https://www.koppert.in/plant-pests/aphids/tobacco-aphid/",
+    "https://www.entomoljournal.com/archives/2020/vol8issue5/PartW/8-5-126-370.pdf",
+    "https://www.arec.vaes.vt.edu/content/dam/arec_vaes_vt_edu/southern-piedmont/Documents/Insect-Control.pdf",
+    "https://www.sciendo.com/article/10.2478/cttr-2018-0013"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}

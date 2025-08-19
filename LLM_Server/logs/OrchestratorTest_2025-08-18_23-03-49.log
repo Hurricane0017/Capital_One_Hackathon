@@ -1,0 +1,10 @@
+2025-08-18 23:03:49,279 - OrchestratorTest - INFO - --- Starting Test for Farmer: 7766554433 ---
+2025-08-18 23:03:49,279 - OrchestratorTest - INFO - Input Text: 'I am Kishorilal. I have a farm near Mumbai with black soil. I am growing cotton. Should I irrigate my crop in the next 5 days?'
+2025-08-18 23:03:50,210 - OrchestratorTest - INFO - Orchestrator agent initialized.
+2025-08-18 23:03:55,797 - OrchestratorTest - INFO - Orchestrator processing complete.
+2025-08-18 23:03:55,797 - OrchestratorTest - ERROR - Test FAILED with an exception: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/Users/nikhilmishra/Documents/Competition/test_orchestrator_e2e.py", line 56, in run_test
+    if response.get("status") == "success":
+       ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'

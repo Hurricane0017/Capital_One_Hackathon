@@ -1,0 +1,38 @@
+{
+  "soil_key": "forest",
+  "soil_name": "Forest Soil",
+  "aliases": ["Forest & Hill Soil"],
+  "color": ["brown", "dark brown"],
+  "texture": "sandy loam to clay loam (varies with altitude and parent rock)",
+  "structure": "loose, leaf-mould topsoil; tends to be thin and stony on slopes",
+  "physical_properties": {
+    "bulk_density_g_cm3": 1.2,
+    "infiltration_rate_mm_hr": 15,
+    "erosion_risk": "low (under forest cover) to high (if cleared)"
+  },
+  "chemical_properties": {
+    "pH": { "min": 5.5, "max": 7.0 },
+    "cation_exchange_capacity_cmolkg": { "min": 10, "max": 20 },
+    "organic_matter_pct": { "min": 2.0, "max": 5.0 },
+    "salinity_dS_m": { "max": 1 },
+    "sodicity_ESP": { "max": 0 },
+    "free_CaCO3_pct": { "min": 0, "max": 0 }
+  },
+  "water_holding_capacity_pct": { "min": 30, "max": 50 },
+  "nutrients_rich_in": ["nitrogen (in humus)"],
+  "nutrients_deficient_in": ["phosphorus", "potassium", "calcium"],
+  "favoured_crops": ["tea", "coffee", "spices", "maize", "barley", "apple"],
+  "favoured_seasons": ["Kharif"],
+  "drainage": "well drained (excess runoff on slopes)",
+  "typical_depth_cm": { "min": 20, "max": 100 },
+  "regions": [
+    { "state": "Uttarakhand", "notes": "Himalayan forested slopes and valleys" },
+    { "state": "Himachal Pradesh", "notes": "Temperate forest zones" },
+    { "state": "Assam", "notes": "Hilly forest areas in Northeast" },
+    { "state": "Kerala", "notes": "Western Ghats forest zones (tea/coffee estates)" },
+    { "state": "Nagaland", "notes": "Northeastern hills (jhum cultivation areas)" }
+  ],
+  "hazards": ["loss of topsoil fertility upon deforestation", "soil erosion/landslides on steep slopes"],
+  "notes": "Supports rich forest ecosystems. When used for cultivation, often limited to plantations or terraced farming. Conservation practices (terracing, contour bunds, agroforestry) are vital to prevent erosion and nutrient loss.",
+  "sources": ["PMF IAS (2024)", "Medium (2023)"]
+}

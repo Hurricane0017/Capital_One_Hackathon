@@ -1,0 +1,38 @@
+{
+  "soil_key": "mountain",
+  "soil_name": "Mountain Soil",
+  "aliases": ["Hill Soil (Mountain)"],
+  "color": ["light brown", "grayish brown"],
+  "texture": "sandy loam with gravel (often stony and shallow)",
+  "structure": "weakly developed, immature; coarse fragments common",
+  "physical_properties": {
+    "bulk_density_g_cm3": 1.3,
+    "infiltration_rate_mm_hr": 10,
+    "erosion_risk": "very high on slopes"
+  },
+  "chemical_properties": {
+    "pH": { "min": 5.0, "max": 6.5 },
+    "cation_exchange_capacity_cmolkg": { "min": 5, "max": 15 },
+    "organic_matter_pct": { "min": 1.0, "max": 4.0 },
+    "salinity_dS_m": { "max": 0 },
+    "sodicity_ESP": { "max": 0 },
+    "free_CaCO3_pct": { "min": 0, "max": 2 }
+  },
+  "water_holding_capacity_pct": { "min": 20, "max": 40 },
+  "nutrients_rich_in": ["organic matter (in lower elevations)"],
+  "nutrients_deficient_in": ["phosphorus", "potassium", "lime"],
+  "favoured_crops": ["maize", "potato", "barley", "wheat (in valleys)", "apple", "tea"],
+  "favoured_seasons": ["Kharif", "Rabi"],
+  "drainage": "well drained (rapid runoff)",
+  "typical_depth_cm": { "min": 20, "max": 80 },
+  "regions": [
+    { "state": "Jammu & Kashmir", "notes": "Higher Himalayas (cold desert and alpine soils)" },
+    { "state": "Himachal Pradesh", "notes": "Mid to high Himalayan ranges" },
+    { "state": "Uttarakhand", "notes": "Mountain slopes and valleys" },
+    { "state": "Arunachal Pradesh", "notes": "Eastern Himalaya highlands" },
+    { "state": "Tamil Nadu", "notes": "Nilgiri and upper Palani hills (montane zones)" }
+  ],
+  "hazards": ["soil erosion", "landslides"],
+  "notes": "Very sensitive ecosystems. For sustainable agriculture, methods like terracing, contour farming, and agroforestry are employed. Often left under forest or pasture in steep areas. At high altitudes, the growing season is short and soils remain under snow in winter (these are usually left uncultivated).",
+  "sources": ["Mapsofindia (2025)", "Vajiram (2025)"]
+}

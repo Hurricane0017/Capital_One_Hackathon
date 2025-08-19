@@ -1,0 +1,454 @@
+[Aug 18 04:25:00] Asterisk 18.11.2 built by buildozer @ build-3-16-aarch64 on a aarch64 running Linux on 2022-04-28 07:42:22 UTC
+[Aug 18 04:25:00] NOTICE[1] loader.c: 313 modules will be loaded.
+[Aug 18 04:25:01] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Aug 18 04:25:01] ERROR[36] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Aug 18 04:25:01] ERROR[36] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Aug 18 04:25:01] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug 18 04:25:01] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Aug 18 04:25:01] ERROR[1] file.c: Error opening directory - /var/lib/asterisk/moh: No such file or directory
+[Aug 18 04:25:01] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Aug 18 04:25:01] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Aug 18 04:25:01] ERROR[1] ari/config.c: No configured users for ARI
+[Aug 18 04:25:01] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Aug 18 04:25:01] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Aug 18 04:25:01] WARNING[1] loader.c: Some non-required modules failed to load.
+[Aug 18 04:25:01] WARNING[1] loader.c: The deprecated module 'res_monitor.so' has been loaded and is running, it may be removed in a future version
+[Aug 18 04:25:01] WARNING[1] loader.c: The deprecated module 'res_adsi.so' has been loaded and is running, it may be removed in a future version
+[Aug 18 04:25:01] WARNING[1] loader.c: The deprecated module 'app_image.so' has been loaded and is running, it may be removed in a future version
+[Aug 18 04:25:01] WARNING[1] loader.c: The deprecated module 'app_adsiprog.so' has been loaded and is running, it may be removed in a future version
+[Aug 18 04:25:01] WARNING[1] loader.c: The deprecated module 'chan_oss.so' has been loaded and is running, it may be removed in a future version
+[Aug 18 04:25:01] WARNING[1] loader.c: The deprecated module 'app_getcpeid.so' has been loaded and is running, it may be removed in a future version
+[Aug 18 04:25:01] WARNING[1] loader.c: The deprecated module 'app_url.so' has been loaded and is running, it may be removed in a future version
+[Aug 18 04:25:01] WARNING[1] loader.c: The deprecated module 'app_ices.so' has been loaded and is running, it may be removed in a future version
+[Aug 18 04:25:01] WARNING[1] loader.c: The deprecated module 'app_nbscat.so' has been loaded and is running, it may be removed in a future version
+[Aug 18 04:25:01] ERROR[1] loader.c: Failed to resolve dependencies for res_stir_shaken
+[Aug 18 04:25:01] ERROR[1] loader.c: res_stir_shaken declined to load.
+[Aug 18 04:25:01] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Aug 18 04:25:01] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Aug 18 04:25:01] ERROR[1] loader.c: Failed to resolve dependencies for res_http_media_cache
+[Aug 18 04:25:01] ERROR[1] loader.c: res_http_media_cache declined to load.
+[Aug 18 04:25:01] ERROR[1] loader.c: Failed to resolve dependencies for res_pjsip_stir_shaken
+[Aug 18 04:25:01] ERROR[1] loader.c: res_pjsip_stir_shaken declined to load.
+[Aug 18 04:31:56] WARNING[226][C-00000001] file.c: File beep does not exist in any format
+[Aug 18 04:31:56] WARNING[226][C-00000001] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Aug 18 04:31:56] WARNING[226][C-00000001] app_record.c: ast_streamfile(beep) failed on PJSIP/6001-00000000
+[Aug 18 04:32:12] ERROR[31] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 18 04:32:12] WARNING[31] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 18 04:32:42] ERROR[31] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 18 04:32:42] WARNING[31] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 18 04:32:56] ERROR[31] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 18 04:32:56] WARNING[31] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 18 04:33:04] WARNING[244][C-00000004] file.c: File beep does not exist in any format
+[Aug 18 04:33:04] WARNING[244][C-00000004] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Aug 18 04:33:04] WARNING[244][C-00000004] app_record.c: ast_streamfile(beep) failed on PJSIP/6001-00000003
+[Aug 18 04:33:08] ERROR[31] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 18 04:33:08] WARNING[31] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 18 04:33:24] ERROR[31] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 18 04:33:24] WARNING[31] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 18 06:11:45] WARNING[219] res_pjsip_registrar.c: Registration attempt from endpoint '6001' (192.168.65.1:52637) to AOR '6001' will exceed max contacts of 1
+[Aug 18 06:11:53] WARNING[219] res_pjsip_registrar.c: Registration attempt from endpoint '6001' (192.168.65.1:52637) to AOR '6001' will exceed max contacts of 1
+[Aug 18 06:16:05] WARNING[9] asterisk.c: The canary is no more.  He has ceased to be!  He's expired and gone to meet his maker!  He's a stiff!  Bereft of life, he rests in peace.  His metabolic processes are now history!  He's off the twig!  He's kicked the bucket.  He's shuffled off his mortal coil, run down the curtain, and joined the bleeding choir invisible!!  THIS is an EX-CANARY.  (Reducing priority)
+[Aug 18 06:16:05] WARNING[9] asterisk.c: Unable to set regular thread priority on main thread
+[Aug 18 17:29:03] Asterisk 18.11.2 built by buildozer @ build-3-16-aarch64 on a aarch64 running Linux on 2022-04-28 07:42:22 UTC
+[Aug 18 17:29:03] NOTICE[1] loader.c: 313 modules will be loaded.
+[Aug 18 17:29:03] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Aug 18 17:29:03] ERROR[40] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Aug 18 17:29:03] ERROR[40] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Aug 18 17:29:03] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug 18 17:29:03] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Aug 18 17:29:03] ERROR[1] file.c: Error opening directory - /var/lib/asterisk/moh: No such file or directory
+[Aug 18 17:29:03] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Aug 18 17:29:03] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Aug 18 17:29:03] ERROR[1] ari/config.c: No configured users for ARI
+[Aug 18 17:29:03] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Aug 18 17:29:03] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Aug 18 17:29:04] WARNING[1] loader.c: Some non-required modules failed to load.
+[Aug 18 17:29:04] WARNING[1] loader.c: The deprecated module 'res_monitor.so' has been loaded and is running, it may be removed in a future version
+[Aug 18 17:29:04] WARNING[1] loader.c: The deprecated module 'res_adsi.so' has been loaded and is running, it may be removed in a future version
+[Aug 18 17:29:04] WARNING[1] loader.c: The deprecated module 'app_image.so' has been loaded and is running, it may be removed in a future version
+[Aug 18 17:29:04] WARNING[1] loader.c: The deprecated module 'app_adsiprog.so' has been loaded and is running, it may be removed in a future version
+[Aug 18 17:29:04] WARNING[1] loader.c: The deprecated module 'chan_oss.so' has been loaded and is running, it may be removed in a future version
+[Aug 18 17:29:04] WARNING[1] loader.c: The deprecated module 'app_getcpeid.so' has been loaded and is running, it may be removed in a future version
+[Aug 18 17:29:04] WARNING[1] loader.c: The deprecated module 'app_url.so' has been loaded and is running, it may be removed in a future version
+[Aug 18 17:29:04] WARNING[1] loader.c: The deprecated module 'app_ices.so' has been loaded and is running, it may be removed in a future version
+[Aug 18 17:29:04] WARNING[1] loader.c: The deprecated module 'app_nbscat.so' has been loaded and is running, it may be removed in a future version
+[Aug 18 17:29:04] ERROR[1] loader.c: Failed to resolve dependencies for res_stir_shaken
+[Aug 18 17:29:04] ERROR[1] loader.c: res_stir_shaken declined to load.
+[Aug 18 17:29:04] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Aug 18 17:29:04] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Aug 18 17:29:04] ERROR[1] loader.c: Failed to resolve dependencies for res_http_media_cache
+[Aug 18 17:29:04] ERROR[1] loader.c: res_http_media_cache declined to load.
+[Aug 18 17:29:04] ERROR[1] loader.c: Failed to resolve dependencies for res_pjsip_stir_shaken
+[Aug 18 17:29:04] ERROR[1] loader.c: res_pjsip_stir_shaken declined to load.
+[Aug 18 17:31:44] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 18 17:31:44] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 18 17:31:53] WARNING[136][C-00000002] file.c: File beep does not exist in any format
+[Aug 18 17:31:53] WARNING[136][C-00000002] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Aug 18 17:31:53] WARNING[136][C-00000002] app_record.c: ast_streamfile(beep) failed on PJSIP/6001-00000001
+[Aug 18 17:32:00] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 18 17:32:00] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 18 17:32:15] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 18 17:32:15] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 18 17:35:01] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 18 17:35:01] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 18 17:35:39] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 18 17:35:39] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 18 17:35:46] WARNING[213][C-00000006] file.c: File beep does not exist in any format
+[Aug 18 17:35:46] WARNING[213][C-00000006] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Aug 18 17:35:46] WARNING[213][C-00000006] app_record.c: ast_streamfile(beep) failed on PJSIP/6001-00000005
+[Aug 18 17:35:53] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 18 17:35:53] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 18 17:47:13] WARNING[369][C-00000007] file.c: File beep does not exist in any format
+[Aug 18 17:47:13] WARNING[369][C-00000007] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Aug 18 17:47:13] WARNING[369][C-00000007] app_record.c: ast_streamfile(beep) failed on PJSIP/6001-00000006
+[Aug 18 17:47:23] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 18 17:47:23] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 18 17:47:57] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 18 17:47:57] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 18 18:05:16] WARNING[625][C-00000009] file.c: File beep does not exist in any format
+[Aug 18 18:05:16] WARNING[625][C-00000009] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Aug 18 18:05:16] WARNING[625][C-00000009] app_record.c: ast_streamfile(beep) failed on PJSIP/6001-00000008
+[Aug 18 18:06:19] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 18 18:06:19] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 18 18:07:33] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 18 18:07:33] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 18 18:24:29] WARNING[903][C-0000000b] file.c: File beep does not exist in any format
+[Aug 18 18:24:29] WARNING[903][C-0000000b] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Aug 18 18:24:29] WARNING[903][C-0000000b] app_record.c: ast_streamfile(beep) failed on PJSIP/6001-0000000a
+[Aug 18 18:25:27] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 18 18:25:27] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 18 18:26:51] WARNING[934][C-0000000c] file.c: File beep does not exist in any format
+[Aug 18 18:26:51] WARNING[934][C-0000000c] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Aug 18 18:26:51] WARNING[934][C-0000000c] app_record.c: ast_streamfile(beep) failed on PJSIP/6001-0000000b
+[Aug 18 18:27:38] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 18 18:27:38] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 08:39:53] Asterisk 18.11.2 built by buildozer @ build-3-16-aarch64 on a aarch64 running Linux on 2022-04-28 07:42:22 UTC
+[Aug 19 08:39:53] NOTICE[1] loader.c: 313 modules will be loaded.
+[Aug 19 08:39:53] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Aug 19 08:39:53] ERROR[40] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Aug 19 08:39:53] ERROR[40] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Aug 19 08:39:53] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug 19 08:39:53] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Aug 19 08:39:53] ERROR[1] file.c: Error opening directory - /var/lib/asterisk/moh: No such file or directory
+[Aug 19 08:39:53] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Aug 19 08:39:53] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Aug 19 08:39:53] ERROR[1] ari/config.c: No configured users for ARI
+[Aug 19 08:39:53] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Aug 19 08:39:53] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Aug 19 08:39:53] WARNING[1] loader.c: Some non-required modules failed to load.
+[Aug 19 08:39:53] WARNING[1] loader.c: The deprecated module 'res_monitor.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 08:39:53] WARNING[1] loader.c: The deprecated module 'res_adsi.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 08:39:53] WARNING[1] loader.c: The deprecated module 'app_image.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 08:39:53] WARNING[1] loader.c: The deprecated module 'app_adsiprog.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 08:39:53] WARNING[1] loader.c: The deprecated module 'chan_oss.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 08:39:53] WARNING[1] loader.c: The deprecated module 'app_getcpeid.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 08:39:53] WARNING[1] loader.c: The deprecated module 'app_url.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 08:39:53] WARNING[1] loader.c: The deprecated module 'app_ices.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 08:39:53] WARNING[1] loader.c: The deprecated module 'app_nbscat.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 08:39:53] ERROR[1] loader.c: Failed to resolve dependencies for res_stir_shaken
+[Aug 19 08:39:53] ERROR[1] loader.c: res_stir_shaken declined to load.
+[Aug 19 08:39:53] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Aug 19 08:39:53] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Aug 19 08:39:53] ERROR[1] loader.c: Failed to resolve dependencies for res_http_media_cache
+[Aug 19 08:39:53] ERROR[1] loader.c: res_http_media_cache declined to load.
+[Aug 19 08:39:53] ERROR[1] loader.c: Failed to resolve dependencies for res_pjsip_stir_shaken
+[Aug 19 08:39:53] ERROR[1] loader.c: res_pjsip_stir_shaken declined to load.
+[Aug 19 09:56:34] WARNING[1160][C-00000001] file.c: File beep does not exist in any format
+[Aug 19 09:56:34] WARNING[1160][C-00000001] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Aug 19 09:56:34] WARNING[1160][C-00000001] app_record.c: ast_streamfile(beep) failed on PJSIP/6001-00000000
+[Aug 19 09:56:42] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 09:56:42] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 09:57:12] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 09:57:12] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 10:03:30] WARNING[1265][C-00000003] file.c: File beep does not exist in any format
+[Aug 19 10:03:30] WARNING[1265][C-00000003] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Aug 19 10:03:30] WARNING[1265][C-00000003] app_record.c: ast_streamfile(beep) failed on PJSIP/6001-00000002
+[Aug 19 10:03:44] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 10:03:44] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 10:04:07] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 10:04:07] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 10:04:31] WARNING[1290][C-00000005] file.c: File beep does not exist in any format
+[Aug 19 10:04:31] WARNING[1290][C-00000005] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Aug 19 10:04:31] WARNING[1290][C-00000005] app_record.c: ast_streamfile(beep) failed on PJSIP/6001-00000004
+[Aug 19 10:04:42] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 10:04:42] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 10:05:02] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 10:05:02] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 10:05:25] WARNING[1305][C-00000007] file.c: File beep does not exist in any format
+[Aug 19 10:05:25] WARNING[1305][C-00000007] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Aug 19 10:05:25] WARNING[1305][C-00000007] app_record.c: ast_streamfile(beep) failed on PJSIP/6001-00000006
+[Aug 19 10:05:35] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 10:05:35] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 10:05:49] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 10:05:49] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 10:06:54] WARNING[1330][C-00000009] file.c: File beep does not exist in any format
+[Aug 19 10:06:54] WARNING[1330][C-00000009] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Aug 19 10:06:54] WARNING[1330][C-00000009] app_record.c: ast_streamfile(beep) failed on PJSIP/6001-00000008
+[Aug 19 10:07:05] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 10:07:05] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 10:08:00] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 10:08:00] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 10:08:25] WARNING[1356][C-0000000b] file.c: File beep does not exist in any format
+[Aug 19 10:08:25] WARNING[1356][C-0000000b] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Aug 19 10:08:25] WARNING[1356][C-0000000b] app_record.c: ast_streamfile(beep) failed on PJSIP/6001-0000000a
+[Aug 19 10:08:34] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 10:08:34] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 10:08:52] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 10:08:52] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 15:29:32] WARNING[1477][C-0000000d] file.c: File beep does not exist in any format
+[Aug 19 15:29:32] WARNING[1477][C-0000000d] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Aug 19 15:29:32] WARNING[1477][C-0000000d] app_record.c: ast_streamfile(beep) failed on PJSIP/6001-0000000c
+[Aug 19 15:29:42] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 15:29:42] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 15:30:02] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 15:30:02] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 15:31:47] WARNING[1516][C-0000000f] file.c: File beep does not exist in any format
+[Aug 19 15:31:47] WARNING[1516][C-0000000f] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Aug 19 15:31:47] WARNING[1516][C-0000000f] app_record.c: ast_streamfile(beep) failed on PJSIP/6001-0000000e
+[Aug 19 15:32:34] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 15:32:34] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 15:33:28] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 15:33:28] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 15:33:52] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 15:33:52] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 15:34:23] WARNING[1559][C-00000012] file.c: File beep does not exist in any format
+[Aug 19 15:34:23] WARNING[1559][C-00000012] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Aug 19 15:34:23] WARNING[1559][C-00000012] app_record.c: ast_streamfile(beep) failed on PJSIP/6001-00000011
+[Aug 19 15:34:30] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 15:34:30] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 15:34:47] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 15:34:47] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 15:35:28] WARNING[1577][C-00000014] file.c: File beep does not exist in any format
+[Aug 19 15:35:28] WARNING[1577][C-00000014] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Aug 19 15:35:28] WARNING[1577][C-00000014] app_record.c: ast_streamfile(beep) failed on PJSIP/6001-00000013
+[Aug 19 15:36:09] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 15:36:09] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 15:36:18] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 15:36:18] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 15:38:54] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 15:38:54] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 15:39:08] WARNING[1642][C-00000017] file.c: File beep does not exist in any format
+[Aug 19 15:39:08] WARNING[1642][C-00000017] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Aug 19 15:39:08] WARNING[1642][C-00000017] app_record.c: ast_streamfile(beep) failed on PJSIP/6001-00000016
+[Aug 19 15:39:50] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 15:39:50] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 15:40:49] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 15:40:49] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 15:56:46] Asterisk 18.11.2 built by buildozer @ build-3-16-aarch64 on a aarch64 running Linux on 2022-04-28 07:42:22 UTC
+[Aug 19 15:56:46] NOTICE[1] loader.c: 313 modules will be loaded.
+[Aug 19 15:56:47] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Aug 19 15:56:47] ERROR[40] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Aug 19 15:56:47] ERROR[40] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Aug 19 15:56:47] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug 19 15:56:47] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Aug 19 15:56:47] ERROR[1] file.c: Error opening directory - /var/lib/asterisk/moh: No such file or directory
+[Aug 19 15:56:47] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Aug 19 15:56:47] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Aug 19 15:56:47] ERROR[1] ari/config.c: No configured users for ARI
+[Aug 19 15:56:47] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Aug 19 15:56:47] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Aug 19 15:56:47] WARNING[1] loader.c: Some non-required modules failed to load.
+[Aug 19 15:56:47] WARNING[1] loader.c: The deprecated module 'res_monitor.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 15:56:47] WARNING[1] loader.c: The deprecated module 'res_adsi.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 15:56:47] WARNING[1] loader.c: The deprecated module 'app_image.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 15:56:47] WARNING[1] loader.c: The deprecated module 'app_adsiprog.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 15:56:47] WARNING[1] loader.c: The deprecated module 'chan_oss.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 15:56:47] WARNING[1] loader.c: The deprecated module 'app_getcpeid.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 15:56:47] WARNING[1] loader.c: The deprecated module 'app_url.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 15:56:47] WARNING[1] loader.c: The deprecated module 'app_ices.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 15:56:47] WARNING[1] loader.c: The deprecated module 'app_nbscat.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 15:56:47] ERROR[1] loader.c: Failed to resolve dependencies for res_stir_shaken
+[Aug 19 15:56:47] ERROR[1] loader.c: res_stir_shaken declined to load.
+[Aug 19 15:56:47] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Aug 19 15:56:47] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Aug 19 15:56:47] ERROR[1] loader.c: Failed to resolve dependencies for res_http_media_cache
+[Aug 19 15:56:47] ERROR[1] loader.c: res_http_media_cache declined to load.
+[Aug 19 15:56:47] ERROR[1] loader.c: Failed to resolve dependencies for res_pjsip_stir_shaken
+[Aug 19 15:56:47] ERROR[1] loader.c: res_pjsip_stir_shaken declined to load.
+[Aug 19 16:08:24] WARNING[251][C-00000001] file.c: File beep does not exist in any format
+[Aug 19 16:08:24] WARNING[251][C-00000001] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Aug 19 16:08:24] WARNING[251][C-00000001] app_record.c: ast_streamfile(beep) failed on PJSIP/6001-00000000
+[Aug 19 16:09:06] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 16:09:06] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 16:09:56] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 16:09:56] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 17:23:11] Asterisk 18.11.2 built by buildozer @ build-3-16-aarch64 on a aarch64 running Linux on 2022-04-28 07:42:22 UTC
+[Aug 19 17:23:11] NOTICE[1] loader.c: 313 modules will be loaded.
+[Aug 19 17:23:11] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Aug 19 17:23:11] ERROR[40] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Aug 19 17:23:11] ERROR[40] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Aug 19 17:23:11] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug 19 17:23:11] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Aug 19 17:23:11] ERROR[1] file.c: Error opening directory - /var/lib/asterisk/moh: No such file or directory
+[Aug 19 17:23:11] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Aug 19 17:23:11] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Aug 19 17:23:11] ERROR[1] ari/config.c: No configured users for ARI
+[Aug 19 17:23:11] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Aug 19 17:23:11] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Aug 19 17:23:11] WARNING[1] loader.c: Some non-required modules failed to load.
+[Aug 19 17:23:11] WARNING[1] loader.c: The deprecated module 'res_monitor.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:23:11] WARNING[1] loader.c: The deprecated module 'res_adsi.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:23:11] WARNING[1] loader.c: The deprecated module 'app_image.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:23:11] WARNING[1] loader.c: The deprecated module 'app_adsiprog.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:23:11] WARNING[1] loader.c: The deprecated module 'chan_oss.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:23:11] WARNING[1] loader.c: The deprecated module 'app_getcpeid.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:23:11] WARNING[1] loader.c: The deprecated module 'app_url.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:23:11] WARNING[1] loader.c: The deprecated module 'app_ices.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:23:11] WARNING[1] loader.c: The deprecated module 'app_nbscat.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:23:11] ERROR[1] loader.c: Failed to resolve dependencies for res_stir_shaken
+[Aug 19 17:23:11] ERROR[1] loader.c: res_stir_shaken declined to load.
+[Aug 19 17:23:11] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Aug 19 17:23:11] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Aug 19 17:23:11] ERROR[1] loader.c: Failed to resolve dependencies for res_http_media_cache
+[Aug 19 17:23:11] ERROR[1] loader.c: res_http_media_cache declined to load.
+[Aug 19 17:23:11] ERROR[1] loader.c: Failed to resolve dependencies for res_pjsip_stir_shaken
+[Aug 19 17:23:11] ERROR[1] loader.c: res_pjsip_stir_shaken declined to load.
+[Aug 19 17:26:40] Asterisk 18.11.2 built by buildozer @ build-3-16-aarch64 on a aarch64 running Linux on 2022-04-28 07:42:22 UTC
+[Aug 19 17:26:40] NOTICE[1] loader.c: 313 modules will be loaded.
+[Aug 19 17:26:40] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Aug 19 17:26:41] ERROR[39] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Aug 19 17:26:41] ERROR[39] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Aug 19 17:26:41] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug 19 17:26:41] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Aug 19 17:26:41] ERROR[1] file.c: Error opening directory - /var/lib/asterisk/moh: No such file or directory
+[Aug 19 17:26:41] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Aug 19 17:26:41] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Aug 19 17:26:41] ERROR[1] ari/config.c: No configured users for ARI
+[Aug 19 17:26:41] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Aug 19 17:26:41] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Aug 19 17:26:41] WARNING[1] loader.c: Some non-required modules failed to load.
+[Aug 19 17:26:41] WARNING[1] loader.c: The deprecated module 'res_monitor.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:26:41] WARNING[1] loader.c: The deprecated module 'res_adsi.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:26:41] WARNING[1] loader.c: The deprecated module 'app_image.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:26:41] WARNING[1] loader.c: The deprecated module 'app_adsiprog.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:26:41] WARNING[1] loader.c: The deprecated module 'chan_oss.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:26:41] WARNING[1] loader.c: The deprecated module 'app_getcpeid.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:26:41] WARNING[1] loader.c: The deprecated module 'app_url.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:26:41] WARNING[1] loader.c: The deprecated module 'app_ices.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:26:41] WARNING[1] loader.c: The deprecated module 'app_nbscat.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:26:41] ERROR[1] loader.c: Failed to resolve dependencies for res_stir_shaken
+[Aug 19 17:26:41] ERROR[1] loader.c: res_stir_shaken declined to load.
+[Aug 19 17:26:41] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Aug 19 17:26:41] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Aug 19 17:26:41] ERROR[1] loader.c: Failed to resolve dependencies for res_http_media_cache
+[Aug 19 17:26:41] ERROR[1] loader.c: res_http_media_cache declined to load.
+[Aug 19 17:26:41] ERROR[1] loader.c: Failed to resolve dependencies for res_pjsip_stir_shaken
+[Aug 19 17:26:41] ERROR[1] loader.c: res_pjsip_stir_shaken declined to load.
+[Aug 19 17:30:00] NOTICE[146] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:6001@localhost>' failed for '192.168.65.1:62182' (callid: 0UPWA-BSWrD3AOccHB7GFg..) - Failed to authenticate
+[Aug 19 17:30:11] NOTICE[146] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:6001@localhost>' failed for '192.168.65.1:62182' (callid: Y-ak76f6IqeRQXJZwTuDPA..) - Failed to authenticate
+[Aug 19 17:31:35] Asterisk 18.11.2 built by buildozer @ build-3-16-aarch64 on a aarch64 running Linux on 2022-04-28 07:42:22 UTC
+[Aug 19 17:31:35] NOTICE[1] loader.c: 313 modules will be loaded.
+[Aug 19 17:31:35] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Aug 19 17:31:35] ERROR[39] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Aug 19 17:31:35] ERROR[39] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Aug 19 17:31:35] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug 19 17:31:35] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Aug 19 17:31:35] ERROR[1] file.c: Error opening directory - /var/lib/asterisk/moh: No such file or directory
+[Aug 19 17:31:35] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Aug 19 17:31:35] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Aug 19 17:31:35] ERROR[1] ari/config.c: No configured users for ARI
+[Aug 19 17:31:35] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Aug 19 17:31:35] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Aug 19 17:31:35] WARNING[1] loader.c: Some non-required modules failed to load.
+[Aug 19 17:31:35] WARNING[1] loader.c: The deprecated module 'res_monitor.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:31:35] WARNING[1] loader.c: The deprecated module 'res_adsi.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:31:35] WARNING[1] loader.c: The deprecated module 'app_image.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:31:35] WARNING[1] loader.c: The deprecated module 'app_adsiprog.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:31:35] WARNING[1] loader.c: The deprecated module 'chan_oss.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:31:35] WARNING[1] loader.c: The deprecated module 'app_getcpeid.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:31:35] WARNING[1] loader.c: The deprecated module 'app_url.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:31:35] WARNING[1] loader.c: The deprecated module 'app_ices.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:31:35] WARNING[1] loader.c: The deprecated module 'app_nbscat.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:31:35] ERROR[1] loader.c: Failed to resolve dependencies for res_stir_shaken
+[Aug 19 17:31:35] ERROR[1] loader.c: res_stir_shaken declined to load.
+[Aug 19 17:31:35] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Aug 19 17:31:35] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Aug 19 17:31:35] ERROR[1] loader.c: Failed to resolve dependencies for res_http_media_cache
+[Aug 19 17:31:35] ERROR[1] loader.c: res_http_media_cache declined to load.
+[Aug 19 17:31:35] ERROR[1] loader.c: Failed to resolve dependencies for res_pjsip_stir_shaken
+[Aug 19 17:31:35] ERROR[1] loader.c: res_pjsip_stir_shaken declined to load.
+[Aug 19 17:32:34] WARNING[105][C-00000001] file.c: File beep does not exist in any format
+[Aug 19 17:32:34] WARNING[105][C-00000001] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Aug 19 17:32:34] WARNING[105][C-00000001] app_record.c: ast_streamfile(beep) failed on PJSIP/6001-00000000
+[Aug 19 17:33:16] ERROR[34] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 17:33:16] WARNING[34] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 17:33:33] ERROR[34] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 17:33:33] WARNING[34] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 17:36:54] Asterisk 18.11.2 built by buildozer @ build-3-16-aarch64 on a aarch64 running Linux on 2022-04-28 07:42:22 UTC
+[Aug 19 17:36:54] NOTICE[1] loader.c: 313 modules will be loaded.
+[Aug 19 17:36:54] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Aug 19 17:36:54] ERROR[40] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Aug 19 17:36:54] ERROR[40] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Aug 19 17:36:54] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug 19 17:36:54] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Aug 19 17:36:54] ERROR[1] file.c: Error opening directory - /var/lib/asterisk/moh: No such file or directory
+[Aug 19 17:36:54] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Aug 19 17:36:54] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Aug 19 17:36:54] ERROR[1] ari/config.c: No configured users for ARI
+[Aug 19 17:36:54] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Aug 19 17:36:54] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Aug 19 17:36:54] WARNING[1] loader.c: Some non-required modules failed to load.
+[Aug 19 17:36:54] WARNING[1] loader.c: The deprecated module 'res_monitor.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:36:54] WARNING[1] loader.c: The deprecated module 'res_adsi.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:36:54] WARNING[1] loader.c: The deprecated module 'app_image.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:36:54] WARNING[1] loader.c: The deprecated module 'app_adsiprog.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:36:54] WARNING[1] loader.c: The deprecated module 'chan_oss.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:36:54] WARNING[1] loader.c: The deprecated module 'app_getcpeid.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:36:54] WARNING[1] loader.c: The deprecated module 'app_url.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:36:54] WARNING[1] loader.c: The deprecated module 'app_ices.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:36:54] WARNING[1] loader.c: The deprecated module 'app_nbscat.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:36:54] ERROR[1] loader.c: Failed to resolve dependencies for res_stir_shaken
+[Aug 19 17:36:54] ERROR[1] loader.c: res_stir_shaken declined to load.
+[Aug 19 17:36:54] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Aug 19 17:36:54] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Aug 19 17:36:54] ERROR[1] loader.c: Failed to resolve dependencies for res_http_media_cache
+[Aug 19 17:36:54] ERROR[1] loader.c: res_http_media_cache declined to load.
+[Aug 19 17:36:54] ERROR[1] loader.c: Failed to resolve dependencies for res_pjsip_stir_shaken
+[Aug 19 17:36:54] ERROR[1] loader.c: res_pjsip_stir_shaken declined to load.
+[Aug 19 17:38:52] WARNING[120][C-00000001] file.c: File beep does not exist in any format
+[Aug 19 17:38:52] WARNING[120][C-00000001] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Aug 19 17:38:52] WARNING[120][C-00000001] app_record.c: ast_streamfile(beep) failed on PJSIP/6001-00000000
+[Aug 19 17:39:33] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 17:39:33] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 17:39:57] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 17:39:57] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 17:40:55] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 17:40:55] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 17:44:30] Asterisk 18.11.2 built by buildozer @ build-3-16-aarch64 on a aarch64 running Linux on 2022-04-28 07:42:22 UTC
+[Aug 19 17:44:30] NOTICE[1] loader.c: 313 modules will be loaded.
+[Aug 19 17:44:30] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Aug 19 17:44:30] ERROR[40] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Aug 19 17:44:30] ERROR[40] res_pjsip/config_system.c: There are no local system nameservers configured, resorting to system resolution
+[Aug 19 17:44:30] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Aug 19 17:44:30] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Aug 19 17:44:30] ERROR[1] file.c: Error opening directory - /var/lib/asterisk/moh: No such file or directory
+[Aug 19 17:44:30] WARNING[1] res_musiconhold.c: No music on hold classes configured, disabling music on hold.
+[Aug 19 17:44:30] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Aug 19 17:44:30] ERROR[1] ari/config.c: No configured users for ARI
+[Aug 19 17:44:30] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Aug 19 17:44:30] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Aug 19 17:44:30] WARNING[1] loader.c: Some non-required modules failed to load.
+[Aug 19 17:44:30] WARNING[1] loader.c: The deprecated module 'res_monitor.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:44:30] WARNING[1] loader.c: The deprecated module 'res_adsi.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:44:30] WARNING[1] loader.c: The deprecated module 'app_image.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:44:30] WARNING[1] loader.c: The deprecated module 'app_adsiprog.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:44:30] WARNING[1] loader.c: The deprecated module 'chan_oss.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:44:30] WARNING[1] loader.c: The deprecated module 'app_getcpeid.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:44:30] WARNING[1] loader.c: The deprecated module 'app_url.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:44:30] WARNING[1] loader.c: The deprecated module 'app_ices.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:44:30] WARNING[1] loader.c: The deprecated module 'app_nbscat.so' has been loaded and is running, it may be removed in a future version
+[Aug 19 17:44:30] ERROR[1] loader.c: Failed to resolve dependencies for res_stir_shaken
+[Aug 19 17:44:30] ERROR[1] loader.c: res_stir_shaken declined to load.
+[Aug 19 17:44:30] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Aug 19 17:44:30] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Aug 19 17:44:30] ERROR[1] loader.c: Failed to resolve dependencies for res_http_media_cache
+[Aug 19 17:44:30] ERROR[1] loader.c: res_http_media_cache declined to load.
+[Aug 19 17:44:30] ERROR[1] loader.c: Failed to resolve dependencies for res_pjsip_stir_shaken
+[Aug 19 17:44:30] ERROR[1] loader.c: res_pjsip_stir_shaken declined to load.
+[Aug 19 17:46:06] WARNING[113][C-00000001] file.c: File beep does not exist in any format
+[Aug 19 17:46:06] WARNING[113][C-00000001] file.c: Unable to open beep (format (ulaw)): Invalid argument
+[Aug 19 17:46:06] WARNING[113][C-00000001] app_record.c: ast_streamfile(beep) failed on PJSIP/6001-00000000
+[Aug 19 17:46:50] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 17:46:50] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument
+[Aug 19 17:47:52] ERROR[35] cdr_csv.c: Unable to open file /var/log/asterisk//cdr-csv//Master.csv : No such file or directory
+[Aug 19 17:47:52] WARNING[35] cdr_csv.c: Unable to write CSV record to master '/var/log/asterisk//cdr-csv//Master.csv' : Invalid argument

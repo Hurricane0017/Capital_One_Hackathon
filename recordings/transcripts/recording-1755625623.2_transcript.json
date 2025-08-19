@@ -1,0 +1,20 @@
+{
+  "file_path": "/Users/apple/Desktop/asterisk/monitor/recording-1755625623.2.ulaw",
+  "timestamp": "2025-08-19T23:18:22.907129",
+  "transcription": {
+    "transcript": "मैं पंकज ठाकुर हूं। फोन 9876001234 पी 1750001 आपको मेरी अनुमति है। कुल जमीन 0.8 हेक्टेयर रवि में 0.6 हेक्टेयर की खेती कर रहा हूं। मिट्टी दोमट है वर्ष पर आधारित खेती गार्डन मटर लगाने की योजना है कि appi3 बुवाई 15 अक्टूबर 2025 को फसल जनवरी के अंत तक तैयार होगी। मेरे पास ₹40000 नकद है। जरूरत पड़ने पर ₹20000 कर्ज ले सकता हूं। मैं बीमा में शामिल नहीं हूं। सबसे नजदीकी मंडी शहर मुझे साप्ताहिक मार्गदर्शन शाम को पसंद है। मैं जैविक खेती की और जाने में रुचि रखता हूं।",
+    "language": "hi",
+    "confidence": 0.3714190423488617,
+    "duration": 46.32,
+    "file_size_mb": 1.4136486053466797
+  },
+  "translation": {
+    "translated_text": "I am Pankaj Thakur. Phone 9876001234 P1750001 You have my permission. Total land 0.8 hectare I am cultivating 0.6 hectare in Rabi. Soil is loamy Cultivation based on year Plan to plant garden peas that appi3 sowing on 15th Oct 2025 Crop will be ready by end of Jan. I have ₹40000 cash. Can take ₹20000 loan if needed. I am not covered under insurance. Nearest Mandi town I like weekly guidance in evening. I am interested in moving towards organic farming.",
+    "source_language": "hi",
+    "target_language": "en",
+    "success": true,
+    "service": "google_cloud",
+    "chunks_processed": 1
+  },
+  "success": true
+}

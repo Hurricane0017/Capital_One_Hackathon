@@ -1,0 +1,166 @@
+{
+  "pest_id": "PST005",
+  "common_name": "Sorghum Shoot Fly",
+  "scientific_name": "Atherigona soccata",
+  "category": "Insect",
+  "description": "A major pest of sorghum attacking at seedling stage, causing dead heart symptoms and significant yield losses. The maggot bores inside the stem and cuts the growing point, leading to 80-90% grain loss and 68% fodder yield loss.",
+
+  "identification": {
+    "physical_signs": [
+      "Dead heart symptom (central shoot drying)",
+      "Side tiller production as recovery mechanism",
+      "Elongated cigar-shaped eggs on leaf undersurface",
+      "Wilting of central whorl",
+      "Stunted plant growth",
+      "Greyish-white adult flies around plants"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["Seedling", "Early vegetative"],
+    "seasons": ["Kharif", "Rabi", "Summer"],
+    "favourable_conditions": {
+      "climate": "Warm dry conditions, moderate temperatures (25-32°C)",
+      "soil_type": ["Black soils", "Red soils", "Alluvial soils"],
+      "soil_conditions": ["Well-drained soils", "Moderate moisture"],
+      "ecological_factors": ["Late sowing", "Delayed transplanting", "Staggered planting"]
+    },
+    "geographical_distribution": [
+      "Maharashtra",
+      "Karnataka",
+      "Andhra Pradesh",
+      "Tamil Nadu",
+      "Telangana",
+      "Madhya Pradesh",
+      "Rajasthan",
+      "Gujarat",
+      "Uttar Pradesh",
+      "Bihar",
+      "Odisha",
+      "Haryana"
+    ],
+    "crops_attacked": [
+      "Sorghum",
+      "Pearl millet",
+      "Finger millet",
+      "Maize",
+      "Rice",
+      "Wheat",
+      "Various grasses"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 15,
+    "max_crop_loss_percent": 90,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 8000,
+      "max_loss": 35000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "Light traps for adult monitoring",
+      "Fish meal traps",
+      "Early morning collection of adult flies",
+      "Destruction of infested plants"
+    ],
+    "cultural_methods": [
+      "Early sowing to avoid peak fly period",
+      "Use of resistant varieties",
+      "Proper seed rate and spacing",
+      "Intercropping with legumes",
+      "Soil application of organic amendments",
+      "Avoid staggered sowing"
+    ],
+    "biological_control": [
+      {
+        "agent": "Spalangia cameroni",
+        "method": "Pupal parasitoid"
+      },
+      {
+        "agent": "Dirhinus giffardii",
+        "method": "Parasitic wasp"
+      },
+      {
+        "agent": "Ants and spiders",
+        "method": "Natural predation"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Imidacloprid 600 FS",
+          "dosage": "10 ml/kg seed",
+          "application_stage": "Seed treatment"
+        },
+        {
+          "pesticide_name": "Thiamethoxam 30 FS",
+          "dosage": "8 ml/kg seed",
+          "application_stage": "Seed treatment"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Chlorpyriphos 20 EC",
+          "dosage": "2.5 ml/litre water",
+          "application_stage": "7-10 days after emergence"
+        },
+        {
+          "pesticide_name": "Fipronil 5 SC",
+          "dosage": "2 ml/litre water",
+          "application_stage": "Early larval stage"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Gaucho",
+      "active_ingredient": "Imidacloprid",
+      "formulation": "600 FS",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 280,
+        "unit": "100ml bottle"
+      }
+    },
+    {
+      "brand_name": "Cruiser",
+      "active_ingredient": "Thiamethoxam",
+      "formulation": "30 FS",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 320,
+        "unit": "100ml bottle"
+      }
+    },
+    {
+      "brand_name": "Dursban",
+      "active_ingredient": "Chlorpyriphos",
+      "formulation": "20 EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 180,
+        "unit": "250ml bottle"
+      }
+    }
+  ],
+
+  "references": [
+    "http://aatcc.peerjournals.net/wp-content/uploads/2023/12/Morphological-and-Biochemical-resistance-in-sorghum-genotypes-against-Sorghum-shoot-fly-Atherigona-soccata.pdf",
+    "https://www.thepharmajournal.com/archives/2023/vol12issue1/PartM/12-1-160-318.pdf",
+    "https://oar.icrisat.org/id/eprint/8830/contents",
+    "https://www.ijcmas.com/7-6-2018/V.%20U.%20Sonalkar,%20et%20al.pdf",
+    "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2016.00543/full"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}

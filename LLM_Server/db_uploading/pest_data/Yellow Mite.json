@@ -1,0 +1,160 @@
+{
+  "pest_id": "PST026",
+  "common_name": "Yellow Mite",
+  "scientific_name": "Polyphagotarsonemus latus",
+  "category": "Mite",
+  "description": "A serious early season pest of jute causing 38% fiber production losses. It attacks new growths causing leaf curling, firmness, necrosis of growing points, and growth inhibition, severely affecting both quality and yield of jute fiber.",
+
+  "identification": {
+    "physical_signs": [
+      "Curling of leaf margins and firmness of infested leaves",
+      "Necrosis and bronzing of growing points",
+      "Severe growth inhibition and stunted plants",
+      "Downward curling and crinkling of young leaves",
+      "Yellowing and bronzing of affected plant parts",
+      "Microscopic pale yellow mites on leaf undersides"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["Seedling", "Early vegetative", "Vegetative"],
+    "seasons": ["Kharif", "Summer"],
+    "favourable_conditions": {
+      "climate": "Warm humid conditions (25-35°C), high humidity, moderate rainfall",
+      "soil_type": ["All jute growing soil types"],
+      "soil_conditions": ["High moisture", "Organic matter rich soils"],
+      "ecological_factors": ["Dense planting", "Favorable alternate hosts", "Erratic climatic conditions"]
+    },
+    "geographical_distribution": [
+      "West Bengal",
+      "Bihar",
+      "Assam",
+      "Odisha",
+      "Uttar Pradesh",
+      "Chhattisgarh",
+      "Jharkhand",
+      "Andhra Pradesh",
+      "Telangana",
+      "Kerala"
+    ],
+    "crops_attacked": [
+      "Jute",
+      "Cotton",
+      "Chilli",
+      "Tomato",
+      "Brinjal",
+      "Okra",
+      "Tea",
+      "Various ornamental plants"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 20,
+    "max_crop_loss_percent": 38,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 10000,
+      "max_loss": 25000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "Water spraying to dislodge mites",
+      "Removal of heavily infested plant parts",
+      "Intercultural operations to disturb mite colonies",
+      "Use of reflective mulches"
+    ],
+    "cultural_methods": [
+      "Use of tolerant varieties like JRO 524, JRO 7835, JRC 212",
+      "Avoid varieties like JRO 878 which are highly susceptible",
+      "Proper field sanitation",
+      "Crop rotation with non-host crops",
+      "Balanced fertilization",
+      "Maintain proper plant spacing"
+    ],
+    "biological_control": [
+      {
+        "agent": "Isaria fumosorosea (Paecilomyces fumosoroseus)",
+        "method": "Entomopathogenic fungal spray at 6x10⁶ cfu/ml"
+      },
+      {
+        "agent": "Beauveria bassiana",
+        "method": "Fungal biocontrol agent application"
+      },
+      {
+        "agent": "Lecanicillium lecanii",
+        "method": "Entomopathogenic fungal treatment"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Propargite 57% EC",
+          "dosage": "2 ml/litre water",
+          "application_stage": "Early crop growth"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Ethion 50% EC",
+          "dosage": "2 ml/litre water",
+          "application_stage": "When ETL is reached (110 mites/leaf)"
+        },
+        {
+          "pesticide_name": "Dicofol 18.5% EC",
+          "dosage": "2.5 ml/litre water",
+          "application_stage": "Severe infestation"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Omite",
+      "active_ingredient": "Propargite",
+      "formulation": "57% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 480,
+        "unit": "250ml bottle"
+      }
+    },
+    {
+      "brand_name": "Tafgor",
+      "active_ingredient": "Ethion",
+      "formulation": "50% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 250,
+        "unit": "250ml bottle"
+      }
+    },
+    {
+      "brand_name": "Kelthane",
+      "active_ingredient": "Dicofol",
+      "formulation": "18.5% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 380,
+        "unit": "250ml bottle"
+      }
+    }
+  ],
+
+  "references": [
+    "http://www.informaticsjournals.co.in/index.php/jbc/article/view/22708.pdf",
+    "https://www.banglajol.info/index.php/JASBS/article/view/46543",
+    "https://www.banglajol.info/index.php/JASBS/article/view/46543/34000",
+    "https://epubs.icar.org.in/index.php/IndFarm/article/download/48734/20888/118665",
+    "https://justagriculture.in/files/newsletter/2022/october/30.%20Major%20and%20Emerging%20Pest%20Complex%20of%20Jute%20and%20Allied%20Fibers%20and%20Its%20Integrated%20Management%20Approach.pdf"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}

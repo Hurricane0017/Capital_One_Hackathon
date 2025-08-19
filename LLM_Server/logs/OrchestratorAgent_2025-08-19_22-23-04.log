@@ -1,0 +1,61 @@
+2025-08-19 22:23:05,075 - OrchestratorAgent - INFO - 🎯 Initializing Orchestrator Agent - Master Coordinator
+2025-08-19 22:23:07,140 - OrchestratorAgent - INFO - ✅ All agents and processors initialized successfully
+2025-08-19 22:23:08,177 - OrchestratorAgent - INFO - 🌾 Processing farmer request from +91-XXXX-XXXX-XX
+2025-08-19 22:23:08,177 - OrchestratorAgent - INFO - 📝 Processing and storing farmer input data
+2025-08-19 22:23:09,132 - OrchestratorAgent - INFO - 🔍 Extracting farmer query from raw input
+2025-08-19 22:23:09,132 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an agricultural assistant analyzing farmer communication from an IVR system.
+            
+            Raw farmer input: "I am Pankaj Thakur. Phone 9876001234 P 175001 You have my permission. Total land 0.8 hectare I am cultivating 0.6 hectare in Rabi. Soil is double. Planning to plant garden manure based on the year. Kim ep3 sowing on 15th October 2025 Crop will be ready by end of January. I have ₹40000 cash. I can take ₹20000 if needed. I am not covered under insurance. Nea...
+2025-08-19 22:23:09,574 - OrchestratorAgent - ERROR - LLM call failed: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-08-19 22:23:09,575 - OrchestratorAgent - INFO - ✅ Extracted query: Error: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}...
+2025-08-19 22:23:09,575 - OrchestratorAgent - INFO - 🎯 Classifying pipeline type for farmer query
+2025-08-19 22:23:09,575 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an intelligent agricultural coordinator analyzing farmer queries to determine the best response strategy.
+            
+            FARMER CONTEXT:
+            Farmer: Pankaj Thakur. Phone 9876001234 P 175001 You have my permission. Total land 0.8 hectare I am cultivating 0.6 hectare in Rabi. Soil is double. Planning to plant garden manure based on the year. Kim ep3 sowing on 15th October 2025 Crop will be ready by end of January. I have ₹40000 cash. I can take ₹20000 if need...
+2025-08-19 22:23:09,763 - OrchestratorAgent - ERROR - LLM call failed: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-08-19 22:23:09,764 - OrchestratorAgent - ERROR - ❌ JSON Decode Error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Response: Error: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-08-19 22:23:09,764 - OrchestratorAgent - INFO - ✅ Pipeline classified as: generic (confidence: 0.5)
+2025-08-19 22:23:09,764 - OrchestratorAgent - INFO - 🌟 Executing generic pipeline - comprehensive farming guidance
+2025-08-19 22:23:09,764 - OrchestratorAgent - INFO - 🧠 Gathering comprehensive intelligence from all agents
+2025-08-19 22:23:09,764 - OrchestratorAgent - INFO - ☀️ Gathering weather intelligence
+2025-08-19 22:23:11,902 - OrchestratorAgent - INFO - 🌱 Gathering soil intelligence
+2025-08-19 22:23:13,005 - OrchestratorAgent - INFO - 🐛 Gathering pest intelligence
+2025-08-19 22:23:13,355 - OrchestratorAgent - INFO - 🏛️ Gathering scheme intelligence
+2025-08-19 22:23:13,638 - OrchestratorAgent - INFO - ✅ Comprehensive intelligence gathered from all agents
+2025-08-19 22:23:13,638 - OrchestratorAgent - INFO - 🎯 Generating comprehensive farming strategy
+2025-08-19 22:23:13,638 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are the world's most advanced agricultural AI coordinator, creating a comprehensive farming strategy that integrates weather science, soil science, pest management, and financial planning.
+            
+            FARMER PROFILE:
+            Farmer: Pankaj Thakur. Phone 9876001234 P 175001 You have my permission. Total land 0.8 hectare I am cultivating 0.6 hectare in Rabi. Soil is double. Planning to plant garden manure based on the year. Kim ep3 sowing on 15th October 2025 Crop...
+2025-08-19 22:23:13,897 - OrchestratorAgent - ERROR - LLM call failed: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-08-19 22:23:13,897 - OrchestratorAgent - ERROR - ❌ JSON Decode Error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Response: Error: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-08-19 22:23:13,897 - OrchestratorAgent - INFO - ✅ Comprehensive strategy generated successfully
+2025-08-19 22:23:13,897 - OrchestratorAgent - INFO - 🗺️ Creating actionable roadmap
+2025-08-19 22:23:13,897 - OrchestratorAgent - INFO - ✅ Actionable roadmap created
+2025-08-19 22:23:13,897 - OrchestratorAgent - INFO - 📍 Generating hyperlocal guidance
+2025-08-19 22:23:13,897 - OrchestratorAgent - INFO - ✅ Hyperlocal guidance generated
+2025-08-19 22:23:13,897 - OrchestratorAgent - INFO - ✅ Generic pipeline completed successfully
+2025-08-19 22:23:13,897 - OrchestratorAgent - INFO - ✅ Successfully processed farmer request via generic pipeline
+2025-08-19 22:23:13,897 - OrchestratorAgent - INFO - 🔄 Converting JSON response to plain English.
+2025-08-19 22:23:13,897 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an expert agricultural assistant. Your task is to convert a complex JSON object containing agricultural advice into a simple, clear, and actionable response in plain English for a farmer.
+
+            FARMER'S PROFILE:
+            Farmer: Pankaj Thakur. Phone 9876001234 P 175001 You have my permission. Total land 0.8 hectare I am cultivating 0.6 hectare in Rabi. Soil is double. Planning to plant garden manure based on the year. Kim ep3 sowing on 15th October 2025 Crop will b...
+2025-08-19 22:23:14,453 - OrchestratorAgent - ERROR - LLM call failed: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-08-19 22:23:14,453 - OrchestratorAgent - INFO - ✅ Successfully converted JSON to English response.
+2025-08-19 22:23:14,453 - OrchestratorAgent - INFO - ✅ Converted final response to plain English for the farmer.

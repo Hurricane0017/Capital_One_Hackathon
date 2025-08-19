@@ -1,0 +1,111 @@
+{
+  "pest_id": "PST035",
+  "common_name": "Soybean Pod Borer",
+  "scientific_name": "Helicoverpa armigera",
+  "category": "Insect",
+  "description": "A polyphagous bollworm that bores into soybean pods and feeds on developing seeds, causing 20–60% yield loss.",
+  "identification": {
+    "physical_signs": [
+      "Circular entry holes on pods with frass",
+      "Webbing and excrement inside pods",
+      "Shot holes on unfolding leaves",
+      "Yellowing and drying of infested pods"
+    ],
+    "visual_images": [
+      "Note: Populate from agricultural image databases"
+    ]
+  },
+  "attack_details": {
+    "agriculture_stage": ["Flowering", "Pod formation", "Pod development"],
+    "seasons": ["Kharif"],
+    "favourable_conditions": {
+      "climate": "Warm (25–32 °C), moderate humidity",
+      "soil_type": ["Loam", "Sandy loam"],
+      "soil_conditions": ["Good drainage"],
+      "ecological_factors": ["Continuous cropping", "High nitrogen"]
+    },
+    "geographical_distribution": [
+      "Maharashtra",
+      "Madhya Pradesh",
+      "Rajasthan",
+      "Gujarat",
+      "Andhra Pradesh",
+      "Karnataka"
+    ],
+    "crops_attacked": ["Soybean", "Pigeon pea", "Chickpea"]
+  },
+  "impact": {
+    "min_crop_loss_percent": 20,
+    "max_crop_loss_percent": 60,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 10000,
+      "max_loss": 40000,
+      "unit": "per hectare"
+    }
+  },
+  "management_strategies": {
+    "mechanical_methods": [
+      "Pheromone traps for monitoring",
+      "Hand picking and destruction of infested pods"
+    ],
+    "cultural_methods": [
+      "Early sowing to avoid peak pest period",
+      "Use of resistant varieties",
+      "Crop rotation with non‐legumes"
+    ],
+    "biological_control": [
+      {
+        "agent": "Trichogramma chilonis",
+        "method": "Egg parasitoid release"
+      },
+      {
+        "agent": "Beauveria bassiana",
+        "method": "Fungal biopesticide spray"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Spinosad 45% SC",
+          "dosage": "0.3 ml/litre water",
+          "application_stage": "Flower initiation"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Emamectin benzoate 5% SG",
+          "dosage": "0.4 g/litre water",
+          "application_stage": "When 5% pods infested"
+        }
+      ]
+    }
+  },
+  "pesticides_market": [
+    {
+      "brand_name": "Tracer",
+      "active_ingredient": "Spinosad",
+      "formulation": "45% SC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 750,
+        "unit": "100 ml bottle"
+      }
+    },
+    {
+      "brand_name": "Proclaim",
+      "active_ingredient": "Emamectin benzoate",
+      "formulation": "5% SG",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 420,
+        "unit": "100 g pack"
+      }
+    }
+  ],
+  "references": [
+    "https://journalijpss.com/index.php/IJPSS/article/view/3885",
+    "https://journalijecc.com/index.php/IJECC/article/view/4046"
+  ],
+  "last_updated": "2025-08-17T10:00:00Z"
+}

@@ -1,0 +1,160 @@
+{
+  "pest_id": "PST021",
+  "common_name": "Cotton Whitefly",
+  "scientific_name": "Bemisia tabaci",
+  "category": "Insect",
+  "description": "A polyphagous major pest of cotton causing direct damage by feeding on plant sap and indirect damage by transmitting viral diseases. Causes 30-60% yield losses and has shown epidemic outbreaks in North India with complete crop failures in severe cases.",
+
+  "identification": {
+    "physical_signs": [
+      "Small white flying insects on leaf undersides",
+      "Yellowing and curling of leaves",
+      "Honeydew deposits leading to sooty mold",
+      "Stunted plant growth and reduced flowering",
+      "Sticky coating on leaves and bolls",
+      "Presence of both adults and nymphs"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["Seedling", "Vegetative", "Flowering", "Boll formation"],
+    "seasons": ["Kharif"],
+    "favourable_conditions": {
+      "climate": "Warm humid conditions (25-35°C), high humidity above 80%, low wind",
+      "soil_type": ["All cotton growing soil types"],
+      "soil_conditions": ["Moderate moisture"],
+      "ecological_factors": ["Dense planting", "High nitrogen fertilization", "Delayed sowing", "Tank mixture usage"]
+    },
+    "geographical_distribution": [
+      "Punjab",
+      "Haryana",
+      "Rajasthan",
+      "Gujarat",
+      "Maharashtra",
+      "Madhya Pradesh",
+      "Andhra Pradesh",
+      "Telangana",
+      "Karnataka",
+      "Tamil Nadu"
+    ],
+    "crops_attacked": [
+      "Cotton",
+      "Tomato",
+      "Okra",
+      "Brinjal",
+      "Tobacco",
+      "Soybean",
+      "Sunflower",
+      "Cucurbits"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 30,
+    "max_crop_loss_percent": 60,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 25000,
+      "max_loss": 70000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "Yellow sticky traps for monitoring and mass trapping",
+      "Reflective mulches to repel whiteflies",
+      "High pressure water sprays",
+      "Removal of alternate host weeds"
+    ],
+    "cultural_methods": [
+      "Timely sowing to avoid peak whitefly periods",
+      "Use of tolerant cotton varieties",
+      "Crop rotation with non-host crops",
+      "Balanced fertilization avoiding excess nitrogen",
+      "Proper spacing for good air circulation",
+      "Field sanitation"
+    ],
+    "biological_control": [
+      {
+        "agent": "Encarsia formosa",
+        "method": "Parasitoid wasp release"
+      },
+      {
+        "agent": "Chrysoperla carnea",
+        "method": "Lacewing predator conservation"
+      },
+      {
+        "agent": "Lecanicillium lecanii",
+        "method": "Entomopathogenic fungal spray"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Imidacloprid 17.8% SL",
+          "dosage": "0.5 ml/litre water",
+          "application_stage": "Early vegetative stage"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Diafenthiuron 50% WP",
+          "dosage": "1 g/litre water",
+          "application_stage": "When ETL is reached"
+        },
+        {
+          "pesticide_name": "Spiromesifen 22.9% SC",
+          "dosage": "1 ml/litre water",
+          "application_stage": "Peak infestation"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Confidor",
+      "active_ingredient": "Imidacloprid",
+      "formulation": "17.8% SL",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 450,
+        "unit": "250ml bottle"
+      }
+    },
+    {
+      "brand_name": "Polo",
+      "active_ingredient": "Diafenthiuron",
+      "formulation": "50% WP",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 650,
+        "unit": "250g pack"
+      }
+    },
+    {
+      "brand_name": "Oberon",
+      "active_ingredient": "Spiromesifen",
+      "formulation": "22.9% SC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 580,
+        "unit": "100ml bottle"
+      }
+    }
+  ],
+
+  "references": [
+    "https://peerj.com/articles/17476",
+    "https://journaloffarmsciences.in/index.php/JFM/article/view/437",
+    "https://www.cotton.org/beltwide/proceedings/2005-2022/data/conferences/2016/papers/16864.pdf",
+    "https://jcottonres.biomedcentral.com/articles/10.1186/s42397-025-00220-6",
+    "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_insectpest%20_cotton.html"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}

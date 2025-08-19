@@ -1,0 +1,161 @@
+{
+  "pest_id": "PST024",
+  "common_name": "Jute Hairy Caterpillar",
+  "scientific_name": "Spilosoma obliqua",
+  "category": "Insect",
+  "description": "A polyphagous defoliating pest that has emerged as a major threat to jute crops. Once considered sporadic, it now causes regular severe damage by complete defoliation, resulting in 30-80% yield losses and affecting both fiber quality and quantity.",
+
+  "identification": {
+    "physical_signs": [
+      "Gregarious feeding by young larvae on leaf undersides",
+      "Complete defoliation leaving only stems and veins",
+      "Hairy caterpillars with dense setae covering body",
+      "Egg masses in clusters on leaf undersides",
+      "Skeletonized leaves in early stages",
+      "Dispersed feeding by older larvae"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["Seedling", "Vegetative", "Flowering"],
+    "seasons": ["Kharif", "Summer"],
+    "favourable_conditions": {
+      "climate": "Warm humid conditions (25-32°C), high humidity, monsoon period",
+      "soil_type": ["All jute growing soil types"],
+      "soil_conditions": ["High moisture", "Organic matter rich soils"],
+      "ecological_factors": ["Dense planting", "High nitrogen fertilization", "Favorable alternate hosts"]
+    },
+    "geographical_distribution": [
+      "West Bengal",
+      "Bihar",
+      "Assam",
+      "Odisha",
+      "Uttar Pradesh",
+      "Madhya Pradesh",
+      "Chhattisgarh",
+      "Jharkhand",
+      "Andhra Pradesh",
+      "Telangana"
+    ],
+    "crops_attacked": [
+      "Jute",
+      "Mesta",
+      "Sunnhemp",
+      "Cotton",
+      "Sesame",
+      "Castor",
+      "Groundnut",
+      "Soybean",
+      "Various vegetables"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 30,
+    "max_crop_loss_percent": 80,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 15000,
+      "max_loss": 45000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "Light traps for adult moth monitoring",
+      "Collection and destruction of egg masses",
+      "Hand picking of gregarious larvae clusters",
+      "Plucking infested leaves with early stage larvae"
+    ],
+    "cultural_methods": [
+      "Timely sowing in the first week of April",
+      "Use of tolerant varieties like HC-3, CVL-1, BJC-214",
+      "Proper field sanitation",
+      "Removal of self-sown plants and alternate hosts",
+      "Balanced fertilization",
+      "Deep summer ploughing"
+    ],
+    "biological_control": [
+      {
+        "agent": "Spilosoma obliqua NPV (SpobNPV)",
+        "method": "Nuclear polyhedrosis virus application at 1.5x10¹² OBs/ha"
+      },
+      {
+        "agent": "Beauveria bassiana",
+        "method": "Entomopathogenic fungal spray"
+      },
+      {
+        "agent": "Protapanteles obliquae",
+        "method": "Larval parasitoid conservation"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Emamectin benzoate 5% SG",
+          "dosage": "0.25 g/litre water",
+          "application_stage": "Early larval stage"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Quinalphos 25% EC",
+          "dosage": "2 ml/litre water",
+          "application_stage": "When ETL is reached (5 larvae/plant)"
+        },
+        {
+          "pesticide_name": "Chlorantraniliprole 18.5% SC",
+          "dosage": "0.3 ml/litre water",
+          "application_stage": "Severe defoliation"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Proclaim",
+      "active_ingredient": "Emamectin benzoate",
+      "formulation": "5% SG",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 420,
+        "unit": "100g pack"
+      }
+    },
+    {
+      "brand_name": "Ekalux",
+      "active_ingredient": "Quinalphos",
+      "formulation": "25% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 280,
+        "unit": "500ml bottle"
+      }
+    },
+    {
+      "brand_name": "Coragen",
+      "active_ingredient": "Chlorantraniliprole",
+      "formulation": "18.5% SC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 850,
+        "unit": "100ml bottle"
+      }
+    }
+  ],
+
+  "references": [
+    "https://ejbpc.springeropen.com/articles/10.1186/s41938-023-00654-7",
+    "https://ejbpc.springeropen.com/articles/10.1186/s41938-020-00282-5",
+    "https://www.banglajol.info/index.php/JASBS/article/view/46543",
+    "https://www.entomoljournal.com/archives/2019/vol7issue6/PartT/7-6-212-218.pdf",
+    "https://epubs.icar.org.in/index.php/IndFarm/article/download/48734/20888/118665"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}

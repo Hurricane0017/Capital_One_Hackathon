@@ -1,0 +1,2159 @@
+2025-08-18 09:31:00,827 - INFO - Starting recording fetcher...
+2025-08-18 09:31:00,827 - INFO - Checking for new recordings...
+2025-08-18 09:31:00,876 - ERROR - Error fetching recordings: Command '['docker', 'exec', '732d5f200ee9', 'find', '/var/spool/asterisk/monitor', '/var/lib/asterisk/sounds/custom', '-name', '*.wav', '-o', '-name', '*.gsm', '-o', '-name', '*.ulaw']' returned non-zero exit status 1.
+2025-08-18 09:31:00,876 - INFO - No new recordings found
+2025-08-18 09:31:00,876 - INFO - Fetching complete
+2025-08-18 09:31:50,983 - INFO - Starting recording fetcher...
+2025-08-18 09:31:50,983 - INFO - Checking for new recordings...
+2025-08-18 09:31:51,166 - INFO - Copied: recording-1755344291.74.ulaw
+2025-08-18 09:31:51,197 - INFO - Copied: recording-1755336737.8.gsm
+2025-08-18 09:31:51,235 - INFO - Copied: recording-1755341230.48.ulaw
+2025-08-18 09:31:51,270 - INFO - Copied: recording-1755335547.0.wav
+2025-08-18 09:31:51,302 - INFO - Copied: recording-1755488425.80.ulaw
+2025-08-18 09:31:51,350 - INFO - Copied: recording-1755344103.66.ulaw
+2025-08-18 09:31:51,386 - INFO - Copied: recording-1755336151.4.wav
+2025-08-18 09:31:51,421 - INFO - Copied: recording-1755341485.58.ulaw
+2025-08-18 09:31:51,471 - INFO - Copied: recording-1755344128.68.ulaw
+2025-08-18 09:31:51,503 - INFO - Copied: recording-1755335965.2.wav
+2025-08-18 09:31:51,539 - INFO - Copied: recording-1755341167.42.ulaw
+2025-08-18 09:31:51,575 - INFO - Copied: recording-1755336233.6.wav
+2025-08-18 09:31:51,628 - INFO - Copied: recording-1755341393.54.ulaw
+2025-08-18 09:31:51,671 - INFO - Copied: recording-1755344321.76.ulaw
+2025-08-18 09:31:51,716 - INFO - Copied: recording-1755339923.28.wav
+2025-08-18 09:31:51,764 - INFO - Copied: recording-1755340970.40.ulaw
+2025-08-18 09:31:51,810 - INFO - Copied: recording-1755344074.64.ulaw
+2025-08-18 09:31:51,849 - INFO - Copied: recording-1755338528.10.gsm
+2025-08-18 09:31:51,887 - INFO - Copied: hello.gsm
+2025-08-18 09:31:51,943 - INFO - Copied: hello.ulaw
+2025-08-18 09:31:51,944 - INFO - Found 20 new recordings
+2025-08-18 09:31:52,295 - ERROR - Failed to convert recording-1755344291.74.ulaw: Command '['ffmpeg', '-i', '/Users/apple/Desktop/asterisk/recordings/raw/recording-1755344291.74.ulaw', '-ar', '16000', '-ac', '1', '-f', 'wav', '/Users/apple/Desktop/asterisk/recordings/converted/recording-1755344291.74.wav', '-y']' returned non-zero exit status 183.
+2025-08-18 09:31:52,424 - ERROR - Failed to convert recording-1755341393.54.ulaw: Command '['ffmpeg', '-i', '/Users/apple/Desktop/asterisk/recordings/raw/recording-1755341393.54.ulaw', '-ar', '16000', '-ac', '1', '-f', 'wav', '/Users/apple/Desktop/asterisk/recordings/converted/recording-1755341393.54.wav', '-y']' returned non-zero exit status 183.
+2025-08-18 09:31:52,554 - ERROR - Failed to convert recording-1755488425.80.ulaw: Command '['ffmpeg', '-i', '/Users/apple/Desktop/asterisk/recordings/raw/recording-1755488425.80.ulaw', '-ar', '16000', '-ac', '1', '-f', 'wav', '/Users/apple/Desktop/asterisk/recordings/converted/recording-1755488425.80.wav', '-y']' returned non-zero exit status 183.
+2025-08-18 09:31:52,722 - ERROR - Failed to convert recording-1755341230.48.ulaw: Command '['ffmpeg', '-i', '/Users/apple/Desktop/asterisk/recordings/raw/recording-1755341230.48.ulaw', '-ar', '16000', '-ac', '1', '-f', 'wav', '/Users/apple/Desktop/asterisk/recordings/converted/recording-1755341230.48.wav', '-y']' returned non-zero exit status 183.
+2025-08-18 09:31:52,857 - INFO - Converted recording-1755336737.8.gsm to WAV
+2025-08-18 09:31:52,858 - INFO - Converted file available at: /Users/apple/Desktop/asterisk/recordings/converted/recording-1755336737.8.wav
+2025-08-18 09:31:52,945 - INFO - Converted hello.gsm to WAV
+2025-08-18 09:31:52,946 - INFO - Converted file available at: /Users/apple/Desktop/asterisk/recordings/converted/hello.wav
+2025-08-18 09:31:53,100 - ERROR - Failed to convert recording-1755344128.68.ulaw: Command '['ffmpeg', '-i', '/Users/apple/Desktop/asterisk/recordings/raw/recording-1755344128.68.ulaw', '-ar', '16000', '-ac', '1', '-f', 'wav', '/Users/apple/Desktop/asterisk/recordings/converted/recording-1755344128.68.wav', '-y']' returned non-zero exit status 183.
+2025-08-18 09:31:53,187 - ERROR - Failed to convert recording-1755341167.42.ulaw: Command '['ffmpeg', '-i', '/Users/apple/Desktop/asterisk/recordings/raw/recording-1755341167.42.ulaw', '-ar', '16000', '-ac', '1', '-f', 'wav', '/Users/apple/Desktop/asterisk/recordings/converted/recording-1755341167.42.wav', '-y']' returned non-zero exit status 183.
+2025-08-18 09:31:53,279 - ERROR - Failed to convert recording-1755340970.40.ulaw: Command '['ffmpeg', '-i', '/Users/apple/Desktop/asterisk/recordings/raw/recording-1755340970.40.ulaw', '-ar', '16000', '-ac', '1', '-f', 'wav', '/Users/apple/Desktop/asterisk/recordings/converted/recording-1755340970.40.wav', '-y']' returned non-zero exit status 183.
+2025-08-18 09:31:53,388 - ERROR - Failed to convert recording-1755344103.66.ulaw: Command '['ffmpeg', '-i', '/Users/apple/Desktop/asterisk/recordings/raw/recording-1755344103.66.ulaw', '-ar', '16000', '-ac', '1', '-f', 'wav', '/Users/apple/Desktop/asterisk/recordings/converted/recording-1755344103.66.wav', '-y']' returned non-zero exit status 183.
+2025-08-18 09:31:53,489 - ERROR - Failed to convert recording-1755344321.76.ulaw: Command '['ffmpeg', '-i', '/Users/apple/Desktop/asterisk/recordings/raw/recording-1755344321.76.ulaw', '-ar', '16000', '-ac', '1', '-f', 'wav', '/Users/apple/Desktop/asterisk/recordings/converted/recording-1755344321.76.wav', '-y']' returned non-zero exit status 183.
+2025-08-18 09:31:53,570 - INFO - Converted recording-1755338528.10.gsm to WAV
+2025-08-18 09:31:53,570 - INFO - Converted file available at: /Users/apple/Desktop/asterisk/recordings/converted/recording-1755338528.10.wav
+2025-08-18 09:31:53,668 - ERROR - Failed to convert recording-1755341485.58.ulaw: Command '['ffmpeg', '-i', '/Users/apple/Desktop/asterisk/recordings/raw/recording-1755341485.58.ulaw', '-ar', '16000', '-ac', '1', '-f', 'wav', '/Users/apple/Desktop/asterisk/recordings/converted/recording-1755341485.58.wav', '-y']' returned non-zero exit status 183.
+2025-08-18 09:31:53,786 - ERROR - Failed to convert recording-1755344074.64.ulaw: Command '['ffmpeg', '-i', '/Users/apple/Desktop/asterisk/recordings/raw/recording-1755344074.64.ulaw', '-ar', '16000', '-ac', '1', '-f', 'wav', '/Users/apple/Desktop/asterisk/recordings/converted/recording-1755344074.64.wav', '-y']' returned non-zero exit status 183.
+2025-08-18 09:31:53,870 - ERROR - Failed to convert hello.ulaw: Command '['ffmpeg', '-i', '/Users/apple/Desktop/asterisk/recordings/raw/hello.ulaw', '-ar', '16000', '-ac', '1', '-f', 'wav', '/Users/apple/Desktop/asterisk/recordings/converted/hello.wav', '-y']' returned non-zero exit status 183.
+2025-08-18 09:31:53,871 - INFO - Fetching complete
+2025-08-18 09:34:16,146 - INFO - Starting recording fetcher...
+2025-08-18 09:34:16,147 - INFO - Checking for new recordings...
+2025-08-18 09:34:16,345 - INFO - No new recordings found
+2025-08-18 09:34:16,345 - INFO - Fetching complete
+2025-08-18 09:35:12,844 - INFO - Starting recording fetcher...
+2025-08-18 09:35:12,845 - INFO - Checking for new recordings...
+2025-08-18 09:35:12,945 - INFO - No new recordings found
+2025-08-18 09:35:12,945 - INFO - Fetching complete
+2025-08-18 09:37:26,890 - INFO - Starting recording fetcher...
+2025-08-18 09:37:26,890 - INFO - Checking for new recordings...
+2025-08-18 09:37:27,008 - INFO - No new recordings found
+2025-08-18 09:37:27,008 - INFO - Fetching complete
+2025-08-18 09:37:55,534 - INFO - Starting recording fetcher...
+2025-08-18 09:37:55,534 - INFO - Checking for new recordings...
+2025-08-18 09:37:55,674 - INFO - No new recordings found
+2025-08-18 09:37:55,674 - INFO - Fetching complete
+2025-08-18 22:56:34,227 - WARNING - Could not load processed files: 'list' object has no attribute 'get'
+2025-08-18 22:56:34,227 - INFO - Audio Fetcher initialized
+2025-08-18 22:56:34,227 - INFO - Source directories: ['recordings/raw', 'monitor', 'recordings']
+2025-08-18 22:56:34,227 - INFO - Target directory: recordings/fetched
+2025-08-18 22:56:34,227 - INFO - Starting continuous monitoring (interval: 30s)
+2025-08-18 22:56:34,228 - INFO - Press Ctrl+C to stop
+2025-08-18 22:56:34,228 - INFO - Scanning for new audio files...
+2025-08-18 22:56:34,229 - INFO - Found 22 new audio files
+2025-08-18 22:56:34,231 - INFO - Copied: recording-1755491552.2.ulaw -> 20250818_225634_229_recording-1755491552.2.ulaw (58880 bytes)
+2025-08-18 22:56:34,232 - INFO - Copied: recording-1755491594.8.ulaw -> 20250818_225634_231_recording-1755491594.8.ulaw (58400 bytes)
+2025-08-18 22:56:34,233 - INFO - Copied: tts_hi_20250817_021612.mp3 -> 20250818_225634_232_tts_hi_20250817_021612.mp3 (133440 bytes)
+2025-08-18 22:56:34,234 - INFO - Copied: tts_hi_20250818_103602.mp3 -> 20250818_225634_233_tts_hi_20250818_103602.mp3 (28046 bytes)
+2025-08-18 22:56:34,235 - INFO - Copied: tts_ta_20250818_182712.mp3 -> 20250818_225634_234_tts_ta_20250818_182712.mp3 (30912 bytes)
+2025-08-18 22:56:34,236 - INFO - Copied: tts_ta_20250818_155951.mp3 -> 20250818_225634_235_tts_ta_20250818_155951.mp3 (75693 bytes)
+2025-08-18 22:56:34,237 - INFO - Copied: tts_en_20250818_103420.mp3 -> 20250818_225634_236_tts_en_20250818_103420.mp3 (51034 bytes)
+2025-08-18 22:56:34,237 - INFO - Copied: tts_es_20250818_103719.mp3 -> 20250818_225634_237_tts_es_20250818_103719.mp3 (13835 bytes)
+2025-08-18 22:56:34,238 - INFO - Copied: tts_hi_20250818_155802.mp3 -> 20250818_225634_237_tts_hi_20250818_155802.mp3 (17179 bytes)
+2025-08-18 22:56:34,238 - INFO - Copied: tts_en_20250818_182513.mp3 -> 20250818_225634_238_tts_en_20250818_182513.mp3 (24768 bytes)
+2025-08-18 22:56:34,240 - INFO - Copied: tts_ta_20250817_021539.mp3 -> 20250818_225634_238_tts_ta_20250817_021539.mp3 (44160 bytes)
+2025-08-18 22:56:34,241 - INFO - Copied: tts_te_20250818_182754.mp3 -> 20250818_225634_240_tts_te_20250818_182754.mp3 (33024 bytes)
+2025-08-18 22:56:34,242 - INFO - Copied: tts_hi_20250818_182607.mp3 -> 20250818_225634_241_tts_hi_20250818_182607.mp3 (25920 bytes)
+2025-08-18 22:56:34,242 - INFO - Copied: tts_hi_20250818_103657.mp3 -> 20250818_225634_242_tts_hi_20250818_103657.mp3 (11327 bytes)
+2025-08-18 22:56:34,243 - INFO - Copied: tts_es_20250817_021210.mp3 -> 20250818_225634_242_tts_es_20250817_021210.mp3 (40704 bytes)
+2025-08-18 22:56:34,244 - INFO - Copied: tts_hi_20250817_021141.mp3 -> 20250818_225634_243_tts_hi_20250817_021141.mp3 (48576 bytes)
+2025-08-18 22:56:34,244 - INFO - Copied: tts_hi_20250818_155706.mp3 -> 20250818_225634_244_tts_hi_20250818_155706.mp3 (20941 bytes)
+2025-08-18 22:56:34,245 - INFO - Copied: recording-1755491552.2.wav -> 20250818_225634_244_recording-1755491552.2.wav (235598 bytes)
+2025-08-18 22:56:34,247 - INFO - Copied: test_recording-1755491552.2.wav -> 20250818_225634_245_test_recording-1755491552.2.wav (235598 bytes)
+2025-08-18 22:56:34,248 - INFO - Copied: recording-1755491594.8.wav -> 20250818_225634_247_recording-1755491594.8.wav (233678 bytes)
+2025-08-18 22:56:34,249 - INFO - Copied: recording-1755491552.2.ulaw -> 20250818_225634_248_recording-1755491552.2.ulaw (58880 bytes)
+2025-08-18 22:56:34,249 - INFO - Copied: recording-1755491594.8.ulaw -> 20250818_225634_249_recording-1755491594.8.ulaw (58400 bytes)
+2025-08-18 22:56:34,250 - INFO - Successfully copied 22 files
+2025-08-18 22:56:34,250 - INFO - Stats: {'total_processed': 20, 'files_in_target': 22, 'timestamp': '2025-08-18 22:56:34'}
+2025-08-18 22:57:04,255 - INFO - Scanning for new audio files...
+2025-08-18 22:57:04,258 - INFO - Found 23 new audio files
+2025-08-18 22:57:04,259 - INFO - Copied: 20250818_225634_234_tts_ta_20250818_182712.mp3 -> 20250818_225704_258_20250818_225634_234_tts_ta_20250818_182712.mp3 (30912 bytes)
+2025-08-18 22:57:04,260 - INFO - Copied: 20250818_225634_229_recording-1755491552.2.ulaw -> 20250818_225704_259_20250818_225634_229_recording-1755491552.2.ulaw (58880 bytes)
+2025-08-18 22:57:04,261 - INFO - Copied: 20250818_225634_235_tts_ta_20250818_155951.mp3 -> 20250818_225704_260_20250818_225634_235_tts_ta_20250818_155951.mp3 (75693 bytes)
+2025-08-18 22:57:04,261 - INFO - Copied: 20250818_225634_242_tts_es_20250817_021210.mp3 -> 20250818_225704_261_20250818_225634_242_tts_es_20250817_021210.mp3 (40704 bytes)
+2025-08-18 22:57:04,262 - INFO - Copied: 20250818_225634_233_tts_hi_20250818_103602.mp3 -> 20250818_225704_261_20250818_225634_233_tts_hi_20250818_103602.mp3 (28046 bytes)
+2025-08-18 22:57:04,263 - INFO - Copied: 20250818_225634_248_recording-1755491552.2.ulaw -> 20250818_225704_262_20250818_225634_248_recording-1755491552.2.ulaw (58880 bytes)
+2025-08-18 22:57:04,263 - INFO - Copied: 20250818_225634_238_tts_en_20250818_182513.mp3 -> 20250818_225704_263_20250818_225634_238_tts_en_20250818_182513.mp3 (24768 bytes)
+2025-08-18 22:57:04,264 - INFO - Copied: 20250818_225634_243_tts_hi_20250817_021141.mp3 -> 20250818_225704_263_20250818_225634_243_tts_hi_20250817_021141.mp3 (48576 bytes)
+2025-08-18 22:57:04,265 - INFO - Copied: 20250818_225634_242_tts_hi_20250818_103657.mp3 -> 20250818_225704_264_20250818_225634_242_tts_hi_20250818_103657.mp3 (11327 bytes)
+2025-08-18 22:57:04,267 - INFO - Copied: 20250818_225634_244_tts_hi_20250818_155706.mp3 -> 20250818_225704_266_20250818_225634_244_tts_hi_20250818_155706.mp3 (20941 bytes)
+2025-08-18 22:57:04,268 - INFO - Copied: 20250818_225634_232_tts_hi_20250817_021612.mp3 -> 20250818_225704_267_20250818_225634_232_tts_hi_20250817_021612.mp3 (133440 bytes)
+2025-08-18 22:57:04,268 - INFO - Copied: 20250818_225634_231_recording-1755491594.8.ulaw -> 20250818_225704_268_20250818_225634_231_recording-1755491594.8.ulaw (58400 bytes)
+2025-08-18 22:57:04,269 - INFO - Copied: 20250818_225634_249_recording-1755491594.8.ulaw -> 20250818_225704_268_20250818_225634_249_recording-1755491594.8.ulaw (58400 bytes)
+2025-08-18 22:57:04,270 - INFO - Copied: 20250818_225634_236_tts_en_20250818_103420.mp3 -> 20250818_225704_269_20250818_225634_236_tts_en_20250818_103420.mp3 (51034 bytes)
+2025-08-18 22:57:04,270 - INFO - Copied: 20250818_225648_recording-1755491594.8.ulaw -> 20250818_225704_270_20250818_225648_recording-1755491594.8.ulaw (58400 bytes)
+2025-08-18 22:57:04,271 - INFO - Copied: 20250818_225634_240_tts_te_20250818_182754.mp3 -> 20250818_225704_270_20250818_225634_240_tts_te_20250818_182754.mp3 (33024 bytes)
+2025-08-18 22:57:04,271 - INFO - Copied: 20250818_225634_244_recording-1755491552.2.wav -> 20250818_225704_271_20250818_225634_244_recording-1755491552.2.wav (235598 bytes)
+2025-08-18 22:57:04,272 - INFO - Copied: 20250818_225634_238_tts_ta_20250817_021539.mp3 -> 20250818_225704_272_20250818_225634_238_tts_ta_20250817_021539.mp3 (44160 bytes)
+2025-08-18 22:57:04,275 - INFO - Copied: 20250818_225634_245_test_recording-1755491552.2.wav -> 20250818_225704_272_20250818_225634_245_test_recording-1755491552.2.wav (235598 bytes)
+2025-08-18 22:57:04,277 - INFO - Copied: 20250818_225634_241_tts_hi_20250818_182607.mp3 -> 20250818_225704_276_20250818_225634_241_tts_hi_20250818_182607.mp3 (25920 bytes)
+2025-08-18 22:57:04,278 - INFO - Copied: 20250818_225634_247_recording-1755491594.8.wav -> 20250818_225704_277_20250818_225634_247_recording-1755491594.8.wav (233678 bytes)
+2025-08-18 22:57:04,279 - INFO - Copied: 20250818_225634_237_tts_hi_20250818_155802.mp3 -> 20250818_225704_278_20250818_225634_237_tts_hi_20250818_155802.mp3 (17179 bytes)
+2025-08-18 22:57:04,279 - INFO - Copied: 20250818_225634_237_tts_es_20250818_103719.mp3 -> 20250818_225704_279_20250818_225634_237_tts_es_20250818_103719.mp3 (13835 bytes)
+2025-08-18 22:57:04,280 - INFO - Successfully copied 23 files
+2025-08-18 22:57:04,280 - INFO - Stats: {'total_processed': 43, 'files_in_target': 46, 'timestamp': '2025-08-18 22:57:04'}
+2025-08-18 22:57:23,961 - INFO - Monitoring stopped by user
+2025-08-18 23:10:57,210 - INFO - Configuration loaded: {'translation_enabled': True, 'target_language': 'en', 'audio_formats': ['.ulaw', '.wav', '.gsm', '.mp3'], 'monitoring_directories': ['/Users/apple/Desktop/asterisk/monitor', '/Users/apple/Desktop/asterisk/recordings/raw'], 'processing_delay': 2}
+2025-08-18 23:10:57,211 - INFO - Setting up Google Cloud APIs
+2025-08-18 23:10:57,211 - INFO - Using speech model: latest_long
+2025-08-18 23:10:57,211 - INFO - Auto language detection: True
+2025-08-18 23:10:57,211 - INFO - TTS voice quality: neural2
+2025-08-18 23:10:57,211 - INFO - Using API key authentication
+2025-08-18 23:10:57,265 - INFO - Google Cloud APIs initialized successfully
+2025-08-18 23:10:57,265 - INFO - Recording processor initialized successfully
+2025-08-18 23:10:57,265 - INFO - Audio Fetcher and Processor initialized
+2025-08-18 23:10:57,265 - INFO - Monitor directory: /Users/apple/Desktop/asterisk/monitor
+2025-08-18 23:10:57,265 - INFO - Transcripts directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-18 23:10:57,265 - INFO - Starting continuous monitoring of /Users/apple/Desktop/asterisk/monitor (interval: 30s)
+2025-08-18 23:10:57,265 - INFO - Press Ctrl+C to stop
+2025-08-18 23:10:57,265 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:10:57,265 - INFO - Found 4 new audio files
+2025-08-18 23:10:57,265 - INFO - Processing audio file: recording-1755538535.8.ulaw
+2025-08-18 23:10:57,266 - INFO - Processing recording: recording-1755538535.8.ulaw
+2025-08-18 23:10:57,700 - INFO - Converted recording-1755538535.8.ulaw to WAV format
+2025-08-18 23:10:57,700 - INFO - Transcribing audio: recording-1755538535.8.wav
+2025-08-18 23:11:03,718 - ERROR - Error transcribing recording-1755538535.8.wav: 400 Invalid recognition 'config': The requested model is currently not supported for language : auto.
+2025-08-18 23:11:03,719 - ERROR - Error processing recording-1755538535.8.ulaw: 400 Invalid recognition 'config': The requested model is currently not supported for language : auto.
+2025-08-18 23:11:03,719 - ERROR - Failed to process recording-1755538535.8.ulaw: 400 Invalid recognition 'config': The requested model is currently not supported for language : auto.
+2025-08-18 23:11:03,719 - INFO - Processing audio file: recording-1755538323.4.ulaw
+2025-08-18 23:11:03,720 - INFO - Processing recording: recording-1755538323.4.ulaw
+2025-08-18 23:11:03,916 - INFO - Converted recording-1755538323.4.ulaw to WAV format
+2025-08-18 23:11:03,916 - INFO - Transcribing audio: recording-1755538323.4.wav
+2025-08-18 23:11:04,946 - ERROR - Error transcribing recording-1755538323.4.wav: 400 Invalid recognition 'config': The requested model is currently not supported for language : auto.
+2025-08-18 23:11:04,946 - ERROR - Error processing recording-1755538323.4.ulaw: 400 Invalid recognition 'config': The requested model is currently not supported for language : auto.
+2025-08-18 23:11:04,946 - ERROR - Failed to process recording-1755538323.4.ulaw: 400 Invalid recognition 'config': The requested model is currently not supported for language : auto.
+2025-08-18 23:11:04,946 - INFO - Processing audio file: recording-1755538489.6.ulaw
+2025-08-18 23:11:04,946 - INFO - Processing recording: recording-1755538489.6.ulaw
+2025-08-18 23:11:05,048 - INFO - Converted recording-1755538489.6.ulaw to WAV format
+2025-08-18 23:11:05,048 - INFO - Transcribing audio: recording-1755538489.6.wav
+2025-08-18 23:11:06,240 - ERROR - Error transcribing recording-1755538489.6.wav: 400 Invalid recognition 'config': The requested model is currently not supported for language : auto.
+2025-08-18 23:11:06,241 - ERROR - Error processing recording-1755538489.6.ulaw: 400 Invalid recognition 'config': The requested model is currently not supported for language : auto.
+2025-08-18 23:11:06,241 - ERROR - Failed to process recording-1755538489.6.ulaw: 400 Invalid recognition 'config': The requested model is currently not supported for language : auto.
+2025-08-18 23:11:06,241 - INFO - Processing audio file: recording-1755538295.0.ulaw
+2025-08-18 23:11:06,241 - INFO - Processing recording: recording-1755538295.0.ulaw
+2025-08-18 23:11:06,341 - INFO - Converted recording-1755538295.0.ulaw to WAV format
+2025-08-18 23:11:06,342 - INFO - Transcribing audio: recording-1755538295.0.wav
+2025-08-18 23:11:07,210 - ERROR - Error transcribing recording-1755538295.0.wav: 400 Invalid recognition 'config': The requested model is currently not supported for language : auto.
+2025-08-18 23:11:07,210 - ERROR - Error processing recording-1755538295.0.ulaw: 400 Invalid recognition 'config': The requested model is currently not supported for language : auto.
+2025-08-18 23:11:07,211 - ERROR - Failed to process recording-1755538295.0.ulaw: 400 Invalid recognition 'config': The requested model is currently not supported for language : auto.
+2025-08-18 23:11:07,211 - INFO - Successfully processed 0 files
+2025-08-18 23:11:17,631 - INFO - Monitoring stopped by user
+2025-08-18 23:13:16,585 - INFO - Configuration loaded: {'translation_enabled': True, 'target_language': 'en', 'audio_formats': ['.ulaw', '.wav', '.gsm', '.mp3'], 'monitoring_directories': ['/Users/apple/Desktop/asterisk/monitor', '/Users/apple/Desktop/asterisk/recordings/raw'], 'processing_delay': 2}
+2025-08-18 23:13:16,585 - INFO - Setting up Google Cloud APIs
+2025-08-18 23:13:16,585 - INFO - Using speech model: latest_long
+2025-08-18 23:13:16,585 - INFO - Auto language detection: True
+2025-08-18 23:13:16,585 - INFO - TTS voice quality: neural2
+2025-08-18 23:13:16,585 - INFO - Using API key authentication
+2025-08-18 23:13:16,639 - INFO - Google Cloud APIs initialized successfully
+2025-08-18 23:13:16,640 - INFO - Recording processor initialized successfully
+2025-08-18 23:13:16,640 - INFO - Audio Fetcher and Processor initialized
+2025-08-18 23:13:16,640 - INFO - Monitor directory: /Users/apple/Desktop/asterisk/monitor
+2025-08-18 23:13:16,640 - INFO - Transcripts directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-18 23:13:16,640 - INFO - Starting continuous monitoring of /Users/apple/Desktop/asterisk/monitor (interval: 30s)
+2025-08-18 23:13:16,640 - INFO - Press Ctrl+C to stop
+2025-08-18 23:13:16,640 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:13:16,640 - INFO - Found 4 new audio files
+2025-08-18 23:13:16,640 - INFO - Processing audio file: recording-1755538535.8.ulaw
+2025-08-18 23:13:16,640 - INFO - Processing recording: recording-1755538535.8.ulaw
+2025-08-18 23:13:16,895 - INFO - Converted recording-1755538535.8.ulaw to WAV format
+2025-08-18 23:13:16,896 - INFO - Transcribing audio: recording-1755538535.8.wav
+2025-08-18 23:13:23,027 - WARNING - No transcription results found
+2025-08-18 23:13:23,028 - WARNING - No transcript generated for recording-1755538535.8.ulaw
+2025-08-18 23:13:23,028 - ERROR - Failed to process recording-1755538535.8.ulaw: No transcript generated
+2025-08-18 23:13:23,028 - INFO - Processing audio file: recording-1755538323.4.ulaw
+2025-08-18 23:13:23,028 - INFO - Processing recording: recording-1755538323.4.ulaw
+2025-08-18 23:13:23,156 - INFO - Converted recording-1755538323.4.ulaw to WAV format
+2025-08-18 23:13:23,156 - INFO - Transcribing audio: recording-1755538323.4.wav
+2025-08-18 23:13:26,127 - INFO - Transcription completed. Text: 'हेलो हेलो!...' Language: hi, Confidence: 0.7290491461753845
+2025-08-18 23:13:26,128 - INFO - Translating from hi to en using Google Translate
+2025-08-18 23:13:26,977 - INFO - Successfully processed recording-1755538323.4.ulaw
+2025-08-18 23:13:26,977 - INFO - Successfully processed recording-1755538323.4.ulaw
+2025-08-18 23:13:26,978 - INFO - Transcript preview (hi): हेलो हेलो!...
+2025-08-18 23:13:26,978 - INFO - Processing audio file: recording-1755538489.6.ulaw
+2025-08-18 23:13:26,978 - INFO - Processing recording: recording-1755538489.6.ulaw
+2025-08-18 23:13:27,167 - INFO - Converted recording-1755538489.6.ulaw to WAV format
+2025-08-18 23:13:27,168 - INFO - Transcribing audio: recording-1755538489.6.wav
+2025-08-18 23:13:30,389 - INFO - Transcription completed. Text: 'हेलो हेलो!...' Language: hi, Confidence: 0.7497473359107971
+2025-08-18 23:13:30,390 - INFO - Translating from hi to en using Google Translate
+2025-08-18 23:13:30,582 - INFO - Successfully processed recording-1755538489.6.ulaw
+2025-08-18 23:13:30,582 - INFO - Successfully processed recording-1755538489.6.ulaw
+2025-08-18 23:13:30,582 - INFO - Transcript preview (hi): हेलो हेलो!...
+2025-08-18 23:13:30,582 - INFO - Processing audio file: recording-1755538295.0.ulaw
+2025-08-18 23:13:30,582 - INFO - Processing recording: recording-1755538295.0.ulaw
+2025-08-18 23:13:30,679 - INFO - Converted recording-1755538295.0.ulaw to WAV format
+2025-08-18 23:13:30,679 - INFO - Transcribing audio: recording-1755538295.0.wav
+2025-08-18 23:13:33,211 - INFO - Transcription completed. Text: 'हेलो!...' Language: hi, Confidence: 0.6104792356491089
+2025-08-18 23:13:33,212 - INFO - Translating from hi to en using Google Translate
+2025-08-18 23:13:33,407 - INFO - Successfully processed recording-1755538295.0.ulaw
+2025-08-18 23:13:33,407 - INFO - Successfully processed recording-1755538295.0.ulaw
+2025-08-18 23:13:33,407 - INFO - Transcript preview (hi): हेलो!...
+2025-08-18 23:13:33,409 - INFO - Successfully processed 3 files
+2025-08-18 23:13:33,410 - INFO - Stats: {'total_processed': 138, 'files_in_monitor': 4, 'transcript_files': 4, 'timestamp': '2025-08-18 23:13:33'}
+2025-08-18 23:14:03,414 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:14:03,417 - INFO - Found 1 new audio files
+2025-08-18 23:14:03,417 - INFO - Processing audio file: recording-1755538535.8.ulaw
+2025-08-18 23:14:03,417 - INFO - Processing recording: recording-1755538535.8.ulaw
+2025-08-18 23:14:03,613 - INFO - Converted recording-1755538535.8.ulaw to WAV format
+2025-08-18 23:14:03,613 - INFO - Transcribing audio: recording-1755538535.8.wav
+2025-08-18 23:14:04,281 - WARNING - No transcription results found
+2025-08-18 23:14:04,281 - WARNING - No transcript generated for recording-1755538535.8.ulaw
+2025-08-18 23:14:04,281 - ERROR - Failed to process recording-1755538535.8.ulaw: No transcript generated
+2025-08-18 23:14:04,282 - INFO - Successfully processed 0 files
+2025-08-18 23:14:16,928 - INFO - Monitoring stopped by user
+2025-08-18 23:16:04,938 - INFO - Configuration loaded: {'translation_enabled': True, 'target_language': 'en', 'audio_formats': ['.ulaw', '.wav', '.gsm', '.mp3'], 'monitoring_directories': ['/Users/apple/Desktop/asterisk/monitor', '/Users/apple/Desktop/asterisk/recordings/raw'], 'processing_delay': 2}
+2025-08-18 23:16:04,939 - INFO - Setting up Google Cloud APIs
+2025-08-18 23:16:04,939 - INFO - Using speech model: latest_long
+2025-08-18 23:16:04,939 - INFO - Auto language detection: True
+2025-08-18 23:16:04,939 - INFO - TTS voice quality: neural2
+2025-08-18 23:16:04,939 - INFO - Using API key authentication
+2025-08-18 23:16:04,973 - INFO - Google Cloud APIs initialized successfully
+2025-08-18 23:16:04,973 - INFO - Recording processor initialized successfully
+2025-08-18 23:16:04,973 - INFO - Audio Fetcher and Processor initialized
+2025-08-18 23:16:04,973 - INFO - Monitor directory: /Users/apple/Desktop/asterisk/monitor
+2025-08-18 23:16:04,973 - INFO - Transcripts directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-18 23:16:04,973 - INFO - Starting continuous monitoring of /Users/apple/Desktop/asterisk/monitor (interval: 30s)
+2025-08-18 23:16:04,973 - INFO - Press Ctrl+C to stop
+2025-08-18 23:16:04,973 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:16:04,973 - INFO - No new audio files found
+2025-08-18 23:16:09,726 - INFO - Monitoring stopped by user
+2025-08-18 23:16:14,485 - INFO - Configuration loaded: {'translation_enabled': True, 'target_language': 'en', 'audio_formats': ['.ulaw', '.wav', '.gsm', '.mp3'], 'monitoring_directories': ['/Users/apple/Desktop/asterisk/monitor', '/Users/apple/Desktop/asterisk/recordings/raw'], 'processing_delay': 2}
+2025-08-18 23:16:14,485 - INFO - Setting up Google Cloud APIs
+2025-08-18 23:16:14,485 - INFO - Using speech model: latest_long
+2025-08-18 23:16:14,485 - INFO - Auto language detection: True
+2025-08-18 23:16:14,485 - INFO - TTS voice quality: neural2
+2025-08-18 23:16:14,485 - INFO - Using API key authentication
+2025-08-18 23:16:14,533 - INFO - Google Cloud APIs initialized successfully
+2025-08-18 23:16:14,533 - INFO - Recording processor initialized successfully
+2025-08-18 23:16:14,534 - INFO - Audio Fetcher and Processor initialized
+2025-08-18 23:16:14,534 - INFO - Monitor directory: /Users/apple/Desktop/asterisk/monitor
+2025-08-18 23:16:14,534 - INFO - Transcripts directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-18 23:16:14,534 - INFO - Starting continuous monitoring of /Users/apple/Desktop/asterisk/monitor (interval: 30s)
+2025-08-18 23:16:14,534 - INFO - Press Ctrl+C to stop
+2025-08-18 23:16:14,534 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:16:14,534 - INFO - No new audio files found
+2025-08-18 23:16:24,224 - INFO - Monitoring stopped by user
+2025-08-18 23:16:50,866 - INFO - Configuration loaded: {'translation_enabled': True, 'target_language': 'en', 'audio_formats': ['.ulaw', '.wav', '.gsm', '.mp3'], 'monitoring_directories': ['/Users/apple/Desktop/asterisk/monitor', '/Users/apple/Desktop/asterisk/recordings/raw'], 'processing_delay': 2}
+2025-08-18 23:16:50,866 - INFO - Setting up Google Cloud APIs
+2025-08-18 23:16:50,866 - INFO - Using speech model: latest_long
+2025-08-18 23:16:50,866 - INFO - Auto language detection: True
+2025-08-18 23:16:50,866 - INFO - TTS voice quality: neural2
+2025-08-18 23:16:50,866 - INFO - Using API key authentication
+2025-08-18 23:16:50,900 - INFO - Google Cloud APIs initialized successfully
+2025-08-18 23:16:50,900 - INFO - Recording processor initialized successfully
+2025-08-18 23:16:50,900 - INFO - Audio Fetcher and Processor initialized
+2025-08-18 23:16:50,900 - INFO - Monitor directory: /Users/apple/Desktop/asterisk/monitor
+2025-08-18 23:16:50,900 - INFO - Transcripts directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-18 23:16:50,901 - INFO - Starting continuous monitoring of /Users/apple/Desktop/asterisk/monitor (interval: 30s)
+2025-08-18 23:16:50,901 - INFO - Press Ctrl+C to stop
+2025-08-18 23:16:50,901 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:16:50,901 - INFO - No new audio files found
+2025-08-18 23:17:20,910 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:17:20,917 - INFO - No new audio files found
+2025-08-18 23:17:50,925 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:17:50,929 - INFO - Found 1 new audio files
+2025-08-18 23:17:50,929 - INFO - Processing audio file: recording-1755539258.14.ulaw
+2025-08-18 23:17:50,930 - INFO - Processing recording: recording-1755539258.14.ulaw
+2025-08-18 23:17:51,163 - INFO - Converted recording-1755539258.14.ulaw to WAV format
+2025-08-18 23:17:51,163 - INFO - Transcribing audio: recording-1755539258.14.wav
+2025-08-18 23:18:00,434 - INFO - Transcription completed. Text: 'हेलो हेलो हेलो दिस इस ए टेस्ट हेलो दिस इस ए टेस्ट!...' Language: hi, Confidence: 0.6566982865333557
+2025-08-18 23:18:00,435 - INFO - Translating from hi to en using Google Translate
+2025-08-18 23:18:01,405 - INFO - Successfully processed recording-1755539258.14.ulaw
+2025-08-18 23:18:01,405 - INFO - Successfully processed recording-1755539258.14.ulaw
+2025-08-18 23:18:01,406 - INFO - Transcript preview (hi): हेलो हेलो हेलो दिस इस ए टेस्ट हेलो दिस इस ए टेस्ट!...
+2025-08-18 23:18:01,407 - INFO - Successfully processed 1 files
+2025-08-18 23:18:01,408 - INFO - Stats: {'total_processed': 139, 'files_in_monitor': 1, 'transcript_files': 1, 'timestamp': '2025-08-18 23:18:01'}
+2025-08-18 23:18:31,412 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:18:31,414 - INFO - No new audio files found
+2025-08-18 23:19:01,417 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:19:01,420 - INFO - No new audio files found
+2025-08-18 23:19:31,432 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:19:31,443 - INFO - No new audio files found
+2025-08-18 23:20:01,456 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:20:01,467 - INFO - No new audio files found
+2025-08-18 23:20:31,475 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:20:31,479 - INFO - No new audio files found
+2025-08-18 23:21:01,483 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:21:01,484 - INFO - No new audio files found
+2025-08-18 23:21:31,487 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:21:31,490 - INFO - No new audio files found
+2025-08-18 23:22:01,495 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:22:01,498 - INFO - No new audio files found
+2025-08-18 23:22:31,501 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:22:31,503 - INFO - No new audio files found
+2025-08-18 23:23:01,508 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:23:01,510 - INFO - No new audio files found
+2025-08-18 23:23:31,514 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:23:31,519 - INFO - No new audio files found
+2025-08-18 23:24:01,523 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:24:01,527 - INFO - No new audio files found
+2025-08-18 23:24:31,529 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:24:31,532 - INFO - No new audio files found
+2025-08-18 23:25:01,538 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:25:01,541 - INFO - No new audio files found
+2025-08-18 23:25:31,546 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:25:31,550 - INFO - No new audio files found
+2025-08-18 23:26:01,553 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:26:01,555 - INFO - No new audio files found
+2025-08-18 23:26:31,562 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:26:31,565 - INFO - No new audio files found
+2025-08-18 23:27:01,587 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:27:01,648 - INFO - No new audio files found
+2025-08-18 23:27:31,657 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:27:31,659 - INFO - No new audio files found
+2025-08-18 23:28:01,668 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:28:01,778 - INFO - No new audio files found
+2025-08-18 23:28:31,785 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:28:31,789 - INFO - No new audio files found
+2025-08-18 23:29:01,794 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:29:01,795 - INFO - No new audio files found
+2025-08-18 23:29:31,800 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:29:31,801 - INFO - No new audio files found
+2025-08-18 23:30:01,806 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:30:01,809 - INFO - No new audio files found
+2025-08-18 23:30:31,810 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:30:31,812 - INFO - No new audio files found
+2025-08-18 23:31:01,817 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:31:01,826 - INFO - No new audio files found
+2025-08-18 23:31:31,831 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:31:31,833 - INFO - No new audio files found
+2025-08-18 23:32:01,839 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:32:01,840 - INFO - No new audio files found
+2025-08-18 23:32:31,845 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:32:31,848 - INFO - No new audio files found
+2025-08-18 23:33:01,854 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:33:01,856 - INFO - No new audio files found
+2025-08-18 23:33:31,865 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:33:31,880 - INFO - No new audio files found
+2025-08-18 23:34:01,886 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:34:01,890 - INFO - No new audio files found
+2025-08-18 23:34:31,891 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:34:31,894 - INFO - No new audio files found
+2025-08-18 23:35:01,896 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:35:01,899 - INFO - No new audio files found
+2025-08-18 23:35:31,916 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:35:31,921 - INFO - No new audio files found
+2025-08-18 23:36:01,952 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:36:01,958 - INFO - No new audio files found
+2025-08-18 23:36:31,967 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:36:31,976 - INFO - Found 1 new audio files
+2025-08-18 23:36:31,978 - INFO - Processing audio file: recording-1755540385.18.ulaw
+2025-08-18 23:36:31,978 - INFO - Processing recording: recording-1755540385.18.ulaw
+2025-08-18 23:36:32,531 - INFO - Converted recording-1755540385.18.ulaw to WAV format
+2025-08-18 23:36:32,531 - INFO - Transcribing audio: recording-1755540385.18.wav
+2025-08-18 23:36:34,145 - WARNING - No transcription results found
+2025-08-18 23:36:34,146 - WARNING - No transcript generated for recording-1755540385.18.ulaw
+2025-08-18 23:36:34,146 - ERROR - Failed to process recording-1755540385.18.ulaw: No transcript generated
+2025-08-18 23:36:34,149 - INFO - Successfully processed 0 files
+2025-08-18 23:37:04,152 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:37:04,154 - INFO - Found 1 new audio files
+2025-08-18 23:37:04,154 - INFO - Processing audio file: recording-1755540385.18.ulaw
+2025-08-18 23:37:04,154 - INFO - Processing recording: recording-1755540385.18.ulaw
+2025-08-18 23:37:07,435 - INFO - Converted recording-1755540385.18.ulaw to WAV format
+2025-08-18 23:37:07,436 - INFO - Transcribing audio: recording-1755540385.18.wav
+2025-08-18 23:37:16,495 - INFO - Transcription completed. Text: 'मैं पंकज ठाकुर हूं कॉल 987600 12343 175001।...' Language: hi, Confidence: 0.5220937728881836
+2025-08-18 23:37:16,497 - INFO - Translating from hi to en using Google Translate
+2025-08-18 23:37:16,944 - INFO - Successfully processed recording-1755540385.18.ulaw
+2025-08-18 23:37:16,945 - INFO - Successfully processed recording-1755540385.18.ulaw
+2025-08-18 23:37:16,945 - INFO - Transcript preview (hi): मैं पंकज ठाकुर हूं कॉल 987600 12343 175001।...
+2025-08-18 23:37:16,946 - INFO - Successfully processed 1 files
+2025-08-18 23:37:16,947 - INFO - Stats: {'total_processed': 140, 'files_in_monitor': 2, 'transcript_files': 1, 'timestamp': '2025-08-18 23:37:16'}
+2025-08-18 23:37:46,949 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:37:46,954 - INFO - No new audio files found
+2025-08-18 23:38:16,961 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:38:16,979 - INFO - No new audio files found
+2025-08-18 23:38:46,982 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:38:46,985 - INFO - No new audio files found
+2025-08-18 23:39:16,987 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:39:16,992 - INFO - No new audio files found
+2025-08-18 23:39:46,998 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:39:47,002 - INFO - No new audio files found
+2025-08-18 23:40:17,008 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:40:17,010 - INFO - No new audio files found
+2025-08-18 23:40:47,012 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:40:47,017 - INFO - No new audio files found
+2025-08-18 23:41:17,023 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:41:17,028 - INFO - No new audio files found
+2025-08-18 23:41:47,035 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:41:47,041 - INFO - No new audio files found
+2025-08-18 23:42:17,050 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:42:17,053 - INFO - No new audio files found
+2025-08-18 23:42:47,054 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:42:47,058 - INFO - No new audio files found
+2025-08-18 23:43:17,063 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:43:17,070 - INFO - No new audio files found
+2025-08-18 23:43:47,073 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:43:47,075 - INFO - No new audio files found
+2025-08-18 23:44:17,077 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:44:17,079 - INFO - No new audio files found
+2025-08-18 23:44:47,085 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:44:47,087 - INFO - No new audio files found
+2025-08-18 23:45:17,093 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:45:17,095 - INFO - No new audio files found
+2025-08-18 23:45:47,098 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:45:47,100 - INFO - No new audio files found
+2025-08-18 23:46:17,108 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:46:17,113 - INFO - No new audio files found
+2025-08-18 23:46:47,117 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:46:47,119 - INFO - No new audio files found
+2025-08-18 23:47:17,124 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:47:17,128 - INFO - No new audio files found
+2025-08-18 23:47:47,130 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:47:47,132 - INFO - No new audio files found
+2025-08-18 23:48:17,138 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:48:17,141 - INFO - No new audio files found
+2025-08-18 23:48:47,146 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:48:47,155 - INFO - No new audio files found
+2025-08-18 23:49:17,162 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:49:17,167 - INFO - No new audio files found
+2025-08-18 23:49:47,173 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:49:47,175 - INFO - No new audio files found
+2025-08-18 23:50:17,177 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:50:17,181 - INFO - No new audio files found
+2025-08-18 23:50:47,185 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:50:47,188 - INFO - No new audio files found
+2025-08-18 23:51:17,194 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:51:17,196 - INFO - No new audio files found
+2025-08-18 23:51:47,201 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:51:47,203 - INFO - No new audio files found
+2025-08-18 23:52:17,240 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:52:17,299 - INFO - No new audio files found
+2025-08-18 23:52:47,322 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:52:47,333 - INFO - No new audio files found
+2025-08-18 23:53:17,352 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:53:17,356 - INFO - No new audio files found
+2025-08-18 23:53:47,365 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:53:47,369 - INFO - No new audio files found
+2025-08-18 23:54:17,391 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:54:17,558 - INFO - No new audio files found
+2025-08-18 23:54:47,657 - INFO - Scanning for new audio files in monitor directory...
+2025-08-18 23:54:47,659 - INFO - No new audio files found
+2025-08-18 23:55:17,664 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:10:23,023 - INFO - Configuration loaded: {'translation_enabled': True, 'target_language': 'en', 'audio_formats': ['.ulaw', '.wav', '.gsm', '.mp3'], 'monitoring_directories': ['/Users/apple/Desktop/asterisk/monitor', '/Users/apple/Desktop/asterisk/recordings/raw'], 'processing_delay': 2}
+2025-08-19 14:10:23,024 - INFO - Setting up Google Cloud APIs
+2025-08-19 14:10:23,024 - INFO - Using speech model: latest_long
+2025-08-19 14:10:23,024 - INFO - Auto language detection: True
+2025-08-19 14:10:23,024 - INFO - TTS voice quality: neural2
+2025-08-19 14:10:23,024 - INFO - Using API key authentication
+2025-08-19 14:10:23,135 - INFO - Google Cloud APIs initialized successfully
+2025-08-19 14:10:23,136 - INFO - Recording processor initialized successfully
+2025-08-19 14:10:23,136 - INFO - Audio Fetcher and Processor initialized
+2025-08-19 14:10:23,136 - INFO - Monitor directory: /Users/apple/Desktop/asterisk/monitor
+2025-08-19 14:10:23,136 - INFO - Transcripts directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-19 14:10:23,136 - INFO - Starting continuous monitoring of /Users/apple/Desktop/asterisk/monitor (interval: 30s)
+2025-08-19 14:10:23,136 - INFO - Press Ctrl+C to stop
+2025-08-19 14:10:23,136 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:10:23,136 - INFO - No new audio files found
+2025-08-19 14:10:53,147 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:10:53,164 - INFO - No new audio files found
+2025-08-19 14:11:24,297 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:11:26,046 - INFO - No new audio files found
+2025-08-19 14:11:56,219 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:11:56,231 - INFO - No new audio files found
+2025-08-19 14:12:26,238 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:12:26,242 - INFO - No new audio files found
+2025-08-19 14:12:56,250 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:12:56,258 - INFO - No new audio files found
+2025-08-19 14:13:26,265 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:13:26,269 - INFO - No new audio files found
+2025-08-19 14:13:56,271 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:13:56,274 - INFO - No new audio files found
+2025-08-19 14:14:26,280 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:14:26,296 - INFO - No new audio files found
+2025-08-19 14:14:56,358 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:14:56,446 - INFO - No new audio files found
+2025-08-19 14:15:26,466 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:15:26,472 - INFO - No new audio files found
+2025-08-19 14:15:56,499 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:15:56,525 - INFO - No new audio files found
+2025-08-19 14:16:26,550 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:16:26,564 - INFO - No new audio files found
+2025-08-19 14:16:56,570 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:16:56,572 - INFO - No new audio files found
+2025-08-19 14:17:26,578 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:17:26,581 - INFO - No new audio files found
+2025-08-19 14:17:56,590 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:17:56,597 - INFO - No new audio files found
+2025-08-19 14:18:26,605 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:18:26,611 - INFO - No new audio files found
+2025-08-19 14:18:56,619 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:18:56,622 - INFO - No new audio files found
+2025-08-19 14:19:26,628 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:19:26,635 - INFO - No new audio files found
+2025-08-19 14:19:56,642 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:19:56,651 - INFO - No new audio files found
+2025-08-19 14:20:26,660 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:20:26,669 - INFO - No new audio files found
+2025-08-19 14:20:56,676 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:20:56,680 - INFO - No new audio files found
+2025-08-19 14:21:26,687 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:21:26,690 - INFO - No new audio files found
+2025-08-19 14:21:56,696 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:21:56,700 - INFO - No new audio files found
+2025-08-19 14:22:26,706 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:22:26,710 - INFO - No new audio files found
+2025-08-19 14:22:56,714 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:22:56,718 - INFO - No new audio files found
+2025-08-19 14:23:26,724 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:23:26,728 - INFO - No new audio files found
+2025-08-19 14:23:56,733 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:23:56,736 - INFO - No new audio files found
+2025-08-19 14:24:26,748 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:24:26,751 - INFO - No new audio files found
+2025-08-19 14:24:56,756 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:24:56,759 - INFO - No new audio files found
+2025-08-19 14:25:26,760 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:25:26,763 - INFO - No new audio files found
+2025-08-19 14:25:56,770 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:25:56,786 - INFO - No new audio files found
+2025-08-19 14:26:26,838 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:26:26,921 - INFO - No new audio files found
+2025-08-19 14:26:56,939 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:26:56,946 - INFO - No new audio files found
+2025-08-19 14:27:26,955 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:27:26,964 - INFO - No new audio files found
+2025-08-19 14:27:56,976 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:27:56,986 - INFO - No new audio files found
+2025-08-19 14:28:26,996 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:28:27,004 - INFO - No new audio files found
+2025-08-19 14:28:57,150 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:28:57,227 - INFO - No new audio files found
+2025-08-19 14:29:27,250 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:29:27,265 - INFO - No new audio files found
+2025-08-19 14:29:57,432 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:29:57,520 - INFO - No new audio files found
+2025-08-19 14:30:27,549 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:30:27,553 - INFO - No new audio files found
+2025-08-19 14:30:57,566 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:30:57,584 - INFO - No new audio files found
+2025-08-19 14:31:27,597 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:31:27,599 - INFO - No new audio files found
+2025-08-19 14:31:57,608 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:31:57,615 - INFO - No new audio files found
+2025-08-19 14:32:27,625 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:32:27,634 - INFO - No new audio files found
+2025-08-19 14:32:57,641 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:32:57,643 - INFO - No new audio files found
+2025-08-19 14:33:27,651 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:33:27,654 - INFO - No new audio files found
+2025-08-19 14:33:57,660 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:33:57,662 - INFO - No new audio files found
+2025-08-19 14:34:27,667 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:34:27,670 - INFO - No new audio files found
+2025-08-19 14:34:57,673 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:34:57,676 - INFO - No new audio files found
+2025-08-19 14:35:27,685 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:35:27,696 - INFO - No new audio files found
+2025-08-19 14:35:57,704 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:35:57,707 - INFO - No new audio files found
+2025-08-19 14:36:27,715 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:36:27,722 - INFO - No new audio files found
+2025-08-19 14:36:57,851 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:36:58,842 - INFO - No new audio files found
+2025-08-19 14:37:28,871 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:37:28,875 - INFO - No new audio files found
+2025-08-19 14:37:58,880 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:37:58,883 - INFO - No new audio files found
+2025-08-19 14:38:28,898 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:38:28,910 - INFO - No new audio files found
+2025-08-19 14:38:58,915 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:38:58,919 - INFO - No new audio files found
+2025-08-19 14:39:29,038 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:39:29,305 - INFO - No new audio files found
+2025-08-19 14:39:59,462 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:39:59,474 - INFO - No new audio files found
+2025-08-19 14:40:29,483 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:40:29,489 - INFO - No new audio files found
+2025-08-19 14:40:59,495 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:40:59,499 - INFO - No new audio files found
+2025-08-19 14:41:29,722 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:41:30,272 - INFO - No new audio files found
+2025-08-19 14:42:00,515 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:42:00,526 - INFO - No new audio files found
+2025-08-19 14:42:30,537 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:42:30,543 - INFO - No new audio files found
+2025-08-19 14:43:00,546 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:43:00,550 - INFO - No new audio files found
+2025-08-19 14:43:30,557 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:43:30,559 - INFO - No new audio files found
+2025-08-19 14:44:00,565 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:44:00,578 - INFO - No new audio files found
+2025-08-19 14:44:30,583 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:44:30,586 - INFO - No new audio files found
+2025-08-19 14:45:00,591 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:45:00,596 - INFO - No new audio files found
+2025-08-19 14:45:30,599 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:45:30,604 - INFO - No new audio files found
+2025-08-19 14:46:00,606 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:46:00,608 - INFO - No new audio files found
+2025-08-19 14:46:30,614 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:46:30,617 - INFO - No new audio files found
+2025-08-19 14:47:00,619 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:47:00,622 - INFO - No new audio files found
+2025-08-19 14:47:30,630 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:47:30,638 - INFO - No new audio files found
+2025-08-19 14:48:00,858 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:48:01,529 - INFO - No new audio files found
+2025-08-19 14:48:31,746 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:48:31,769 - INFO - No new audio files found
+2025-08-19 14:49:01,801 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:49:01,822 - INFO - No new audio files found
+2025-08-19 14:49:31,885 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:49:31,924 - INFO - No new audio files found
+2025-08-19 14:50:01,940 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:50:01,964 - INFO - No new audio files found
+2025-08-19 14:50:31,974 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:50:31,979 - INFO - No new audio files found
+2025-08-19 14:51:01,992 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:51:02,003 - INFO - No new audio files found
+2025-08-19 14:51:32,016 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:51:32,026 - INFO - No new audio files found
+2025-08-19 14:52:02,036 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:52:02,049 - INFO - No new audio files found
+2025-08-19 14:52:32,058 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:52:32,060 - INFO - No new audio files found
+2025-08-19 14:53:02,065 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:53:02,070 - INFO - No new audio files found
+2025-08-19 14:53:32,078 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:53:32,082 - INFO - No new audio files found
+2025-08-19 14:54:02,106 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:54:02,153 - INFO - No new audio files found
+2025-08-19 14:54:32,174 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:54:32,179 - INFO - No new audio files found
+2025-08-19 14:55:02,182 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:55:02,184 - INFO - No new audio files found
+2025-08-19 14:55:32,189 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:55:32,198 - INFO - No new audio files found
+2025-08-19 14:56:02,216 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:56:02,403 - INFO - No new audio files found
+2025-08-19 14:56:32,511 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:56:32,521 - INFO - No new audio files found
+2025-08-19 14:57:02,539 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:57:02,543 - INFO - No new audio files found
+2025-08-19 14:57:32,552 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:57:32,564 - INFO - No new audio files found
+2025-08-19 14:58:02,580 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:58:02,608 - INFO - No new audio files found
+2025-08-19 14:58:32,637 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:58:32,674 - INFO - No new audio files found
+2025-08-19 14:59:03,429 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:59:03,921 - INFO - No new audio files found
+2025-08-19 14:59:33,975 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 14:59:33,993 - INFO - No new audio files found
+2025-08-19 15:00:04,013 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:00:04,037 - INFO - No new audio files found
+2025-08-19 15:00:34,044 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:00:34,055 - INFO - No new audio files found
+2025-08-19 15:01:04,062 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:01:04,066 - INFO - No new audio files found
+2025-08-19 15:01:34,072 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:01:34,082 - INFO - No new audio files found
+2025-08-19 15:02:04,131 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:02:04,189 - INFO - No new audio files found
+2025-08-19 15:02:34,209 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:02:34,272 - INFO - No new audio files found
+2025-08-19 15:03:04,296 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:03:04,298 - INFO - No new audio files found
+2025-08-19 15:03:34,301 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:03:34,314 - INFO - No new audio files found
+2025-08-19 15:04:04,380 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:04:04,522 - INFO - No new audio files found
+2025-08-19 15:04:34,576 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:04:34,630 - INFO - No new audio files found
+2025-08-19 15:05:04,737 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:05:04,945 - INFO - No new audio files found
+2025-08-19 15:05:35,281 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:05:35,564 - INFO - No new audio files found
+2025-08-19 15:06:05,583 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:06:05,594 - INFO - No new audio files found
+2025-08-19 15:06:35,615 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:06:35,685 - INFO - No new audio files found
+2025-08-19 15:07:05,740 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:07:05,788 - INFO - No new audio files found
+2025-08-19 15:07:35,847 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:07:36,000 - INFO - No new audio files found
+2025-08-19 15:08:07,678 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:08:12,834 - INFO - No new audio files found
+2025-08-19 15:08:43,050 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:08:43,057 - INFO - No new audio files found
+2025-08-19 15:09:13,069 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:09:13,125 - INFO - No new audio files found
+2025-08-19 15:09:43,186 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:09:43,271 - INFO - No new audio files found
+2025-08-19 15:10:13,301 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:10:13,304 - INFO - No new audio files found
+2025-08-19 15:10:43,312 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:10:43,321 - INFO - No new audio files found
+2025-08-19 15:11:13,328 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:11:13,331 - INFO - No new audio files found
+2025-08-19 15:11:43,336 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:11:43,342 - INFO - No new audio files found
+2025-08-19 15:12:13,350 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:12:13,355 - INFO - No new audio files found
+2025-08-19 15:12:43,365 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:12:43,375 - INFO - No new audio files found
+2025-08-19 15:13:13,393 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:13:13,408 - INFO - No new audio files found
+2025-08-19 15:13:43,416 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:13:43,420 - INFO - No new audio files found
+2025-08-19 15:14:13,424 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:14:13,426 - INFO - No new audio files found
+2025-08-19 15:14:43,432 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:14:43,437 - INFO - No new audio files found
+2025-08-19 15:15:13,441 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:15:13,445 - INFO - No new audio files found
+2025-08-19 15:15:43,448 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:15:43,453 - INFO - No new audio files found
+2025-08-19 15:16:13,458 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:16:13,461 - INFO - No new audio files found
+2025-08-19 15:16:43,466 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:16:43,470 - INFO - No new audio files found
+2025-08-19 15:17:13,476 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:17:13,480 - INFO - No new audio files found
+2025-08-19 15:17:43,486 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:17:43,491 - INFO - No new audio files found
+2025-08-19 15:18:13,497 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:18:13,501 - INFO - No new audio files found
+2025-08-19 15:18:43,505 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:18:43,510 - INFO - No new audio files found
+2025-08-19 15:19:13,514 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:19:13,518 - INFO - No new audio files found
+2025-08-19 15:19:43,525 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:19:43,529 - INFO - No new audio files found
+2025-08-19 15:20:13,533 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:20:13,537 - INFO - No new audio files found
+2025-08-19 15:20:43,538 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:20:43,542 - INFO - No new audio files found
+2025-08-19 15:21:13,547 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:21:13,550 - INFO - No new audio files found
+2025-08-19 15:21:43,556 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:21:43,558 - INFO - No new audio files found
+2025-08-19 15:22:13,563 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:22:13,568 - INFO - No new audio files found
+2025-08-19 15:22:43,574 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:22:43,579 - INFO - No new audio files found
+2025-08-19 15:23:13,581 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:23:13,583 - INFO - No new audio files found
+2025-08-19 15:23:43,587 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:23:43,589 - INFO - No new audio files found
+2025-08-19 15:24:13,594 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:24:13,596 - INFO - No new audio files found
+2025-08-19 15:24:43,604 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:24:43,614 - INFO - No new audio files found
+2025-08-19 15:25:13,622 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:25:13,625 - INFO - No new audio files found
+2025-08-19 15:25:43,632 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:25:43,638 - INFO - No new audio files found
+2025-08-19 15:26:13,644 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:26:13,648 - INFO - No new audio files found
+2025-08-19 15:26:43,659 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:26:43,668 - INFO - No new audio files found
+2025-08-19 15:27:13,676 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:27:13,681 - INFO - Found 1 new audio files
+2025-08-19 15:27:13,683 - INFO - Processing audio file: recording-1755597412.2.ulaw
+2025-08-19 15:27:13,684 - INFO - Processing recording: recording-1755597412.2.ulaw
+2025-08-19 15:27:13,925 - INFO - Converted recording-1755597412.2.ulaw to WAV format
+2025-08-19 15:27:13,926 - INFO - Transcribing audio: recording-1755597412.2.wav
+2025-08-19 15:27:26,147 - INFO - Transcription completed. Text: 'हेलो हेलो दिस इस ए टेस्ट हेलो 123 हेलो आई एम फ्रॉम लखनऊ हेलो।...' Language: hi, Confidence: 0.6452584862709045
+2025-08-19 15:27:26,147 - INFO - Translating from hi to en using Google Translate
+2025-08-19 15:29:27,479 - INFO - Successfully processed recording-1755597412.2.ulaw
+2025-08-19 15:29:27,481 - INFO - Successfully processed recording-1755597412.2.ulaw
+2025-08-19 15:29:27,482 - INFO - Transcript preview (hi): हेलो हेलो दिस इस ए टेस्ट हेलो 123 हेलो आई एम फ्रॉम लखनऊ हेलो।...
+2025-08-19 15:29:27,483 - INFO - Successfully processed 1 files
+2025-08-19 15:29:27,485 - INFO - Stats: {'total_processed': 141, 'files_in_monitor': 1, 'transcript_files': 2, 'timestamp': '2025-08-19 15:29:27'}
+2025-08-19 15:29:57,490 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:29:57,494 - INFO - No new audio files found
+2025-08-19 15:30:27,496 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:30:27,498 - INFO - No new audio files found
+2025-08-19 15:30:57,500 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:30:57,502 - INFO - No new audio files found
+2025-08-19 15:31:27,502 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:31:27,505 - INFO - No new audio files found
+2025-08-19 15:31:57,510 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:31:57,513 - INFO - No new audio files found
+2025-08-19 15:32:27,517 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:32:27,524 - INFO - No new audio files found
+2025-08-19 15:32:57,528 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:32:57,530 - INFO - No new audio files found
+2025-08-19 15:33:27,536 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:33:27,539 - INFO - No new audio files found
+2025-08-19 15:33:57,546 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:33:57,552 - INFO - Found 1 new audio files
+2025-08-19 15:33:57,552 - INFO - Processing audio file: recording-1755597830.6.ulaw
+2025-08-19 15:33:57,553 - INFO - Processing recording: recording-1755597830.6.ulaw
+2025-08-19 15:33:57,794 - INFO - Converted recording-1755597830.6.ulaw to WAV format
+2025-08-19 15:33:57,794 - INFO - Transcribing audio: recording-1755597830.6.wav
+2025-08-19 15:33:59,748 - WARNING - No transcription results found
+2025-08-19 15:33:59,749 - WARNING - No transcript generated for recording-1755597830.6.ulaw
+2025-08-19 15:33:59,749 - ERROR - Failed to process recording-1755597830.6.ulaw: No transcript generated
+2025-08-19 15:33:59,754 - INFO - Successfully processed 0 files
+2025-08-19 15:34:29,762 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:34:29,769 - INFO - No new audio files found
+2025-08-19 15:34:59,776 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:34:59,781 - INFO - Found 1 new audio files
+2025-08-19 15:34:59,781 - INFO - Processing audio file: recording-1755597887.10.ulaw
+2025-08-19 15:34:59,781 - INFO - Processing recording: recording-1755597887.10.ulaw
+2025-08-19 15:34:59,991 - INFO - Converted recording-1755597887.10.ulaw to WAV format
+2025-08-19 15:34:59,991 - INFO - Transcribing audio: recording-1755597887.10.wav
+2025-08-19 15:35:02,028 - WARNING - No transcription results found
+2025-08-19 15:35:02,028 - WARNING - No transcript generated for recording-1755597887.10.ulaw
+2025-08-19 15:35:02,028 - ERROR - Failed to process recording-1755597887.10.ulaw: No transcript generated
+2025-08-19 15:35:02,031 - INFO - Successfully processed 0 files
+2025-08-19 15:35:32,036 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:35:32,040 - INFO - No new audio files found
+2025-08-19 15:36:02,043 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:36:02,046 - INFO - No new audio files found
+2025-08-19 15:36:32,047 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:36:32,049 - INFO - No new audio files found
+2025-08-19 15:37:02,056 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:37:02,063 - INFO - No new audio files found
+2025-08-19 15:37:32,076 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:37:32,085 - INFO - Found 1 new audio files
+2025-08-19 15:37:32,085 - INFO - Processing audio file: recording-1755598029.18.ulaw
+2025-08-19 15:37:32,086 - INFO - Processing recording: recording-1755598029.18.ulaw
+2025-08-19 15:37:32,358 - INFO - Converted recording-1755598029.18.ulaw to WAV format
+2025-08-19 15:37:32,358 - INFO - Transcribing audio: recording-1755598029.18.wav
+2025-08-19 15:37:44,222 - INFO - Transcription completed. Text: 'नमस्कार मेरा नाम निखिल सिंह है।...' Language: hi, Confidence: 0.9678581357002258
+2025-08-19 15:37:44,224 - INFO - Translating from hi to en using Google Translate
+2025-08-19 15:37:44,868 - INFO - Successfully processed recording-1755598029.18.ulaw
+2025-08-19 15:37:44,868 - INFO - Successfully processed recording-1755598029.18.ulaw
+2025-08-19 15:37:44,868 - INFO - Transcript preview (hi): नमस्कार मेरा नाम निखिल सिंह है।...
+2025-08-19 15:37:44,869 - INFO - Successfully processed 1 files
+2025-08-19 15:37:44,869 - INFO - Stats: {'total_processed': 142, 'files_in_monitor': 1, 'transcript_files': 2, 'timestamp': '2025-08-19 15:37:44'}
+2025-08-19 15:38:14,876 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:38:14,882 - INFO - No new audio files found
+2025-08-19 15:38:44,892 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:38:44,900 - INFO - Found 1 new audio files
+2025-08-19 15:38:44,900 - INFO - Processing audio file: recording-1755598118.22.ulaw
+2025-08-19 15:38:44,901 - INFO - Processing recording: recording-1755598118.22.ulaw
+2025-08-19 15:38:45,215 - INFO - Converted recording-1755598118.22.ulaw to WAV format
+2025-08-19 15:38:45,215 - INFO - Transcribing audio: recording-1755598118.22.wav
+2025-08-19 15:38:47,114 - INFO - Transcription completed. Text: 'नमस्कार मेरा नाम निखिल सिंह।...' Language: hi, Confidence: 0.9657219648361206
+2025-08-19 15:38:47,114 - INFO - Translating from hi to en using Google Translate
+2025-08-19 15:38:47,505 - INFO - Successfully processed recording-1755598118.22.ulaw
+2025-08-19 15:38:47,506 - INFO - Successfully processed recording-1755598118.22.ulaw
+2025-08-19 15:38:47,506 - INFO - Transcript preview (hi): नमस्कार मेरा नाम निखिल सिंह।...
+2025-08-19 15:38:47,507 - INFO - Successfully processed 1 files
+2025-08-19 15:38:47,508 - INFO - Stats: {'total_processed': 143, 'files_in_monitor': 1, 'transcript_files': 2, 'timestamp': '2025-08-19 15:38:47'}
+2025-08-19 15:39:17,513 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:39:17,515 - INFO - No new audio files found
+2025-08-19 15:39:47,520 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:39:47,522 - INFO - No new audio files found
+2025-08-19 15:40:17,656 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 15:40:17,665 - INFO - No new audio files found
+2025-08-19 19:59:54,890 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 19:59:54,898 - INFO - No new audio files found
+2025-08-19 20:54:46,397 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 20:54:46,404 - INFO - No new audio files found
+2025-08-19 20:55:16,068 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 20:55:16,078 - INFO - No new audio files found
+2025-08-19 20:55:46,088 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 20:55:46,105 - INFO - No new audio files found
+2025-08-19 20:56:16,118 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 20:56:16,127 - INFO - No new audio files found
+2025-08-19 20:56:46,133 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 20:56:46,142 - INFO - No new audio files found
+2025-08-19 20:57:16,148 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 20:57:16,151 - INFO - No new audio files found
+2025-08-19 20:57:46,152 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 20:57:46,154 - INFO - No new audio files found
+2025-08-19 20:58:16,159 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 20:58:16,161 - INFO - No new audio files found
+2025-08-19 20:58:46,166 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 20:58:46,167 - INFO - No new audio files found
+2025-08-19 20:59:16,170 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 20:59:16,171 - INFO - No new audio files found
+2025-08-19 20:59:46,173 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 20:59:46,177 - INFO - No new audio files found
+2025-08-19 21:00:16,180 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:00:16,187 - INFO - Found 1 new audio files
+2025-08-19 21:00:16,188 - INFO - Processing audio file: recording-1755617387.26.ulaw
+2025-08-19 21:00:16,188 - INFO - Processing recording: recording-1755617387.26.ulaw
+2025-08-19 21:00:16,539 - INFO - Converted recording-1755617387.26.ulaw to WAV format
+2025-08-19 21:00:16,539 - INFO - Transcribing audio: recording-1755617387.26.wav
+2025-08-19 21:00:24,915 - INFO - Transcription completed. Text: 'नमस्कार मेरा नाम निखिल सिंह है। मैं लखनऊ में रहता हूं। अब हम रिकॉर्डिंग बंद कर देंगे धन्यवाद!...' Language: hi, Confidence: 0.7511098384857178
+2025-08-19 21:00:24,915 - INFO - Translating from hi to en using Google Translate
+2025-08-19 21:00:25,718 - INFO - Successfully processed recording-1755617387.26.ulaw
+2025-08-19 21:00:25,719 - INFO - Successfully processed recording-1755617387.26.ulaw
+2025-08-19 21:00:25,719 - INFO - Transcript preview (hi): नमस्कार मेरा नाम निखिल सिंह है। मैं लखनऊ में रहता हूं। अब हम रिकॉर्डिंग बंद कर देंगे धन्यवाद!...
+2025-08-19 21:00:25,720 - INFO - Successfully processed 1 files
+2025-08-19 21:00:25,721 - INFO - Stats: {'total_processed': 144, 'files_in_monitor': 1, 'transcript_files': 1, 'timestamp': '2025-08-19 21:00:25'}
+2025-08-19 21:00:55,725 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:00:55,728 - INFO - No new audio files found
+2025-08-19 21:01:25,730 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:01:25,734 - INFO - No new audio files found
+2025-08-19 21:01:55,736 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:01:55,740 - INFO - No new audio files found
+2025-08-19 21:02:25,741 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:02:25,743 - INFO - No new audio files found
+2025-08-19 21:02:55,748 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:02:55,752 - INFO - Found 1 new audio files
+2025-08-19 21:02:55,753 - INFO - Processing audio file: recording-1755617559.30.ulaw
+2025-08-19 21:02:55,753 - INFO - Processing recording: recording-1755617559.30.ulaw
+2025-08-19 21:02:55,982 - INFO - Converted recording-1755617559.30.ulaw to WAV format
+2025-08-19 21:02:55,982 - INFO - Transcribing audio: recording-1755617559.30.wav
+2025-08-19 21:03:06,179 - INFO - Transcription completed. Text: 'मैं पंकज ठाकुर हूं फोन नंबर 987600 1234 पिन कोड 1750001, आपको मेरी अनुमति।...' Language: hi, Confidence: 0.7523351907730103
+2025-08-19 21:03:06,180 - INFO - Translating from hi to en using Google Translate
+2025-08-19 21:03:06,488 - INFO - Successfully processed recording-1755617559.30.ulaw
+2025-08-19 21:03:06,488 - INFO - Successfully processed recording-1755617559.30.ulaw
+2025-08-19 21:03:06,489 - INFO - Transcript preview (hi): मैं पंकज ठाकुर हूं फोन नंबर 987600 1234 पिन कोड 1750001, आपको मेरी अनुमति।...
+2025-08-19 21:03:06,490 - INFO - Successfully processed 1 files
+2025-08-19 21:03:06,490 - INFO - Stats: {'total_processed': 145, 'files_in_monitor': 1, 'transcript_files': 1, 'timestamp': '2025-08-19 21:03:06'}
+2025-08-19 21:03:16,805 - INFO - Monitoring stopped by user
+2025-08-19 21:03:44,576 - INFO - Configuration loaded: {'translation_enabled': True, 'target_language': 'en', 'audio_formats': ['.ulaw', '.wav', '.gsm', '.mp3'], 'monitoring_directories': ['/Users/apple/Desktop/asterisk/monitor', '/Users/apple/Desktop/asterisk/recordings/raw'], 'processing_delay': 2}
+2025-08-19 21:03:44,576 - INFO - Setting up AssemblyAI and Google Cloud APIs
+2025-08-19 21:03:44,576 - INFO - Using AssemblyAI speech model: latest_long
+2025-08-19 21:03:44,576 - INFO - Auto language detection: True
+2025-08-19 21:03:44,576 - INFO - TTS voice quality: neural2
+2025-08-19 21:03:44,576 - INFO - Translation services preference: ['free_google', 'mymemory', 'libretranslate', 'google_cloud', 'pons']
+2025-08-19 21:03:44,576 - INFO - ✅ deep-translator library available - free translation services enabled
+2025-08-19 21:03:44,576 - INFO - AssemblyAI API key configured
+2025-08-19 21:03:44,655 - INFO - Using Google Cloud API key authentication
+2025-08-19 21:03:44,691 - INFO - Google Cloud Translation and TTS initialized successfully
+2025-08-19 21:03:44,691 - INFO - AssemblyAI and Google Cloud APIs initialized successfully
+2025-08-19 21:03:44,692 - INFO - Recording processor initialized successfully
+2025-08-19 21:03:44,692 - INFO - Audio Fetcher and Processor initialized
+2025-08-19 21:03:44,692 - INFO - Monitor directory: /Users/apple/Desktop/asterisk/monitor
+2025-08-19 21:03:44,692 - INFO - Transcripts directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-19 21:03:44,692 - INFO - Starting continuous monitoring of /Users/apple/Desktop/asterisk/monitor (interval: 30s)
+2025-08-19 21:03:44,692 - INFO - Press Ctrl+C to stop
+2025-08-19 21:03:44,692 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:03:44,692 - INFO - No new audio files found
+2025-08-19 21:04:14,697 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:04:14,700 - INFO - No new audio files found
+2025-08-19 21:04:44,705 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:04:44,709 - INFO - Found 1 new audio files
+2025-08-19 21:04:44,709 - INFO - Processing audio file: recording-1755617681.36.ulaw
+2025-08-19 21:04:44,709 - INFO - Processing recording: recording-1755617681.36.ulaw
+2025-08-19 21:04:44,957 - INFO - Converted recording-1755617681.36.ulaw to WAV format
+2025-08-19 21:04:44,957 - INFO - Transcribing audio with AssemblyAI: recording-1755617681.36.wav
+2025-08-19 21:04:44,958 - INFO - Audio file size: 0.00 MB
+2025-08-19 21:04:46,490 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 422 Unprocessable Entity"
+2025-08-19 21:04:46,491 - ERROR - Error transcribing recording-1755617681.36.wav: Failed to upload audio file: 
+Reason: Upload failed, please try again. If you continue to have issues please reach out to support@assemblyai.com
+
+Request: <Request('POST', 'https://api.assemblyai.com/v2/upload')>
+2025-08-19 21:04:46,491 - WARNING - No transcript generated for recording-1755617681.36.ulaw
+2025-08-19 21:04:46,491 - ERROR - Failed to process recording-1755617681.36.ulaw: No transcript generated
+2025-08-19 21:04:46,492 - INFO - Successfully processed 0 files
+2025-08-19 21:05:16,492 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:05:16,495 - INFO - No new audio files found
+2025-08-19 21:05:46,498 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:05:46,499 - INFO - No new audio files found
+2025-08-19 21:06:16,500 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:06:16,504 - INFO - Found 1 new audio files
+2025-08-19 21:06:16,504 - INFO - Processing audio file: recording-1755617773.40.ulaw
+2025-08-19 21:06:16,504 - INFO - Processing recording: recording-1755617773.40.ulaw
+2025-08-19 21:06:16,701 - INFO - Converted recording-1755617773.40.ulaw to WAV format
+2025-08-19 21:06:16,701 - INFO - Transcribing audio with AssemblyAI: recording-1755617773.40.wav
+2025-08-19 21:06:16,701 - INFO - Audio file size: 0.00 MB
+2025-08-19 21:06:18,468 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 422 Unprocessable Entity"
+2025-08-19 21:06:18,471 - ERROR - Error transcribing recording-1755617773.40.wav: Failed to upload audio file: 
+Reason: Upload failed, please try again. If you continue to have issues please reach out to support@assemblyai.com
+
+Request: <Request('POST', 'https://api.assemblyai.com/v2/upload')>
+2025-08-19 21:06:18,471 - WARNING - No transcript generated for recording-1755617773.40.ulaw
+2025-08-19 21:06:18,472 - ERROR - Failed to process recording-1755617773.40.ulaw: No transcript generated
+2025-08-19 21:06:18,475 - INFO - Successfully processed 0 files
+2025-08-19 21:06:48,482 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:06:48,483 - INFO - Found 1 new audio files
+2025-08-19 21:06:48,483 - INFO - Processing audio file: recording-1755617773.40.ulaw
+2025-08-19 21:06:48,485 - INFO - Processing recording: recording-1755617773.40.ulaw
+2025-08-19 21:06:48,700 - INFO - Converted recording-1755617773.40.ulaw to WAV format
+2025-08-19 21:06:48,701 - INFO - Transcribing audio with AssemblyAI: recording-1755617773.40.wav
+2025-08-19 21:06:48,701 - INFO - Audio file size: 0.10 MB
+2025-08-19 21:06:52,552 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-19 21:06:52,956 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-19 21:06:53,301 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/1d7f0fd7-d187-47b4-9cfc-e971946117b6 "HTTP/1.1 200 OK"
+2025-08-19 21:06:56,741 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/1d7f0fd7-d187-47b4-9cfc-e971946117b6 "HTTP/1.1 200 OK"
+2025-08-19 21:07:00,226 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/1d7f0fd7-d187-47b4-9cfc-e971946117b6 "HTTP/1.1 200 OK"
+2025-08-19 21:07:03,807 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/1d7f0fd7-d187-47b4-9cfc-e971946117b6 "HTTP/1.1 200 OK"
+2025-08-19 21:07:07,290 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/1d7f0fd7-d187-47b4-9cfc-e971946117b6 "HTTP/1.1 200 OK"
+2025-08-19 21:07:07,293 - INFO - AssemblyAI transcript status: TranscriptStatus.completed
+2025-08-19 21:07:07,293 - INFO - AssemblyAI transcript ID: 1d7f0fd7-d187-47b4-9cfc-e971946117b6
+2025-08-19 21:07:07,293 - INFO - Audio duration detected: 0.00 seconds
+2025-08-19 21:07:07,293 - INFO - Overall confidence: 0.20200239
+2025-08-19 21:07:07,294 - INFO - Raw transcript text: 'पंक्या ediyorum पाकेतश़्ाWorking.'
+2025-08-19 21:07:07,295 - INFO - Transcript text length: 33
+2025-08-19 21:07:07,537 - INFO - Language detected using langdetect: hi
+2025-08-19 21:07:07,538 - INFO - Transcription completed. Text: 'पंक्या ediyorum पाकेतश़्ाWorking....' Language: hi, Confidence: 0.20200239
+2025-08-19 21:07:07,538 - INFO - Detected 1 speakers
+2025-08-19 21:07:07,538 - INFO - Translating 1 chunks from hi to en
+2025-08-19 21:07:08,597 - INFO - Translation successful using free_google
+2025-08-19 21:07:08,598 - INFO - Successfully processed recording-1755617773.40.ulaw
+2025-08-19 21:07:08,598 - INFO - Successfully processed recording-1755617773.40.ulaw
+2025-08-19 21:07:08,598 - INFO - Transcript preview (hi): पंक्या ediyorum पाकेतश़्ाWorking....
+2025-08-19 21:07:08,599 - INFO - Successfully processed 1 files
+2025-08-19 21:07:08,599 - INFO - Stats: {'total_processed': 146, 'files_in_monitor': 1, 'transcript_files': 1, 'timestamp': '2025-08-19 21:07:08'}
+2025-08-19 21:07:38,604 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:07:38,605 - INFO - Found 1 new audio files
+2025-08-19 21:07:38,605 - INFO - Processing audio file: recording-1755617847.42.ulaw
+2025-08-19 21:07:38,606 - INFO - Processing recording: recording-1755617847.42.ulaw
+2025-08-19 21:07:41,820 - INFO - Converted recording-1755617847.42.ulaw to WAV format
+2025-08-19 21:07:41,821 - INFO - Transcribing audio with AssemblyAI: recording-1755617847.42.wav
+2025-08-19 21:07:41,821 - INFO - Audio file size: 0.25 MB
+2025-08-19 21:07:45,577 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-19 21:07:45,985 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-19 21:07:46,344 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/f2317aa7-f238-4629-a984-aebc112d5b19 "HTTP/1.1 200 OK"
+2025-08-19 21:07:49,727 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/f2317aa7-f238-4629-a984-aebc112d5b19 "HTTP/1.1 200 OK"
+2025-08-19 21:07:53,236 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/f2317aa7-f238-4629-a984-aebc112d5b19 "HTTP/1.1 200 OK"
+2025-08-19 21:07:56,645 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/f2317aa7-f238-4629-a984-aebc112d5b19 "HTTP/1.1 200 OK"
+2025-08-19 21:08:00,128 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/f2317aa7-f238-4629-a984-aebc112d5b19 "HTTP/1.1 200 OK"
+2025-08-19 21:08:03,709 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/f2317aa7-f238-4629-a984-aebc112d5b19 "HTTP/1.1 200 OK"
+2025-08-19 21:08:07,193 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/f2317aa7-f238-4629-a984-aebc112d5b19 "HTTP/1.1 200 OK"
+2025-08-19 21:08:07,196 - INFO - AssemblyAI transcript status: TranscriptStatus.completed
+2025-08-19 21:08:07,197 - INFO - AssemblyAI transcript ID: f2317aa7-f238-4629-a984-aebc112d5b19
+2025-08-19 21:08:07,197 - INFO - Audio duration detected: 0.01 seconds
+2025-08-19 21:08:07,197 - INFO - Overall confidence: 0.24620107
+2025-08-19 21:08:07,197 - INFO - Raw transcript text: 'मैं पश्खर. स्ता takeaway favor the Leon. 9876001234, oven 98 compliant pin number 175 pink right.'
+2025-08-19 21:08:07,197 - INFO - Transcript text length: 97
+2025-08-19 21:08:07,210 - INFO - Language detected using langdetect: en
+2025-08-19 21:08:07,211 - INFO - Transcription completed. Text: 'मैं पश्खर. स्ता takeaway favor the Leon. 9876001234, oven 98 compliant pin number 175 pink right....' Language: en, Confidence: 0.24620107
+2025-08-19 21:08:07,211 - INFO - Detected 2 speakers
+2025-08-19 21:08:07,213 - INFO - Successfully processed recording-1755617847.42.ulaw
+2025-08-19 21:08:07,213 - INFO - Successfully processed recording-1755617847.42.ulaw
+2025-08-19 21:08:07,213 - INFO - Transcript preview (en): मैं पश्खर. स्ता takeaway favor the Leon. 9876001234, oven 98 compliant pin number 175 pink right....
+2025-08-19 21:08:07,214 - INFO - Successfully processed 1 files
+2025-08-19 21:08:07,215 - INFO - Stats: {'total_processed': 147, 'files_in_monitor': 1, 'transcript_files': 1, 'timestamp': '2025-08-19 21:08:07'}
+2025-08-19 21:08:20,042 - INFO - Monitoring stopped by user
+2025-08-19 21:08:23,733 - INFO - Configuration loaded: {'translation_enabled': True, 'target_language': 'en', 'audio_formats': ['.ulaw', '.wav', '.gsm', '.mp3'], 'monitoring_directories': ['/Users/apple/Desktop/asterisk/monitor', '/Users/apple/Desktop/asterisk/recordings/raw'], 'processing_delay': 2}
+2025-08-19 21:08:23,733 - INFO - Setting up AssemblyAI and Google Cloud APIs
+2025-08-19 21:08:23,733 - INFO - Using AssemblyAI speech model: latest_long
+2025-08-19 21:08:23,733 - INFO - Auto language detection: True
+2025-08-19 21:08:23,733 - INFO - TTS voice quality: neural2
+2025-08-19 21:08:23,733 - INFO - Translation services preference: ['free_google', 'mymemory', 'libretranslate', 'google_cloud', 'pons']
+2025-08-19 21:08:23,733 - INFO - ✅ deep-translator library available - free translation services enabled
+2025-08-19 21:08:23,733 - INFO - AssemblyAI API key configured
+2025-08-19 21:08:23,807 - INFO - Using Google Cloud API key authentication
+2025-08-19 21:08:23,858 - INFO - Google Cloud Translation and TTS initialized successfully
+2025-08-19 21:08:23,858 - INFO - AssemblyAI and Google Cloud APIs initialized successfully
+2025-08-19 21:08:23,858 - INFO - Recording processor initialized successfully
+2025-08-19 21:08:23,858 - INFO - Audio Fetcher and Processor initialized
+2025-08-19 21:08:23,858 - INFO - Monitor directory: /Users/apple/Desktop/asterisk/monitor
+2025-08-19 21:08:23,858 - INFO - Transcripts directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-19 21:08:23,858 - INFO - Starting continuous monitoring of /Users/apple/Desktop/asterisk/monitor (interval: 30s)
+2025-08-19 21:08:23,858 - INFO - Press Ctrl+C to stop
+2025-08-19 21:08:23,858 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:08:23,858 - INFO - No new audio files found
+2025-08-19 21:08:53,863 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:08:53,864 - INFO - No new audio files found
+2025-08-19 21:09:23,870 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:09:23,872 - INFO - No new audio files found
+2025-08-19 21:09:53,876 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:09:53,878 - INFO - No new audio files found
+2025-08-19 21:10:23,883 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:10:23,886 - INFO - Found 1 new audio files
+2025-08-19 21:10:23,886 - INFO - Processing audio file: recording-1755617995.46.ulaw
+2025-08-19 21:10:23,886 - INFO - Processing recording: recording-1755617995.46.ulaw
+2025-08-19 21:10:24,089 - INFO - Converted recording-1755617995.46.ulaw to WAV format
+2025-08-19 21:10:24,089 - INFO - Transcribing audio with AssemblyAI: recording-1755617995.46.wav
+2025-08-19 21:10:24,089 - INFO - Audio file size: 0.75 MB
+2025-08-19 21:10:37,391 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-19 21:10:37,751 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-19 21:10:38,081 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/e612f540-d13f-410c-905d-7970504b8f2b "HTTP/1.1 200 OK"
+2025-08-19 21:10:41,465 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/e612f540-d13f-410c-905d-7970504b8f2b "HTTP/1.1 200 OK"
+2025-08-19 21:10:44,902 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/e612f540-d13f-410c-905d-7970504b8f2b "HTTP/1.1 200 OK"
+2025-08-19 21:10:48,469 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/e612f540-d13f-410c-905d-7970504b8f2b "HTTP/1.1 200 OK"
+2025-08-19 21:10:51,813 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/e612f540-d13f-410c-905d-7970504b8f2b "HTTP/1.1 200 OK"
+2025-08-19 21:10:55,255 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/e612f540-d13f-410c-905d-7970504b8f2b "HTTP/1.1 200 OK"
+2025-08-19 21:10:58,710 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/e612f540-d13f-410c-905d-7970504b8f2b "HTTP/1.1 200 OK"
+2025-08-19 21:11:02,294 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/e612f540-d13f-410c-905d-7970504b8f2b "HTTP/1.1 200 OK"
+2025-08-19 21:11:05,776 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/e612f540-d13f-410c-905d-7970504b8f2b "HTTP/1.1 200 OK"
+2025-08-19 21:11:09,258 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/e612f540-d13f-410c-905d-7970504b8f2b "HTTP/1.1 200 OK"
+2025-08-19 21:11:12,738 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/e612f540-d13f-410c-905d-7970504b8f2b "HTTP/1.1 200 OK"
+2025-08-19 21:11:16,323 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/e612f540-d13f-410c-905d-7970504b8f2b "HTTP/1.1 200 OK"
+2025-08-19 21:11:16,850 - INFO - AssemblyAI transcript status: TranscriptStatus.completed
+2025-08-19 21:11:16,851 - INFO - AssemblyAI transcript ID: e612f540-d13f-410c-905d-7970504b8f2b
+2025-08-19 21:11:16,851 - INFO - Audio duration detected: 0.03 seconds
+2025-08-19 21:11:16,851 - INFO - Overall confidence: 0.75507843
+2025-08-19 21:11:16,851 - INFO - Raw transcript text: 'मैं पंकर स्थाको रूू। औन. नमबर 9876001234 पिंकोड175001 अपको में यह नुमती है कुलजमीं 0. .8 ौक्टेर. रभी में 0. .6 ौक्टेर की खेटी कर राहू। मिट्ती दोमत. है खर्षापर आदरिट खेटी गाडन्वाटा. लगाने यह योजना है.'
+2025-08-19 21:11:16,851 - INFO - Transcript text length: 199
+2025-08-19 21:11:17,066 - INFO - Language detected using langdetect: hi
+2025-08-19 21:11:17,066 - INFO - Transcription completed. Text: 'मैं पंकर स्थाको रूू। औन. नमबर 9876001234 पिंकोड175001 अपको में यह नुमती है कुलजमीं 0. .8 ौक्टेर. रभी...' Language: hi, Confidence: 0.75507843
+2025-08-19 21:11:17,066 - INFO - Detected 2 speakers
+2025-08-19 21:11:17,066 - INFO - Translating 1 chunks from hi to en
+2025-08-19 21:11:18,355 - INFO - Translation successful using free_google
+2025-08-19 21:11:18,357 - INFO - Successfully processed recording-1755617995.46.ulaw
+2025-08-19 21:11:18,357 - INFO - Successfully processed recording-1755617995.46.ulaw
+2025-08-19 21:11:18,357 - INFO - Transcript preview (hi): मैं पंकर स्थाको रूू। औन. नमबर 9876001234 पिंकोड175001 अपको में यह नुमती है कुलजमीं 0. .8 ौक्टेर. रभी...
+2025-08-19 21:11:18,361 - INFO - Successfully processed 1 files
+2025-08-19 21:11:18,361 - INFO - Stats: {'total_processed': 148, 'files_in_monitor': 1, 'transcript_files': 1, 'timestamp': '2025-08-19 21:11:18'}
+2025-08-19 21:11:48,366 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:11:48,369 - INFO - No new audio files found
+2025-08-19 21:12:18,379 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:12:18,385 - INFO - No new audio files found
+2025-08-19 21:12:48,389 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:12:48,392 - INFO - No new audio files found
+2025-08-19 21:13:18,393 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:13:18,397 - INFO - No new audio files found
+2025-08-19 21:13:48,412 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:13:48,437 - INFO - No new audio files found
+2025-08-19 21:14:18,605 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:14:18,612 - INFO - No new audio files found
+2025-08-19 21:14:48,616 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:14:48,619 - INFO - No new audio files found
+2025-08-19 21:15:18,623 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:15:18,626 - INFO - No new audio files found
+2025-08-19 21:15:48,631 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:15:48,636 - INFO - No new audio files found
+2025-08-19 21:16:18,643 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:16:18,647 - INFO - No new audio files found
+2025-08-19 21:16:48,657 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:16:48,663 - INFO - No new audio files found
+2025-08-19 21:17:18,676 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:17:18,684 - INFO - No new audio files found
+2025-08-19 21:17:48,697 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:17:48,705 - INFO - No new audio files found
+2025-08-19 21:18:18,713 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:18:18,717 - INFO - No new audio files found
+2025-08-19 21:18:48,724 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:18:48,727 - INFO - No new audio files found
+2025-08-19 21:19:18,731 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:19:18,733 - INFO - No new audio files found
+2025-08-19 21:19:48,736 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:19:48,739 - INFO - No new audio files found
+2025-08-19 21:20:18,744 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:20:18,746 - INFO - No new audio files found
+2025-08-19 21:20:48,752 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:20:48,755 - INFO - No new audio files found
+2025-08-19 21:21:18,757 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:21:18,762 - INFO - No new audio files found
+2025-08-19 21:21:48,768 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:21:48,773 - INFO - No new audio files found
+2025-08-19 21:22:18,781 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:22:18,787 - INFO - No new audio files found
+2025-08-19 21:22:48,797 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:22:48,809 - INFO - No new audio files found
+2025-08-19 21:23:18,814 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:23:18,817 - INFO - No new audio files found
+2025-08-19 21:23:48,822 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:23:48,832 - INFO - No new audio files found
+2025-08-19 21:24:18,837 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:24:18,841 - INFO - No new audio files found
+2025-08-19 21:24:48,853 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:24:48,861 - INFO - No new audio files found
+2025-08-19 21:25:18,932 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:25:18,980 - INFO - No new audio files found
+2025-08-19 21:25:49,029 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:25:49,041 - INFO - No new audio files found
+2025-08-19 21:26:19,240 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:26:19,258 - INFO - No new audio files found
+2025-08-19 21:26:49,282 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:26:49,294 - INFO - No new audio files found
+2025-08-19 21:27:19,306 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:27:19,314 - INFO - No new audio files found
+2025-08-19 21:27:49,335 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:27:49,341 - INFO - No new audio files found
+2025-08-19 21:28:19,348 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:28:19,351 - INFO - No new audio files found
+2025-08-19 21:28:49,359 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:28:49,362 - INFO - No new audio files found
+2025-08-19 21:29:19,366 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:29:19,370 - INFO - No new audio files found
+2025-08-19 21:29:49,370 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:29:49,373 - INFO - No new audio files found
+2025-08-19 21:30:19,375 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:30:19,379 - INFO - No new audio files found
+2025-08-19 21:30:49,383 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:30:49,386 - INFO - No new audio files found
+2025-08-19 21:31:19,389 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:31:19,392 - INFO - No new audio files found
+2025-08-19 21:31:49,396 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:31:49,400 - INFO - No new audio files found
+2025-08-19 21:32:19,403 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:32:19,406 - INFO - No new audio files found
+2025-08-19 21:32:49,415 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:32:49,429 - INFO - No new audio files found
+2025-08-19 21:33:19,456 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:33:19,469 - INFO - No new audio files found
+2025-08-19 21:33:49,488 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:33:49,499 - INFO - No new audio files found
+2025-08-19 21:34:19,513 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:34:19,520 - INFO - No new audio files found
+2025-08-19 21:34:49,534 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:34:49,546 - INFO - No new audio files found
+2025-08-19 21:35:19,559 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:35:19,565 - INFO - No new audio files found
+2025-08-19 21:35:49,577 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:35:49,589 - INFO - No new audio files found
+2025-08-19 21:36:19,602 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:36:19,608 - INFO - No new audio files found
+2025-08-19 21:36:48,880 - INFO - Monitoring stopped by user
+2025-08-19 21:36:50,822 - INFO - Configuration loaded: {'translation_enabled': True, 'target_language': 'en', 'audio_formats': ['.ulaw', '.wav', '.gsm', '.mp3'], 'monitoring_directories': ['/Users/apple/Desktop/asterisk/monitor', '/Users/apple/Desktop/asterisk/recordings/raw'], 'processing_delay': 2}
+2025-08-19 21:36:50,822 - INFO - Setting up AssemblyAI and Google Cloud APIs
+2025-08-19 21:36:50,822 - INFO - Using AssemblyAI speech model: latest_long
+2025-08-19 21:36:50,822 - INFO - Auto language detection: True
+2025-08-19 21:36:50,822 - INFO - TTS voice quality: neural2
+2025-08-19 21:36:50,822 - INFO - Translation services preference: ['free_google', 'mymemory', 'libretranslate', 'google_cloud', 'pons']
+2025-08-19 21:36:50,822 - INFO - ✅ deep-translator library available - free translation services enabled
+2025-08-19 21:36:50,822 - INFO - AssemblyAI API key configured
+2025-08-19 21:36:50,899 - INFO - Using Google Cloud API key authentication
+2025-08-19 21:36:50,954 - INFO - Google Cloud Translation and TTS initialized successfully
+2025-08-19 21:36:50,954 - INFO - AssemblyAI and Google Cloud APIs initialized successfully
+2025-08-19 21:36:50,954 - INFO - Recording processor initialized successfully
+2025-08-19 21:36:50,954 - INFO - Audio Fetcher and Processor initialized
+2025-08-19 21:36:50,954 - INFO - Monitor directory: /Users/apple/Desktop/asterisk/monitor
+2025-08-19 21:36:50,954 - INFO - Transcripts directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-19 21:36:50,954 - INFO - Starting continuous monitoring of /Users/apple/Desktop/asterisk/monitor (interval: 30s)
+2025-08-19 21:36:50,954 - INFO - Press Ctrl+C to stop
+2025-08-19 21:36:50,954 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:36:50,954 - INFO - No new audio files found
+2025-08-19 21:37:20,982 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:37:20,996 - INFO - No new audio files found
+2025-08-19 21:37:51,006 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:37:51,008 - INFO - No new audio files found
+2025-08-19 21:38:21,021 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:38:21,028 - INFO - No new audio files found
+2025-08-19 21:38:51,037 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:38:51,039 - INFO - No new audio files found
+2025-08-19 21:39:21,045 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:39:21,055 - INFO - Found 1 new audio files
+2025-08-19 21:39:21,055 - INFO - Processing audio file: recording-1755619750.2.ulaw
+2025-08-19 21:39:21,056 - INFO - Checking file readiness: recording-1755619750.2.ulaw
+2025-08-19 21:39:25,072 - INFO - File recording-1755619750.2.ulaw size changed: 65600 -> 98400 bytes
+2025-08-19 21:39:29,082 - INFO - File recording-1755619750.2.ulaw size changed: 98400 -> 131200 bytes
+2025-08-19 21:39:33,096 - INFO - File recording-1755619750.2.ulaw size changed: 131200 -> 164000 bytes
+2025-08-19 21:39:38,112 - INFO - File recording-1755619750.2.ulaw size changed: 164000 -> 196800 bytes
+2025-08-19 21:39:42,126 - INFO - File recording-1755619750.2.ulaw size changed: 196800 -> 229600 bytes
+2025-08-19 21:39:46,139 - INFO - File recording-1755619750.2.ulaw size changed: 229600 -> 262400 bytes
+2025-08-19 21:39:50,152 - INFO - File recording-1755619750.2.ulaw size changed: 262400 -> 295200 bytes
+2025-08-19 21:39:54,165 - INFO - File recording-1755619750.2.ulaw size changed: 295200 -> 328000 bytes
+2025-08-19 21:39:57,176 - INFO - File recording-1755619750.2.ulaw size changed: 328000 -> 352960 bytes
+2025-08-19 21:40:02,188 - INFO - File recording-1755619750.2.ulaw is stable (352960 bytes) after 41s
+2025-08-19 21:40:02,189 - INFO - Processing recording: recording-1755619750.2.ulaw
+2025-08-19 21:40:02,190 - INFO - Checking file readiness: recording-1755619750.2.ulaw
+2025-08-19 21:40:07,206 - INFO - File recording-1755619750.2.ulaw is stable (352960 bytes) after 5s
+2025-08-19 21:40:07,531 - INFO - Converted recording-1755619750.2.ulaw to WAV format
+2025-08-19 21:40:07,532 - INFO - Transcribing audio with AssemblyAI: recording-1755619750.2.wav
+2025-08-19 21:40:07,533 - INFO - Audio file size: 1.35 MB
+2025-08-19 21:40:33,564 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/upload "HTTP/1.1 200 OK"
+2025-08-19 21:40:34,081 - INFO - HTTP Request: POST https://api.assemblyai.com/v2/transcript "HTTP/1.1 200 OK"
+2025-08-19 21:40:34,693 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/00a798bb-0c99-4026-a6e5-d5fd3112f2f2 "HTTP/1.1 200 OK"
+2025-08-19 21:40:38,265 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/00a798bb-0c99-4026-a6e5-d5fd3112f2f2 "HTTP/1.1 200 OK"
+2025-08-19 21:40:42,583 - INFO - HTTP Request: GET https://api.assemblyai.com/v2/transcript/00a798bb-0c99-4026-a6e5-d5fd3112f2f2 "HTTP/1.1 200 OK"
+2025-08-19 21:40:42,592 - INFO - AssemblyAI transcript status: TranscriptStatus.completed
+2025-08-19 21:40:42,592 - INFO - AssemblyAI transcript ID: 00a798bb-0c99-4026-a6e5-d5fd3112f2f2
+2025-08-19 21:40:42,593 - INFO - Audio duration detected: 0.04 seconds
+2025-08-19 21:40:42,593 - INFO - Overall confidence: 0.7614321
+2025-08-19 21:40:42,593 - INFO - Raw transcript text: 'अपको. मेरी अनुमती है. कुल्दमीं 0. .8 Hectare. रभी में 0. .6 Hectare की केती कर रहा हूँ. मिट्टी. दोमत है वर्शापर अदारित केती. गाडर. मटर रगाने की. योजना है किस्म AP3. बोवाई. 15 अक्तोवर 2025 को. पसल जनवरी. के अंतक तेयार होगी मेरे पास 40. दार रुपे नकद. हैं दरूवस परने पर 20 दार रुपे कजले सकता हूँ मैं. भीमा में शामिल. नहीं हूँ सबते नस्टीक. की मन्टी, मन्टी. शहर तुजी. साबताएक मारदल्शन. शाम को पसन्द है मजैवि खेति की और जाने में रुची रखता हूँ मजैवि खेति की और जाने में रुची रखता हूँ.'
+2025-08-19 21:40:42,593 - INFO - Transcript text length: 477
+2025-08-19 21:40:42,841 - INFO - Language detected using langdetect: hi
+2025-08-19 21:40:42,841 - INFO - Transcription completed. Text: 'अपको. मेरी अनुमती है. कुल्दमीं 0. .8 Hectare. रभी में 0. .6 Hectare की केती कर रहा हूँ. मिट्टी. दोमत...' Language: hi, Confidence: 0.7614321
+2025-08-19 21:40:42,841 - INFO - Detected 2 speakers
+2025-08-19 21:40:42,841 - INFO - Translating 1 chunks from hi to en
+2025-08-19 21:40:44,142 - INFO - Translation successful using free_google
+2025-08-19 21:40:44,146 - INFO - Successfully processed recording-1755619750.2.ulaw
+2025-08-19 21:40:44,146 - INFO - Successfully processed recording-1755619750.2.ulaw
+2025-08-19 21:40:44,147 - INFO - Transcript preview (hi): अपको. मेरी अनुमती है. कुल्दमीं 0. .8 Hectare. रभी में 0. .6 Hectare की केती कर रहा हूँ. मिट्टी. दोमत...
+2025-08-19 21:40:44,148 - INFO - Successfully processed 1 files
+2025-08-19 21:40:44,149 - INFO - Stats: {'total_processed': 149, 'files_in_monitor': 1, 'transcript_files': 1, 'timestamp': '2025-08-19 21:40:44'}
+2025-08-19 21:41:14,154 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:41:14,159 - INFO - No new audio files found
+2025-08-19 21:41:44,163 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:41:44,166 - INFO - No new audio files found
+2025-08-19 21:42:14,172 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:42:14,177 - INFO - No new audio files found
+2025-08-19 21:42:44,180 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:42:44,184 - INFO - No new audio files found
+2025-08-19 21:43:14,190 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:43:14,194 - INFO - No new audio files found
+2025-08-19 21:43:44,200 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:43:44,203 - INFO - No new audio files found
+2025-08-19 21:44:14,207 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:44:14,211 - INFO - No new audio files found
+2025-08-19 21:44:44,216 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:44:44,221 - INFO - No new audio files found
+2025-08-19 21:45:14,223 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:45:14,226 - INFO - No new audio files found
+2025-08-19 21:45:44,231 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:45:44,235 - INFO - No new audio files found
+2025-08-19 21:46:14,241 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:46:14,246 - INFO - No new audio files found
+2025-08-19 21:46:44,252 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:46:44,256 - INFO - No new audio files found
+2025-08-19 21:47:14,262 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:47:14,263 - INFO - No new audio files found
+2025-08-19 21:47:44,268 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:47:44,273 - INFO - No new audio files found
+2025-08-19 21:48:14,275 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:48:14,278 - INFO - No new audio files found
+2025-08-19 21:48:44,283 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:48:44,286 - INFO - No new audio files found
+2025-08-19 21:49:14,290 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:49:14,292 - INFO - No new audio files found
+2025-08-19 21:49:30,116 - INFO - Monitoring stopped by user
+2025-08-19 21:49:31,989 - INFO - Configuration loaded: {'translation_enabled': True, 'target_language': 'en', 'audio_formats': ['.ulaw', '.wav', '.gsm', '.mp3'], 'monitoring_directories': ['/Users/apple/Desktop/asterisk/monitor', '/Users/apple/Desktop/asterisk/recordings/raw'], 'processing_delay': 2}
+2025-08-19 21:49:31,989 - INFO - Setting up Google Cloud Speech-to-Text, Translation, and TTS APIs
+2025-08-19 21:49:31,989 - INFO - Using Google Cloud Speech model: latest_long
+2025-08-19 21:49:31,990 - INFO - Primary language: hi-IN
+2025-08-19 21:49:31,990 - INFO - Auto language detection: True
+2025-08-19 21:49:31,990 - INFO - TTS voice quality: neural2
+2025-08-19 21:49:31,990 - INFO - Translation services preference: ['free_google', 'mymemory', 'libretranslate', 'google_cloud', 'pons']
+2025-08-19 21:49:31,990 - INFO - ✅ deep-translator library available - free translation services enabled
+2025-08-19 21:49:31,990 - INFO - Using Google Cloud API key authentication
+2025-08-19 21:49:32,037 - INFO - Google Cloud Speech-to-Text, Translation and TTS initialized successfully
+2025-08-19 21:49:32,037 - ERROR - Failed to initialize Google Cloud APIs: Unknown field for RecognitionConfig: enable_speaker_diarization
+2025-08-19 21:49:32,042 - INFO - Recording processor initialized successfully
+2025-08-19 21:49:32,042 - INFO - Audio Fetcher and Processor initialized
+2025-08-19 21:49:32,042 - INFO - Monitor directory: /Users/apple/Desktop/asterisk/monitor
+2025-08-19 21:49:32,042 - INFO - Transcripts directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-19 21:49:32,043 - INFO - Starting continuous monitoring of /Users/apple/Desktop/asterisk/monitor (interval: 30s)
+2025-08-19 21:49:32,043 - INFO - Press Ctrl+C to stop
+2025-08-19 21:49:32,043 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:49:32,043 - INFO - No new audio files found
+2025-08-19 21:49:36,603 - INFO - Monitoring stopped by user
+2025-08-19 21:49:37,878 - INFO - Configuration loaded: {'translation_enabled': True, 'target_language': 'en', 'audio_formats': ['.ulaw', '.wav', '.gsm', '.mp3'], 'monitoring_directories': ['/Users/apple/Desktop/asterisk/monitor', '/Users/apple/Desktop/asterisk/recordings/raw'], 'processing_delay': 2}
+2025-08-19 21:49:37,878 - INFO - Setting up Google Cloud Speech-to-Text, Translation, and TTS APIs
+2025-08-19 21:49:37,878 - INFO - Using Google Cloud Speech model: latest_long
+2025-08-19 21:49:37,878 - INFO - Primary language: hi-IN
+2025-08-19 21:49:37,878 - INFO - Auto language detection: True
+2025-08-19 21:49:37,878 - INFO - TTS voice quality: neural2
+2025-08-19 21:49:37,878 - INFO - Translation services preference: ['free_google', 'mymemory', 'libretranslate', 'google_cloud', 'pons']
+2025-08-19 21:49:37,878 - INFO - ✅ deep-translator library available - free translation services enabled
+2025-08-19 21:49:37,878 - INFO - Using Google Cloud API key authentication
+2025-08-19 21:49:37,900 - INFO - Google Cloud Speech-to-Text, Translation and TTS initialized successfully
+2025-08-19 21:49:37,900 - ERROR - Failed to initialize Google Cloud APIs: Unknown field for RecognitionConfig: enable_speaker_diarization
+2025-08-19 21:49:37,904 - INFO - Recording processor initialized successfully
+2025-08-19 21:49:37,904 - INFO - Audio Fetcher and Processor initialized
+2025-08-19 21:49:37,904 - INFO - Monitor directory: /Users/apple/Desktop/asterisk/monitor
+2025-08-19 21:49:37,904 - INFO - Transcripts directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-19 21:49:37,904 - INFO - Starting continuous monitoring of /Users/apple/Desktop/asterisk/monitor (interval: 30s)
+2025-08-19 21:49:37,904 - INFO - Press Ctrl+C to stop
+2025-08-19 21:49:37,904 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:49:37,904 - INFO - No new audio files found
+2025-08-19 21:49:42,983 - INFO - Monitoring stopped by user
+2025-08-19 21:49:55,225 - INFO - Configuration loaded: {'translation_enabled': True, 'target_language': 'en', 'audio_formats': ['.ulaw', '.wav', '.gsm', '.mp3'], 'monitoring_directories': ['/Users/apple/Desktop/asterisk/monitor', '/Users/apple/Desktop/asterisk/recordings/raw'], 'processing_delay': 2}
+2025-08-19 21:49:55,225 - INFO - Setting up Google Cloud Speech-to-Text, Translation, and TTS APIs
+2025-08-19 21:49:55,225 - INFO - Using Google Cloud Speech model: latest_long
+2025-08-19 21:49:55,225 - INFO - Primary language: hi-IN
+2025-08-19 21:49:55,225 - INFO - Auto language detection: True
+2025-08-19 21:49:55,225 - INFO - TTS voice quality: neural2
+2025-08-19 21:49:55,225 - INFO - Translation services preference: ['free_google', 'mymemory', 'libretranslate', 'google_cloud', 'pons']
+2025-08-19 21:49:55,225 - INFO - ✅ deep-translator library available - free translation services enabled
+2025-08-19 21:49:55,225 - INFO - Using Google Cloud API key authentication
+2025-08-19 21:49:55,260 - INFO - Google Cloud Speech-to-Text, Translation and TTS initialized successfully
+2025-08-19 21:49:55,261 - ERROR - Failed to initialize Google Cloud APIs: Unknown field for RecognitionConfig: enable_speaker_diarization
+2025-08-19 21:49:55,263 - INFO - Recording processor initialized successfully
+2025-08-19 21:49:55,263 - INFO - Audio Fetcher and Processor initialized
+2025-08-19 21:49:55,263 - INFO - Monitor directory: /Users/apple/Desktop/asterisk/monitor
+2025-08-19 21:49:55,263 - INFO - Transcripts directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-19 21:49:55,263 - INFO - Starting continuous monitoring of /Users/apple/Desktop/asterisk/monitor (interval: 30s)
+2025-08-19 21:49:55,263 - INFO - Press Ctrl+C to stop
+2025-08-19 21:49:55,263 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:49:55,263 - INFO - No new audio files found
+2025-08-19 21:50:04,140 - INFO - Monitoring stopped by user
+2025-08-19 21:50:05,358 - INFO - Configuration loaded: {'translation_enabled': True, 'target_language': 'en', 'audio_formats': ['.ulaw', '.wav', '.gsm', '.mp3'], 'monitoring_directories': ['/Users/apple/Desktop/asterisk/monitor', '/Users/apple/Desktop/asterisk/recordings/raw'], 'processing_delay': 2}
+2025-08-19 21:50:05,358 - INFO - Setting up Google Cloud Speech-to-Text, Translation, and TTS APIs
+2025-08-19 21:50:05,358 - INFO - Using Google Cloud Speech model: latest_long
+2025-08-19 21:50:05,358 - INFO - Primary language: hi-IN
+2025-08-19 21:50:05,358 - INFO - Auto language detection: True
+2025-08-19 21:50:05,358 - INFO - TTS voice quality: neural2
+2025-08-19 21:50:05,358 - INFO - Translation services preference: ['free_google', 'mymemory', 'libretranslate', 'google_cloud', 'pons']
+2025-08-19 21:50:05,358 - INFO - ✅ deep-translator library available - free translation services enabled
+2025-08-19 21:50:05,358 - INFO - Using Google Cloud API key authentication
+2025-08-19 21:50:05,378 - INFO - Google Cloud Speech-to-Text, Translation and TTS initialized successfully
+2025-08-19 21:50:05,379 - ERROR - Failed to initialize Google Cloud APIs: Unknown field for RecognitionConfig: enable_speaker_diarization
+2025-08-19 21:50:05,381 - INFO - Recording processor initialized successfully
+2025-08-19 21:50:05,381 - INFO - Audio Fetcher and Processor initialized
+2025-08-19 21:50:05,381 - INFO - Monitor directory: /Users/apple/Desktop/asterisk/monitor
+2025-08-19 21:50:05,381 - INFO - Transcripts directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-19 21:50:05,381 - INFO - Starting continuous monitoring of /Users/apple/Desktop/asterisk/monitor (interval: 30s)
+2025-08-19 21:50:05,381 - INFO - Press Ctrl+C to stop
+2025-08-19 21:50:05,381 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:50:05,381 - INFO - No new audio files found
+2025-08-19 21:50:18,611 - INFO - Monitoring stopped by user
+2025-08-19 21:50:19,797 - INFO - Configuration loaded: {'translation_enabled': True, 'target_language': 'en', 'audio_formats': ['.ulaw', '.wav', '.gsm', '.mp3'], 'monitoring_directories': ['/Users/apple/Desktop/asterisk/monitor', '/Users/apple/Desktop/asterisk/recordings/raw'], 'processing_delay': 2}
+2025-08-19 21:50:19,797 - INFO - Setting up Google Cloud Speech-to-Text, Translation, and TTS APIs
+2025-08-19 21:50:19,797 - INFO - Using Google Cloud Speech model: latest_long
+2025-08-19 21:50:19,797 - INFO - Primary language: hi-IN
+2025-08-19 21:50:19,797 - INFO - Auto language detection: True
+2025-08-19 21:50:19,797 - INFO - TTS voice quality: neural2
+2025-08-19 21:50:19,797 - INFO - Translation services preference: ['free_google', 'mymemory', 'libretranslate', 'google_cloud', 'pons']
+2025-08-19 21:50:19,797 - INFO - ✅ deep-translator library available - free translation services enabled
+2025-08-19 21:50:19,797 - INFO - Using Google Cloud API key authentication
+2025-08-19 21:50:19,818 - INFO - Google Cloud Speech-to-Text, Translation and TTS initialized successfully
+2025-08-19 21:50:19,818 - ERROR - Failed to initialize Google Cloud APIs: Unknown field for RecognitionConfig: enable_speaker_diarization
+2025-08-19 21:50:19,820 - INFO - Recording processor initialized successfully
+2025-08-19 21:50:19,820 - INFO - Audio Fetcher and Processor initialized
+2025-08-19 21:50:19,820 - INFO - Monitor directory: /Users/apple/Desktop/asterisk/monitor
+2025-08-19 21:50:19,820 - INFO - Transcripts directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-19 21:50:19,820 - INFO - Starting continuous monitoring of /Users/apple/Desktop/asterisk/monitor (interval: 30s)
+2025-08-19 21:50:19,820 - INFO - Press Ctrl+C to stop
+2025-08-19 21:50:19,820 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:50:19,820 - INFO - No new audio files found
+2025-08-19 21:50:49,826 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:50:49,831 - INFO - No new audio files found
+2025-08-19 21:51:19,833 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:51:19,837 - INFO - Found 1 new audio files
+2025-08-19 21:51:19,837 - INFO - Processing audio file: recording-1755619750.1.ulaw
+2025-08-19 21:51:19,838 - INFO - Checking file readiness: recording-1755619750.1.ulaw
+2025-08-19 21:51:24,851 - INFO - File recording-1755619750.1.ulaw is stable (352960 bytes) after 5s
+2025-08-19 21:51:24,852 - INFO - Processing recording: recording-1755619750.1.ulaw
+2025-08-19 21:51:24,852 - INFO - Checking file readiness: recording-1755619750.1.ulaw
+2025-08-19 21:51:29,869 - INFO - File recording-1755619750.1.ulaw is stable (352960 bytes) after 5s
+2025-08-19 21:51:30,117 - INFO - Converted recording-1755619750.1.ulaw to FLAC format
+2025-08-19 21:51:30,117 - INFO - Transcribing audio with Google Cloud Speech-to-Text: recording-1755619750.1.flac
+2025-08-19 21:51:30,117 - INFO - Audio file size: 0.51 MB
+2025-08-19 21:51:30,229 - INFO - Audio duration: 44.12 seconds
+2025-08-19 21:51:30,230 - INFO - Using synchronous recognition (audio <= 60 seconds)
+2025-08-19 21:51:30,230 - ERROR - Error transcribing recording-1755619750.1.flac: 'RecordingProcessorGoogle' object has no attribute 'speech_config'
+2025-08-19 21:51:30,231 - WARNING - No transcript generated for recording-1755619750.1.ulaw
+2025-08-19 21:51:30,231 - ERROR - Failed to process recording-1755619750.1.ulaw: No transcript generated
+2025-08-19 21:51:30,232 - INFO - Successfully processed 0 files
+2025-08-19 21:52:00,237 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:52:00,238 - INFO - No new audio files found
+2025-08-19 21:52:30,244 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:52:30,247 - INFO - No new audio files found
+2025-08-19 21:53:00,250 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:53:00,253 - INFO - No new audio files found
+2025-08-19 21:53:30,261 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:53:30,266 - INFO - Found 1 new audio files
+2025-08-19 21:53:30,267 - INFO - Processing audio file: recording-1755619750.0.ulaw
+2025-08-19 21:53:30,267 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 21:53:35,287 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 21:53:35,288 - INFO - Processing recording: recording-1755619750.0.ulaw
+2025-08-19 21:53:35,288 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 21:53:40,306 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 21:53:40,535 - INFO - Converted recording-1755619750.0.ulaw to FLAC format
+2025-08-19 21:53:40,535 - INFO - Transcribing audio with Google Cloud Speech-to-Text: recording-1755619750.0.flac
+2025-08-19 21:53:40,535 - INFO - Audio file size: 0.51 MB
+2025-08-19 21:53:40,619 - INFO - Audio duration: 44.12 seconds
+2025-08-19 21:53:40,620 - INFO - Using synchronous recognition (audio <= 60 seconds)
+2025-08-19 21:53:40,620 - ERROR - Error transcribing recording-1755619750.0.flac: 'RecordingProcessorGoogle' object has no attribute 'speech_config'
+2025-08-19 21:53:40,623 - WARNING - No transcript generated for recording-1755619750.0.ulaw
+2025-08-19 21:53:40,623 - ERROR - Failed to process recording-1755619750.0.ulaw: No transcript generated
+2025-08-19 21:53:40,624 - INFO - Successfully processed 0 files
+2025-08-19 21:54:10,630 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:54:10,634 - INFO - Found 1 new audio files
+2025-08-19 21:54:10,634 - INFO - Processing audio file: recording-1755619750.0.ulaw
+2025-08-19 21:54:10,634 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 21:54:15,656 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 21:54:15,657 - INFO - Processing recording: recording-1755619750.0.ulaw
+2025-08-19 21:54:15,657 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 21:54:20,672 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 21:54:20,914 - INFO - Converted recording-1755619750.0.ulaw to FLAC format
+2025-08-19 21:54:20,914 - INFO - Transcribing audio with Google Cloud Speech-to-Text: recording-1755619750.0.flac
+2025-08-19 21:54:20,914 - INFO - Audio file size: 0.51 MB
+2025-08-19 21:54:21,002 - INFO - Audio duration: 44.12 seconds
+2025-08-19 21:54:21,003 - INFO - Using synchronous recognition (audio <= 60 seconds)
+2025-08-19 21:54:21,003 - ERROR - Error transcribing recording-1755619750.0.flac: 'RecordingProcessorGoogle' object has no attribute 'speech_config'
+2025-08-19 21:54:21,005 - WARNING - No transcript generated for recording-1755619750.0.ulaw
+2025-08-19 21:54:21,005 - ERROR - Failed to process recording-1755619750.0.ulaw: No transcript generated
+2025-08-19 21:54:21,006 - INFO - Successfully processed 0 files
+2025-08-19 21:54:51,007 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:54:51,009 - INFO - Found 1 new audio files
+2025-08-19 21:54:51,009 - INFO - Processing audio file: recording-1755619750.0.ulaw
+2025-08-19 21:54:51,009 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 21:54:56,027 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 21:54:56,029 - INFO - Processing recording: recording-1755619750.0.ulaw
+2025-08-19 21:54:56,029 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 21:55:01,044 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 21:55:01,283 - INFO - Converted recording-1755619750.0.ulaw to FLAC format
+2025-08-19 21:55:01,283 - INFO - Transcribing audio with Google Cloud Speech-to-Text: recording-1755619750.0.flac
+2025-08-19 21:55:01,283 - INFO - Audio file size: 0.51 MB
+2025-08-19 21:55:01,366 - INFO - Audio duration: 44.12 seconds
+2025-08-19 21:55:01,367 - INFO - Using synchronous recognition (audio <= 60 seconds)
+2025-08-19 21:55:01,367 - ERROR - Error transcribing recording-1755619750.0.flac: 'RecordingProcessorGoogle' object has no attribute 'speech_config'
+2025-08-19 21:55:01,368 - WARNING - No transcript generated for recording-1755619750.0.ulaw
+2025-08-19 21:55:01,368 - ERROR - Failed to process recording-1755619750.0.ulaw: No transcript generated
+2025-08-19 21:55:01,369 - INFO - Successfully processed 0 files
+2025-08-19 21:55:31,370 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:55:31,373 - INFO - Found 1 new audio files
+2025-08-19 21:55:31,373 - INFO - Processing audio file: recording-1755619750.0.ulaw
+2025-08-19 21:55:31,373 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 21:55:36,397 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 21:55:36,398 - INFO - Processing recording: recording-1755619750.0.ulaw
+2025-08-19 21:55:36,399 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 21:55:41,417 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 21:55:41,641 - INFO - Converted recording-1755619750.0.ulaw to FLAC format
+2025-08-19 21:55:41,642 - INFO - Transcribing audio with Google Cloud Speech-to-Text: recording-1755619750.0.flac
+2025-08-19 21:55:41,642 - INFO - Audio file size: 0.51 MB
+2025-08-19 21:55:41,721 - INFO - Audio duration: 44.12 seconds
+2025-08-19 21:55:41,722 - INFO - Using synchronous recognition (audio <= 60 seconds)
+2025-08-19 21:55:41,722 - ERROR - Error transcribing recording-1755619750.0.flac: 'RecordingProcessorGoogle' object has no attribute 'speech_config'
+2025-08-19 21:55:41,726 - WARNING - No transcript generated for recording-1755619750.0.ulaw
+2025-08-19 21:55:41,726 - ERROR - Failed to process recording-1755619750.0.ulaw: No transcript generated
+2025-08-19 21:55:41,727 - INFO - Successfully processed 0 files
+2025-08-19 21:56:11,730 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:56:11,732 - INFO - Found 1 new audio files
+2025-08-19 21:56:11,732 - INFO - Processing audio file: recording-1755619750.0.ulaw
+2025-08-19 21:56:11,732 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 21:56:16,752 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 21:56:16,753 - INFO - Processing recording: recording-1755619750.0.ulaw
+2025-08-19 21:56:16,753 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 21:56:21,773 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 21:56:25,048 - INFO - Converted recording-1755619750.0.ulaw to FLAC format
+2025-08-19 21:56:25,049 - INFO - Transcribing audio with Google Cloud Speech-to-Text: recording-1755619750.0.flac
+2025-08-19 21:56:25,049 - INFO - Audio file size: 0.51 MB
+2025-08-19 21:56:25,135 - INFO - Audio duration: 44.12 seconds
+2025-08-19 21:56:25,136 - INFO - Using synchronous recognition (audio <= 60 seconds)
+2025-08-19 21:56:25,136 - ERROR - Error transcribing recording-1755619750.0.flac: 'RecordingProcessorGoogle' object has no attribute 'speech_config'
+2025-08-19 21:56:25,139 - WARNING - No transcript generated for recording-1755619750.0.ulaw
+2025-08-19 21:56:25,139 - ERROR - Failed to process recording-1755619750.0.ulaw: No transcript generated
+2025-08-19 21:56:25,140 - INFO - Successfully processed 0 files
+2025-08-19 21:56:55,149 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:56:55,152 - INFO - Found 1 new audio files
+2025-08-19 21:56:55,152 - INFO - Processing audio file: recording-1755619750.0.ulaw
+2025-08-19 21:56:55,152 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 21:57:00,177 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 21:57:00,177 - INFO - Processing recording: recording-1755619750.0.ulaw
+2025-08-19 21:57:00,178 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 21:57:05,197 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 21:57:05,447 - INFO - Converted recording-1755619750.0.ulaw to FLAC format
+2025-08-19 21:57:05,447 - INFO - Transcribing audio with Google Cloud Speech-to-Text: recording-1755619750.0.flac
+2025-08-19 21:57:05,447 - INFO - Audio file size: 0.51 MB
+2025-08-19 21:57:05,540 - INFO - Audio duration: 44.12 seconds
+2025-08-19 21:57:05,541 - INFO - Using synchronous recognition (audio <= 60 seconds)
+2025-08-19 21:57:05,541 - ERROR - Error transcribing recording-1755619750.0.flac: 'RecordingProcessorGoogle' object has no attribute 'speech_config'
+2025-08-19 21:57:05,543 - WARNING - No transcript generated for recording-1755619750.0.ulaw
+2025-08-19 21:57:05,543 - ERROR - Failed to process recording-1755619750.0.ulaw: No transcript generated
+2025-08-19 21:57:05,544 - INFO - Successfully processed 0 files
+2025-08-19 21:57:35,549 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:57:35,553 - INFO - Found 1 new audio files
+2025-08-19 21:57:35,554 - INFO - Processing audio file: recording-1755619750.0.ulaw
+2025-08-19 21:57:35,554 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 21:57:40,569 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 21:57:40,571 - INFO - Processing recording: recording-1755619750.0.ulaw
+2025-08-19 21:57:40,571 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 21:57:45,591 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 21:57:45,831 - INFO - Converted recording-1755619750.0.ulaw to FLAC format
+2025-08-19 21:57:45,832 - INFO - Transcribing audio with Google Cloud Speech-to-Text: recording-1755619750.0.flac
+2025-08-19 21:57:45,832 - INFO - Audio file size: 0.51 MB
+2025-08-19 21:57:45,914 - INFO - Audio duration: 44.12 seconds
+2025-08-19 21:57:45,915 - INFO - Using synchronous recognition (audio <= 60 seconds)
+2025-08-19 21:57:45,915 - ERROR - Error transcribing recording-1755619750.0.flac: 'RecordingProcessorGoogle' object has no attribute 'speech_config'
+2025-08-19 21:57:45,917 - WARNING - No transcript generated for recording-1755619750.0.ulaw
+2025-08-19 21:57:45,918 - ERROR - Failed to process recording-1755619750.0.ulaw: No transcript generated
+2025-08-19 21:57:45,919 - INFO - Successfully processed 0 files
+2025-08-19 21:58:15,924 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:58:15,926 - INFO - Found 1 new audio files
+2025-08-19 21:58:15,926 - INFO - Processing audio file: recording-1755619750.0.ulaw
+2025-08-19 21:58:15,927 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 21:58:20,950 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 21:58:20,950 - INFO - Processing recording: recording-1755619750.0.ulaw
+2025-08-19 21:58:20,950 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 21:58:25,967 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 21:58:26,209 - INFO - Converted recording-1755619750.0.ulaw to FLAC format
+2025-08-19 21:58:26,210 - INFO - Transcribing audio with Google Cloud Speech-to-Text: recording-1755619750.0.flac
+2025-08-19 21:58:26,210 - INFO - Audio file size: 0.51 MB
+2025-08-19 21:58:26,295 - INFO - Audio duration: 44.12 seconds
+2025-08-19 21:58:26,296 - INFO - Using synchronous recognition (audio <= 60 seconds)
+2025-08-19 21:58:26,296 - ERROR - Error transcribing recording-1755619750.0.flac: 'RecordingProcessorGoogle' object has no attribute 'speech_config'
+2025-08-19 21:58:26,298 - WARNING - No transcript generated for recording-1755619750.0.ulaw
+2025-08-19 21:58:26,298 - ERROR - Failed to process recording-1755619750.0.ulaw: No transcript generated
+2025-08-19 21:58:26,298 - INFO - Successfully processed 0 files
+2025-08-19 21:58:56,303 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:58:56,305 - INFO - Found 1 new audio files
+2025-08-19 21:58:56,305 - INFO - Processing audio file: recording-1755619750.0.ulaw
+2025-08-19 21:58:56,305 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 21:59:01,327 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 21:59:01,328 - INFO - Processing recording: recording-1755619750.0.ulaw
+2025-08-19 21:59:01,328 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 21:59:06,347 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 21:59:06,576 - INFO - Converted recording-1755619750.0.ulaw to FLAC format
+2025-08-19 21:59:06,576 - INFO - Transcribing audio with Google Cloud Speech-to-Text: recording-1755619750.0.flac
+2025-08-19 21:59:06,576 - INFO - Audio file size: 0.51 MB
+2025-08-19 21:59:06,660 - INFO - Audio duration: 44.12 seconds
+2025-08-19 21:59:06,661 - INFO - Using synchronous recognition (audio <= 60 seconds)
+2025-08-19 21:59:06,661 - ERROR - Error transcribing recording-1755619750.0.flac: 'RecordingProcessorGoogle' object has no attribute 'speech_config'
+2025-08-19 21:59:06,662 - WARNING - No transcript generated for recording-1755619750.0.ulaw
+2025-08-19 21:59:06,662 - ERROR - Failed to process recording-1755619750.0.ulaw: No transcript generated
+2025-08-19 21:59:06,663 - INFO - Successfully processed 0 files
+2025-08-19 21:59:36,668 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 21:59:36,672 - INFO - Found 1 new audio files
+2025-08-19 21:59:36,672 - INFO - Processing audio file: recording-1755619750.0.ulaw
+2025-08-19 21:59:36,672 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 21:59:41,692 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 21:59:41,693 - INFO - Processing recording: recording-1755619750.0.ulaw
+2025-08-19 21:59:41,693 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 21:59:46,721 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 21:59:46,946 - INFO - Converted recording-1755619750.0.ulaw to FLAC format
+2025-08-19 21:59:46,946 - INFO - Transcribing audio with Google Cloud Speech-to-Text: recording-1755619750.0.flac
+2025-08-19 21:59:46,946 - INFO - Audio file size: 0.51 MB
+2025-08-19 21:59:47,029 - INFO - Audio duration: 44.12 seconds
+2025-08-19 21:59:47,030 - INFO - Using synchronous recognition (audio <= 60 seconds)
+2025-08-19 21:59:47,030 - ERROR - Error transcribing recording-1755619750.0.flac: 'RecordingProcessorGoogle' object has no attribute 'speech_config'
+2025-08-19 21:59:47,031 - WARNING - No transcript generated for recording-1755619750.0.ulaw
+2025-08-19 21:59:47,031 - ERROR - Failed to process recording-1755619750.0.ulaw: No transcript generated
+2025-08-19 21:59:47,032 - INFO - Successfully processed 0 files
+2025-08-19 22:00:17,039 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:00:17,043 - INFO - Found 1 new audio files
+2025-08-19 22:00:17,044 - INFO - Processing audio file: recording-1755619750.0.ulaw
+2025-08-19 22:00:17,044 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 22:00:22,061 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 22:00:22,062 - INFO - Processing recording: recording-1755619750.0.ulaw
+2025-08-19 22:00:22,062 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 22:00:27,092 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 22:00:30,332 - INFO - Converted recording-1755619750.0.ulaw to FLAC format
+2025-08-19 22:00:30,332 - INFO - Transcribing audio with Google Cloud Speech-to-Text: recording-1755619750.0.flac
+2025-08-19 22:00:30,332 - INFO - Audio file size: 0.51 MB
+2025-08-19 22:00:30,415 - INFO - Audio duration: 44.12 seconds
+2025-08-19 22:00:30,415 - INFO - Using synchronous recognition (audio <= 60 seconds)
+2025-08-19 22:00:30,415 - ERROR - Error transcribing recording-1755619750.0.flac: 'RecordingProcessorGoogle' object has no attribute 'speech_config'
+2025-08-19 22:00:30,417 - WARNING - No transcript generated for recording-1755619750.0.ulaw
+2025-08-19 22:00:30,417 - ERROR - Failed to process recording-1755619750.0.ulaw: No transcript generated
+2025-08-19 22:00:30,417 - INFO - Successfully processed 0 files
+2025-08-19 22:01:00,423 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:01:00,428 - INFO - Found 1 new audio files
+2025-08-19 22:01:00,428 - INFO - Processing audio file: recording-1755619750.0.ulaw
+2025-08-19 22:01:00,428 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 22:01:05,444 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 22:01:05,445 - INFO - Processing recording: recording-1755619750.0.ulaw
+2025-08-19 22:01:05,445 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 22:01:10,463 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 22:01:10,688 - INFO - Converted recording-1755619750.0.ulaw to FLAC format
+2025-08-19 22:01:10,688 - INFO - Transcribing audio with Google Cloud Speech-to-Text: recording-1755619750.0.flac
+2025-08-19 22:01:10,688 - INFO - Audio file size: 0.51 MB
+2025-08-19 22:01:10,770 - INFO - Audio duration: 44.12 seconds
+2025-08-19 22:01:10,771 - INFO - Using synchronous recognition (audio <= 60 seconds)
+2025-08-19 22:01:10,771 - ERROR - Error transcribing recording-1755619750.0.flac: 'RecordingProcessorGoogle' object has no attribute 'speech_config'
+2025-08-19 22:01:10,771 - WARNING - No transcript generated for recording-1755619750.0.ulaw
+2025-08-19 22:01:10,771 - ERROR - Failed to process recording-1755619750.0.ulaw: No transcript generated
+2025-08-19 22:01:10,772 - INFO - Successfully processed 0 files
+2025-08-19 22:01:19,464 - INFO - Monitoring stopped by user
+2025-08-19 22:01:21,906 - INFO - Configuration loaded: {'translation_enabled': True, 'target_language': 'en', 'audio_formats': ['.ulaw', '.wav', '.gsm', '.mp3'], 'monitoring_directories': ['/Users/apple/Desktop/asterisk/monitor', '/Users/apple/Desktop/asterisk/recordings/raw'], 'processing_delay': 2}
+2025-08-19 22:01:21,906 - INFO - Basic speech config created successfully
+2025-08-19 22:01:21,907 - INFO - Setting up Google Cloud Speech-to-Text, Translation, and TTS APIs
+2025-08-19 22:01:21,907 - INFO - Using Google Cloud Speech model: latest_long
+2025-08-19 22:01:21,907 - INFO - Primary language: hi-IN
+2025-08-19 22:01:21,907 - INFO - Auto language detection: True
+2025-08-19 22:01:21,907 - INFO - TTS voice quality: neural2
+2025-08-19 22:01:21,907 - INFO - Translation services preference: ['free_google', 'mymemory', 'libretranslate', 'google_cloud', 'pons']
+2025-08-19 22:01:21,907 - INFO - ✅ deep-translator library available - free translation services enabled
+2025-08-19 22:01:21,907 - INFO - Updated speech config with environment variables
+2025-08-19 22:01:21,907 - INFO - Using Google Cloud API key authentication
+2025-08-19 22:01:21,937 - INFO - Google Cloud Speech-to-Text, Translation and TTS initialized successfully
+2025-08-19 22:01:21,937 - INFO - Google Cloud Speech recognition configured successfully
+2025-08-19 22:01:21,937 - INFO - Recording processor initialized successfully
+2025-08-19 22:01:21,937 - INFO - Audio Fetcher and Processor initialized
+2025-08-19 22:01:21,937 - INFO - Monitor directory: /Users/apple/Desktop/asterisk/monitor
+2025-08-19 22:01:21,937 - INFO - Transcripts directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-19 22:01:21,937 - INFO - Starting continuous monitoring of /Users/apple/Desktop/asterisk/monitor (interval: 30s)
+2025-08-19 22:01:21,937 - INFO - Press Ctrl+C to stop
+2025-08-19 22:01:21,937 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:01:21,937 - INFO - Found 1 new audio files
+2025-08-19 22:01:21,937 - INFO - Processing audio file: recording-1755619750.0.ulaw
+2025-08-19 22:01:21,938 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 22:01:26,953 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 22:01:26,955 - INFO - Processing recording: recording-1755619750.0.ulaw
+2025-08-19 22:01:26,955 - INFO - Checking file readiness: recording-1755619750.0.ulaw
+2025-08-19 22:01:31,978 - INFO - File recording-1755619750.0.ulaw is stable (352960 bytes) after 5s
+2025-08-19 22:01:32,183 - INFO - Converted recording-1755619750.0.ulaw to WAV format
+2025-08-19 22:01:32,184 - INFO - Transcribing audio with Google Cloud Speech-to-Text: recording-1755619750.0.wav
+2025-08-19 22:01:32,184 - INFO - Audio file size: 1.35 MB
+2025-08-19 22:01:32,277 - INFO - Audio duration: 44.12 seconds
+2025-08-19 22:01:32,278 - INFO - Using synchronous recognition (audio <= 60 seconds)
+2025-08-19 22:02:08,043 - INFO - Transcription completed. Length: 461 chars, Language: hi-IN, Confidence: 0.375
+2025-08-19 22:02:08,044 - INFO - Translating 1 chunks from hi to en
+2025-08-19 22:02:10,038 - INFO - Translation successful using free_google
+2025-08-19 22:02:10,039 - INFO - Successfully processed recording-1755619750.0.ulaw
+2025-08-19 22:02:10,039 - INFO - Transcript: 'मैं पंकज ठाकुर हूं। फोन 9876001234 पी 175001 आपको मेरी अनुमति है। कुल जमीन 0.8 हेक्टेयर रवि में 0.6 ...'
+2025-08-19 22:02:10,039 - INFO - Translation: 'I am Pankaj Thakur. Phone 9876001234 P 175001 I allow you. Total land is cultivating 0.6 hectares on...'
+2025-08-19 22:02:10,039 - INFO - Successfully processed recording-1755619750.0.ulaw
+2025-08-19 22:02:10,039 - INFO - Transcript preview (hi): मैं पंकज ठाकुर हूं। फोन 9876001234 पी 175001 आपको मेरी अनुमति है। कुल जमीन 0.8 हेक्टेयर रवि में 0.6 ...
+2025-08-19 22:02:10,039 - INFO - Successfully processed 1 files
+2025-08-19 22:02:10,039 - INFO - Stats: {'total_processed': 150, 'files_in_monitor': 1, 'transcript_files': 1, 'timestamp': '2025-08-19 22:02:10'}
+2025-08-19 22:02:40,045 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:02:40,051 - INFO - No new audio files found
+2025-08-19 22:03:10,052 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:03:10,053 - INFO - No new audio files found
+2025-08-19 22:03:40,058 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:03:40,060 - INFO - No new audio files found
+2025-08-19 22:04:10,065 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:04:10,067 - INFO - No new audio files found
+2025-08-19 22:04:40,072 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:04:40,076 - INFO - No new audio files found
+2025-08-19 22:05:10,077 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:05:10,078 - INFO - No new audio files found
+2025-08-19 22:05:40,081 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:05:40,082 - INFO - No new audio files found
+2025-08-19 22:06:10,088 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:06:10,090 - INFO - No new audio files found
+2025-08-19 22:06:40,094 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:06:40,097 - INFO - No new audio files found
+2025-08-19 22:07:10,102 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:07:10,103 - INFO - No new audio files found
+2025-08-19 22:07:32,264 - INFO - Monitoring stopped by user
+2025-08-19 22:07:33,823 - INFO - Configuration loaded: {'translation_enabled': True, 'target_language': 'en', 'audio_formats': ['.ulaw', '.wav', '.gsm', '.mp3'], 'monitoring_directories': ['/Users/apple/Desktop/asterisk/monitor', '/Users/apple/Desktop/asterisk/recordings/raw'], 'processing_delay': 2}
+2025-08-19 22:07:33,823 - INFO - Basic speech config created successfully
+2025-08-19 22:07:33,823 - INFO - Setting up Google Cloud Speech-to-Text, Translation, and TTS APIs
+2025-08-19 22:07:33,823 - INFO - Using Google Cloud Speech model: latest_long
+2025-08-19 22:07:33,824 - INFO - Primary language: hi-IN
+2025-08-19 22:07:33,824 - INFO - Auto language detection: True
+2025-08-19 22:07:33,824 - INFO - TTS voice quality: neural2
+2025-08-19 22:07:33,824 - INFO - Translation services preference: ['google_cloud', 'free_google', 'mymemory', 'libretranslate', 'pons']
+2025-08-19 22:07:33,824 - INFO - ✅ deep-translator library available - free translation services enabled
+2025-08-19 22:07:33,824 - INFO - Updated speech config with environment variables
+2025-08-19 22:07:33,824 - INFO - Using Google Cloud API key authentication
+2025-08-19 22:07:33,874 - INFO - Google Cloud Speech-to-Text, Translation and TTS initialized successfully
+2025-08-19 22:07:33,874 - INFO - Google Cloud Speech recognition configured successfully
+2025-08-19 22:07:33,874 - INFO - Recording processor initialized successfully
+2025-08-19 22:07:33,874 - INFO - Audio Fetcher and Processor initialized
+2025-08-19 22:07:33,874 - INFO - Monitor directory: /Users/apple/Desktop/asterisk/monitor
+2025-08-19 22:07:33,874 - INFO - Transcripts directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-19 22:07:33,874 - INFO - Starting continuous monitoring of /Users/apple/Desktop/asterisk/monitor (interval: 30s)
+2025-08-19 22:07:33,874 - INFO - Press Ctrl+C to stop
+2025-08-19 22:07:33,874 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:07:33,875 - INFO - No new audio files found
+2025-08-19 22:08:03,880 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:08:03,885 - INFO - Found 1 new audio files
+2025-08-19 22:08:03,885 - INFO - Processing audio file: recording-1755619750.01.ulaw
+2025-08-19 22:08:03,885 - INFO - Checking file readiness: recording-1755619750.01.ulaw
+2025-08-19 22:08:08,897 - INFO - File recording-1755619750.01.ulaw is stable (352960 bytes) after 5s
+2025-08-19 22:08:08,898 - INFO - Processing recording: recording-1755619750.01.ulaw
+2025-08-19 22:08:08,898 - INFO - Checking file readiness: recording-1755619750.01.ulaw
+2025-08-19 22:08:13,911 - INFO - File recording-1755619750.01.ulaw is stable (352960 bytes) after 5s
+2025-08-19 22:08:14,147 - INFO - Converted recording-1755619750.01.ulaw to WAV format
+2025-08-19 22:08:14,147 - INFO - Transcribing audio with Google Cloud Speech-to-Text: recording-1755619750.01.wav
+2025-08-19 22:08:14,147 - INFO - Audio file size: 1.35 MB
+2025-08-19 22:08:14,237 - INFO - Audio duration: 44.12 seconds
+2025-08-19 22:08:14,238 - INFO - Using synchronous recognition (audio <= 60 seconds)
+2025-08-19 22:08:41,110 - INFO - Transcription completed. Length: 461 chars, Language: hi-IN, Confidence: 0.375
+2025-08-19 22:08:41,112 - INFO - Translating 1 chunks from hi to en (chunk size: 10000)
+2025-08-19 22:08:41,112 - INFO - Using Google Cloud Translation API for 461 characters
+2025-08-19 22:08:41,112 - INFO - Translating from hi to en using Google Cloud
+2025-08-19 22:08:42,329 - INFO - Translation successful using google_cloud
+2025-08-19 22:08:42,329 - INFO - Successfully processed recording-1755619750.01.ulaw
+2025-08-19 22:08:42,329 - INFO - Transcript: 'मैं पंकज ठाकुर हूं। फोन 9876001234 पी 175001 आपको मेरी अनुमति है। कुल जमीन 0.8 हेक्टेयर रवि में 0.6 ...'
+2025-08-19 22:08:42,329 - INFO - Translation: 'I am Pankaj Thakur. Phone 9876001234 P 175001 You have my permission. Total land 0.8 hectare I am cu...'
+2025-08-19 22:08:42,329 - INFO - Successfully processed recording-1755619750.01.ulaw
+2025-08-19 22:08:42,329 - INFO - Transcript preview (hi): मैं पंकज ठाकुर हूं। फोन 9876001234 पी 175001 आपको मेरी अनुमति है। कुल जमीन 0.8 हेक्टेयर रवि में 0.6 ...
+2025-08-19 22:08:42,330 - INFO - Successfully processed 1 files
+2025-08-19 22:08:42,330 - INFO - Stats: {'total_processed': 151, 'files_in_monitor': 1, 'transcript_files': 2, 'timestamp': '2025-08-19 22:08:42'}
+2025-08-19 22:09:12,333 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:09:12,337 - INFO - No new audio files found
+2025-08-19 22:09:42,342 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:09:42,344 - INFO - No new audio files found
+2025-08-19 22:10:12,350 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:10:12,357 - INFO - No new audio files found
+2025-08-19 22:10:42,364 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:10:42,374 - INFO - No new audio files found
+2025-08-19 22:11:12,395 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:11:12,403 - INFO - No new audio files found
+2025-08-19 22:11:42,412 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:11:42,414 - INFO - No new audio files found
+2025-08-19 22:12:12,418 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:12:12,421 - INFO - No new audio files found
+2025-08-19 22:12:42,427 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:12:42,429 - INFO - No new audio files found
+2025-08-19 22:13:12,435 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:13:12,438 - INFO - No new audio files found
+2025-08-19 22:13:42,443 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:13:42,445 - INFO - No new audio files found
+2025-08-19 22:14:12,451 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:14:12,453 - INFO - No new audio files found
+2025-08-19 22:14:42,460 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:14:42,463 - INFO - No new audio files found
+2025-08-19 22:15:12,464 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:15:12,468 - INFO - No new audio files found
+2025-08-19 22:15:42,478 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:15:42,541 - INFO - No new audio files found
+2025-08-19 22:16:12,554 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:16:12,567 - INFO - No new audio files found
+2025-08-19 22:16:42,579 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:16:42,597 - INFO - No new audio files found
+2025-08-19 22:17:12,608 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:17:12,615 - INFO - No new audio files found
+2025-08-19 22:17:42,618 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:17:42,624 - INFO - No new audio files found
+2025-08-19 22:18:12,632 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:18:12,643 - INFO - No new audio files found
+2025-08-19 22:18:42,651 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:18:42,656 - INFO - No new audio files found
+2025-08-19 22:19:12,660 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:19:12,661 - INFO - No new audio files found
+2025-08-19 22:19:42,663 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:19:42,665 - INFO - No new audio files found
+2025-08-19 22:20:12,670 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:20:12,674 - INFO - No new audio files found
+2025-08-19 22:20:42,695 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:20:42,699 - INFO - No new audio files found
+2025-08-19 22:21:12,704 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:21:12,710 - INFO - No new audio files found
+2025-08-19 22:21:42,717 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:21:42,722 - INFO - No new audio files found
+2025-08-19 22:22:12,731 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:22:12,740 - INFO - No new audio files found
+2025-08-19 22:22:42,746 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:22:42,748 - INFO - No new audio files found
+2025-08-19 22:23:12,753 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:23:12,757 - INFO - No new audio files found
+2025-08-19 22:23:42,762 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:23:42,771 - INFO - No new audio files found
+2025-08-19 22:24:12,776 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:24:12,778 - INFO - No new audio files found
+2025-08-19 22:24:42,779 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:24:42,785 - INFO - No new audio files found
+2025-08-19 22:25:12,791 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:25:12,794 - INFO - No new audio files found
+2025-08-19 22:25:42,802 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:25:42,815 - INFO - No new audio files found
+2025-08-19 22:26:12,989 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:26:13,169 - INFO - No new audio files found
+2025-08-19 22:26:43,210 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:26:43,212 - INFO - No new audio files found
+2025-08-19 22:27:13,218 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:27:13,223 - INFO - No new audio files found
+2025-08-19 22:27:43,228 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:27:43,234 - INFO - No new audio files found
+2025-08-19 22:28:13,250 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:28:13,252 - INFO - No new audio files found
+2025-08-19 22:28:43,258 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:28:43,261 - INFO - No new audio files found
+2025-08-19 22:29:13,268 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:29:13,270 - INFO - No new audio files found
+2025-08-19 22:29:43,277 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:29:43,280 - INFO - No new audio files found
+2025-08-19 22:30:13,285 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:30:13,288 - INFO - No new audio files found
+2025-08-19 22:30:43,293 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:30:43,295 - INFO - No new audio files found
+2025-08-19 22:31:13,298 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:31:13,301 - INFO - No new audio files found
+2025-08-19 22:31:43,315 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:31:43,323 - INFO - No new audio files found
+2025-08-19 22:32:13,330 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:32:13,334 - INFO - No new audio files found
+2025-08-19 22:32:43,340 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:32:43,343 - INFO - No new audio files found
+2025-08-19 22:33:13,348 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:33:13,350 - INFO - No new audio files found
+2025-08-19 22:33:43,356 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:33:43,361 - INFO - No new audio files found
+2025-08-19 22:34:13,368 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:34:13,376 - INFO - No new audio files found
+2025-08-19 22:34:43,378 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:34:43,381 - INFO - No new audio files found
+2025-08-19 22:35:13,384 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:35:13,396 - INFO - No new audio files found
+2025-08-19 22:35:43,400 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:35:43,404 - INFO - No new audio files found
+2025-08-19 22:36:13,406 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:36:13,409 - INFO - No new audio files found
+2025-08-19 22:36:43,414 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:36:43,417 - INFO - No new audio files found
+2025-08-19 22:37:13,423 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:37:13,427 - INFO - No new audio files found
+2025-08-19 22:37:43,429 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:37:43,432 - INFO - No new audio files found
+2025-08-19 22:38:13,434 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:38:13,436 - INFO - No new audio files found
+2025-08-19 22:38:43,437 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:38:43,440 - INFO - No new audio files found
+2025-08-19 22:39:13,444 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:39:13,446 - INFO - No new audio files found
+2025-08-19 22:39:43,452 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:39:43,455 - INFO - No new audio files found
+2025-08-19 22:40:13,456 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:40:13,458 - INFO - No new audio files found
+2025-08-19 22:40:43,460 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:40:43,465 - INFO - No new audio files found
+2025-08-19 22:41:13,487 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:41:13,489 - INFO - No new audio files found
+2025-08-19 22:41:43,502 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:41:43,506 - INFO - No new audio files found
+2025-08-19 22:42:13,517 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:42:13,522 - INFO - No new audio files found
+2025-08-19 22:42:43,528 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:42:43,531 - INFO - No new audio files found
+2025-08-19 22:43:13,536 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:43:13,539 - INFO - No new audio files found
+2025-08-19 22:43:43,540 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:43:43,542 - INFO - No new audio files found
+2025-08-19 22:44:13,545 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:44:13,548 - INFO - No new audio files found
+2025-08-19 22:44:43,550 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:44:43,553 - INFO - No new audio files found
+2025-08-19 22:45:13,559 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:45:13,561 - INFO - No new audio files found
+2025-08-19 22:45:43,566 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:45:43,568 - INFO - No new audio files found
+2025-08-19 22:46:13,573 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:46:13,578 - INFO - No new audio files found
+2025-08-19 22:46:43,580 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:46:43,582 - INFO - No new audio files found
+2025-08-19 22:47:13,586 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:47:13,588 - INFO - No new audio files found
+2025-08-19 22:47:43,594 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:47:43,598 - INFO - No new audio files found
+2025-08-19 22:48:13,603 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:48:13,606 - INFO - No new audio files found
+2025-08-19 22:48:43,608 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:48:43,611 - INFO - No new audio files found
+2025-08-19 22:49:13,617 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:49:13,618 - INFO - No new audio files found
+2025-08-19 22:49:43,624 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:49:43,626 - INFO - No new audio files found
+2025-08-19 22:50:13,630 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:50:13,635 - INFO - No new audio files found
+2025-08-19 22:50:43,690 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 22:50:43,700 - INFO - No new audio files found
+2025-08-19 22:50:59,118 - INFO - Monitoring stopped by user
+2025-08-19 23:04:10,140 - INFO - Configuration loaded: {'translation_enabled': True, 'target_language': 'en', 'audio_formats': ['.ulaw', '.wav', '.gsm', '.mp3'], 'monitoring_directories': ['/Users/apple/Desktop/asterisk/monitor', '/Users/apple/Desktop/asterisk/recordings/raw'], 'processing_delay': 2}
+2025-08-19 23:04:10,141 - INFO - Basic speech config created successfully
+2025-08-19 23:04:10,141 - INFO - Setting up Google Cloud Speech-to-Text, Translation, and TTS APIs
+2025-08-19 23:04:10,141 - INFO - Using Google Cloud Speech model: latest_long
+2025-08-19 23:04:10,141 - INFO - Primary language: hi-IN
+2025-08-19 23:04:10,141 - INFO - Auto language detection: True
+2025-08-19 23:04:10,141 - INFO - TTS voice quality: neural2
+2025-08-19 23:04:10,141 - INFO - Translation services preference: ['google_cloud', 'free_google', 'mymemory', 'libretranslate', 'pons']
+2025-08-19 23:04:10,141 - INFO - ✅ deep-translator library available - free translation services enabled
+2025-08-19 23:04:10,141 - INFO - Updated speech config with environment variables
+2025-08-19 23:04:10,141 - INFO - Using Google Cloud API key authentication
+2025-08-19 23:04:10,181 - INFO - Google Cloud Speech-to-Text, Translation and TTS initialized successfully
+2025-08-19 23:04:10,181 - INFO - Google Cloud Speech recognition configured successfully
+2025-08-19 23:04:10,181 - INFO - Recording processor initialized successfully
+2025-08-19 23:04:10,181 - INFO - Audio Fetcher and Processor initialized
+2025-08-19 23:04:10,181 - INFO - Monitor directory: /Users/apple/Desktop/asterisk/monitor
+2025-08-19 23:04:10,181 - INFO - Transcripts directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-19 23:04:10,181 - INFO - Starting continuous monitoring of /Users/apple/Desktop/asterisk/monitor (interval: 30s)
+2025-08-19 23:04:10,181 - INFO - Press Ctrl+C to stop
+2025-08-19 23:04:10,181 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:04:10,181 - INFO - Found 1 new audio files
+2025-08-19 23:04:10,181 - INFO - Processing audio file: recording-1755624805.2.ulaw
+2025-08-19 23:04:10,181 - INFO - Checking file readiness: recording-1755624805.2.ulaw
+2025-08-19 23:04:15,203 - INFO - File recording-1755624805.2.ulaw is stable (48000 bytes) after 5s
+2025-08-19 23:04:15,204 - INFO - Processing recording: recording-1755624805.2.ulaw
+2025-08-19 23:04:15,204 - INFO - Checking file readiness: recording-1755624805.2.ulaw
+2025-08-19 23:04:20,219 - INFO - File recording-1755624805.2.ulaw is stable (48000 bytes) after 5s
+2025-08-19 23:04:22,337 - INFO - Converted recording-1755624805.2.ulaw to WAV format
+2025-08-19 23:04:22,337 - INFO - Transcribing audio with Google Cloud Speech-to-Text: recording-1755624805.2.wav
+2025-08-19 23:04:22,337 - INFO - Audio file size: 0.18 MB
+2025-08-19 23:04:22,423 - INFO - Audio duration: 6.00 seconds
+2025-08-19 23:04:22,424 - INFO - Using synchronous recognition (audio <= 60 seconds)
+2025-08-19 23:04:29,940 - INFO - Transcription completed. Length: 37 chars, Language: hi-IN, Confidence: 0.515
+2025-08-19 23:04:29,942 - INFO - Translating 1 chunks from hi to en (chunk size: 10000)
+2025-08-19 23:04:29,942 - INFO - Using Google Cloud Translation API for 37 characters
+2025-08-19 23:04:29,942 - INFO - Translating from hi to en using Google Cloud
+2025-08-19 23:04:30,979 - INFO - Translation successful using google_cloud
+2025-08-19 23:04:30,980 - INFO - Successfully processed recording-1755624805.2.ulaw
+2025-08-19 23:04:30,980 - INFO - Transcript: 'पंकज ठाकुर हूं फोन नंबर 987600, 1234।...'
+2025-08-19 23:04:30,980 - INFO - Translation: 'I am Pankaj Thakur, phone number 987600, 1234....'
+2025-08-19 23:04:30,980 - INFO - Successfully processed recording-1755624805.2.ulaw
+2025-08-19 23:04:30,980 - INFO - Transcript preview (hi): पंकज ठाकुर हूं फोन नंबर 987600, 1234।...
+2025-08-19 23:04:30,981 - INFO - Successfully processed 1 files
+2025-08-19 23:04:30,981 - INFO - Stats: {'total_processed': 152, 'files_in_monitor': 1, 'transcript_files': 1, 'timestamp': '2025-08-19 23:04:30'}
+2025-08-19 23:04:48,588 - INFO - Monitoring stopped by user
+2025-08-19 23:05:10,729 - INFO - Configuration loaded: {'translation_enabled': True, 'target_language': 'en', 'audio_formats': ['.ulaw', '.wav', '.gsm', '.mp3'], 'monitoring_directories': ['/Users/apple/Desktop/asterisk/monitor', '/Users/apple/Desktop/asterisk/recordings/raw'], 'processing_delay': 2}
+2025-08-19 23:05:10,729 - INFO - Basic speech config created successfully
+2025-08-19 23:05:10,729 - INFO - Setting up Google Cloud Speech-to-Text, Translation, and TTS APIs
+2025-08-19 23:05:10,729 - INFO - Using Google Cloud Speech model: latest_long
+2025-08-19 23:05:10,729 - INFO - Primary language: hi-IN
+2025-08-19 23:05:10,729 - INFO - Auto language detection: True
+2025-08-19 23:05:10,729 - INFO - TTS voice quality: neural2
+2025-08-19 23:05:10,729 - INFO - Translation services preference: ['google_cloud', 'free_google', 'mymemory', 'libretranslate', 'pons']
+2025-08-19 23:05:10,729 - INFO - ✅ deep-translator library available - free translation services enabled
+2025-08-19 23:05:10,729 - INFO - Updated speech config with environment variables
+2025-08-19 23:05:10,729 - INFO - Using Google Cloud API key authentication
+2025-08-19 23:05:10,758 - INFO - Google Cloud Speech-to-Text, Translation and TTS initialized successfully
+2025-08-19 23:05:10,758 - INFO - Google Cloud Speech recognition configured successfully
+2025-08-19 23:05:10,758 - INFO - Recording processor initialized successfully
+2025-08-19 23:05:10,758 - INFO - Audio Fetcher and Processor initialized
+2025-08-19 23:05:10,758 - INFO - Monitor directory: /Users/apple/Desktop/asterisk/monitor
+2025-08-19 23:05:10,758 - INFO - Transcripts directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-19 23:05:10,758 - INFO - Starting continuous monitoring of /Users/apple/Desktop/asterisk/monitor (interval: 30s)
+2025-08-19 23:05:10,758 - INFO - Press Ctrl+C to stop
+2025-08-19 23:05:10,758 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:05:10,758 - INFO - No new audio files found
+2025-08-19 23:05:16,672 - INFO - Monitoring stopped by user
+2025-08-19 23:05:22,053 - INFO - Configuration loaded: {'translation_enabled': True, 'target_language': 'en', 'audio_formats': ['.ulaw', '.wav', '.gsm', '.mp3'], 'monitoring_directories': ['/Users/apple/Desktop/asterisk/monitor', '/Users/apple/Desktop/asterisk/recordings/raw'], 'processing_delay': 2}
+2025-08-19 23:05:22,053 - INFO - Basic speech config created successfully
+2025-08-19 23:05:22,053 - INFO - Setting up Google Cloud Speech-to-Text, Translation, and TTS APIs
+2025-08-19 23:05:22,053 - INFO - Using Google Cloud Speech model: latest_long
+2025-08-19 23:05:22,053 - INFO - Primary language: hi-IN
+2025-08-19 23:05:22,053 - INFO - Auto language detection: True
+2025-08-19 23:05:22,053 - INFO - TTS voice quality: neural2
+2025-08-19 23:05:22,053 - INFO - Translation services preference: ['google_cloud', 'free_google', 'mymemory', 'libretranslate', 'pons']
+2025-08-19 23:05:22,053 - INFO - ✅ deep-translator library available - free translation services enabled
+2025-08-19 23:05:22,053 - INFO - Updated speech config with environment variables
+2025-08-19 23:05:22,053 - INFO - Using Google Cloud API key authentication
+2025-08-19 23:05:22,067 - INFO - Google Cloud Speech-to-Text, Translation and TTS initialized successfully
+2025-08-19 23:05:22,067 - INFO - Google Cloud Speech recognition configured successfully
+2025-08-19 23:05:22,067 - INFO - Recording processor initialized successfully
+2025-08-19 23:05:22,067 - INFO - Audio Fetcher and Processor initialized
+2025-08-19 23:05:22,067 - INFO - Monitor directory: /Users/apple/Desktop/asterisk/monitor
+2025-08-19 23:05:22,067 - INFO - Transcripts directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-19 23:05:22,067 - INFO - Starting continuous monitoring of /Users/apple/Desktop/asterisk/monitor (interval: 30s)
+2025-08-19 23:05:22,067 - INFO - Press Ctrl+C to stop
+2025-08-19 23:05:22,067 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:05:22,067 - INFO - No new audio files found
+2025-08-19 23:05:52,073 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:05:52,080 - INFO - No new audio files found
+2025-08-19 23:05:56,803 - INFO - Monitoring stopped by user
+2025-08-19 23:07:36,709 - INFO - Configuration loaded: {'translation_enabled': True, 'target_language': 'en', 'audio_formats': ['.ulaw', '.wav', '.gsm', '.mp3'], 'monitoring_directories': ['/Users/apple/Desktop/asterisk/monitor', '/Users/apple/Desktop/asterisk/recordings/raw'], 'processing_delay': 2}
+2025-08-19 23:07:36,709 - INFO - Basic speech config created successfully
+2025-08-19 23:07:36,710 - INFO - Setting up Google Cloud Speech-to-Text, Translation, and TTS APIs
+2025-08-19 23:07:36,710 - INFO - Using Google Cloud Speech model: latest_long
+2025-08-19 23:07:36,710 - INFO - Primary language: hi-IN
+2025-08-19 23:07:36,710 - INFO - Auto language detection: True
+2025-08-19 23:07:36,710 - INFO - TTS voice quality: neural2
+2025-08-19 23:07:36,710 - INFO - Translation services preference: ['google_cloud', 'free_google', 'mymemory', 'libretranslate', 'pons']
+2025-08-19 23:07:36,710 - INFO - ✅ deep-translator library available - free translation services enabled
+2025-08-19 23:07:36,710 - INFO - Updated speech config with environment variables
+2025-08-19 23:07:36,710 - INFO - Using Google Cloud API key authentication
+2025-08-19 23:07:36,740 - INFO - Google Cloud Speech-to-Text, Translation and TTS initialized successfully
+2025-08-19 23:07:36,740 - INFO - Google Cloud Speech recognition configured successfully
+2025-08-19 23:07:36,741 - INFO - Recording processor initialized successfully
+2025-08-19 23:07:36,741 - INFO - Audio Fetcher and Processor initialized
+2025-08-19 23:07:36,741 - INFO - Monitor directory: /Users/apple/Desktop/asterisk/monitor
+2025-08-19 23:07:36,741 - INFO - Transcripts directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-19 23:07:36,741 - INFO - Starting continuous monitoring of /Users/apple/Desktop/asterisk/monitor (interval: 30s)
+2025-08-19 23:07:36,741 - INFO - Press Ctrl+C to stop
+2025-08-19 23:07:36,741 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:07:36,741 - INFO - No new audio files found
+2025-08-19 23:08:06,744 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:08:06,747 - INFO - No new audio files found
+2025-08-19 23:08:36,751 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:08:36,757 - INFO - No new audio files found
+2025-08-19 23:09:06,763 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:09:06,767 - INFO - No new audio files found
+2025-08-19 23:09:36,773 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:09:36,775 - INFO - No new audio files found
+2025-08-19 23:10:06,778 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:10:06,783 - INFO - Found 1 new audio files
+2025-08-19 23:10:06,783 - INFO - Processing audio file: recording-1755625190.2.ulaw
+2025-08-19 23:10:06,783 - INFO - Checking file readiness: recording-1755625190.2.ulaw
+2025-08-19 23:10:11,804 - INFO - File recording-1755625190.2.ulaw is stable (44000 bytes) after 5s
+2025-08-19 23:10:11,810 - INFO - Processing recording: recording-1755625190.2.ulaw
+2025-08-19 23:10:11,810 - INFO - Checking file readiness: recording-1755625190.2.ulaw
+2025-08-19 23:10:16,825 - INFO - File recording-1755625190.2.ulaw is stable (44000 bytes) after 5s
+2025-08-19 23:10:17,100 - INFO - Converted recording-1755625190.2.ulaw to WAV format
+2025-08-19 23:10:17,100 - INFO - Transcribing audio with Google Cloud Speech-to-Text: recording-1755625190.2.wav
+2025-08-19 23:10:17,101 - INFO - Audio file size: 0.17 MB
+2025-08-19 23:10:17,162 - INFO - Audio duration: 5.50 seconds
+2025-08-19 23:10:17,164 - INFO - Using synchronous recognition (audio <= 60 seconds)
+2025-08-19 23:10:24,320 - INFO - Transcription completed. Length: 34 chars, Language: hi-IN, Confidence: 0.487
+2025-08-19 23:10:24,321 - INFO - Translating 1 chunks from hi to en (chunk size: 10000)
+2025-08-19 23:10:24,321 - INFO - Using Google Cloud Translation API for 34 characters
+2025-08-19 23:10:24,321 - INFO - Translating from hi to en using Google Cloud
+2025-08-19 23:10:25,433 - INFO - Translation successful using google_cloud
+2025-08-19 23:10:25,435 - INFO - Successfully processed recording-1755625190.2.ulaw
+2025-08-19 23:10:25,435 - INFO - Transcript: 'मैं पंकज ठाकुर हूं फोन नंबर 98760।...'
+2025-08-19 23:10:25,435 - INFO - Translation: 'I am pankaj thakur phone number 98760....'
+2025-08-19 23:10:25,435 - INFO - Successfully processed recording-1755625190.2.ulaw
+2025-08-19 23:10:25,435 - INFO - Transcript preview (hi): मैं पंकज ठाकुर हूं फोन नंबर 98760।...
+2025-08-19 23:10:25,437 - INFO - Successfully processed 1 files
+2025-08-19 23:10:25,437 - INFO - Stats: {'total_processed': 153, 'files_in_monitor': 1, 'transcript_files': 1, 'timestamp': '2025-08-19 23:10:25'}
+2025-08-19 23:10:27,075 - INFO - Monitoring stopped by user
+2025-08-19 23:14:51,758 - INFO - Configuration loaded: {'translation_enabled': True, 'target_language': 'en', 'audio_formats': ['.ulaw', '.wav', '.gsm', '.mp3'], 'monitoring_directories': ['/Users/apple/Desktop/asterisk/monitor', '/Users/apple/Desktop/asterisk/recordings/raw'], 'processing_delay': 2}
+2025-08-19 23:14:51,758 - INFO - Basic speech config created successfully
+2025-08-19 23:14:51,758 - INFO - Setting up Google Cloud Speech-to-Text, Translation, and TTS APIs
+2025-08-19 23:14:51,758 - INFO - Using Google Cloud Speech model: latest_long
+2025-08-19 23:14:51,758 - INFO - Primary language: hi-IN
+2025-08-19 23:14:51,759 - INFO - Auto language detection: True
+2025-08-19 23:14:51,759 - INFO - TTS voice quality: neural2
+2025-08-19 23:14:51,759 - INFO - Translation services preference: ['google_cloud', 'free_google', 'mymemory', 'libretranslate', 'pons']
+2025-08-19 23:14:51,759 - INFO - ✅ deep-translator library available - free translation services enabled
+2025-08-19 23:14:51,759 - INFO - Updated speech config with environment variables
+2025-08-19 23:14:51,759 - INFO - Using Google Cloud API key authentication
+2025-08-19 23:14:51,807 - INFO - Google Cloud Speech-to-Text, Translation and TTS initialized successfully
+2025-08-19 23:14:51,807 - INFO - Google Cloud Speech recognition configured successfully
+2025-08-19 23:14:51,807 - INFO - Recording processor initialized successfully
+2025-08-19 23:14:51,807 - INFO - Audio Fetcher and Processor initialized
+2025-08-19 23:14:51,807 - INFO - Monitor directory: /Users/apple/Desktop/asterisk/monitor
+2025-08-19 23:14:51,807 - INFO - Transcripts directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-19 23:14:51,807 - INFO - Starting continuous monitoring of /Users/apple/Desktop/asterisk/monitor (interval: 30s)
+2025-08-19 23:14:51,807 - INFO - Press Ctrl+C to stop
+2025-08-19 23:14:51,807 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:14:51,808 - INFO - No new audio files found
+2025-08-19 23:15:21,814 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:15:21,817 - INFO - No new audio files found
+2025-08-19 23:15:51,822 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:15:51,825 - INFO - No new audio files found
+2025-08-19 23:16:21,829 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:16:21,831 - INFO - No new audio files found
+2025-08-19 23:16:51,837 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:16:51,847 - INFO - No new audio files found
+2025-08-19 23:17:21,871 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:17:21,922 - INFO - Found 1 new audio files
+2025-08-19 23:17:21,922 - INFO - Processing audio file: recording-1755625623.2.ulaw
+2025-08-19 23:17:21,922 - INFO - Checking file readiness: recording-1755625623.2.ulaw
+2025-08-19 23:17:22,928 - INFO - File recording-1755625623.2.ulaw size changed: 98400 -> 131200 bytes
+2025-08-19 23:17:26,948 - INFO - File recording-1755625623.2.ulaw size changed: 131200 -> 164000 bytes
+2025-08-19 23:17:30,957 - INFO - File recording-1755625623.2.ulaw size changed: 164000 -> 196800 bytes
+2025-08-19 23:17:34,977 - INFO - File recording-1755625623.2.ulaw size changed: 196800 -> 229600 bytes
+2025-08-19 23:17:39,993 - INFO - File recording-1755625623.2.ulaw size changed: 229600 -> 262400 bytes
+2025-08-19 23:17:44,009 - INFO - File recording-1755625623.2.ulaw size changed: 262400 -> 295200 bytes
+2025-08-19 23:17:48,018 - INFO - File recording-1755625623.2.ulaw size changed: 295200 -> 328000 bytes
+2025-08-19 23:17:52,031 - INFO - File recording-1755625623.2.ulaw size changed: 328000 -> 360800 bytes
+2025-08-19 23:17:53,036 - INFO - File recording-1755625623.2.ulaw size changed: 360800 -> 370560 bytes
+2025-08-19 23:17:58,051 - INFO - File recording-1755625623.2.ulaw is stable (370560 bytes) after 36s
+2025-08-19 23:17:58,051 - INFO - Processing recording: recording-1755625623.2.ulaw
+2025-08-19 23:17:58,051 - INFO - Checking file readiness: recording-1755625623.2.ulaw
+2025-08-19 23:18:03,072 - INFO - File recording-1755625623.2.ulaw is stable (370560 bytes) after 5s
+2025-08-19 23:18:03,306 - INFO - Converted recording-1755625623.2.ulaw to WAV format
+2025-08-19 23:18:03,306 - INFO - Transcribing audio with Google Cloud Speech-to-Text: recording-1755625623.2.wav
+2025-08-19 23:18:03,307 - INFO - Audio file size: 1.41 MB
+2025-08-19 23:18:03,368 - INFO - Audio duration: 46.32 seconds
+2025-08-19 23:18:03,369 - INFO - Using synchronous recognition (audio <= 60 seconds)
+2025-08-19 23:18:21,503 - INFO - Transcription completed. Length: 460 chars, Language: hi-IN, Confidence: 0.371
+2025-08-19 23:18:21,505 - INFO - Translating 1 chunks from hi to en (chunk size: 10000)
+2025-08-19 23:18:21,505 - INFO - Using Google Cloud Translation API for 460 characters
+2025-08-19 23:18:21,505 - INFO - Translating from hi to en using Google Cloud
+2025-08-19 23:18:22,906 - INFO - Translation successful using google_cloud
+2025-08-19 23:18:22,908 - INFO - Successfully processed recording-1755625623.2.ulaw
+2025-08-19 23:18:22,908 - INFO - Transcript: 'मैं पंकज ठाकुर हूं। फोन 9876001234 पी 1750001 आपको मेरी अनुमति है। कुल जमीन 0.8 हेक्टेयर रवि में 0.6...'
+2025-08-19 23:18:22,908 - INFO - Translation: 'I am Pankaj Thakur. Phone 9876001234 P1750001 You have my permission. Total land 0.8 hectare I am cu...'
+2025-08-19 23:18:22,908 - INFO - Successfully processed recording-1755625623.2.ulaw
+2025-08-19 23:18:22,908 - INFO - Transcript preview (hi): मैं पंकज ठाकुर हूं। फोन 9876001234 पी 1750001 आपको मेरी अनुमति है। कुल जमीन 0.8 हेक्टेयर रवि में 0.6...
+2025-08-19 23:18:22,909 - INFO - Successfully processed 1 files
+2025-08-19 23:18:22,910 - INFO - Stats: {'total_processed': 154, 'files_in_monitor': 1, 'transcript_files': 1, 'timestamp': '2025-08-19 23:18:22'}
+2025-08-19 23:18:52,918 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:18:52,920 - INFO - No new audio files found
+2025-08-19 23:19:22,926 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:19:22,930 - INFO - No new audio files found
+2025-08-19 23:19:52,937 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:19:52,941 - INFO - No new audio files found
+2025-08-19 23:20:22,946 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:20:22,949 - INFO - No new audio files found
+2025-08-19 23:20:52,954 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:20:52,956 - INFO - No new audio files found
+2025-08-19 23:21:22,961 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:21:22,964 - INFO - No new audio files found
+2025-08-19 23:21:52,971 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:21:52,976 - INFO - No new audio files found
+2025-08-19 23:22:22,982 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:22:22,984 - INFO - No new audio files found
+2025-08-19 23:22:52,989 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:22:52,995 - INFO - No new audio files found
+2025-08-19 23:23:22,999 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:23:23,006 - INFO - No new audio files found
+2025-08-19 23:23:53,013 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:23:53,017 - INFO - No new audio files found
+2025-08-19 23:24:23,023 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:24:23,027 - INFO - No new audio files found
+2025-08-19 23:24:53,043 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:24:53,079 - INFO - No new audio files found
+2025-08-19 23:25:23,089 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:25:23,094 - INFO - No new audio files found
+2025-08-19 23:25:53,100 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:25:53,111 - INFO - No new audio files found
+2025-08-19 23:26:23,119 - INFO - Scanning for new audio files in monitor directory...
+2025-08-19 23:26:23,123 - INFO - No new audio files found

@@ -1,0 +1,11 @@
+{
+  "assemblyai_model": "best",
+  "translation_enabled": true,
+  "target_language": "en",
+  "audio_formats": [".ulaw", ".wav", ".gsm", ".mp3"],
+  "monitoring_directories": [
+    "/Users/apple/Desktop/asterisk/monitor",
+    "/Users/apple/Desktop/asterisk/recordings/raw"
+  ],
+  "processing_delay": 2
+}

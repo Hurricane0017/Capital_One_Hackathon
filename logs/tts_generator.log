@@ -1,0 +1,25 @@
+2025-08-19 14:52:49,833 - INFO - 🚀 Starting TTS Generator
+2025-08-19 14:54:05,673 - INFO - 🎯 TTS Request: 20 chars, lang=hi, fast=False
+2025-08-19 14:54:05,674 - INFO - 📁 Target: tts_hi_20250819_145405_quality.mp3
+2025-08-19 14:54:05,674 - INFO - 🚀 Using direct gTTS processing
+2025-08-19 14:54:06,033 - INFO - ✅ gTTS ready (0.359s)
+2025-08-19 14:54:06,033 - INFO - 🎵 gTTS object created (0.000s)
+2025-08-19 14:55:21,946 - INFO - 💾 Audio saved (75.912s)
+2025-08-19 14:55:21,946 - INFO - 🎉 gTTS completed in 76.272s
+2025-08-19 14:55:21,946 - INFO - ✅ Success: 76.27s, 15552 bytes
+2025-08-19 14:55:31,112 - INFO - 🎯 TTS Request: 20 chars, lang=hi, fast=False
+2025-08-19 14:55:31,112 - INFO - 📁 Target: tts_hi_20250819_145531_quality.wav
+2025-08-19 14:55:31,112 - INFO - 🚀 Using direct gTTS processing
+2025-08-19 14:55:31,400 - INFO - ✅ gTTS ready (0.288s)
+2025-08-19 14:55:31,400 - INFO - 🎵 gTTS object created (0.000s)
+2025-08-19 14:58:53,364 - INFO - 🚀 Starting TTS Generator
+2025-08-19 14:58:53,364 - INFO - 🎯 TTS Request: 33 chars, lang=hi, fast=False
+2025-08-19 14:58:53,364 - INFO - 📁 Target: tts_hi_20250819_145853_quality.mp3
+2025-08-19 14:58:53,365 - INFO - 🚀 Using direct gTTS processing
+2025-08-19 14:58:54,293 - INFO - ✅ gTTS ready (0.928s)
+2025-08-19 14:58:54,293 - INFO - 📝 Processing text: 'नमस्ते, मैं एक परीक्षण कर रहा हूं' (33 chars)
+2025-08-19 14:58:54,294 - INFO - 🌍 Language mapping: hi -> hi
+2025-08-19 14:58:54,294 - INFO - 🎵 gTTS object created successfully (0.000s)
+2025-08-19 15:00:11,063 - INFO - 💾 Audio save operation completed (76.768s)
+2025-08-19 15:00:11,067 - ERROR - ❌ Output file was not created
+2025-08-19 15:00:11,068 - ERROR - ❌ Failed after 77.70 seconds

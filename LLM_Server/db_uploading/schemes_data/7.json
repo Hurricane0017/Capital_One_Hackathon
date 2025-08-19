@@ -1,0 +1,88 @@
+{
+  "scheme_id": "SCHM-008",
+  "name": "Pradhan Mantri Krishi Sinchayee Yojana - Per Drop More Crop",
+  "type": "subsidy",
+  "agency": {
+    "name": "Ministry of Agriculture & Farmers Welfare",
+    "type": "central_govt",
+    "contact": {
+      "helpline": "",
+      "email": "",
+      "website": "http://pmksy.gov.in"
+    }
+  },
+  "validity": {
+    "start_date": "2015-04-01",
+    "end_date": null,
+    "application_windows": [
+      { "from": "2025-01-01", "to": "2025-12-31", "season": "Annual" }
+    ]
+  },
+  "eligibility": {
+    "farmer_segments": ["small_and_marginal", "tenant_farmers", "FPOs"],
+    "income_categories": ["No limit"],
+    "income_cap_inr_per_year": null,
+    "caste_categories": ["SC", "ST", "OBC", "General"],
+    "special_status": ["women", "youth"],
+    "age_min": 18,
+    "age_max": null,
+    "land_holding_max_ha": null,
+    "other_conditions": [
+      "Assured source of water for irrigation",
+      "Land should be suitable for micro-irrigation"
+    ]
+  },
+  "benefits": [
+    {
+      "benefit_type": "subsidy",
+      "description": "Subsidy for drip and sprinkler irrigation systems",
+      "financials": {
+        "sum_insured_inr": null,
+        "premium_inr": null,
+        "premium_rate_percent": null,
+        "cost_distribution": {
+          "govt_percent": 90,
+          "beneficiary_percent": 10,
+          "other_sources_percent": 0
+        },
+        "subsidy_percent": 55,
+        "cash_transfer_amount_inr": null
+      },
+      "coverage": {
+        "crops": ["All irrigated crops"],
+        "seasons": ["Kharif", "Rabi", "Zaid"],
+        "perils_covered": [],
+        "stages_covered": ["cultivation", "irrigation"]
+      },
+      "conditions": [
+        "55% subsidy for small/marginal farmers, 45% for others",
+        "Technical approval required for installation"
+      ]
+    }
+  ],
+  "application": {
+    "mode": ["online", "offline"],
+    "portal_urls": ["http://pmksy.gov.in"],
+    "documents_required": [
+      "Aadhaar",
+      "Land record",
+      "Bank passbook",
+      "Water source proof"
+    ],
+    "fees_inr": 0
+  },
+  "disbursal": {
+    "mode": "direct",
+    "timeline_days": 45
+  },
+  "budget": {
+    "fy_allocation_inr": null,
+    "beneficiaries_target": null,
+    "beneficiaries_actual": null
+  },
+  "faqs": [
+    { "q": "What systems are covered?", "a": "Drip irrigation, sprinkler irrigation, and other micro-irrigation systems." },
+    { "q": "What is the subsidy rate?", "a": "55% for small/marginal farmers, 45% for other farmers." }
+  ],
+  "last_updated": "2025-08-17T14:00:00Z"
+}

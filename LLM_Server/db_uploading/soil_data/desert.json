@@ -1,0 +1,37 @@
+{
+  "soil_key": "desert",
+  "soil_name": "Desert (Arid) Soil",
+  "aliases": ["Arid Soil"],
+  "color": ["reddish brown", "buff brown"],
+  "texture": "sandy (90%+ sand with low clay content)",
+  "structure": "single-grained, loose; surface crusts may form",
+  "physical_properties": {
+    "bulk_density_g_cm3": 1.5,
+    "infiltration_rate_mm_hr": 20,
+    "erosion_risk": "high (wind erosion dominant)"
+  },
+  "chemical_properties": {
+    "pH": { "min": 7.5, "max": 9.0 },
+    "cation_exchange_capacity_cmolkg": { "min": 5, "max": 15 },
+    "organic_matter_pct": { "min": 0.2, "max": 0.5 },
+    "salinity_dS_m": { "max": 4 },
+    "sodicity_ESP": { "max": 5 },
+    "free_CaCO3_pct": { "min": 5, "max": 15 }
+  },
+  "water_holding_capacity_pct": { "min": 5, "max": 15 },
+  "nutrients_rich_in": ["phosphates"],
+  "nutrients_deficient_in": ["nitrogen", "organic matter"],
+  "favoured_crops": ["pearl millet", "barley", "cotton", "wheat", "gram (chickpea)", "mustard"],
+  "favoured_seasons": ["Kharif", "Rabi"],
+  "drainage": "excessively drained (rapid permeability)",
+  "typical_depth_cm": { "min": 50, "max": 150 },
+  "regions": [
+    { "state": "Rajasthan", "notes": "Thar Desert and semi-arid zones" },
+    { "state": "Gujarat", "notes": "Kutch and arid Kathiawar areas" },
+    { "state": "Haryana", "notes": "Southwest districts" },
+    { "state": "Punjab", "notes": "Southwestern semi-arid belt" }
+  ],
+  "hazards": ["wind erosion (sand storms)", "desertification", "salinization under irrigation"],
+  "notes": "Needs irrigation and soil conditioning (addition of organic matter or clay) for sustainable agriculture. Frequently, shelterbelts and windbreaks are planted to reduce wind erosion. With irrigation, careful drainage is required to prevent salt build-up.",
+  "sources": ["PMF IAS (2024)", "Medium (2023)"]
+}

@@ -1,0 +1,5 @@
+2025-08-18 23:42:55,744 - OrchestratorTest - INFO - --- Starting Test for Farmer: 9876001234 ---
+2025-08-18 23:42:55,745 - OrchestratorTest - INFO - Input Text: 'I am Pankaj Thakur, phone 9876001234, PIN 175001. You have my permission. Total land 0.8 hectare; cultivating 0.6 hectare in Rabi. Soil is loam. Rainfed. Planning garden peas, variety AP-3, sowing on 15 October 2025; harvest by end of January. I have 40,000 rupees cash, may borrow 20k. Not in insurance. Nearest market Mandi town. I prefer weekly guidance in the evening. I am interested in going organic.'
+2025-08-18 23:42:56,621 - OrchestratorTest - INFO - Orchestrator agent initialized.
+2025-08-18 23:46:55,548 - OrchestratorTest - INFO - Orchestrator processing complete.
+2025-08-18 23:46:55,548 - OrchestratorTest - INFO - Test PASSED: Orchestrator returned a valid string response.

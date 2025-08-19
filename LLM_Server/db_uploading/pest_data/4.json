@@ -1,0 +1,109 @@
+{
+  "pest_id": "PST038",
+  "common_name": "Sesame Leaf Webworm",
+  "scientific_name": "Antigastra catalaunalis",
+  "category": "Insect",
+  "description": "A serious pest of sesame that curls and webbing leaf clusters, leading to reduced photosynthetic area and 20–40% yield losses. Larvae feed gregariously inside webs, skeletonizing leaves.",
+  "identification": {
+    "physical_signs": [
+      "Webbing of tender leaf clusters",
+      "Skeletonized leaves within webs",
+      "Greenish larvae with dark dorsal line",
+      "Web-covered feeding sites"
+    ],
+    "visual_images": [
+      "Note: Populate from agricultural image databases"
+    ]
+  },
+  "attack_details": {
+    "agriculture_stage": ["Vegetative", "Early flowering"],
+    "seasons": ["Kharif"],
+    "favourable_conditions": {
+      "climate": "Warm humid conditions (25–32 °C)",
+      "soil_type": ["All sesame soils"],
+      "soil_conditions": ["Moderate moisture"],
+      "ecological_factors": ["Dense planting", "Continuous cropping"]
+    },
+    "geographical_distribution": [
+      "Rajasthan",
+      "Gujarat",
+      "Maharashtra",
+      "Andhra Pradesh",
+      "Karnataka"
+    ],
+    "crops_attacked": ["Sesame", "Other herbaceous plants"]
+  },
+  "impact": {
+    "min_crop_loss_percent": 20,
+    "max_crop_loss_percent": 40,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 10000,
+      "max_loss": 25000,
+      "unit": "per hectare"
+    }
+  },
+  "management_strategies": {
+    "mechanical_methods": [
+      "Hand removal of webs",
+      "Use of light traps for adults"
+    ],
+    "cultural_methods": [
+      "Early sowing to avoid pest peak",
+      "Proper spacing and field hygiene"
+    ],
+    "biological_control": [
+      {
+        "agent": "Bacillus thuringiensis",
+        "method": "Bacterial biopesticide spray"
+      },
+      {
+        "agent": "Trichogramma japonicum",
+        "method": "Egg parasitoid release"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Spinosad 45% SC",
+          "dosage": "0.3 ml/litre water",
+          "application_stage": "At early web formation"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Emamectin benzoate 5% SG",
+          "dosage": "0.4 g/litre water",
+          "application_stage": "When infestation >5% plants"
+        }
+      ]
+    }
+  },
+  "pesticides_market": [
+    {
+      "brand_name": "Tracer",
+      "active_ingredient": "Spinosad",
+      "formulation": "45% SC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 750,
+        "unit": "100 ml bottle"
+      }
+    },
+    {
+      "brand_name": "Proclaim",
+      "active_ingredient": "Emamectin benzoate",
+      "formulation": "5% SG",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 420,
+        "unit": "100 g pack"
+      }
+    }
+  ],
+  "references": [
+    "https://journalijecc.com/index.php/IJECC/article/view/3789",
+    "https://www.entomoljournal.com/archives/2018/vol6issue5/PartH/6-5-47-852.pdf"
+  ],
+  "last_updated": "2025-08-17T10:00:00Z"
+}

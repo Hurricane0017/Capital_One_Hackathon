@@ -1,0 +1,112 @@
+2025-08-18 23:42:55,745 - OrchestratorAgent - INFO - 🎯 Initializing Orchestrator Agent - Master Coordinator
+2025-08-18 23:42:56,621 - OrchestratorAgent - INFO - ✅ All agents and processors initialized successfully
+2025-08-18 23:42:56,621 - OrchestratorAgent - INFO - 🌾 Processing farmer request from 9876001234
+2025-08-18 23:42:56,621 - OrchestratorAgent - INFO - 📝 Processing and storing farmer input data
+2025-08-18 23:42:56,651 - OrchestratorAgent - INFO - 📋 Found existing profile for 9876001234
+2025-08-18 23:42:56,651 - OrchestratorAgent - INFO - 🔍 Extracting farmer query from raw input
+2025-08-18 23:42:56,651 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an agricultural assistant analyzing farmer communication from an IVR system.
+            
+            Raw farmer input: "I am Pankaj Thakur, phone 9876001234, PIN 175001. You have my permission. Total land 0.8 hectare; cultivating 0.6 hectare in Rabi. Soil is loam. Rainfed. Planning garden peas, variety AP-3, sowing on 15 October 2025; harvest by end of January. I have 40,000 rupees cash, may borrow 20k. Not in insurance. Nearest market Mandi town. I prefer weekly guidance i...
+2025-08-18 23:43:11,133 - OrchestratorAgent - DEBUG - LLM Call Response:
+"I want weekly guidance for cultivating organic garden peas (variety AP-3) in Rabi season."...
+2025-08-18 23:43:11,133 - OrchestratorAgent - INFO - ✅ Extracted query: I want weekly guidance for cultivating organic garden peas (variety AP-3) in Rabi season....
+2025-08-18 23:43:11,133 - OrchestratorAgent - INFO - 🎯 Classifying pipeline type for farmer query
+2025-08-18 23:43:11,133 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an intelligent agricultural coordinator analyzing farmer queries to determine the best response strategy.
+            
+            FARMER CONTEXT:
+            Farmer: Pankaj Thakur
+Location: 175001
+Total land: 0.8 hectares
+Soil type: Loam
+Crops: garden peas (0.6 ha) - Rabi season
+Available cash: ₹40000
+            
+            FARMER QUERY: "I want weekly guidance for cultivating organic garden peas (variety AP-3) in Rabi season."
+            
+            CLASSIFICATION TASK...
+2025-08-18 23:43:24,899 - OrchestratorAgent - DEBUG - LLM Call Response:
+```json
+{
+    "pipeline_type": "generic",
+    "reasoning": "The farmer requests 'weekly guidance for cultivating organic garden peas' throughout the Rabi season, indicating a need for comprehensive end-to-end support covering multiple aspects (soil management, pest control, irrigation scheduling, organic practices, etc.) rather than a single targeted issue.",
+    "confidence": 0.95,
+    "required_agents": "all",
+    "urgency": "medium",
+    "complexity": "complex"
+}
+```...
+2025-08-18 23:43:24,900 - OrchestratorAgent - INFO - ✅ Pipeline classified as: generic (confidence: 0.95)
+2025-08-18 23:43:24,900 - OrchestratorAgent - INFO - 🌟 Executing generic pipeline - comprehensive farming guidance
+2025-08-18 23:43:24,900 - OrchestratorAgent - INFO - 🧠 Gathering comprehensive intelligence from all agents
+2025-08-18 23:43:24,900 - OrchestratorAgent - INFO - ☀️ Gathering weather intelligence
+2025-08-18 23:44:55,688 - OrchestratorAgent - INFO - 🌱 Gathering soil intelligence
+2025-08-18 23:45:07,936 - OrchestratorAgent - INFO - 🐛 Gathering pest intelligence
+2025-08-18 23:45:08,106 - OrchestratorAgent - INFO - 🏛️ Gathering scheme intelligence
+2025-08-18 23:45:08,275 - OrchestratorAgent - INFO - ✅ Comprehensive intelligence gathered from all agents
+2025-08-18 23:45:08,275 - OrchestratorAgent - INFO - 🎯 Generating comprehensive farming strategy
+2025-08-18 23:45:08,276 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are the world's most advanced agricultural AI coordinator, creating a comprehensive farming strategy that integrates weather science, soil science, pest management, and financial planning.
+            
+            FARMER PROFILE:
+            Farmer: Pankaj Thakur
+Location: 175001
+Total land: 0.8 hectares
+Soil type: Loam
+Crops: garden peas (0.6 ha) - Rabi season
+Available cash: ₹40000
+            
+            FARMER'S REQUEST: "I want weekly guidance for cultivating organic garde...
+2025-08-18 23:46:24,650 - OrchestratorAgent - DEBUG - LLM Call Response:
+```json
+{
+  "situational_analysis": {
+    "current_situation": "Farmer Pankaj cultivates 0.6 ha of organic garden peas (AP-3 variety) in loam soil during Rabi season. Limited land (0.8 ha total) and capital (₹40,000) constrain operations. Location 175001 (Himachal Pradesh) experiences winter frosts and variable rainfall.",
+    "opportunities": [
+      "Premium pricing for organic peas in local markets",
+      "Utilization of 3 high-priority government schemes",
+      "Loam soil's ideal drainage/...
+2025-08-18 23:46:24,650 - OrchestratorAgent - INFO - ✅ Comprehensive strategy generated successfully
+2025-08-18 23:46:24,651 - OrchestratorAgent - INFO - 🗺️ Creating actionable roadmap
+2025-08-18 23:46:24,651 - OrchestratorAgent - INFO - ✅ Actionable roadmap created
+2025-08-18 23:46:24,651 - OrchestratorAgent - INFO - 📍 Generating hyperlocal guidance
+2025-08-18 23:46:24,652 - OrchestratorAgent - INFO - ✅ Hyperlocal guidance generated
+2025-08-18 23:46:24,652 - OrchestratorAgent - INFO - ✅ Generic pipeline completed successfully
+2025-08-18 23:46:24,652 - OrchestratorAgent - INFO - ✅ Successfully processed farmer request via generic pipeline
+2025-08-18 23:46:24,652 - OrchestratorAgent - INFO - 🔄 Converting JSON response to plain English.
+2025-08-18 23:46:24,653 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an expert agricultural assistant. Your task is to convert a complex JSON object containing agricultural advice into a simple, clear, and actionable response in plain English for a farmer.
+
+            FARMER'S PROFILE:
+            Farmer: Pankaj Thakur
+Location: 175001
+Total land: 0.8 hectares
+Soil type: Loam
+Crops: garden peas (0.6 ha) - Rabi season
+Available cash: ₹40000
+
+            FARMER'S ORIGINAL QUERY: "I want weekly guidance for cultivating organic garden peas (vari...
+2025-08-18 23:46:55,546 - OrchestratorAgent - DEBUG - LLM Call Response:
+Namaste, Pankaj ji! Here's your clear, weekly guidance for growing organic garden peas (AP-3 variety) this Rabi season on your 0.6-hectare plot in Himachal Pradesh:
+
+### 🌱 Your Key Goals:
+- **Target Yield:** 11-12 quintals (1,100-1,200 kg)  
+- **Budget:** Keep costs under ₹25,000 using organic methods  
+- **Certification:** Achieve zero pesticide residue for premium prices  
+
+### 📅 Month-by-Month Action Plan:
+
+**October (Preparation & Sowing):**  
+- *Week 1:* Apply for 3 key schemes:  
+  - **PM ...
+2025-08-18 23:46:55,547 - OrchestratorAgent - INFO - ✅ Successfully converted JSON to English response.
+2025-08-18 23:46:55,547 - OrchestratorAgent - INFO - ✅ Converted final response to plain English for the farmer.

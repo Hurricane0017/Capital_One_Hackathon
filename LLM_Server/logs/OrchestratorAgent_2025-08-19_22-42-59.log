@@ -1,0 +1,322 @@
+2025-08-19 22:42:59,618 - OrchestratorAgent - INFO - 🎯 Initializing Orchestrator Agent - Master Coordinator
+2025-08-19 22:43:02,104 - OrchestratorAgent - INFO - ✅ All agents and processors initialized successfully
+2025-08-19 22:43:03,157 - OrchestratorAgent - INFO - 🌾 Processing farmer request from 9876001234
+2025-08-19 22:43:03,157 - OrchestratorAgent - INFO - 📝 Processing and storing farmer input data
+2025-08-19 22:43:03,286 - OrchestratorAgent - INFO - 📋 Found existing profile for 9876001234
+2025-08-19 22:43:03,290 - OrchestratorAgent - INFO - 🔍 Extracting farmer query from raw input
+2025-08-19 22:43:03,290 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an agricultural assistant analyzing farmer communication from an IVR system.
+            
+            Raw farmer input: "I am Pankaj Thakur. Phone 9876001234 P 175001 You have my permission. Total land 0.8 hectare I am cultivating 0.6 hectare in Rabi. Soil is double. Planning to plant garden manure based on the year. Kim ep3 sowing on 15th October 2025 Crop will be ready by end of January. I have ₹40000 cash. I can take ₹20000 if needed. I am not covered under insurance. Nea...
+2025-08-19 22:43:14,045 - OrchestratorAgent - DEBUG - LLM Call Response:
+"I want complete farming guidance for transitioning to organic farming."...
+2025-08-19 22:43:14,046 - OrchestratorAgent - INFO - ✅ Extracted query: I want complete farming guidance for transitioning to organic farming....
+2025-08-19 22:43:14,046 - OrchestratorAgent - INFO - 🎯 Classifying pipeline type for farmer query
+2025-08-19 22:43:14,046 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an intelligent agricultural coordinator analyzing farmer queries to determine the best response strategy.
+            
+            FARMER CONTEXT:
+            Farmer: Pankaj Thakur
+Location: 175001
+Total land: 0.8 hectares
+Soil type: Loam
+Crops: garden peas (0.6 ha) - Rabi season
+Available cash: ₹40000
+            
+            FARMER QUERY: "I want complete farming guidance for transitioning to organic farming."
+            
+            CLASSIFICATION TASK:
+            Deter...
+2025-08-19 22:43:27,445 - OrchestratorAgent - DEBUG - LLM Call Response:
+```json
+{
+    "pipeline_type": "generic",
+    "reasoning": "The query explicitly requests 'complete farming guidance for transitioning to organic farming,' which requires holistic planning covering soil conversion, pest management, certification, crop rotation, and subsidy navigation. This is a comprehensive strategy overhaul, not a targeted issue.",
+    "confidence": 0.95,
+    "required_agents": "all",
+    "urgency": "medium",
+    "complexity": "complex"
+}
+```...
+2025-08-19 22:43:27,447 - OrchestratorAgent - INFO - ✅ Pipeline classified as: generic (confidence: 0.95)
+2025-08-19 22:43:27,448 - OrchestratorAgent - INFO - 🌟 Executing generic pipeline - comprehensive farming guidance
+2025-08-19 22:43:27,448 - OrchestratorAgent - INFO - 🧠 Gathering comprehensive intelligence from all agents
+2025-08-19 22:43:27,448 - OrchestratorAgent - INFO - ☀️ Gathering weather intelligence
+2025-08-19 22:44:31,061 - OrchestratorAgent - INFO - 🌱 Gathering soil intelligence
+2025-08-19 22:44:47,483 - OrchestratorAgent - INFO - 🐛 Gathering pest intelligence
+2025-08-19 22:44:47,952 - OrchestratorAgent - INFO - 🏛️ Gathering scheme intelligence
+2025-08-19 22:44:48,404 - OrchestratorAgent - INFO - ✅ Comprehensive intelligence gathered from all agents
+2025-08-19 22:44:48,404 - OrchestratorAgent - INFO - 🎯 Generating comprehensive farming strategy
+2025-08-19 22:44:48,404 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are the world's most advanced agricultural AI coordinator, creating a comprehensive farming strategy that integrates weather science, soil science, pest management, and financial planning.
+            
+            FARMER PROFILE:
+            Farmer: Pankaj Thakur
+Location: 175001
+Total land: 0.8 hectares
+Soil type: Loam
+Crops: garden peas (0.6 ha) - Rabi season
+Available cash: ₹40000
+            
+            FARMER'S REQUEST: "I want complete farming guidance for transitioning t...
+2025-08-19 22:46:14,022 - OrchestratorAgent - DEBUG - LLM Call Response:
+```json
+{
+  "farmer_strategy": {
+    "farmer_details": {
+      "name": "Pankaj Thakur",
+      "location": "Himachal Pradesh (PIN 175001)",
+      "land_size": "0.8 hectares",
+      "soil_type": "Loam",
+      "primary_crop": "Garden Peas (0.6 ha - Rabi season)",
+      "available_cash": "₹40,000",
+      "conversion_goal": "Transition to certified organic farming"
+    },
+    "situational_analysis": {
+      "current_assessment": {
+        "strengths": [
+          "Loam soil offers excellent drainage ...
+2025-08-19 22:46:14,025 - OrchestratorAgent - ERROR - ❌ JSON Decode Error: Expecting ',' delimiter: line 204 column 2 (char 7323)
+Response: ```json
+{
+  "farmer_strategy": {
+    "farmer_details": {
+      "name": "Pankaj Thakur",
+      "location": "Himachal Pradesh (PIN 175001)",
+      "land_size": "0.8 hectares",
+      "soil_type": "Loam",
+      "primary_crop": "Garden Peas (0.6 ha - Rabi season)",
+      "available_cash": "₹40,000",
+      "conversion_goal": "Transition to certified organic farming"
+    },
+    "situational_analysis": {
+      "current_assessment": {
+        "strengths": [
+          "Loam soil offers excellent drainage and nutrient retention",
+          "Existing pea cultivation experience",
+          "Adequate startup capital for initial transition"
+        ],
+        "weaknesses": [
+          "Limited land size requires precision management",
+          "Organic transition may cause temporary yield dip (15-20%)",
+          "No existing organic certification"
+        ],
+      "opportunities": [
+        "Premium pricing (30-50% higher for organic peas)",
+        "Government subsidies for organic inputs and certification",
+        "Growing demand in urban markets via e-NAM"
+      ],
+      "threats": [
+        "Pea aphids and powdery mildew in Himalayan foothills",
+        "Unpredictable winter rainfall patterns",
+        "Potential cash flow disruption during transition"
+      ],
+      "resource_analysis": [
+        "Land allocation: 0.6ha peas + 0.2ha for green manure/companion crops",
+        "Labor: Family labor available (assumed), hire 1 part-time worker during peak",
+        "Equipment: Basic tools available; rent rotavator for soil prep (₹800/day)"
+      ]
+    },
+    "strategic_objectives": {
+      "primary_goals": [
+        "Achieve organic certification within 18 months",
+        "Maintain pea yield ≥4.2 tons/ha (70% conventional baseline)",
+        "Reduce synthetic input costs by 100% this season"
+      ],
+      "yield_optimization": {
+        "pea_target": "4.2-4.5 tons/ha",
+        "quality_parameters": [
+          "≥90% Grade A pods",
+          "Sugar content >5.5 Brix"
+        ]
+      },
+      "risk_mitigation": [
+        "Zero chemical pesticide reliance",
+        "Drought-proofing through mulching",
+        "Diversified income via intercrops"
+      ],
+      "financial_improvement": [
+        "Reduce input costs by 40% through on-farm inputs",
+        "Achieve 25% profit margin through premium pricing",
+        "Leverage schemes for 30% working capital support"
+      ]
+    },
+    "integrated_action_plan": {
+      "crop_planning": {
+        "main_crop": {
+          "variety": "Arkel (cold-tolerant, high-yield)",
+          "sowing_density": "100 kg/ha (treated with Trichoderma)"
+        },
+        "intercropping": [
+          "0.2ha border planting: Marigold (pest repellent)",
+          "Radish (quick cash crop between pea rows)"
+        ],
+        "crop_rotation": "Post-harvest: Sunnhemp green manure → Summer moong"
+      },
+      "soil_health_strategy": {
+        "phase_1_transition": [
+          "Apply 8-10 tons/ha farmyard manure (₹2,500/ton)",
+          "Vermicompost tea: 500L/ha biweekly (on-farm production)",
+          "Baseline soil test: NPK + micronutrients (₹1,500)"
+        ],
+        "amendments": [
+          "Neem cake (200kg/ha) for nematode control",
+          "Rock phosphate (150kg/ha) for phosphorus",
+          "pH maintenance: Wood ash if pH <6.2"
+        ],
+        "conservation": [
+          "Zero-tillage post-establishment",
+          "Wheat straw mulching (5cm layer)"
+        ]
+      },
+      "weather_management": {
+        "october-november": "Pre-sowing irrigation + mulch application",
+        "december-january": "Frost protection: Light evening irrigation",
+        "february-march": "Drainage channels for unseasonal rain",
+        "monitoring": "Use IMD SMS alerts for frost/rain forecasts"
+      },
+      "pest_management": {
+        "prevention": [
+          "Weekly neem oil spray (5% solution)",
+          "Pheromone traps (4/ha) for pea moths",
+          "Bird perches for insectivorous birds"
+        ],
+        "intervention": [
+          "Aphids: 3% soap-nicotine solution",
+          "Powdery mildew: Baking soda spray (1tsp/L water)",
+          "Thresholds: Act at >5 aphids/plant or 10% leaf mildew"
+        ]
+      },
+      "financial_optimization": {
+        "scheme_integration": [
+          "Kisan Credit Card: ₹1.6L limit @ 4% interest (cover input costs)",
+          "e-NAM: Register for direct organic buyer auctions",
+          "PMFBY: Insure crop at 1.5% premium (subsidized)"
+        ],
+        "cost_control": [
+          "On-farm input production: Vermicompost + botanical extracts",
+          "Shared equipment rental with neighboring farms",
+          "Bulk purchase: Neem cake through FPO collective"
+        ],
+        "budget_allocation": {
+          "inputs": "₹18,000 (manure, seeds, biopesticides)",
+          "labor": "₹12,000",
+          "certification": "₹5,000 (initial documentation)",
+          "contingency": "₹5,000"
+        }
+      }
+    },
+    "implementation_timeline": {
+      "september": [
+        "Soil testing + land prep",
+        "Apply for KCC & PMFBY",
+        "Source organic seeds"
+      ],
+      "october": [
+        "Sow peas + marigold borders (1st week)",
+        "Apply basal manure + neem cake",
+        "Install weather station"
+      ],
+      "november": [
+        "First vermicompost tea application",
+        "Radish intercropping",
+        "Set up pheromone traps"
+      ],
+      "december": [
+        "Frost watch initiation",
+        "Neem spray (weekly)",
+        "Weed management"
+      ],
+      "january": [
+        "Pod formation monitoring",
+        "Aphid surveillance",
+        "e-NAM registration"
+      ],
+      "february": [
+        "Staggered harvesting (3 pickings)",
+        "Green manure sowing in harvested areas",
+        "Market linkage activation"
+      ],
+      "march": [
+        "Final harvest + yield recording",
+        "Soil retest",
+        "Organic certification paperwork"
+      ],
+      "critical_decision_points": [
+        "Day 30: Thin plants if density >120 plants/m²",
+        "Flowering: Increase K supplementation if buds <15/node",
+        "Post-frost: Assess damage for insurance claim"
+      ],
+      "monitoring_triggers": [
+        "If >3 consecutive dry weeks: Extra irrigation",
+        "Aphid surge >10/plant: Deploy ladybird beetles",
+        "Pod borer damage >5%: Apply Bt spray"
+      ]
+    },
+    "success_metrics": {
+      "yield_targets": {
+        "minimum_acceptable": "3.8 tons/ha",
+        "target": "4.5 tons/ha",
+        "stretch_goal": "5.0 tons/ha"
+      },
+      "quality_improvements": [
+        "Grade A pods: ≥90%",
+        "Pesticide residues: Non-detectable",
+        "Soil organic matter: +0.5% in 6 months"
+      ],
+      "cost_reduction": [
+        "Chemical inputs: ₹0 (100% reduction)",
+        "Water usage: -30% through mulching",
+        "Labor costs: -15% through intercropping efficiency"
+      ],
+      "risk_reduction": [
+        "Pest damage: <5% crop loss",
+        "Weather losses: 90% covered via insurance",
+        "Market risk: 40% pre-sold via e-NAM contracts"
+      ]
+    },
+    "supporting_resources": [
+      "KVK Palampur: Organic farming training (Oct 15-17)",
+      "State horticulture dept: Subsidy for vermibeds (50% cost)",
+      "FPO contact: Himachal Organic Farmers Consortium"
+    ]
+  }
+}
+```
+2025-08-19 22:46:14,026 - OrchestratorAgent - INFO - ✅ Comprehensive strategy generated successfully
+2025-08-19 22:46:14,026 - OrchestratorAgent - INFO - 🗺️ Creating actionable roadmap
+2025-08-19 22:46:14,027 - OrchestratorAgent - INFO - ✅ Actionable roadmap created
+2025-08-19 22:46:14,027 - OrchestratorAgent - INFO - 📍 Generating hyperlocal guidance
+2025-08-19 22:46:14,027 - OrchestratorAgent - INFO - ✅ Hyperlocal guidance generated
+2025-08-19 22:46:14,027 - OrchestratorAgent - INFO - ✅ Generic pipeline completed successfully
+2025-08-19 22:46:14,027 - OrchestratorAgent - INFO - ✅ Successfully processed farmer request via generic pipeline
+2025-08-19 22:46:14,027 - OrchestratorAgent - INFO - 🔄 Converting JSON response to plain English.
+2025-08-19 22:46:14,028 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an expert agricultural assistant. Your task is to convert a complex JSON object containing agricultural advice into a simple, clear, and actionable response in plain English for a farmer.
+
+            FARMER'S PROFILE:
+            Farmer: Pankaj Thakur
+Location: 175001
+Total land: 0.8 hectares
+Soil type: Loam
+Crops: garden peas (0.6 ha) - Rabi season
+Available cash: ₹40000
+
+            FARMER'S ORIGINAL QUERY: "I want complete farming guidance for transitioning to organic fa...
+2025-08-19 22:46:55,683 - OrchestratorAgent - DEBUG - LLM Call Response:
+Namaste, Pankaj ji! Here's a clear, step-by-step plan for transitioning your 0.8-hectare garden pea farm (Rabi season) to organic farming in Himachal Pradesh (PIN 175001):
+
+### 🌱 **Your Immediate Priorities (Next 2 Weeks)**
+1.  **Prepare for Heavy Rain (Around Aug 25th):**
+    *   **Secure Trellises:** Strong winds (up to 31 km/h) and heavy rain (11 mm predicted) are coming. Tighten or reinforce your pea trellises *before August 24th* to prevent damage.
+    *   **Clear Drainage:** Dig or clear d...
+2025-08-19 22:46:55,685 - OrchestratorAgent - INFO - ✅ Successfully converted JSON to English response.
+2025-08-19 22:46:55,686 - OrchestratorAgent - INFO - ✅ Converted final response to plain English for the farmer.

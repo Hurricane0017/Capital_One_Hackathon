@@ -1,0 +1,160 @@
+{
+  "pest_id": "PST022",
+  "common_name": "Cotton Aphid",
+  "scientific_name": "Aphis gossypii",
+  "category": "Insect",
+  "description": "A major sucking pest of cotton that feeds on plant sap causing direct damage and transmits viral diseases. Causes significant yield losses and quality reduction in cotton by stunting growth, reducing flowering, and promoting sooty mold development.",
+
+  "identification": {
+    "physical_signs": [
+      "Small dark green to black soft-bodied insects on leaves and shoots",
+      "Yellowing and curling of leaves, especially terminal leaves",
+      "Honeydew deposits leading to sooty mold growth",
+      "Stunted plant growth and reduced boll formation",
+      "Sticky residue on leaves and stems",
+      "Presence of winged and wingless forms"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["Seedling", "Vegetative", "Flowering", "Early boll formation"],
+    "seasons": ["Kharif"],
+    "favourable_conditions": {
+      "climate": "Moderate temperatures (20-30°C), dry conditions, low rainfall",
+      "soil_type": ["All cotton growing soil types"],
+      "soil_conditions": ["Moderate moisture", "Water stress conditions"],
+      "ecological_factors": ["High nitrogen fertilization", "Dense planting", "Water stress in plants", "Delayed sowing"]
+    },
+    "geographical_distribution": [
+      "Maharashtra",
+      "Gujarat",
+      "Andhra Pradesh",
+      "Karnataka",
+      "Punjab",
+      "Haryana",
+      "Rajasthan",
+      "Madhya Pradesh",
+      "Tamil Nadu",
+      "Telangana"
+    ],
+    "crops_attacked": [
+      "Cotton",
+      "Okra",
+      "Hibiscus",
+      "Sunflower",
+      "Cucumbers",
+      "Melons",
+      "Potato",
+      "Tobacco"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 15,
+    "max_crop_loss_percent": 40,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 12000,
+      "max_loss": 45000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "Yellow sticky traps for monitoring winged forms",
+      "Reflective mulches to repel aphids",
+      "Water sprays to dislodge aphids",
+      "Removal of alternate host weeds"
+    ],
+    "cultural_methods": [
+      "Use of tolerant cotton varieties",
+      "Balanced fertilization avoiding excess nitrogen",
+      "Proper irrigation to avoid water stress",
+      "Intercropping with non-host crops",
+      "Timely sowing",
+      "Field sanitation"
+    ],
+    "biological_control": [
+      {
+        "agent": "Chrysoperla carnea",
+        "method": "Lacewing predator conservation and release"
+      },
+      {
+        "agent": "Coccinella septempunctata",
+        "method": "Ladybird beetle conservation"
+      },
+      {
+        "agent": "Aphidius colemani",
+        "method": "Parasitoid wasp release"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Imidacloprid 17.8% SL",
+          "dosage": "0.3 ml/litre water",
+          "application_stage": "Early vegetative stage"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Acetamiprid 20% SP",
+          "dosage": "0.2 g/litre water",
+          "application_stage": "When ETL is reached"
+        },
+        {
+          "pesticide_name": "Flonicamid 50% WG",
+          "dosage": "0.3 g/litre water",
+          "application_stage": "Peak infestation"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Confidor",
+      "active_ingredient": "Imidacloprid",
+      "formulation": "17.8% SL",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 280,
+        "unit": "100ml bottle"
+      }
+    },
+    {
+      "brand_name": "Pride",
+      "active_ingredient": "Acetamiprid",
+      "formulation": "20% SP",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 180,
+        "unit": "100g pack"
+      }
+    },
+    {
+      "brand_name": "Ulala",
+      "active_ingredient": "Flonicamid",
+      "formulation": "50% WG",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 920,
+        "unit": "100g pack"
+      }
+    }
+  ],
+
+  "references": [
+    "https://ijcrt.org/papers/IJCRT2304452.pdf",
+    "https://katyayanikrishidirect.com/blogs/news/controlling-of-aphids-in-cotton-plant",
+    "https://www.slideshare.net/slideshow/pests-of-cotton-and-their-management/69489582",
+    "https://journaloffarmsciences.in/index.php/JFM/article/view/437",
+    "https://jcottonres.biomedcentral.com/articles/10.1186/s42397-025-00220-6"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}

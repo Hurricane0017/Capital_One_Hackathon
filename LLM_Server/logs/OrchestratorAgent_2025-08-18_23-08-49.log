@@ -1,0 +1,78 @@
+2025-08-18 23:08:49,944 - OrchestratorAgent - INFO - 🎯 Initializing Orchestrator Agent - Master Coordinator
+2025-08-18 23:08:50,802 - OrchestratorAgent - INFO - ✅ All agents and processors initialized successfully
+2025-08-18 23:08:50,802 - OrchestratorAgent - INFO - 🌾 Processing farmer request from 7766554433
+2025-08-18 23:08:50,802 - OrchestratorAgent - INFO - 📝 Processing and storing farmer input data
+2025-08-18 23:09:19,243 - OrchestratorAgent - ERROR - ❌ Error processing farmer input: 'farmer_profile'
+2025-08-18 23:09:19,243 - OrchestratorAgent - INFO - 🔍 Extracting farmer query from raw input
+2025-08-18 23:09:19,243 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an agricultural assistant analyzing farmer communication from an IVR system.
+            
+            Raw farmer input: "I am Kishorilal. I have a farm near Mumbai with black soil. I am growing cotton. Should I irrigate my crop in the next 5 days?"
+            
+            Extract the main query, question, or concern that the farmer is expressing.
+            The query should be clear, specific, and focused on their agricultural needs.
+            
+            If multiple co...
+2025-08-18 23:09:29,544 - OrchestratorAgent - DEBUG - LLM Call Response:
+Should I irrigate my cotton crop in the next 5 days?...
+2025-08-18 23:09:29,544 - OrchestratorAgent - INFO - ✅ Extracted query: Should I irrigate my cotton crop in the next 5 days?...
+2025-08-18 23:09:29,544 - OrchestratorAgent - INFO - 🎯 Classifying pipeline type for farmer query
+2025-08-18 23:09:29,544 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an intelligent agricultural coordinator analyzing farmer queries to determine the best response strategy.
+            
+            FARMER CONTEXT:
+            Farmer: Unknown Farmer
+            
+            FARMER QUERY: "Should I irrigate my cotton crop in the next 5 days?"
+            
+            CLASSIFICATION TASK:
+            Determine whether this query requires:
+            
+            1. SPECIFIC PIPELINE - Targeted response using 1-2 specific agents:
+             ...
+2025-08-18 23:09:42,118 - OrchestratorAgent - DEBUG - LLM Call Response:
+```json
+{
+    "pipeline_type": "specific",
+    "reasoning": "The query focuses narrowly on irrigation timing for a specific crop (cotton) within a defined 5-day window, requiring weather-based recommendations rather than comprehensive farm management guidance.",
+    "confidence": 0.95,
+    "required_agents": ["weather"],
+    "urgency": "medium",
+    "complexity": "simple"
+}
+```...
+2025-08-18 23:09:42,120 - OrchestratorAgent - INFO - ✅ Pipeline classified as: specific (confidence: 0.95)
+2025-08-18 23:09:42,121 - OrchestratorAgent - INFO - 🎯 Executing specific pipeline with agents: ['weather']
+2025-08-18 23:09:42,121 - OrchestratorAgent - INFO - ☀️ Calling Weather Agent
+2025-08-18 23:11:29,919 - OrchestratorAgent - INFO - 🔄 Synthesizing specific agent responses
+2025-08-18 23:11:29,920 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an expert agricultural coordinator synthesizing responses from multiple specialized agents to answer a farmer's specific query.
+            
+            FARMER CONTEXT:
+            Farmer: Unknown Farmer
+            
+            ORIGINAL QUERY: "Should I irrigate my cotton crop in the next 5 days?"
+            
+            AGENT RESPONSES:
+            
+            
+            SYNTHESIS TASK:
+            Create a comprehensive, actionable response that:
+            1. Direct...
+2025-08-18 23:12:00,056 - OrchestratorAgent - DEBUG - LLM Call Response:
+Here's a synthesized, actionable recommendation based on the core principles of cotton irrigation, acknowledging the missing agent responses:
+
+**1. Direct Answer:**  
+**We cannot give a definitive "yes" or "no" answer about irrigating in the next 5 days because critical agent data (weather forecast, soil moisture, crop stage) is missing.** However, here's how to decide *yourself* based on essential factors.
+
+**2. Key Recommendations:**  
+*   **Check Soil Moisture TODAY:** Dig down 12-18 inches i...
+2025-08-18 23:12:00,058 - OrchestratorAgent - INFO - ✅ Successfully processed farmer request via specific pipeline
+2025-08-18 23:12:00,059 - OrchestratorAgent - INFO - 🔄 Converting JSON response to plain English.
+2025-08-18 23:12:00,059 - OrchestratorAgent - INFO - ✅ Converted final response to plain English for the farmer.

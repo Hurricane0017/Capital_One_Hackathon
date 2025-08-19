@@ -1,0 +1,151 @@
+{
+  "pest_id": "PST031",
+  "common_name": "Coffee Berry Borer",
+  "scientific_name": "Hypothenemus hampei",
+  "category": "Insect",
+  "description": "The most destructive pest of coffee worldwide causing 30-50% yield losses. Female beetles bore into coffee berries to reproduce inside, feeding on developing seeds and severely affecting both yield and quality of coffee beans with damages exceeding US$500 million annually.",
+
+  "identification": {
+    "physical_signs": [
+      "Small circular entry holes in coffee berries (1.2-1.8mm diameter)",
+      "Brown frass deposits around entry holes",
+      "Hollow or damaged coffee beans with feeding galleries",
+      "Premature berry drop in severe infestations",
+      "Small black beetles (1.2-1.8mm long) inside berries",
+      "Secondary fungal infections in damaged berries"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["Berry formation", "Berry development", "Maturation", "Post-harvest"],
+    "seasons": ["Throughout the year", "Peak during berry development"],
+    "favourable_conditions": {
+      "climate": "Warm humid conditions (20-30°C), moderate to high humidity",
+      "soil_type": ["All coffee growing soil types"],
+      "soil_conditions": ["Well-drained conditions"],
+      "ecological_factors": ["Continuous berry availability", "Poor field sanitation", "Delayed harvesting"]
+    },
+    "geographical_distribution": [
+      "Karnataka (Chikkamagaluru, Coorg)",
+      "Kerala (Wayanad, Idukki)",
+      "Tamil Nadu (Nilgiris, Pulneys)",
+      "Andhra Pradesh (Eastern Ghats)",
+      "Telangana",
+      "Northeast states"
+    ],
+    "crops_attacked": [
+      "Arabica coffee",
+      "Robusta coffee",
+      "Liberica coffee"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 30,
+    "max_crop_loss_percent": 50,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 40000,
+      "max_loss": 100000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "Ethanol-baited traps for mass trapping",
+      "Sticky traps around plantation periphery",
+      "Hand picking and destruction of infested berries",
+      "Timely and complete harvesting"
+    ],
+    "cultural_methods": [
+      "Strip picking - remove all berries from plants",
+      "Field sanitation - collect fallen berries",
+      "Proper drying and storage of harvested coffee",
+      "Shade management to reduce temperature",
+      "Intercropping with repellent plants",
+      "Proper pruning for good air circulation"
+    ],
+    "biological_control": [
+      {
+        "agent": "Beauveria bassiana",
+        "method": "Entomopathogenic fungal spray at 10⁸ spores/ml"
+      },
+      {
+        "agent": "Cephalonomia stephanoderis",
+        "method": "Parasitoid wasp release"
+      },
+      {
+        "agent": "Prorops nasuta",
+        "method": "Parasitoid wasp conservation"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Cyantraniliprole 10.26% OD",
+          "dosage": "1.5 ml/litre water",
+          "application_stage": "Early berry formation"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Chlorpyrifos 20% EC",
+          "dosage": "2.5 ml/litre water",
+          "application_stage": "When 5% berry infestation is observed"
+        },
+        {
+          "pesticide_name": "Endosulfan 35% EC",
+          "dosage": "2 ml/litre water",
+          "application_stage": "Peak infestation period"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Benevia",
+      "active_ingredient": "Cyantraniliprole",
+      "formulation": "10.26% OD",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 850,
+        "unit": "100ml bottle"
+      }
+    },
+    {
+      "brand_name": "Dursban",
+      "active_ingredient": "Chlorpyrifos",
+      "formulation": "20% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 320,
+        "unit": "500ml bottle"
+      }
+    },
+    {
+      "brand_name": "Thiodan",
+      "active_ingredient": "Endosulfan",
+      "formulation": "35% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 220,
+        "unit": "500ml bottle"
+      }
+    }
+  ],
+
+  "references": [
+    "https://jpt.faperta.unand.ac.id/index.php/jpt/article/view/166",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7763606/",
+    "https://www.mdpi.com/2073-4395/13/6/1554",
+    "https://masujournal.org/store_file/archive/94-7-12-218-231.pdf",
+    "https://link.springer.com/article/10.1007/s10526-024-10253-6"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}

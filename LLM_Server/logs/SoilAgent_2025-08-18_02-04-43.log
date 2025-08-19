@@ -1,0 +1,13 @@
+2025-08-18 02:06:25,818 - SoilAgent - INFO - Processing generic soil query: Provide comprehensive soil management and fertilizer guidance...
+2025-08-18 02:06:25,818 - SoilAgent - INFO - Processing generic soil pipeline query
+2025-08-18 02:06:25,852 - SoilAgent - INFO - Retrieved soil data for: alluvial
+2025-08-18 02:06:25,886 - SoilAgent - INFO - Retrieved soil data for: black
+2025-08-18 02:06:25,920 - SoilAgent - INFO - Retrieved soil data for: desert
+2025-08-18 02:06:25,953 - SoilAgent - INFO - Retrieved soil data for: forest
+2025-08-18 02:06:25,987 - SoilAgent - INFO - Retrieved soil data for: laterite
+2025-08-18 02:06:26,022 - SoilAgent - INFO - Retrieved soil data for: mountain
+2025-08-18 02:06:26,057 - SoilAgent - INFO - Retrieved soil data for: peaty
+2025-08-18 02:06:26,089 - SoilAgent - INFO - Retrieved soil data for: red
+2025-08-18 02:06:26,122 - SoilAgent - INFO - Retrieved soil data for: saline
+2025-08-18 02:06:41,813 - SoilAgent - INFO - Determined soil type: mountain
+2025-08-18 02:06:41,847 - SoilAgent - INFO - Retrieved soil data for: mountain

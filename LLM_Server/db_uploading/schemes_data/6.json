@@ -1,0 +1,87 @@
+{
+  "scheme_id": "SCHM-007",
+  "name": "Paramparagat Krishi Vikas Yojana",
+  "type": "subsidy",
+  "agency": {
+    "name": "Ministry of Agriculture & Farmers Welfare",
+    "type": "central_govt",
+    "contact": {
+      "helpline": "",
+      "email": "",
+      "website": "https://pgsindia-ncof.gov.in"
+    }
+  },
+  "validity": {
+    "start_date": "2015-04-01",
+    "end_date": null,
+    "application_windows": [
+      { "from": "2025-04-01", "to": "2026-03-31", "season": "Annual" }
+    ]
+  },
+  "eligibility": {
+    "farmer_segments": ["small_and_marginal", "tenant_farmers", "FPOs"],
+    "income_categories": ["No limit"],
+    "income_cap_inr_per_year": null,
+    "caste_categories": ["SC", "ST", "OBC", "General"],
+    "special_status": ["women", "youth"],
+    "age_min": 18,
+    "age_max": null,
+    "land_holding_max_ha": null,
+    "other_conditions": [
+      "Formation of clusters of minimum 20 hectares",
+      "Commitment to organic farming for 3 years"
+    ]
+  },
+  "benefits": [
+    {
+      "benefit_type": "subsidy",
+      "description": "Financial support for organic farming adoption",
+      "financials": {
+        "sum_insured_inr": null,
+        "premium_inr": null,
+        "premium_rate_percent": null,
+        "cost_distribution": {
+          "govt_percent": 60,
+          "beneficiary_percent": 40,
+          "other_sources_percent": 0
+        },
+        "subsidy_percent": null,
+        "cash_transfer_amount_inr": null
+      },
+      "coverage": {
+        "crops": ["All crops suitable for organic farming"],
+        "seasons": ["Kharif", "Rabi", "Zaid"],
+        "perils_covered": [],
+        "stages_covered": ["pre-harvest", "post-harvest", "marketing"]
+      },
+      "conditions": [
+        "₹31,500 per hectare over 3 years",
+        "₹15,000 per hectare directly to farmers for inputs"
+      ]
+    }
+  ],
+  "application": {
+    "mode": ["online", "offline"],
+    "portal_urls": ["https://pgsindia-ncof.gov.in"],
+    "documents_required": [
+      "Aadhaar",
+      "Land record",
+      "Bank passbook"
+    ],
+    "fees_inr": 0
+  },
+  "disbursal": {
+    "mode": "DBT",
+    "timeline_days": 30
+  },
+  "budget": {
+    "fy_allocation_inr": null,
+    "beneficiaries_target": null,
+    "beneficiaries_actual": 2530000
+  },
+  "faqs": [
+    { "q": "What is cluster approach?", "a": "Minimum 20 hectare area with 50 farmers for organic certification." },
+    { "q": "What support is provided?", "a": "Financial assistance for inputs, certification, marketing and training." }
+  ],
+  "last_updated": "2025-08-17T14:00:00Z"
+}

@@ -1,0 +1,39 @@
+{
+  "soil_key": "peaty",
+  "soil_name": "Peaty/Marshy Soil",
+  "aliases": ["Organic Soil", "Marsh soil"],
+  "color": ["black", "dark brown"],
+  "texture": "peaty muck (silty clay loam with high organic matter)",
+  "structure": "massive and spongy (highly organic, waterlogged)",
+  "physical_properties": {
+    "bulk_density_g_cm3": 0.9,
+    "infiltration_rate_mm_hr": 5,
+    "erosion_risk": "low"
+  },
+  "chemical_properties": {
+    "pH": { "min": 4.0, "max": 6.5 },
+    "cation_exchange_capacity_cmolkg": { "min": 20, "max": 40 },
+    "organic_matter_pct": { "min": 20, "max": 50 },
+    "salinity_dS_m": { "max": 2 },
+    "sodicity_ESP": { "max": 5 },
+    "free_CaCO3_pct": { "min": 0, "max": 0 }
+  },
+  "water_holding_capacity_pct": { "min": 60, "max": 80 },
+  "nutrients_rich_in": ["nitrogen", "organic carbon"],
+  "nutrients_deficient_in": ["phosphorus", "potassium"],
+  "favoured_crops": ["rice", "taro (arbi)", "water chestnut"],
+  "favoured_seasons": ["Rabi"],
+  "drainage": "very poor (waterlogged)",
+  "typical_depth_cm": { "min": 50, "max": 150 },
+  "regions": [
+    { "state": "Kerala", "notes": "Kuttanad peat (Kari soil) in backwaters" },
+    { "state": "West Bengal", "notes": "Sundarbans mangrove peats (saline marsh)" },
+    { "state": "Odisha", "notes": "Coastal marshes" },
+    { "state": "Tamil Nadu", "notes": "Coastal swamp areas" },
+    { "state": "Bihar", "notes": "Waterlogged depressions" },
+    { "state": "Uttarakhand", "notes": "Marshy areas in Himalayan foothills (Almora)" }
+  ],
+  "hazards": ["waterlogging", "soil acidity", "subsidence on drainage"],
+  "notes": "These soils are usually under water during the monsoon. After drainage, quicklime (CaO) or limestone is often applied to raise pH, and phosphate fertilizers are needed. They are among the most organic-rich soils, sometimes used as fuel (peat) when dried, but agricultural use is limited to specific crops and careful water management.",
+  "sources": ["PMF IAS (2024)", "Mapsofindia (2025)"]
+}

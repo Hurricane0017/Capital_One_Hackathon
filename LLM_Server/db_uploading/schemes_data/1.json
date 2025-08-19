@@ -1,0 +1,87 @@
+{
+  "scheme_id": "SCHM-003",
+  "name": "Kisan Credit Card",
+  "type": "credit",
+  "agency": {
+    "name": "Commercial Banks / NABARD",
+    "type": "bank",
+    "contact": {
+      "helpline": "1800-180-1551",
+      "email": "",
+      "website": "https://www.nabard.org/content1.aspx?id=572"
+    }
+  },
+  "validity": {
+    "start_date": "1998-08-15",
+    "end_date": null,
+    "application_windows": [
+      { "from": "2025-01-01", "to": "2025-12-31", "season": "Annual" }
+    ]
+  },
+  "eligibility": {
+    "farmer_segments": ["small_and_marginal", "tenant_farmers", "sharecroppers", "FPOs"],
+    "income_categories": ["No limit"],
+    "income_cap_inr_per_year": null,
+    "caste_categories": ["SC", "ST", "OBC", "General"],
+    "special_status": ["women", "youth"],
+    "age_min": 18,
+    "age_max": 70,
+    "land_holding_max_ha": null,
+    "other_conditions": [
+      "Credit history acceptable to bank",
+      "Purpose: crop cultivation and allied activities"
+    ]
+  },
+  "benefits": [
+    {
+      "benefit_type": "credit",
+      "description": "Short-term collateral-free credit at subsidized rate",
+      "financials": {
+        "sum_insured_inr": null,
+        "premium_inr": null,
+        "premium_rate_percent": null,
+        "cost_distribution": {
+          "govt_percent": 0,
+          "beneficiary_percent": 100,
+          "other_sources_percent": 0
+        },
+        "subsidy_percent": null,
+        "cash_transfer_amount_inr": null
+      },
+      "coverage": {
+        "crops": ["All food crops", "Non-food crops", "Horticulture", "Allied activities"],
+        "seasons": ["Kharif", "Rabi", "Zaid"],
+        "perils_covered": [],
+        "stages_covered": ["pre-harvest", "post-harvest", "marketing"]
+      },
+      "conditions": [
+        "Interest subvention of 2% for prompt repayment",
+        "Valid for 5 years with annual review"
+      ]
+    }
+  ],
+  "application": {
+    "mode": ["offline"],
+    "portal_urls": [],
+    "documents_required": [
+      "Aadhaar",
+      "Land record",
+      "Bank account details"
+    ],
+    "fees_inr": 0
+  },
+  "disbursal": {
+    "mode": "direct",
+    "timeline_days": 15
+  },
+  "budget": {
+    "fy_allocation_inr": null,
+    "beneficiaries_target": null,
+    "beneficiaries_actual": null
+  },
+  "faqs": [
+    { "q": "What is the credit limit?", "a": "Based on scale of finance for crops and allied activities." },
+    { "q": "Is collateral required?", "a": "No collateral required for credit up to ₹1.6 lakh." }
+  ],
+  "last_updated": "2025-08-17T14:00:00Z"
+}

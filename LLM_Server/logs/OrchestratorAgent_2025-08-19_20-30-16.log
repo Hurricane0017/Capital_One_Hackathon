@@ -1,0 +1,46 @@
+2025-08-19 20:30:16,792 - OrchestratorAgent - INFO - 🎯 Initializing Orchestrator Agent - Master Coordinator
+2025-08-19 20:30:17,901 - OrchestratorAgent - INFO - ✅ All agents and processors initialized successfully
+2025-08-19 20:30:17,902 - OrchestratorAgent - INFO - 🌾 Processing farmer request from 9876001234
+2025-08-19 20:30:17,902 - OrchestratorAgent - INFO - 📝 Processing and storing farmer input data
+2025-08-19 20:30:17,939 - OrchestratorAgent - INFO - 📋 Found existing profile for 9876001234
+2025-08-19 20:30:17,939 - OrchestratorAgent - INFO - 🔍 Extracting farmer query from raw input
+2025-08-19 20:30:17,940 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an agricultural assistant analyzing farmer communication from an IVR system.
+            
+            Raw farmer input: "I am Pankaj Thakur, phone 9876001234, PIN 175001. You have my permission. Total land 0.8 hectare; cultivating 0.6 hectare in Rabi. Soil is loam. Rainfed. Planning garden peas, variety AP-3, sowing on 15 October 2025; harvest by end of January. I have 40,000 rupees cash, may borrow 20k. Not in insurance. Nearest market Mandi town. I prefer weekly guidance i...
+2025-08-19 20:30:31,599 - OrchestratorAgent - DEBUG - LLM Call Response:
+"I want guidance for transitioning to organic garden peas farming."...
+2025-08-19 20:30:31,599 - OrchestratorAgent - INFO - ✅ Extracted query: I want guidance for transitioning to organic garden peas farming....
+2025-08-19 20:30:31,599 - OrchestratorAgent - INFO - 🎯 Classifying pipeline type for farmer query
+2025-08-19 20:30:31,599 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an intelligent agricultural coordinator analyzing farmer queries to determine the best response strategy.
+            
+            FARMER CONTEXT:
+            Farmer: Pankaj Thakur
+Location: 175001
+Total land: 0.8 hectares
+Soil type: Loam
+Crops: garden peas (0.6 ha) - Rabi season
+Available cash: ₹40000
+            
+            FARMER QUERY: "I want guidance for transitioning to organic garden peas farming."
+            
+            CLASSIFICATION TASK:
+            Determine ...
+2025-08-19 20:30:44,180 - OrchestratorAgent - DEBUG - LLM Call Response:
+{
+    "pipeline_type": "generic",
+    "reasoning": "The query seeks comprehensive guidance for transitioning to organic farming practices, which involves holistic changes across soil management, pest control, certification, and input sourcing. This requires end-to-end planning rather than addressing a single specific issue.",
+    "confidence": 0.95,
+    "required_agents": "all",
+    "urgency": "medium",
+    "complexity": "complex"
+}...
+2025-08-19 20:30:44,181 - OrchestratorAgent - INFO - ✅ Pipeline classified as: generic (confidence: 0.95)
+2025-08-19 20:30:44,181 - OrchestratorAgent - INFO - 🌟 Executing generic pipeline - comprehensive farming guidance
+2025-08-19 20:30:44,181 - OrchestratorAgent - INFO - 🧠 Gathering comprehensive intelligence from all agents
+2025-08-19 20:30:44,181 - OrchestratorAgent - INFO - ☀️ Gathering weather intelligence

@@ -1,0 +1,37 @@
+2025-08-19 20:34:22,775 - WeatherAgent - INFO - Processing generic weather query: Provide comprehensive weather guidance for farming activities...
+2025-08-19 20:34:22,776 - WeatherAgent - INFO - Processing generic weather pipeline query
+2025-08-19 20:34:24,815 - WeatherAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+You are an expert agricultural consultant providing comprehensive seasonal weather guidance.
+
+FARMER QUERY: "Provide comprehensive weather guidance for farming activities"
+
+SEASONAL CONTEXT:
+- Current Season: KHARIF (growing stage)
+- Location: PIN 175001
+Farmer grows: garden peas
+
+WEATHER FORECAST DATA:
+[
+  {
+    "date": "2025-08-19",
+    "temp_mean": 27.8,
+    "temp_max": 32.0,
+    "temp_min": 23.7,
+    "humidity_mean": 76.8,
+    "rain_sum": 0.0,
+    "wind_speed_mean": 7.3,
+    "wind_gusts_max...
+2025-08-19 20:36:13,043 - WeatherAgent - DEBUG - LLM Call Response:
+### Comprehensive Weather Guidance for Garden Peas (Kharif Season)  
+**Location:** PIN 175001 (Mandi, Himachal Pradesh)  
+**Current Season:** Kharif (Growing Stage)  
+
+---
+
+#### **1. SEASONAL OVERVIEW**  
+- **Kharif Context**:  
+  - Monsoon-driven season (June–October) with high humidity and moderate temperatures.  
+  - **Key Risks**: Heavy rainfall, fungal diseases (powdery mildew, rust), waterlogging, and wind damage.  
+  - **Ideal Conditions for Peas**: Daytime temps 15–25°C, well-drained soi...

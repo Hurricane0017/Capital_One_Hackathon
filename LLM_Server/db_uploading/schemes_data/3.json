@@ -1,0 +1,87 @@
+{
+  "scheme_id": "SCHM-005",
+  "name": "National Agriculture Market (e-NAM)",
+  "type": "market_linkage",
+  "agency": {
+    "name": "Small Farmers Agribusiness Consortium",
+    "type": "central_govt",
+    "contact": {
+      "helpline": "1800-270-0224",
+      "email": "",
+      "website": "https://www.enam.gov.in"
+    }
+  },
+  "validity": {
+    "start_date": "2016-04-14",
+    "end_date": null,
+    "application_windows": [
+      { "from": "2025-01-01", "to": "2025-12-31", "season": "Annual" }
+    ]
+  },
+  "eligibility": {
+    "farmer_segments": ["small_and_marginal", "tenant_farmers", "FPOs"],
+    "income_categories": ["No limit"],
+    "income_cap_inr_per_year": null,
+    "caste_categories": ["SC", "ST", "OBC", "General"],
+    "special_status": ["women", "youth"],
+    "age_min": 18,
+    "age_max": null,
+    "land_holding_max_ha": null,
+    "other_conditions": [
+      "Registration on eNAM portal required",
+      "Produce must be brought to integrated markets"
+    ]
+  },
+  "benefits": [
+    {
+      "benefit_type": "market_linkage",
+      "description": "Online trading platform for agricultural commodities",
+      "financials": {
+        "sum_insured_inr": null,
+        "premium_inr": null,
+        "premium_rate_percent": null,
+        "cost_distribution": {
+          "govt_percent": 100,
+          "beneficiary_percent": 0,
+          "other_sources_percent": 0
+        },
+        "subsidy_percent": null,
+        "cash_transfer_amount_inr": null
+      },
+      "coverage": {
+        "crops": ["Food grains", "Vegetables", "Fruits", "Cash crops"],
+        "seasons": ["Kharif", "Rabi", "Zaid"],
+        "perils_covered": [],
+        "stages_covered": ["harvest", "post-harvest", "marketing"]
+      },
+      "conditions": [
+        "Online registration and verification required",
+        "Quality testing and grading mandatory"
+      ]
+    }
+  ],
+  "application": {
+    "mode": ["online"],
+    "portal_urls": ["https://www.enam.gov.in"],
+    "documents_required": [
+      "Aadhaar",
+      "Bank account details",
+      "Mobile number"
+    ],
+    "fees_inr": 0
+  },
+  "disbursal": {
+    "mode": "direct",
+    "timeline_days": 1
+  },
+  "budget": {
+    "fy_allocation_inr": null,
+    "beneficiaries_target": null,
+    "beneficiaries_actual": 5000000
+  },
+  "faqs": [
+    { "q": "How many markets are connected?", "a": "Over 1,000 APMCs in 18 states and 2 union territories." },
+    { "q": "What commodities can be traded?", "a": "Over 90 commodities including staples, vegetables, and fruits." }
+  ],
+  "last_updated": "2025-08-17T14:00:00Z"
+}

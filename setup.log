@@ -1,0 +1,57 @@
+[0;36m[INFO][0m Starting setup at Mon Aug 18 18:29:28 IST 2025
+[0;36m[INFO][0m Project directory: /Users/apple/Desktop/asterisk
+[0;36m[INFO][0m Log file: /Users/apple/Desktop/asterisk/setup.log
+[0;34m[STEP][0m Checking prerequisites...
+[0;32m[SUCCESS][0m All prerequisites are installed
+[0;34m[STEP][0m Creating necessary directories...
+[0;36m[INFO][0m Created directory: recordings/raw
+[0;36m[INFO][0m Created directory: recordings/converted
+[0;36m[INFO][0m Created directory: recordings/transcripts
+[0;36m[INFO][0m Created directory: recordings/generated_audio
+[0;36m[INFO][0m Created directory: logs
+[0;36m[INFO][0m Created directory: monitor
+[0;36m[INFO][0m Created directory: sounds/custom
+[0;32m[SUCCESS][0m All directories created
+[0;34m[STEP][0m Setting up Python environment...
+Requirement already satisfied: pip in ./venv/lib/python3.13/site-packages (25.2)
+[0;36m[INFO][0m Installing Python dependencies...
+Requirement already satisfied: watchdog>=3.0.0 in ./venv/lib/python3.13/site-packages (from -r /Users/apple/Desktop/asterisk/config/requirements.txt (line 1)) (6.0.0)
+Requirement already satisfied: google-cloud-speech>=2.21.0 in ./venv/lib/python3.13/site-packages (from -r /Users/apple/Desktop/asterisk/config/requirements.txt (line 2)) (2.33.0)
+Requirement already satisfied: google-cloud-translate>=3.12.0 in ./venv/lib/python3.13/site-packages (from -r /Users/apple/Desktop/asterisk/config/requirements.txt (line 3)) (3.21.1)
+Requirement already satisfied: google-cloud-texttospeech>=2.14.0 in ./venv/lib/python3.13/site-packages (from -r /Users/apple/Desktop/asterisk/config/requirements.txt (line 4)) (2.27.0)
+Requirement already satisfied: langdetect>=1.0.9 in ./venv/lib/python3.13/site-packages (from -r /Users/apple/Desktop/asterisk/config/requirements.txt (line 5)) (1.0.9)
+Requirement already satisfied: requests in ./venv/lib/python3.13/site-packages (from -r /Users/apple/Desktop/asterisk/config/requirements.txt (line 6)) (2.32.4)
+Requirement already satisfied: numpy in ./venv/lib/python3.13/site-packages (from -r /Users/apple/Desktop/asterisk/config/requirements.txt (line 7)) (2.3.2)
+Requirement already satisfied: google-auth>=2.0.0 in ./venv/lib/python3.13/site-packages (from -r /Users/apple/Desktop/asterisk/config/requirements.txt (line 8)) (2.40.3)
+Requirement already satisfied: python-dotenv>=1.0.0 in ./venv/lib/python3.13/site-packages (from -r /Users/apple/Desktop/asterisk/config/requirements.txt (line 9)) (1.1.1)
+Requirement already satisfied: google-api-core!=2.0.*,!=2.1.*,!=2.10.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,<3.0.0,>=1.34.1 in ./venv/lib/python3.13/site-packages (from google-api-core[grpc]!=2.0.*,!=2.1.*,!=2.10.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,<3.0.0,>=1.34.1->google-cloud-speech>=2.21.0->-r /Users/apple/Desktop/asterisk/config/requirements.txt (line 2)) (2.25.1)
+Requirement already satisfied: proto-plus<2.0.0,>=1.22.3 in ./venv/lib/python3.13/site-packages (from google-cloud-speech>=2.21.0->-r /Users/apple/Desktop/asterisk/config/requirements.txt (line 2)) (1.26.1)
+Requirement already satisfied: protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<7.0.0,>=3.20.2 in ./venv/lib/python3.13/site-packages (from google-cloud-speech>=2.21.0->-r /Users/apple/Desktop/asterisk/config/requirements.txt (line 2)) (6.32.0)
+Requirement already satisfied: cachetools<6.0,>=2.0.0 in ./venv/lib/python3.13/site-packages (from google-auth>=2.0.0->-r /Users/apple/Desktop/asterisk/config/requirements.txt (line 8)) (5.5.2)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in ./venv/lib/python3.13/site-packages (from google-auth>=2.0.0->-r /Users/apple/Desktop/asterisk/config/requirements.txt (line 8)) (0.4.2)
+Requirement already satisfied: rsa<5,>=3.1.4 in ./venv/lib/python3.13/site-packages (from google-auth>=2.0.0->-r /Users/apple/Desktop/asterisk/config/requirements.txt (line 8)) (4.9.1)
+Requirement already satisfied: googleapis-common-protos<2.0.0,>=1.56.2 in ./venv/lib/python3.13/site-packages (from google-api-core!=2.0.*,!=2.1.*,!=2.10.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,<3.0.0,>=1.34.1->google-api-core[grpc]!=2.0.*,!=2.1.*,!=2.10.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,<3.0.0,>=1.34.1->google-cloud-speech>=2.21.0->-r /Users/apple/Desktop/asterisk/config/requirements.txt (line 2)) (1.70.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in ./venv/lib/python3.13/site-packages (from requests->-r /Users/apple/Desktop/asterisk/config/requirements.txt (line 6)) (3.4.3)
+Requirement already satisfied: idna<4,>=2.5 in ./venv/lib/python3.13/site-packages (from requests->-r /Users/apple/Desktop/asterisk/config/requirements.txt (line 6)) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in ./venv/lib/python3.13/site-packages (from requests->-r /Users/apple/Desktop/asterisk/config/requirements.txt (line 6)) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in ./venv/lib/python3.13/site-packages (from requests->-r /Users/apple/Desktop/asterisk/config/requirements.txt (line 6)) (2025.8.3)
+Requirement already satisfied: grpcio<2.0.0,>=1.33.2 in ./venv/lib/python3.13/site-packages (from google-api-core[grpc]!=2.0.*,!=2.1.*,!=2.10.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,<3.0.0,>=1.34.1->google-cloud-speech>=2.21.0->-r /Users/apple/Desktop/asterisk/config/requirements.txt (line 2)) (1.74.0)
+Requirement already satisfied: grpcio-status<2.0.0,>=1.33.2 in ./venv/lib/python3.13/site-packages (from google-api-core[grpc]!=2.0.*,!=2.1.*,!=2.10.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,<3.0.0,>=1.34.1->google-cloud-speech>=2.21.0->-r /Users/apple/Desktop/asterisk/config/requirements.txt (line 2)) (1.74.0)
+Requirement already satisfied: pyasn1>=0.1.3 in ./venv/lib/python3.13/site-packages (from rsa<5,>=3.1.4->google-auth>=2.0.0->-r /Users/apple/Desktop/asterisk/config/requirements.txt (line 8)) (0.6.1)
+Requirement already satisfied: google-cloud-core<3.0.0,>=1.4.4 in ./venv/lib/python3.13/site-packages (from google-cloud-translate>=3.12.0->-r /Users/apple/Desktop/asterisk/config/requirements.txt (line 3)) (2.4.3)
+Requirement already satisfied: grpc-google-iam-v1<1.0.0,>=0.14.0 in ./venv/lib/python3.13/site-packages (from google-cloud-translate>=3.12.0->-r /Users/apple/Desktop/asterisk/config/requirements.txt (line 3)) (0.14.2)
+Requirement already satisfied: six in ./venv/lib/python3.13/site-packages (from langdetect>=1.0.9->-r /Users/apple/Desktop/asterisk/config/requirements.txt (line 5)) (1.17.0)
+[0;32m[SUCCESS][0m Python environment setup complete
+[0;34m[STEP][0m Setting up Google Cloud credentials...
+[0;36m[INFO][0m Testing Google Cloud credentials...
+[1;33m[WARNING][0m Google Cloud credentials test failed - continuing anyway
+[0;34m[STEP][0m Setting up Docker containers...
+[0;36m[INFO][0m Building recording processor Docker image...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.processor
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile.processor: no such file or directory
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/hn30l47gkcnm3luql6ack97rc

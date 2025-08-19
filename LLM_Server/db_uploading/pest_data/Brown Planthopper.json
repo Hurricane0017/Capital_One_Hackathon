@@ -1,0 +1,158 @@
+{
+  "pest_id": "PST001",
+  "common_name": "Brown Planthopper",
+  "scientific_name": "Nilaparvata lugens",
+  "category": "Insect",
+  "description": "A major rice pest that causes hopper burn and transmits grassy stunt and ragged stunt viruses, causing significant yield losses up to 60% in susceptible rice cultivars.",
+
+  "identification": {
+    "physical_signs": [
+      "Wilting and yellowing of plants starting from base",
+      "Circular yellow patches that turn brownish (hopper burn)",
+      "Honeydew deposits on leaves leading to sooty mold",
+      "Plants drying up rapidly in patches",
+      "Brown-colored or yellowish-brown insects at plant base above water level"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["Tillering", "Flowering", "Grain formation"],
+    "seasons": ["Kharif", "Rabi"],
+    "favourable_conditions": {
+      "climate": "Warm and humid conditions (25-35°C), high humidity, no wind",
+      "soil_type": ["Clay loam", "Silty soils"],
+      "soil_conditions": ["High moisture", "Irrigated conditions", "Flooded fields"],
+      "ecological_factors": ["High nitrogen fertilizer application", "Dense planting", "Continuous rice cultivation"]
+    },
+    "geographical_distribution": [
+      "West Bengal",
+      "Andhra Pradesh",
+      "Odisha",
+      "Tamil Nadu",
+      "Uttar Pradesh",
+      "Kerala",
+      "Karnataka",
+      "Chhattisgarh",
+      "Bihar",
+      "Gujarat",
+      "Haryana",
+      "Punjab",
+      "Delhi",
+      "Assam",
+      "Goa",
+      "Tripura",
+      "Maharashtra"
+    ],
+    "crops_attacked": [
+      "Rice"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 10,
+    "max_crop_loss_percent": 90,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 8000,
+      "max_loss": 45000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "Use of light traps during night",
+      "Yellow pan traps during daytime",
+      "Removal of weed hosts from field bunds"
+    ],
+    "cultural_methods": [
+      "Avoid excessive nitrogen application",
+      "Maintain proper plant spacing (30 cm)",
+      "Use early maturing varieties",
+      "Alternate wetting and drying of fields",
+      "Avoid continuous rice cultivation",
+      "Field sanitation"
+    ],
+    "biological_control": [
+      {
+        "agent": "Spiders",
+        "method": "Natural predation"
+      },
+      {
+        "agent": "Beauveria bassiana",
+        "method": "Entomopathogenic fungal spray"
+      },
+      {
+        "agent": "Metarhizium anisopliae",
+        "method": "Fungal biocontrol agent"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Imidacloprid 17.8% SL",
+          "dosage": "0.5 ml/litre water",
+          "application_stage": "Early tillering stage"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Buprofezin 25 SC",
+          "dosage": "2 ml/litre water",
+          "application_stage": "Severe infestation"
+        },
+        {
+          "pesticide_name": "Thiamethoxam 25 WG",
+          "dosage": "0.2 g/litre water",
+          "application_stage": "Active growth stage"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Confidor",
+      "active_ingredient": "Imidacloprid",
+      "formulation": "17.8% SL",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 450,
+        "unit": "100ml bottle"
+      }
+    },
+    {
+      "brand_name": "Applaud",
+      "active_ingredient": "Buprofezin",
+      "formulation": "25 SC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 1200,
+        "unit": "1 litre bottle"
+      }
+    },
+    {
+      "brand_name": "Actara",
+      "active_ingredient": "Thiamethoxam",
+      "formulation": "25 WG",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 280,
+        "unit": "100g pack"
+      }
+    }
+  ],
+
+  "references": [
+    "https://niphm.gov.in/IPMPackages/Rice.pdf",
+    "https://www.syngenta.co.in/brown-plant-hopper-management",
+    "https://kisanvedika.bighaat.com/management-of-brown-plant-hopper-in-paddy/",
+    "https://icar-nrri.in/wp-content/uploads/2024/08/NRRI_Research-Bulletin-No-53.pdf",
+    "https://onlinelibrary.wiley.com/doi/10.1111/jen.13451"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}

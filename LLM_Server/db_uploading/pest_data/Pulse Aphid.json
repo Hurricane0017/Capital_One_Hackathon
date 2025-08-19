@@ -1,0 +1,167 @@
+{
+  "pest_id": "PST014",
+  "common_name": "Pulse Aphid",
+  "scientific_name": "Aphis craccivora",
+  "category": "Insect",
+  "description": "A major sap-sucking pest of pulse crops that causes direct damage by feeding on plant sap and indirect damage by transmitting viral diseases. It can cause complete crop failure in severe infestations and significantly reduces both yield and quality of pulses.",
+
+  "identification": {
+    "physical_signs": [
+      "Small dark green to black soft-bodied insects clustered on tender shoots",
+      "Yellowing and curling of leaves, especially growing tips",
+      "Honeydew secretion leading to sooty mold development",
+      "Stunted plant growth and reduced flowering",
+      "Presence of both winged and wingless forms",
+      "Sticky coating on leaves and stems"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["Seedling", "Vegetative", "Flowering", "Pod formation"],
+    "seasons": ["Rabi", "Summer", "Kharif"],
+    "favourable_conditions": {
+      "climate": "Cool to moderate temperatures (15-25°C), dry conditions with low rainfall",
+      "soil_type": ["All soil types suitable for pulse cultivation"],
+      "soil_conditions": ["Well-drained conditions", "Moderate to low moisture"],
+      "ecological_factors": ["High nitrogen fertilization", "Dense planting", "Water stress conditions"]
+    },
+    "geographical_distribution": [
+      "Punjab",
+      "Haryana",
+      "Uttar Pradesh",
+      "Rajasthan",
+      "Madhya Pradesh",
+      "Gujarat",
+      "Maharashtra",
+      "Karnataka",
+      "Andhra Pradesh",
+      "Telangana",
+      "Tamil Nadu",
+      "Bihar",
+      "West Bengal",
+      "Odisha",
+      "Chhattisgarh",
+      "Jharkhand"
+    ],
+    "crops_attacked": [
+      "Chickpea",
+      "Lentil", 
+      "Field pea",
+      "Black gram",
+      "Green gram",
+      "Cowpea",
+      "Pigeon pea",
+      "Faba bean",
+      "Soybean"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 15,
+    "max_crop_loss_percent": 80,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 8000,
+      "max_loss": 35000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "Yellow sticky traps for monitoring winged forms",
+      "Reflective mulches to repel aphids",
+      "Water sprays to dislodge aphids from plants",
+      "Removal of alternate host weeds"
+    ],
+    "cultural_methods": [
+      "Use of tolerant/resistant varieties",
+      "Early sowing to avoid peak aphid periods",
+      "Balanced fertilization avoiding excess nitrogen",
+      "Intercropping with cereals or trap crops",
+      "Proper field sanitation",
+      "Timely irrigation to avoid water stress"
+    ],
+    "biological_control": [
+      {
+        "agent": "Chrysoperla carnea",
+        "method": "Lacewing predator conservation and release"
+      },
+      {
+        "agent": "Coccinella septempunctata",
+        "method": "Ladybird beetle conservation"
+      },
+      {
+        "agent": "Aphidius ervi",
+        "method": "Parasitoid wasp release"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Imidacloprid 17.8% SL",
+          "dosage": "0.3 ml/litre water",
+          "application_stage": "Early vegetative stage"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Acetamiprid 20% SP",
+          "dosage": "0.2 g/litre water",
+          "application_stage": "When ETL is reached"
+        },
+        {
+          "pesticide_name": "Dimethoate 30% EC",
+          "dosage": "2 ml/litre water",
+          "application_stage": "Peak infestation"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Confidor",
+      "active_ingredient": "Imidacloprid",
+      "formulation": "17.8% SL",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 280,
+        "unit": "100ml bottle"
+      }
+    },
+    {
+      "brand_name": "Pride",
+      "active_ingredient": "Acetamiprid",
+      "formulation": "20% SP",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 180,
+        "unit": "100g pack"
+      }
+    },
+    {
+      "brand_name": "Rogor",
+      "active_ingredient": "Dimethoate",
+      "formulation": "30% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 150,
+        "unit": "250ml bottle"
+      }
+    }
+  ],
+
+  "references": [
+    "https://www.thepharmajournal.com/archives/2023/vol12issue9S/PartF/S-12-8-312-432.pdf",
+    "https://www.biochemjournal.com/archives/2024/vol8issue9/PartP/8-9-190-492.pdf",
+    "https://www.cabidigitallibrary.org/doi/pdf/10.5555/20093211156",
+    "https://books.kdpublications.in/index.php/kdp/catalog/download/319/393/2606?inline=1",
+    "https://agriculture.vikaspedia.in/viewcontent/agriculture/crop-production/integrated-pest-managment/ipm-for-pulses/ipm-strategies-for-lentil/lentil-insect-pests"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}

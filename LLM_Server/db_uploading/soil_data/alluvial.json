@@ -1,0 +1,40 @@
+{
+  "soil_key": "alluvial",
+  "soil_name": "Alluvial Soil",
+  "aliases": ["Alluvium"],
+  "color": ["light grey", "ash grey"],
+  "texture": "sandy loam to silty clay loam",
+  "structure": "stratified (layered deposits); loose and fertile",
+  "physical_properties": {
+    "bulk_density_g_cm3": 1.3,
+    "infiltration_rate_mm_hr": 10,
+    "erosion_risk": "moderate"
+  },
+  "chemical_properties": {
+    "pH": { "min": 6.5, "max": 8.0 },
+    "cation_exchange_capacity_cmolkg": { "min": 15, "max": 30 },
+    "organic_matter_pct": { "min": 0.5, "max": 1.5 },
+    "salinity_dS_m": { "max": 2 },
+    "sodicity_ESP": { "max": 5 },
+    "free_CaCO3_pct": { "min": 0, "max": 10 }
+  },
+  "water_holding_capacity_pct": { "min": 30, "max": 50 },
+  "nutrients_rich_in": ["potassium", "calcium"],
+  "nutrients_deficient_in": ["nitrogen", "phosphorus"],
+  "favoured_crops": ["rice", "wheat", "maize", "sugarcane", "oilseeds", "pulses", "jute"],
+  "favoured_seasons": ["Kharif", "Rabi"],
+  "drainage": "well to moderately well drained",
+  "typical_depth_cm": { "min": 100, "max": 200 },
+  "regions": [
+    { "state": "Punjab", "notes": "Indus-Ganges plain" },
+    { "state": "Uttar Pradesh", "notes": "Gangetic plain" },
+    { "state": "Bihar", "notes": "Gangetic plain" },
+    { "state": "West Bengal", "notes": "Ganga-Brahmaputra delta" },
+    { "state": "Assam", "notes": "Brahmaputra valley" },
+    { "state": "Odisha", "notes": "Mahanadi delta (coastal)" },
+    { "state": "Andhra Pradesh", "notes": "Krishna–Godavari deltas" }
+  ],
+  "hazards": ["flooding (riverbank erosion)", "nutrient depletion"],
+  "notes": "Highly fertile depositional soil (newer alluvium is sandy and called *Khadar*, older alluvium is clayey with kankar nodules and called *Bhangar*). Requires added nitrogen and phosphorus fertilizers for sustained high yields.",
+  "sources": ["PMF IAS (2024)", "ClearIAS (2025)"]
+}

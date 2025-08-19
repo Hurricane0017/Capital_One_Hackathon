@@ -1,0 +1,63 @@
+2025-08-18 23:18:13,199 - WeatherAgent - INFO - Processing specific weather query: Should I irrigate my cotton crop in the next 5 days?...
+2025-08-18 23:18:13,199 - WeatherAgent - INFO - Processing specific weather pipeline query
+2025-08-18 23:18:13,200 - WeatherAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+You are an expert agricultural parameter extractor. Extract the following information from the farmer's query:
+
+1. **LOCATION** (pincode/place): Look for pincodes, village names, city names, or use farmer profile
+2. **START_DATE** (YYYY-MM-DD): When the weather information should begin
+3. **END_DATE** (YYYY-MM-DD): When the weather information should end
+
+CURRENT DATE: 2025-08-18
+
+
+FARMER PROFILE AVAILABLE:
+- Name: Unknown Farmer
+- Pincode: N/A
+- Location: N/A, N/A, N/A
+- Crops: 
+
+
+FARMER QUERY...
+2025-08-18 23:19:20,863 - WeatherAgent - DEBUG - LLM Call Response:
+{
+  "location": "N/A",
+  "start_date": "2025-08-18",
+  "end_date": "2025-08-22",
+  "reasoning": "Location not provided in query or farmer profile. Timeframe: 'next 5 days' interpreted as 5-day period starting from current date (2025-08-18), resulting in end date 2025-08-22."
+}...
+2025-08-18 23:19:20,867 - WeatherAgent - INFO - Extracted parameters: {'location': 'N/A', 'start_date': '2025-08-18', 'end_date': '2025-08-22', 'reasoning': "Location not provided in query or farmer profile. Timeframe: 'next 5 days' interpreted as 5-day period starting from current date (2025-08-18), resulting in end date 2025-08-22."}
+2025-08-18 23:19:22,205 - WeatherAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+You are an expert agricultural meteorologist providing weather guidance to Indian farmers.
+
+FARMER QUERY: "Should I irrigate my cotton crop in the next 5 days?"
+
+LOCATION: N/A
+PERIOD: 2025-08-18 to 2025-08-22
+
+
+WEATHER FORECAST SUMMARY:
+- Period: 5 days
+- Temperature: 12.5°C to 30.1°C (avg: 19.3°C)
+- Total Rainfall: 0.0mm over 0 days
+- Wind Speed: 23.3km/h (max gusts: 46.1km/h)
+
+DETAILED DAILY FORECAST:
+[
+  {
+    "date": "2025-08-18",
+    "temp_mean": 21.5,
+    "temp_max": 27.4,
+    "temp_min":...
+2025-08-18 23:20:09,330 - WeatherAgent - DEBUG - LLM Call Response:
+### **Direct Answer to Farmer's Query**  
+**Yes, irrigate immediately.** Your cotton crop faces significant moisture stress due to **zero rainfall, declining soil moisture, and high winds** accelerating evaporation. Delay risks stunted growth and boll shedding.
+
+---
+
+### **Irrigation Recommendations**  
+1. **Urgent Need**: Soil moisture (0.042–0.054 m³/m³) is **critically low** for cotton (optimal: >0.15 m³/m³).  
+2. **Volume**: Apply **50–60 mm water** immediately (equivalent to 500–600 m³ per ...

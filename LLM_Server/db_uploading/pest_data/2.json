@@ -1,0 +1,111 @@
+{
+  "pest_id": "PST036",
+  "common_name": "Mustard Aphid",
+  "scientific_name": "Lipaphis erysimi",
+  "category": "Insect",
+  "description": "A major sap-sucking pest of mustard and rapeseed that causes 20–80% yield loss and transmits turnip mosaic virus.",
+  "identification": {
+    "physical_signs": [
+      "Dense colonies on young shoots and pods",
+      "Yellowing and curling of leaves",
+      "Honeydew deposits leading to sooty mold",
+      "Stunted growth and flower drop"
+    ],
+    "visual_images": [
+      "Note: Populate from agricultural image databases"
+    ]
+  },
+  "attack_details": {
+    "agriculture_stage": ["Seedling", "Vegetative", "Flowering", "Pod formation"],
+    "seasons": ["Rabi", "Late Rabi"],
+    "favourable_conditions": {
+      "climate": "Cool (15–25 °C), low rainfall",
+      "soil_type": ["All rapeseed–mustard soils"],
+      "soil_conditions": ["Well-drained"],
+      "ecological_factors": ["High nitrogen", "Dense planting"]
+    },
+    "geographical_distribution": [
+      "Rajasthan",
+      "Haryana",
+      "Punjab",
+      "Uttar Pradesh",
+      "Madhya Pradesh",
+      "West Bengal"
+    ],
+    "crops_attacked": ["Mustard", "Rapeseed", "Turnip"]
+  },
+  "impact": {
+    "min_crop_loss_percent": 20,
+    "max_crop_loss_percent": 80,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 8000,
+      "max_loss": 30000,
+      "unit": "per hectare"
+    }
+  },
+  "management_strategies": {
+    "mechanical_methods": [
+      "Yellow sticky traps for adults",
+      "Water sprays to dislodge colonies"
+    ],
+    "cultural_methods": [
+      "Use of tolerant varieties",
+      "Balanced NPK fertilization",
+      "Intercropping with non-hosts"
+    ],
+    "biological_control": [
+      {
+        "agent": "Chrysoperla carnea",
+        "method": "Lacewing predator conservation"
+      },
+      {
+        "agent": "Aphidius colemani",
+        "method": "Parasitoid release"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Imidacloprid 17.8% SL",
+          "dosage": "0.3 ml/litre water",
+          "application_stage": "Seedling stage"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Dimethoate 30% EC",
+          "dosage": "2 ml/litre water",
+          "application_stage": "When ETL is reached"
+        }
+      ]
+    }
+  },
+  "pesticides_market": [
+    {
+      "brand_name": "Confidor",
+      "active_ingredient": "Imidacloprid",
+      "formulation": "17.8% SL",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 280,
+        "unit": "100 ml bottle"
+      }
+    },
+    {
+      "brand_name": "Rogor",
+      "active_ingredient": "Dimethoate",
+      "formulation": "30% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 150,
+        "unit": "250 ml bottle"
+      }
+    }
+  ],
+  "references": [
+    "http://www.eagri.org/eagri50/ENTO331/lecture15/007.html",
+    "https://agriculture.vikaspedia.in/viewcontent/agriculture/crop-production/integrated-pest-managment/ipm-for-pulses/ipm-strategies-for-lentil/lentil-insect-pests"
+  ],
+  "last_updated": "2025-08-17T10:00:00Z"
+}

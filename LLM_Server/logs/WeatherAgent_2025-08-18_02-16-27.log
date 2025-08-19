@@ -1,0 +1,63 @@
+2025-08-18 02:17:52,206 - WeatherAgent - INFO - Processing specific weather query: Should I irrigate my cotton crop in the next 5 days?...
+2025-08-18 02:17:52,207 - WeatherAgent - INFO - Processing specific weather pipeline query
+2025-08-18 02:17:52,207 - WeatherAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+You are an expert agricultural parameter extractor. Extract the following information from the farmer's query:
+
+1. **LOCATION** (pincode/place): Look for pincodes, village names, city names, or use farmer profile
+2. **START_DATE** (YYYY-MM-DD): When the weather information should begin
+3. **END_DATE** (YYYY-MM-DD): When the weather information should end
+
+CURRENT DATE: 2025-08-18
+
+
+FARMER PROFILE AVAILABLE:
+- Name: Unknown Farmer
+- Pincode: N/A
+- Location: N/A, N/A, N/A
+- Crops: 
+
+
+FARMER QUERY...
+2025-08-18 02:18:12,707 - WeatherAgent - DEBUG - LLM Call Response:
+{
+  "location": "N/A",
+  "start_date": "2025-08-18",
+  "end_date": "2025-08-23",
+  "reasoning": "Location unavailable in query and farmer profile. Timeframe derived from 'next 5 days' in query, starting from current date (2025-08-18) for 5 days."
+}...
+2025-08-18 02:18:12,708 - WeatherAgent - INFO - Extracted parameters: {'location': 'N/A', 'start_date': '2025-08-18', 'end_date': '2025-08-23', 'reasoning': "Location unavailable in query and farmer profile. Timeframe derived from 'next 5 days' in query, starting from current date (2025-08-18) for 5 days."}
+2025-08-18 02:18:14,089 - WeatherAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+You are an expert agricultural meteorologist providing weather guidance to Indian farmers.
+
+FARMER QUERY: "Should I irrigate my cotton crop in the next 5 days?"
+
+LOCATION: N/A
+PERIOD: 2025-08-18 to 2025-08-23
+
+
+WEATHER FORECAST SUMMARY:
+- Period: 6 days
+- Temperature: 10.8°C to 30.2°C (avg: 18.5°C)
+- Total Rainfall: 0.6mm over 1 days
+- Wind Speed: 22.9km/h (max gusts: 46.1km/h)
+
+DETAILED DAILY FORECAST:
+[
+  {
+    "date": "2025-08-18",
+    "temp_mean": 21.7,
+    "temp_max": 27.3,
+    "temp_min":...
+2025-08-18 02:19:44,727 - WeatherAgent - DEBUG - LLM Call Response:
+### **Direct Answer**
+**Yes, you should irrigate your cotton crop, but delay until August 23.** The soil moisture is critically low (below 0.10 m³/m³ until August 22), and rainfall is negligible (only 0.6 mm on August 23). Without irrigation, your crop will face severe moisture stress, impacting yield.
+
+---
+
+### **Irrigation Recommendations**
+- **When to irrigate:** **August 23 (early morning, 4:00–7:00 AM)**.  
+  - *Why?* Wind speeds are lower (max 26.3 km/h), reducing evaporation loss. Avoid A...

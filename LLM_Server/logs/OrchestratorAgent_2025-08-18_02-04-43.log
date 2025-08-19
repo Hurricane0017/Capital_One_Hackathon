@@ -1,0 +1,212 @@
+2025-08-18 02:04:43,998 - OrchestratorAgent - INFO - 🎯 Initializing Orchestrator Agent - Master Coordinator
+2025-08-18 02:04:45,086 - OrchestratorAgent - INFO - ✅ All agents and processors initialized successfully
+2025-08-18 02:04:45,087 - OrchestratorAgent - INFO - 🌾 Processing farmer request from 9876001234
+2025-08-18 02:04:45,087 - OrchestratorAgent - INFO - 📝 Processing and storing farmer input data
+2025-08-18 02:04:45,150 - OrchestratorAgent - INFO - 📋 Found existing profile for 9876001234
+2025-08-18 02:04:45,151 - OrchestratorAgent - INFO - 🔍 Extracting farmer query from raw input
+2025-08-18 02:04:58,512 - OrchestratorAgent - INFO - ✅ Extracted query: I want guidance on transitioning to organic farming for my garden peas....
+2025-08-18 02:04:58,512 - OrchestratorAgent - INFO - 🎯 Classifying pipeline type for farmer query
+2025-08-18 02:05:10,780 - OrchestratorAgent - INFO - ✅ Pipeline classified as: generic (confidence: 0.95)
+2025-08-18 02:05:10,781 - OrchestratorAgent - INFO - 🌟 Executing generic pipeline - comprehensive farming guidance
+2025-08-18 02:05:10,781 - OrchestratorAgent - INFO - 🧠 Gathering comprehensive intelligence from all agents
+2025-08-18 02:05:10,781 - OrchestratorAgent - INFO - ☀️ Gathering weather intelligence
+2025-08-18 02:06:25,817 - OrchestratorAgent - INFO - 🌱 Gathering soil intelligence
+2025-08-18 02:06:41,847 - OrchestratorAgent - INFO - 🐛 Gathering pest intelligence
+2025-08-18 02:06:42,044 - OrchestratorAgent - INFO - 🏛️ Gathering scheme intelligence
+2025-08-18 02:06:42,254 - OrchestratorAgent - INFO - ✅ Comprehensive intelligence gathered from all agents
+2025-08-18 02:06:42,255 - OrchestratorAgent - INFO - 🎯 Generating comprehensive farming strategy
+2025-08-18 02:07:55,204 - OrchestratorAgent - ERROR - ❌ JSON Decode Error: Expecting ',' delimiter: line 185 column 2 (char 7027)
+Response: ```json
+{
+  "farmer_strategy": {
+    "farmer_details": {
+      "name": "Pankaj Thakur",
+      "location": "Shimla, Himachal Pradesh (175001)",
+      "land_size": "0.8 hectares",
+      "primary_crop": "Garden Peas (0.6 ha - Rabi season)",
+      "soil_type": "Loam",
+      "available_cash": "₹40,000",
+      "primary_goal": "Transition to organic farming"
+    },
+    "situational_analysis": {
+      "current_assessment": {
+        "strengths": [
+          "Loam soil ideal for pea cultivation (good drainage & nutrient retention)",
+          "₹40,000 available capital for transition investment",
+          "Rabi season aligns with pea growing requirements"
+        ],
+        "weaknesses": [
+          "Limited land size (0.6 ha for peas)",
+          "No prior organic farming experience",
+          "Potential yield dip during transition phase"
+        ],
+      "opportunities": [
+        "Premium pricing (20-30% higher) for organic peas in Himachal markets",
+        "Government schemes covering 50-80% of transition costs",
+        "Intercropping potential with garlic/coriander in remaining 0.2 ha"
+      ],
+      "threats": [
+        "Increased pest vulnerability without synthetic chemicals",
+        "Unpredictable winter rainfall/frost in Shimla",
+        "Soil nutrient imbalance during transition"
+      ],
+      "resource_analysis": [
+        "Labor: Family labor available (assumed)",
+        "Water: Reliable irrigation source required (verify)",
+        "Equipment: Basic tools available (need compost pit/tank)"
+      ]
+    },
+    "strategic_objectives": {
+      "primary_goals": [
+        "Achieve organic certification within 24 months",
+        "Maintain ≥85% of conventional yield during transition",
+        "Reduce input costs by 25% through organic inputs"
+      ],
+      "yield_targets": {
+        "current_yield": "2.8-3.2 tonnes/ha (conventional)",
+        "target_yield": "2.4-2.7 tonnes/ha (transition year)",
+        "quality_targets": [
+          "≥90% Grade-A pods",
+          "Zero pesticide residues",
+          "Brix level ≥9.0"
+        ]
+      },
+      "risk_mitigation": [
+        "Weather risk: Frost protection measures",
+        "Pest risk: Biological control protocols",
+        "Financial risk: Scheme-linked buffer fund"
+      ],
+      "financial_improvements": [
+        "Reduce fertilizer costs by 40% via composting",
+        "Cut pesticide expenses by 100% through organic methods",
+        "Achieve 20% net profit increase post-transition"
+      ]
+    },
+    "integrated_action_plan": {
+      "crop_planning": {
+        "variety_selection": "Arkell (cold-tolerant, disease-resistant)",
+        "seed_treatment": "Trichoderma viride (5g/kg seed) + cow urine",
+        "intercropping": "Garlic (0.2 ha) as pest repellent crop",
+        "crop_rotation": "Post-harvest: Maize-legume rotation for nitrogen"
+      },
+      "soil_health_strategy": {
+        "soil_testing": "Immediate Soil Health Card application",
+        "amendments": [
+          "Vermicompost: 5 tonnes/ha (3 tonnes total)",
+          "Neem cake: 250 kg/ha (150 kg total)",
+          "Rock phosphate: 100 kg/ha (60 kg total)"
+        ],
+        "microbe_inoculation": "PSB + Azotobacter @ 5kg/ha",
+        "cover_cropping": "Sunn hemp in summer (green manure)"
+      },
+      "weather_management": {
+        "october": "Sowing during 2nd week (soil temp 15-18°C)",
+        "nov-dec": "Mulching with rice straw (5cm layer) for frost protection",
+        "jan-feb": "Drainage trenches preparation for excess rain",
+        "tools": "Monitor IMD agromet advisories twice weekly"
+      },
+      "pest_management": {
+        "prevention": [
+          "Weekly neem oil spray (5ml/L water)",
+          "Bird perches @ 10/ha for insectivorous birds",
+          "Trap crops: Marigold borders"
+        ],
+        "control": [
+          "Bt (Bacillus thuringiensis) for pod borer",
+          "Chilli-garlic extract (50g/L) for aphids",
+          "Release Trichogramma wasps @ 50,000/ha"
+        ],
+        "monitoring": "Scout twice weekly (focus on undersides)"
+      },
+      "financial_optimization": {
+        "scheme_utilization": [
+          "Soil Health Card: Free testing + recommendations",
+          "PMFBY: Insure crop against weather damage (premium subsidy 50%)",
+          "Kisan Credit Card: Access ₹1.6L at 4% interest for inputs"
+        ],
+        "cost_management": [
+          "On-farm compost production (save ₹8,000)",
+          "Community neem seed collection (save ₹2,500)",
+          "Shared equipment leasing with neighbors"
+        ],
+        "budget_allocation": {
+          "organic_inputs": "₹15,000",
+          "labor": "₹8,000",
+          "insurance": "₹2,000",
+          "contingency": "₹5,000",
+          "scheme_buffer": "₹10,000"
+        }
+      }
+    },
+    "implementation_timeline": {
+      "october": [
+        "Week 1: Apply for Soil Health Card & KCC",
+        "Week 2: Soil amendment application",
+        "Week 3: Sowing with treated seeds",
+        "Week 4: Install bird perches + trap crops"
+      ],
+      "november": [
+        "Apply for PMFBY before 15th",
+        "Weekly: Neem spray + pest scouting",
+        "Mulching completion by 30th"
+      ],
+      "december-january": [
+        "Frost watch (activate row covers if <4°C)",
+        "Release Trichogramma wasps (2 cycles)",
+        "Side-dressing with vermicompost tea"
+      ],
+      "february-march": [
+        "Staggered harvesting (3 pickings)",
+        "Post-harvest soil sampling",
+        "Plan summer green manure crop"
+      ],
+      "critical_decision_points": {
+        "sowing_window": "Must complete by Oct 20",
+        "frost_trigger": "Activate protection if <4°C forecast",
+        "pest_threshold": "Spray Bt if >5% pod damage",
+        "insurance_claim": "Notify within 72hrs of damage"
+      },
+      "monitoring_triggers": [
+        "Leaf yellowing (nutrient audit)",
+        ">10 aphids/plant (release ladybugs)",
+        "14 dry days (initiate light irrigation)"
+      ]
+    },
+    "success_metrics": {
+      "yield_targets": {
+        "minimum_acceptable": "2.2 tonnes",
+        "target": "2.7 tonnes",
+        "stretch_goal": "3.0 tonnes"
+      },
+      "quality_metrics": [
+        "≥90% pest-free pods",
+        "Certified residue-free (3rd party test)",
+        "Market rejection rate <5%"
+      ],
+      "cost_reduction": {
+        "fertilizer_cost": "Reduce from ₹12,000 → ₹7,000",
+        "pest_management": "Reduce from ₹8,000 → ₹2,500",
+        "total_input_cost": "≤₹25,000 (37.5% reduction)"
+      },
+      "risk_mitigation": [
+        "100% insurance coverage activated",
+        "Soil organic matter ≥2.5% (baseline 1.8%)",
+        "Zero crop loss to frost/pests"
+      ]
+    },
+    "execution_notes": [
+      "Urgent: Visit Krishi Vigyan Kendra (Shimla) for organic certification guidance",
+      "Priority: Complete scheme applications within 7 days",
+      "Key contact: District Agriculture Officer (0177-2653021)",
+      "Monitoring tool: Use 'Kisan Suvidha' app for advisories"
+    ]
+  }
+}
+```
+2025-08-18 02:07:55,207 - OrchestratorAgent - INFO - ✅ Comprehensive strategy generated successfully
+2025-08-18 02:07:55,207 - OrchestratorAgent - INFO - 🗺️ Creating actionable roadmap
+2025-08-18 02:07:55,207 - OrchestratorAgent - INFO - ✅ Actionable roadmap created
+2025-08-18 02:07:55,207 - OrchestratorAgent - INFO - 📍 Generating hyperlocal guidance
+2025-08-18 02:07:55,207 - OrchestratorAgent - INFO - ✅ Hyperlocal guidance generated
+2025-08-18 02:07:55,208 - OrchestratorAgent - INFO - ✅ Generic pipeline completed successfully
+2025-08-18 02:07:55,208 - OrchestratorAgent - INFO - ✅ Successfully processed farmer request via generic pipeline

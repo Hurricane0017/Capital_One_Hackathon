@@ -1,0 +1,166 @@
+{
+  "pest_id": "PST015",
+  "common_name": "Pulse Thrips",
+  "scientific_name": "Megalurothrips distalis",
+  "category": "Insect",
+  "description": "A major flower-feeding pest of pulse crops that causes direct damage by feeding on flower petals, stamens, and young pods. It significantly reduces pod formation and seed development, causing 15-25% yield losses in susceptible pulse varieties.",
+
+  "identification": {
+    "physical_signs": [
+      "Silvering and bronzing of leaves due to feeding",
+      "Brown or black spots on flowers and young pods",
+      "Stunted and malformed flowers",
+      "Reduced pod set and seed formation",
+      "Tiny pale yellow to orange insects on flowers",
+      "Black specks of excreta on damaged plant parts"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["Flowering", "Pod formation"],
+    "seasons": ["Kharif", "Summer"],
+    "favourable_conditions": {
+      "climate": "Warm and humid conditions (25-32°C), high humidity, cloudy weather",
+      "soil_type": ["All soil types suitable for pulse cultivation"],
+      "soil_conditions": ["Moderate to high moisture"],
+      "ecological_factors": ["Dense planting", "High humidity conditions", "Flower availability"]
+    },
+    "geographical_distribution": [
+      "Karnataka",
+      "Tamil Nadu",
+      "Andhra Pradesh",
+      "Telangana",
+      "Maharashtra",
+      "Gujarat",
+      "Madhya Pradesh",
+      "Chhattisgarh",
+      "Odisha",
+      "West Bengal",
+      "Bihar",
+      "Uttar Pradesh",
+      "Rajasthan",
+      "Haryana",
+      "Punjab"
+    ],
+    "crops_attacked": [
+      "Pigeon pea",
+      "Cowpea",
+      "Green gram",
+      "Black gram",
+      "Lima bean",
+      "French bean",
+      "Soybean",
+      "Groundnut",
+      "Sunflower"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 15,
+    "max_crop_loss_percent": 25,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 8000,
+      "max_loss": 18000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "Blue sticky traps for monitoring and mass trapping",
+      "Water spraying during early morning hours",
+      "Removal of weed hosts from field margins",
+      "Collection and destruction of infested flowers"
+    ],
+    "cultural_methods": [
+      "Early sowing to avoid peak thrips activity",
+      "Use of tolerant varieties where available",
+      "Intercropping with non-host crops",
+      "Avoiding water stress during flowering",
+      "Proper spacing to reduce humidity",
+      "Field sanitation and weed control"
+    ],
+    "biological_control": [
+      {
+        "agent": "Orius species",
+        "method": "Predatory bug conservation"
+      },
+      {
+        "agent": "Chrysoperla carnea",
+        "method": "Green lacewing predator release"
+      },
+      {
+        "agent": "Amblyseius species",
+        "method": "Predatory mite conservation"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Fipronil 5% SC",
+          "dosage": "1.5 ml/litre water",
+          "application_stage": "Pre-flowering stage"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Imidacloprid 17.8% SL",
+          "dosage": "0.5 ml/litre water",
+          "application_stage": "Peak flowering"
+        },
+        {
+          "pesticide_name": "Spinosad 45% SC",
+          "dosage": "0.3 ml/litre water",
+          "application_stage": "Severe infestation"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Regent",
+      "active_ingredient": "Fipronil",
+      "formulation": "5% SC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 600,
+        "unit": "250ml bottle"
+      }
+    },
+    {
+      "brand_name": "Confidor",
+      "active_ingredient": "Imidacloprid",
+      "formulation": "17.8% SL",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 280,
+        "unit": "100ml bottle"
+      }
+    },
+    {
+      "brand_name": "Tracer",
+      "active_ingredient": "Spinosad",
+      "formulation": "45% SC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 750,
+        "unit": "100ml bottle"
+      }
+    }
+  ],
+
+  "references": [
+    "https://www.thepharmajournal.com/archives/2023/vol12issue9S/PartF/S-12-8-312-432.pdf",
+    "https://www.slideshare.net/rakeshmeena42/integrated-pest-management-for-insect-pests-of-pulses",
+    "https://books.kdpublications.in/index.php/kdp/catalog/download/319/393/2606?inline=1",
+    "http://www.intechopen.com/books/agricultural-science/insect-pests-of-green-gram-vigna-radiata-l-wilczek-and-their-management",
+    "https://www.semanticscholar.org/paper/8e0863f793d1e34373351a386297f88ba84ec5de"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}

@@ -1,0 +1,40 @@
+{
+  "soil_key": "red",
+  "soil_name": "Red Soil",
+  "aliases": ["Red Earth"],
+  "color": ["red", "reddish-brown", "yellowish-red"],
+  "texture": "loamy (ranging from sandy loam to clay loam)",
+  "structure": "porous and friable; loose gravely soil on uplands",
+  "physical_properties": {
+    "bulk_density_g_cm3": 1.3,
+    "infiltration_rate_mm_hr": 15,
+    "erosion_risk": "high"
+  },
+  "chemical_properties": {
+    "pH": { "min": 6.0, "max": 7.5 },
+    "cation_exchange_capacity_cmolkg": { "min": 5, "max": 15 },
+    "organic_matter_pct": { "min": 0.3, "max": 1.0 },
+    "salinity_dS_m": { "max": 1 },
+    "sodicity_ESP": { "max": 2 },
+    "free_CaCO3_pct": { "min": 0, "max": 2 }
+  },
+  "water_holding_capacity_pct": { "min": 20, "max": 35 },
+  "nutrients_rich_in": ["iron", "potassium"],
+  "nutrients_deficient_in": ["nitrogen", "phosphorus", "calcium"],
+  "favoured_crops": ["cotton", "groundnut", "millets", "pulses", "tobacco", "oilseeds", "potatoes"],
+  "favoured_seasons": ["Kharif"], 
+  "drainage": "well drained",
+  "typical_depth_cm": { "min": 30, "max": 100 },
+  "regions": [
+    { "state": "Tamil Nadu", "notes": "Majority of state has red soils" },
+    { "state": "Karnataka", "notes": "Eastern and central parts" },
+    { "state": "Andhra Pradesh", "notes": "Rayalaseema region" },
+    { "state": "Odisha" },
+    { "state": "Maharashtra", "notes": "South-east (Vidarbha) region" },
+    { "state": "Jharkhand" },
+    { "state": "Rajasthan", "notes": "Eastern plateau (Aravalli region)" }
+  ],
+  "hazards": ["fertility decline (nutrient depletion)", "water erosion (runoff on slopes)"],
+  "notes": "Red soils are mostly found in semi-arid, rainfed areas. They respond well to additions of fertilizers (nitrogen, phosphorus) and organic manures. Mulching and contour bunding are used to conserve moisture due to low water retention.",
+  "sources": ["PMF IAS (2024)", "Mapsofindia (2025)"]
+}

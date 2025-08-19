@@ -1,0 +1,21 @@
+2025-08-19 23:05:40,915 - TranscriptMonitor - INFO - 🚀 Starting Transcript Monitor
+2025-08-19 23:05:40,915 - TranscriptMonitor - INFO - ==================================================
+2025-08-19 23:05:40,915 - TranscriptMonitor - INFO - 🔍 Checking for existing files...
+2025-08-19 23:05:40,915 - TranscriptMonitor - WARNING - ⚠️ Could not load processed files log: Expecting value: line 1 column 1 (char 0)
+2025-08-19 23:05:40,915 - TranscriptMonitor - INFO - 🤖 Initializing Orchestrator Agent...
+2025-08-19 23:05:43,164 - TranscriptMonitor - INFO - ✅ Orchestrator Agent initialized successfully
+2025-08-19 23:05:43,164 - TranscriptMonitor - INFO - 🔑 Note: If you get 401 errors, check the OpenRouter API key in llm_client.py
+2025-08-19 23:05:43,164 - TranscriptMonitor - INFO - 🔊 Initializing TTS Processor with Google Cloud Translation API...
+2025-08-19 23:05:43,197 - TranscriptMonitor - INFO - ✅ TTS Processor initialized successfully
+2025-08-19 23:05:43,197 - TranscriptMonitor - INFO - 🌍 Google Cloud Translation API will be prioritized for text translation
+2025-08-19 23:05:43,197 - TranscriptMonitor - INFO - 🎯 Transcript Monitor initialized
+2025-08-19 23:05:43,197 - TranscriptMonitor - INFO - 📁 Monitoring directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-19 23:05:43,197 - TranscriptMonitor - INFO - 📱 Default phone number: 9876001234
+2025-08-19 23:05:43,197 - TranscriptMonitor - INFO - 📄 Found 0 existing files
+2025-08-19 23:05:43,197 - TranscriptMonitor - INFO - 👀 Starting file system monitoring...
+2025-08-19 23:05:43,199 - TranscriptMonitor - INFO - ✅ Transcript Monitor is running
+2025-08-19 23:05:43,200 - TranscriptMonitor - INFO - 📁 Watching: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-19 23:05:43,200 - TranscriptMonitor - INFO - 🔄 Waiting for new transcript files...
+2025-08-19 23:05:43,200 - TranscriptMonitor - INFO - Press Ctrl+C to stop
+2025-08-19 23:06:00,933 - TranscriptMonitor - INFO - 🛑 Stopping Transcript Monitor...
+2025-08-19 23:06:00,936 - TranscriptMonitor - INFO - ✅ Transcript Monitor stopped

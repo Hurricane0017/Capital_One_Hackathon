@@ -1,0 +1,166 @@
+{
+  "pest_id": "PST016",
+  "common_name": "Spotted Pod Borer",
+  "scientific_name": "Maruca vitrata",
+  "category": "Insect",
+  "description": "A major pod boring pest of leguminous crops that causes significant damage by boring into flower buds, flowers, and pods. The larvae feed on developing seeds causing 20-80% yield losses in pigeon pea, cowpea, and other pulse crops across tropical regions.",
+
+  "identification": {
+    "physical_signs": [
+      "Webbing together of flowers and flower buds",
+      "Circular entry holes in pods with frass deposits",
+      "Damaged and hollowed seeds inside pods",
+      "Yellowing and drying of infested flowers",
+      "Presence of greenish larvae with dark spots",
+      "Silk threads binding flower clusters"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["Flowering", "Pod formation", "Pod development"],
+    "seasons": ["Kharif", "Summer"],
+    "favourable_conditions": {
+      "climate": "Warm and humid tropical conditions (25-35°C), high humidity",
+      "soil_type": ["All soil types suitable for pulse cultivation"],
+      "soil_conditions": ["Moderate to high moisture"],
+      "ecological_factors": ["Continuous pulse cultivation", "Dense planting", "High humidity"]
+    },
+    "geographical_distribution": [
+      "Karnataka",
+      "Tamil Nadu",
+      "Andhra Pradesh",
+      "Telangana",
+      "Maharashtra",
+      "Gujarat",
+      "Madhya Pradesh",
+      "Chhattisgarh",
+      "Odisha",
+      "West Bengal",
+      "Assam",
+      "Bihar",
+      "Uttar Pradesh",
+      "Rajasthan",
+      "Kerala"
+    ],
+    "crops_attacked": [
+      "Pigeon pea",
+      "Cowpea",
+      "Yard long bean",
+      "French bean",
+      "Lima bean",
+      "Black gram",
+      "Green gram",
+      "Soybean",
+      "Groundnut"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 20,
+    "max_crop_loss_percent": 80,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 12000,
+      "max_loss": 45000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "Pheromone traps for monitoring and mass trapping",
+      "Light traps for adult moth capture",
+      "Hand picking and destruction of webbed flowers",
+      "Collection and destruction of infested pods"
+    ],
+    "cultural_methods": [
+      "Early sowing to avoid peak pest period",
+      "Use of short duration varieties",
+      "Intercropping with cereals or trap crops",
+      "Deep summer ploughing to destroy pupae",
+      "Crop rotation with non-leguminous crops",
+      "Field sanitation and removal of crop residues"
+    ],
+    "biological_control": [
+      {
+        "agent": "Trichogramma chilonis",
+        "method": "Egg parasitoid release at 50,000/ha weekly"
+      },
+      {
+        "agent": "Bracon hebetor",
+        "method": "Larval parasitoid conservation"
+      },
+      {
+        "agent": "Beauveria bassiana",
+        "method": "Entomopathogenic fungal spray"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Flubendiamide 20% WG",
+          "dosage": "0.15 g/litre water",
+          "application_stage": "Flower initiation"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Chlorantraniliprole 18.5% SC",
+          "dosage": "0.3 ml/litre water",
+          "application_stage": "Peak flowering and pod formation"
+        },
+        {
+          "pesticide_name": "Indoxacarb 14.5% SC",
+          "dosage": "1 ml/litre water",
+          "application_stage": "Severe infestation"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Belt",
+      "active_ingredient": "Flubendiamide",
+      "formulation": "20% WG",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 720,
+        "unit": "100g pack"
+      }
+    },
+    {
+      "brand_name": "Coragen",
+      "active_ingredient": "Chlorantraniliprole",
+      "formulation": "18.5% SC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 850,
+        "unit": "100ml bottle"
+      }
+    },
+    {
+      "brand_name": "Avaunt",
+      "active_ingredient": "Indoxacarb",
+      "formulation": "14.5% SC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 380,
+        "unit": "100ml bottle"
+      }
+    }
+  ],
+
+  "references": [
+    "https://www.thepharmajournal.com/archives/2023/vol12issue9S/PartF/S-12-8-312-432.pdf",
+    "https://www.slideshare.net/rakeshmeena42/integrated-pest-management-for-insect-pests-of-pulses",
+    "http://www.intechopen.com/books/agricultural-science/insect-pests-of-green-gram-vigna-radiata-l-wilczek-and-their-management",
+    "https://www.semanticscholar.org/paper/8e0863f793d1e34373351a386297f88ba84ec5de",
+    "https://journalarrb.com/index.php/ARRB/article/view/2134"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}

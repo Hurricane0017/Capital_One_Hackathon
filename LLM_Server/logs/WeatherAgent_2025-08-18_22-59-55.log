@@ -1,0 +1,27 @@
+2025-08-18 22:59:58,169 - WeatherAgent - INFO - Processing generic weather query: Provide comprehensive weather guidance for farming activities...
+2025-08-18 22:59:58,170 - WeatherAgent - INFO - Processing generic weather pipeline query
+2025-08-18 23:00:00,017 - WeatherAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+You are an expert agricultural consultant providing comprehensive seasonal weather guidance.
+
+FARMER QUERY: "Provide comprehensive weather guidance for farming activities"
+
+SEASONAL CONTEXT:
+- Current Season: KHARIF (growing stage)
+- Location: PIN N/A
+
+
+WEATHER FORECAST DATA:
+[
+  {
+    "date": "2025-08-18",
+    "temp_mean": 29.9,
+    "temp_max": 33.0,
+    "temp_min": 27.2,
+    "humidity_mean": 79.9,
+    "rain_sum": 0.0,
+    "wind_speed_mean": 18.0,
+    "wind_gusts_max": 34.2,
+    "soil_moisture...
+2025-08-18 23:00:00,203 - WeatherAgent - ERROR - LLM call failed: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}

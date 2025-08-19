@@ -1,0 +1,33 @@
+2025-08-19 22:41:23,022 - OrchestratorAgent - INFO - 🎯 Initializing Orchestrator Agent - Master Coordinator
+2025-08-19 22:41:25,138 - OrchestratorAgent - INFO - ✅ All agents and processors initialized successfully
+2025-08-19 22:41:26,214 - OrchestratorAgent - INFO - 🌾 Processing farmer request from 9876001234
+2025-08-19 22:41:26,214 - OrchestratorAgent - INFO - 📝 Processing and storing farmer input data
+2025-08-19 22:41:26,281 - OrchestratorAgent - INFO - 📋 Found existing profile for 9876001234
+2025-08-19 22:41:26,282 - OrchestratorAgent - INFO - 🔍 Extracting farmer query from raw input
+2025-08-19 22:41:26,282 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an agricultural assistant analyzing farmer communication from an IVR system.
+            
+            Raw farmer input: "I am Pankaj Thakur. Phone 9876001234 P 175001 You have my permission. Total land 0.8 hectare I am cultivating 0.6 hectare in Rabi. Soil is double. Planning to plant garden manure based on the year. Kim ep3 sowing on 15th October 2025 Crop will be ready by end of January. I have ₹40000 cash. I can take ₹20000 if needed. I am not covered under insurance. Nea...
+2025-08-19 22:41:37,320 - OrchestratorAgent - DEBUG - LLM Call Response:
+"I am interested in weekly guidance in the evening."...
+2025-08-19 22:41:37,320 - OrchestratorAgent - INFO - ✅ Extracted query: I am interested in weekly guidance in the evening....
+2025-08-19 22:41:37,321 - OrchestratorAgent - INFO - 🎯 Classifying pipeline type for farmer query
+2025-08-19 22:41:37,321 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an intelligent agricultural coordinator analyzing farmer queries to determine the best response strategy.
+            
+            FARMER CONTEXT:
+            Farmer: Pankaj Thakur
+Location: 175001
+Total land: 0.8 hectares
+Soil type: Loam
+Crops: garden peas (0.6 ha) - Rabi season
+Available cash: ₹40000
+            
+            FARMER QUERY: "I am interested in weekly guidance in the evening."
+            
+            CLASSIFICATION TASK:
+            Determine whether this qu...

@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kisan AI - Agricultural Assistant</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #4CAF50, #81C784);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            padding: 30px;
+            width: 90%;
+            max-width: 800px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            color: #2E7D32;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            color: #666;
+            font-size: 1.1em;
+        }
+        
+        .chat-container {
+            height: 400px;
+            border: 2px solid #E8F5E8;
+            border-radius: 15px;
+            padding: 20px;
+            overflow-y: auto;
+            background: #FAFAFA;
+            margin-bottom: 20px;
+        }
+        
+        .message {
+            margin-bottom: 15px;
+            padding: 12px 16px;
+            border-radius: 20px;
+            max-width: 80%;
+            word-wrap: break-word;
+        }
+        
+        .user-message {
+            background: #4CAF50;
+            color: white;
+            margin-left: auto;
+            text-align: right;
+        }
+        
+        .ai-message {
+            background: #E8F5E8;
+            color: #2E7D32;
+            border-left: 4px solid #4CAF50;
+        }
+        
+        .input-section {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        #queryInput {
+            flex: 1;
+            padding: 15px;
+            border: 2px solid #E0E0E0;
+            border-radius: 25px;
+            font-size: 16px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        
+        #queryInput:focus {
+            border-color: #4CAF50;
+        }
+        
+        #sendBtn {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        #sendBtn:hover {
+            background: #45a049;
+        }
+        
+        #sendBtn:disabled {
+            background: #cccccc;
+            cursor: not-allowed;
+        }
+        
+        .farmer-profile {
+            background: #F1F8E9;
+            border-radius: 15px;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-left: 5px solid #4CAF50;
+        }
+        
+        .profile-item {
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+        
+        .status-indicator {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+        
+        .status-online { background: #4CAF50; }
+        .status-offline { background: #f44336; }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            color: #666;
+            font-style: italic;
+        }
+        
+        .quick-actions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        
+        .quick-action {
+            background: #E8F5E8;
+            color: #2E7D32;
+            border: none;
+            border-radius: 20px;
+            padding: 8px 16px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        .quick-action:hover {
+            background: #C8E6C9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌾 Kisan AI</h1>
+            <p>Your intelligent agricultural assistant</p>
+            <div style="margin-top: 10px;">
+                <span class="status-indicator status-online" id="statusIndicator"></span>
+                <span id="statusText">System Online</span>
+            </div>
+        </div>
+        
+        <div class="farmer-profile" id="farmerProfile">
+            <h3>👨‍🌾 Farmer Profile</h3>
+            <div class="profile-item">📍 <strong>Location:</strong> <span id="profileLocation">Not set</span></div>
+            <div class="profile-item">🌾 <strong>Crops:</strong> <span id="profileCrops">Not set</span></div>
+            <div class="profile-item">🏞️ <strong>Soil Type:</strong> <span id="profileSoil">Not set</span></div>
+            <div class="profile-item">📏 <strong>Farm Size:</strong> <span id="profileSize">Not set</span></div>
+        </div>
+        
+        <div class="quick-actions">
+            <button class="quick-action" onclick="askQuickQuestion('Should I irrigate my crops today?')">💧 Irrigation Advice</button>
+            <button class="quick-action" onclick="askQuickQuestion('When should I harvest my crop?')">🌾 Harvest Timing</button>
+            <button class="quick-action" onclick="askQuickQuestion('My plants have yellow leaves')">🐛 Pest Problems</button>
+            <button class="quick-action" onclick="askQuickQuestion('What government schemes can help me?')">🏛️ Schemes</button>
+        </div>
+        
+        <div class="chat-container" id="chatContainer">
+            <div class="message ai-message">
+                <strong>🤖 Kisan AI:</strong> नमस्कार! मैं आपका कृषि सलाहकार हूं। मैं मौसम, फसल, कीट-पतंगे और सरकारी योजनाओं के बारे में आपकी मदद कर सकता हूं। आप क्या जानना चाहते हैं?
+            </div>
+        </div>
+        
+        <div class="input-section">
+            <input type="text" id="queryInput" placeholder="Ask your farming question... (Hindi/English)" maxlength="500">
+            <button id="sendBtn" onclick="sendQuery()">Send</button>
+        </div>
+        
+        <div class="loading" id="loading">
+            🤔 AI is thinking...
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://localhost:5000';
+        const FARMER_ID = 'demo_farmer_' + Date.now();
+        let conversationHistory = [];
+        
+        // Initialize system
+        document.addEventListener('DOMContentLoaded', function() {
+            checkSystemHealth();
+            
+            // Enable Enter key to send
+            document.getElementById('queryInput').addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    sendQuery();
+                }
+            });
+        });
+        
+        async function checkSystemHealth() {
+            try {
+                const response = await fetch(`${API_BASE}/health`);
+                const health = await response.json();
+                
+                if (health.status === 'healthy') {
+                    document.getElementById('statusIndicator').className = 'status-indicator status-online';
+                    document.getElementById('statusText').textContent = 'System Online';
+                } else {
+                    document.getElementById('statusIndicator').className = 'status-indicator status-offline';
+                    document.getElementById('statusText').textContent = 'System Issues';
+                }
+            } catch (error) {
+                document.getElementById('statusIndicator').className = 'status-indicator status-offline';
+                document.getElementById('statusText').textContent = 'Connection Failed';
+                console.error('Health check failed:', error);
+            }
+        }
+        
+        async function sendQuery() {
+            const queryInput = document.getElementById('queryInput');
+            const query = queryInput.value.trim();
+            
+            if (!query) return;
+            
+            // Show user message
+            addMessage(query, 'user');
+            queryInput.value = '';
+            
+            // Show loading
+            showLoading(true);
+            
+            try {
+                const response = await fetch(`${API_BASE}/api/query`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        query: query,
+                        farmer_id: FARMER_ID,
+                        context: {
+                            // Add any known context
+                        }
+                    })
+                });
+                
+                const result = await response.json();
+                
+                if (result.status === 'success') {
+                    // Show AI response
+                    addMessage(result.response, 'ai');
+                    
+                    // Update farmer profile if available
+                    updateFarmerProfile(result);
+                    
+                    // Store conversation
+                    conversationHistory.push({
+                        query: query,
+                        response: result.response,
+                        timestamp: new Date().toISOString(),
+                        confidence: result.confidence_score
+                    });
+                } else {
+                    addMessage('Sorry, I encountered an error processing your request. Please try again.', 'ai');
+                    console.error('API Error:', result.error);
+                }
+            } catch (error) {
+                addMessage('Connection error. Please check if the system is running and try again.', 'ai');
+                console.error('Request failed:', error);
+            }
+            
+            showLoading(false);
+        }
+        
+        function addMessage(content, type) {
+            const chatContainer = document.getElementById('chatContainer');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${type}-message`;
+            
+            if (type === 'user') {
+                messageDiv.innerHTML = `<strong>🧑‍🌾 You:</strong> ${content}`;
+            } else {
+                messageDiv.innerHTML = `<strong>🤖 Kisan AI:</strong> ${content}`;
+            }
+            
+            chatContainer.appendChild(messageDiv);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+        
+        function updateFarmerProfile(result) {
+            try {
+                const profile = result.context_extraction?.farmer_profile || {};
+                
+                if (profile.location || profile.state) {
+                    document.getElementById('profileLocation').textContent = 
+                        profile.location || profile.state || 'Not set';
+                }
+                
+                if (profile.current_crops || profile.crop_type) {
+                    document.getElementById('profileCrops').textContent = 
+                        profile.current_crops || profile.crop_type || 'Not set';
+                }
+                
+                if (profile.soil_type) {
+                    document.getElementById('profileSoil').textContent = profile.soil_type;
+                }
+                
+                if (profile.farm_size) {
+                    document.getElementById('profileSize').textContent = profile.farm_size;
+                }
+            } catch (error) {
+                console.error('Error updating profile:', error);
+            }
+        }
+        
+        function askQuickQuestion(question) {
+            document.getElementById('queryInput').value = question;
+            sendQuery();
+        }
+        
+        function showLoading(show) {
+            const loading = document.getElementById('loading');
+            const sendBtn = document.getElementById('sendBtn');
+            
+            if (show) {
+                loading.style.display = 'block';
+                sendBtn.disabled = true;
+            } else {
+                loading.style.display = 'none';
+                sendBtn.disabled = false;
+            }
+        }
+        
+        // Periodic health checks
+        setInterval(checkSystemHealth, 30000); // Check every 30 seconds
+    </script>
+</body>
+</html>

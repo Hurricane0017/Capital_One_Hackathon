@@ -1,0 +1,80 @@
+2025-08-19 23:07:49,616 - OrchestratorAgent - INFO - 🎯 Initializing Orchestrator Agent - Master Coordinator
+2025-08-19 23:07:52,026 - OrchestratorAgent - INFO - ✅ All agents and processors initialized successfully
+2025-08-19 23:10:26,465 - OrchestratorAgent - INFO - 🌾 Processing farmer request from 9876001234
+2025-08-19 23:10:26,467 - OrchestratorAgent - INFO - 📝 Processing and storing farmer input data
+2025-08-19 23:10:26,536 - OrchestratorAgent - INFO - 📋 Found existing profile for 9876001234
+2025-08-19 23:10:26,537 - OrchestratorAgent - INFO - 🔍 Extracting farmer query from raw input
+2025-08-19 23:10:26,537 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an agricultural assistant analyzing farmer communication from an IVR system.
+            
+            Raw farmer input: "I am pankaj thakur phone number 98760."
+            
+            Extract the main query, question, or concern that the farmer is expressing.
+            The query should be clear, specific, and focused on their agricultural needs.
+            
+            If multiple concerns are mentioned, prioritize the most urgent or important one.
+            
+        ...
+2025-08-19 23:10:35,445 - OrchestratorAgent - DEBUG - LLM Call Response:
+Based on the provided input ("I am pankaj thakur phone number 98760."), **no agricultural query, question, or concern is expressed.**
+
+The message solely contains an introduction and contact information. There is no mention of crops, pests, weather, practices, or any specific agricultural need. Therefore, no query can be extracted....
+2025-08-19 23:10:35,446 - OrchestratorAgent - INFO - ✅ Extracted query: Based on the provided input ("I am pankaj thakur phone number 98760."), **no agricultural query, que...
+2025-08-19 23:10:35,446 - OrchestratorAgent - INFO - 🎯 Classifying pipeline type for farmer query
+2025-08-19 23:10:35,446 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an intelligent agricultural coordinator analyzing farmer queries to determine the best response strategy.
+            
+            FARMER CONTEXT:
+            Farmer: Pankaj Thakur
+Location: 175001
+Total land: 0.8 hectares
+Soil type: Loam
+Crops: garden peas (0.6 ha) - Rabi season
+Available cash: ₹40000
+            
+            FARMER QUERY: "Based on the provided input ("I am pankaj thakur phone number 98760."), **no agricultural query, question, or concern is expressed.**
+
+...
+2025-08-19 23:10:44,827 - OrchestratorAgent - DEBUG - LLM Call Response:
+```json
+{
+    "pipeline_type": "specific",
+    "reasoning": "The message contains no agricultural query, only contact information. This requires a basic response agent to acknowledge receipt and request clarification.",
+    "confidence": 0.95,
+    "required_agents": ["response"],
+    "urgency": "low",
+    "complexity": "simple"
+}
+```...
+2025-08-19 23:10:44,829 - OrchestratorAgent - INFO - ✅ Pipeline classified as: specific (confidence: 0.95)
+2025-08-19 23:10:44,830 - OrchestratorAgent - INFO - 🎯 Executing specific pipeline with agents: ['response']
+2025-08-19 23:10:44,830 - OrchestratorAgent - INFO - 🔄 Synthesizing specific agent responses
+2025-08-19 23:10:44,830 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an expert agricultural coordinator synthesizing responses from multiple specialized agents to answer a farmer's specific query.
+            
+            FARMER CONTEXT:
+            Farmer: Pankaj Thakur
+Location: 175001
+Total land: 0.8 hectares
+Soil type: Loam
+Crops: garden peas (0.6 ha) - Rabi season
+Available cash: ₹40000
+            
+            ORIGINAL QUERY: "Based on the provided input ("I am pankaj thakur phone number 98760."), **no agricultural query, question, or c...
+2025-08-19 23:11:04,601 - OrchestratorAgent - DEBUG - LLM Call Response:
+Based on your message containing only your name and phone number, we couldn't identify a specific question about your pea farming. To help you effectively, please tell us what you need assistance with.
+
+**1. Direct Answer:**  
+We couldn't find a specific question in your message. Please share details about your garden pea crop (e.g., growth stage, pest issues, nutrient management, irrigation, or market planning) so we can provide tailored advice.
+
+**2. Key Recommendations:**  
+*   **Reach out ag...
+2025-08-19 23:11:04,602 - OrchestratorAgent - INFO - ✅ Successfully processed farmer request via specific pipeline
+2025-08-19 23:11:04,602 - OrchestratorAgent - INFO - 🔄 Converting JSON response to plain English.
+2025-08-19 23:11:04,602 - OrchestratorAgent - INFO - ✅ Converted final response to plain English for the farmer.

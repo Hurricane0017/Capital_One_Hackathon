@@ -1,0 +1,32 @@
+2025-08-19 22:32:23,871 - TranscriptMonitor - INFO - 🚀 Starting Transcript Monitor
+2025-08-19 22:32:23,871 - TranscriptMonitor - INFO - ==================================================
+2025-08-19 22:32:23,871 - TranscriptMonitor - INFO - 🔍 Checking for existing files...
+2025-08-19 22:32:23,871 - TranscriptMonitor - WARNING - ⚠️ Could not load processed files log: Expecting value: line 1 column 1 (char 0)
+2025-08-19 22:32:23,871 - TranscriptMonitor - INFO - 🤖 Initializing Orchestrator Agent...
+2025-08-19 22:32:26,413 - TranscriptMonitor - INFO - ✅ Orchestrator Agent initialized successfully
+2025-08-19 22:32:26,414 - TranscriptMonitor - INFO - 🔑 Note: If you get 401 errors, check the OpenRouter API key in llm_client.py
+2025-08-19 22:32:26,414 - TranscriptMonitor - INFO - 🔊 Initializing TTS Processor with Google Cloud Translation API...
+2025-08-19 22:32:26,467 - TranscriptMonitor - INFO - ✅ TTS Processor initialized successfully
+2025-08-19 22:32:26,467 - TranscriptMonitor - INFO - 🌍 Google Cloud Translation API will be prioritized for text translation
+2025-08-19 22:32:26,467 - TranscriptMonitor - INFO - 🎯 Transcript Monitor initialized
+2025-08-19 22:32:26,467 - TranscriptMonitor - INFO - 📁 Monitoring directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-19 22:32:26,467 - TranscriptMonitor - INFO - 📱 Default phone number: 9876001234
+2025-08-19 22:32:26,467 - TranscriptMonitor - INFO - 📄 Found 1 existing files
+2025-08-19 22:32:26,468 - TranscriptMonitor - INFO - 📄 Processing existing file: recording-1755619750.01_transcript.json
+2025-08-19 22:32:26,468 - TranscriptMonitor - INFO - 📄 Processing new transcript file: recording-1755619750.01_transcript.json
+2025-08-19 22:32:27,470 - TranscriptMonitor - DEBUG - 📖 Successfully read transcript file: recording-1755619750.01_transcript.json
+2025-08-19 22:32:27,471 - TranscriptMonitor - INFO - 📝 Extracted text: 'I am Pankaj Thakur. Phone 9876001234 P 175001 You have my permission. Total land 0.8 hectare I am cultivating 0.6 hectare in Rabi. Soil is double. Planning to plant garden manure based on the year. Kim ep3 sowing on 15th October 2025 Crop will be ready by end of January. I have ₹40000 cash. I can take ₹20000 if needed. I am not covered under insurance. Nearest Mandi city I like weekly guidance in the evening. I am interested in moving towards organic farming.'
+2025-08-19 22:32:27,471 - TranscriptMonitor - INFO - 🌾 Processing farmer input through orchestrator...
+2025-08-19 22:32:27,471 - TranscriptMonitor - INFO - 📱 Using phone: 9876001234
+2025-08-19 22:32:27,471 - TranscriptMonitor - INFO - 💬 Input: 'I am Pankaj Thakur. Phone 9876001234 P 175001 You have my permission. Total land 0.8 hectare I am cultivating 0.6 hectare in Rabi. Soil is double. Planning to plant garden manure based on the year. Kim ep3 sowing on 15th October 2025 Crop will be ready by end of January. I have ₹40000 cash. I can take ₹20000 if needed. I am not covered under insurance. Nearest Mandi city I like weekly guidance in the evening. I am interested in moving towards organic farming.'
+2025-08-19 22:32:34,284 - TranscriptMonitor - ERROR - ❌ Orchestrator returned an error response: Error: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-08-19 22:32:34,285 - TranscriptMonitor - ERROR - ❌ This suggests an authentication or configuration issue with the LLM service
+2025-08-19 22:32:34,285 - TranscriptMonitor - WARNING - ⚠️ Skipping audio generation due to orchestrator error or empty response
+2025-08-19 22:32:34,286 - TranscriptMonitor - INFO - ✅ Successfully processed recording-1755619750.01_transcript.json
+2025-08-19 22:32:34,286 - TranscriptMonitor - INFO - 👀 Starting file system monitoring...
+2025-08-19 22:32:34,289 - TranscriptMonitor - INFO - ✅ Transcript Monitor is running
+2025-08-19 22:32:34,290 - TranscriptMonitor - INFO - 📁 Watching: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-19 22:32:34,290 - TranscriptMonitor - INFO - 🔄 Waiting for new transcript files...
+2025-08-19 22:32:34,290 - TranscriptMonitor - INFO - Press Ctrl+C to stop
+2025-08-19 22:34:18,049 - TranscriptMonitor - INFO - 🛑 Stopping Transcript Monitor...
+2025-08-19 22:34:18,055 - TranscriptMonitor - INFO - ✅ Transcript Monitor stopped

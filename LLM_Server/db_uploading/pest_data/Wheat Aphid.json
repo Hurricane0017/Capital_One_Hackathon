@@ -1,0 +1,158 @@
+{
+  "pest_id": "PST008",
+  "common_name": "Wheat Aphid",
+  "scientific_name": "Sitobion avenae",
+  "category": "Insect",
+  "description": "A major wheat pest that feeds on plant sap causing direct yield losses of 3-11% and indirect losses of 20-80% by transmitting viral and fungal diseases. It is the most commercially significant aphid species in wheat growing regions.",
+
+  "identification": {
+    "physical_signs": [
+      "Small greenish-yellow or brownish insects on leaves and stems",
+      "Yellowing and curling of leaves, especially undersides",
+      "Honeydew deposits leading to sooty mold growth",
+      "Stunted plant growth and poor tillering",
+      "Sticky residue on plants",
+      "Presence of both winged and wingless forms"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["Seedling", "Vegetative", "Flowering", "Grain filling"],
+    "seasons": ["Rabi", "Spring"],
+    "favourable_conditions": {
+      "climate": "Warm temperatures (18-29°C), moderate humidity, prolonged dry conditions",
+      "soil_type": ["All wheat growing soil types"],
+      "soil_conditions": ["Moderate moisture", "Well-drained conditions"],
+      "ecological_factors": ["High nitrogen fertilization", "Dense planting", "Water stress in plants"]
+    },
+    "geographical_distribution": [
+      "Punjab",
+      "Haryana",
+      "Uttar Pradesh",
+      "Rajasthan",
+      "Madhya Pradesh",
+      "Bihar",
+      "West Bengal",
+      "Maharashtra",
+      "Gujarat",
+      "Karnataka",
+      "Uttarakhand",
+      "Himachal Pradesh"
+    ],
+    "crops_attacked": [
+      "Wheat",
+      "Barley",
+      "Oats",
+      "Sorghum",
+      "Other cereals"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 3,
+    "max_crop_loss_percent": 80,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 5000,
+      "max_loss": 35000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "Yellow sticky traps for monitoring",
+      "Reflective mulches to repel aphids",
+      "Water sprays to dislodge aphids"
+    ],
+    "cultural_methods": [
+      "Use of resistant wheat varieties",
+      "Balanced fertilization avoiding excess nitrogen",
+      "Late sowing in autumn where compatible",
+      "Intercropping with non-host crops",
+      "Field sanitation and weed control",
+      "Proper irrigation management"
+    ],
+    "biological_control": [
+      {
+        "agent": "Beauveria bassiana",
+        "method": "Entomopathogenic fungal spray at 1x10¹² cfu/ml"
+      },
+      {
+        "agent": "Chrysoperla carnea",
+        "method": "Lacewing predator release"
+      },
+      {
+        "agent": "Aphidius ervi",
+        "method": "Parasitoid wasp release"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Imidacloprid 17.8% SL",
+          "dosage": "0.3 ml/litre water",
+          "application_stage": "Early vegetative stage"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Profenofos 50% EC",
+          "dosage": "2 ml/litre water",
+          "application_stage": "When ETL is reached"
+        },
+        {
+          "pesticide_name": "Acetamiprid 20% SP",
+          "dosage": "0.2 g/litre water",
+          "application_stage": "Peak infestation"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Confidor",
+      "active_ingredient": "Imidacloprid",
+      "formulation": "17.8% SL",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 280,
+        "unit": "100ml bottle"
+      }
+    },
+    {
+      "brand_name": "Curacron",
+      "active_ingredient": "Profenofos",
+      "formulation": "50% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 420,
+        "unit": "250ml bottle"
+      }
+    },
+    {
+      "brand_name": "Pride",
+      "active_ingredient": "Acetamiprid",
+      "formulation": "20% SP",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 180,
+        "unit": "100g pack"
+      }
+    }
+  ],
+
+  "references": [
+    "https://scijournals.onlinelibrary.wiley.com/doi/10.1002/ps.8005",
+    "https://rootspress.org/journals/index.php/agribiol/article/view/1144",
+    "https://indianentomology.org/index.php/ije/article/view/2595",
+    "https://krishijagran.com/agripedia/insect-pest-management-of-wheat-in-indian-condition/",
+    "https://katyayanikrishidirect.com/blogs/news/measures-to-control-aphids-in-wheat"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}

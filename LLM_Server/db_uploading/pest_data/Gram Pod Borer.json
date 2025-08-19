@@ -1,0 +1,170 @@
+{
+  "pest_id": "PST013",
+  "common_name": "Gram Pod Borer",
+  "scientific_name": "Helicoverpa armigera",
+  "category": "Insect",
+  "description": "A polyphagous and cosmopolitan pest considered the most destructive pest of pulses in India. It attacks chickpea, pigeon pea, green gram, black gram, lentil, cowpea and other pulses causing 25-70% yield losses by boring into pods and feeding on developing seeds.",
+
+  "identification": {
+    "physical_signs": [
+      "Circular bore holes on pods with frass around entry points",
+      "Damaged seeds inside pods showing feeding marks",
+      "Greenish larvae with dark lines along body sides",
+      "Wilting and drying of flower buds and young pods",
+      "Presence of eggs on flower buds, young pods, and tender leaves",
+      "Caterpillars varying from light green to dark brown"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["Flowering", "Pod formation", "Pod development", "Maturity"],
+    "seasons": ["Rabi", "Kharif"],
+    "favourable_conditions": {
+      "climate": "Warm and humid conditions (25-30°C), moderate to high humidity",
+      "soil_type": ["All soil types suitable for pulse cultivation"],
+      "soil_conditions": ["Well-drained to moderate moisture"],
+      "ecological_factors": ["Dense planting", "Continuous pulse cultivation", "High nitrogen fertilization"]
+    },
+    "geographical_distribution": [
+      "Andhra Pradesh",
+      "Telangana", 
+      "Karnataka",
+      "Tamil Nadu",
+      "Maharashtra",
+      "Gujarat",
+      "Rajasthan",
+      "Madhya Pradesh",
+      "Uttar Pradesh",
+      "Bihar",
+      "West Bengal",
+      "Odisha",
+      "Chhattisgarh",
+      "Jharkhand",
+      "Punjab",
+      "Haryana"
+    ],
+    "crops_attacked": [
+      "Chickpea",
+      "Pigeon pea",
+      "Green gram",
+      "Black gram",
+      "Lentil",
+      "Cowpea",
+      "Field pea",
+      "Cotton",
+      "Tomato",
+      "Okra",
+      "Sorghum",
+      "Maize"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 25,
+    "max_crop_loss_percent": 70,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 15000,
+      "max_loss": 40000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "Pheromone traps for monitoring and mass trapping",
+      "Light traps for adult moth capture",
+      "Hand picking and destruction of larvae",
+      "Collection and destruction of egg masses"
+    ],
+    "cultural_methods": [
+      "Early sowing and harvesting to avoid peak pest period",
+      "Intercropping with non-host crops",
+      "Deep summer ploughing to expose pupae",
+      "Crop rotation with cereals",
+      "Use of resistant varieties",
+      "Proper field sanitation"
+    ],
+    "biological_control": [
+      {
+        "agent": "Trichogramma chilonis",
+        "method": "Egg parasitoid release at 50,000-1,00,000/ha"
+      },
+      {
+        "agent": "Beauveria bassiana",
+        "method": "Entomopathogenic fungal spray at 2x10⁸ spores/ml"
+      },
+      {
+        "agent": "Nomuraea rileyi",
+        "method": "Nuclear polyhedrosis virus (NPV) application"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Spinosad 45% SC",
+          "dosage": "0.3 ml/litre water",
+          "application_stage": "At flowering initiation"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Profenofos 50% EC",
+          "dosage": "2 ml/litre water",
+          "application_stage": "Peak larval activity"
+        },
+        {
+          "pesticide_name": "Emamectin benzoate 5% SG",
+          "dosage": "0.4 g/litre water",
+          "application_stage": "Severe infestation"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Tracer",
+      "active_ingredient": "Spinosad",
+      "formulation": "45% SC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 750,
+        "unit": "100ml bottle"
+      }
+    },
+    {
+      "brand_name": "Curacron",
+      "active_ingredient": "Profenofos",
+      "formulation": "50% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 420,
+        "unit": "250ml bottle"
+      }
+    },
+    {
+      "brand_name": "Proclaim",
+      "active_ingredient": "Emamectin benzoate",
+      "formulation": "5% SG",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 420,
+        "unit": "100g pack"
+      }
+    }
+  ],
+
+  "references": [
+    "https://journalijpss.com/index.php/IJPSS/article/view/3885",
+    "https://mbimph.com/index.php/UPJOZ/article/view/4957",
+    "https://journalijecc.com/index.php/IJECC/article/view/4046",
+    "https://journaljabb.com/index.php/JABB/article/view/1275",
+    "https://www.agricultureinindia.net/pest-control/pulse-crops/insect-pests-of-pulse-crops-and-its-control-agriculture/15846"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}

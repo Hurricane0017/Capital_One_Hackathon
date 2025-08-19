@@ -1,0 +1,88 @@
+2025-08-18 22:59:56,209 - OrchestratorAgent - INFO - 🎯 Initializing Orchestrator Agent - Master Coordinator
+2025-08-18 22:59:57,121 - OrchestratorAgent - INFO - ✅ All agents and processors initialized successfully
+2025-08-18 22:59:57,121 - OrchestratorAgent - INFO - 🌾 Processing farmer request from 7766554433
+2025-08-18 22:59:57,121 - OrchestratorAgent - INFO - 📝 Processing and storing farmer input data
+2025-08-18 22:59:57,828 - OrchestratorAgent - ERROR - ❌ Error processing farmer input: 'farmer_profile'
+2025-08-18 22:59:57,828 - OrchestratorAgent - INFO - 🔍 Extracting farmer query from raw input
+2025-08-18 22:59:57,828 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an agricultural assistant analyzing farmer communication from an IVR system.
+            
+            Raw farmer input: "I am Kishorilal. I have a farm near Mumbai with black soil. I am growing cotton. Should I irrigate my crop in the next 5 days?"
+            
+            Extract the main query, question, or concern that the farmer is expressing.
+            The query should be clear, specific, and focused on their agricultural needs.
+            
+            If multiple co...
+2025-08-18 22:59:58,028 - OrchestratorAgent - ERROR - LLM call failed: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-08-18 22:59:58,028 - OrchestratorAgent - INFO - ✅ Extracted query: Error: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}...
+2025-08-18 22:59:58,029 - OrchestratorAgent - INFO - 🎯 Classifying pipeline type for farmer query
+2025-08-18 22:59:58,029 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an intelligent agricultural coordinator analyzing farmer queries to determine the best response strategy.
+            
+            FARMER CONTEXT:
+            Farmer: Unknown Farmer
+            
+            FARMER QUERY: "Error: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}"
+            
+            CLASSIFICATION TASK:
+            Determine whether this query requires:
+            
+            1. SPECIFIC PIPELINE - Targeted response using 1-2 spe...
+2025-08-18 22:59:58,169 - OrchestratorAgent - ERROR - LLM call failed: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-08-18 22:59:58,169 - OrchestratorAgent - ERROR - ❌ JSON Decode Error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Response: Error: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-08-18 22:59:58,169 - OrchestratorAgent - INFO - ✅ Pipeline classified as: generic (confidence: 0.5)
+2025-08-18 22:59:58,169 - OrchestratorAgent - INFO - 🌟 Executing generic pipeline - comprehensive farming guidance
+2025-08-18 22:59:58,169 - OrchestratorAgent - INFO - 🧠 Gathering comprehensive intelligence from all agents
+2025-08-18 22:59:58,169 - OrchestratorAgent - INFO - ☀️ Gathering weather intelligence
+2025-08-18 23:00:00,204 - OrchestratorAgent - INFO - 🌱 Gathering soil intelligence
+2025-08-18 23:00:00,695 - OrchestratorAgent - INFO - 🐛 Gathering pest intelligence
+2025-08-18 23:00:00,894 - OrchestratorAgent - INFO - 🏛️ Gathering scheme intelligence
+2025-08-18 23:00:00,996 - OrchestratorAgent - INFO - ✅ Comprehensive intelligence gathered from all agents
+2025-08-18 23:00:00,996 - OrchestratorAgent - INFO - 🎯 Generating comprehensive farming strategy
+2025-08-18 23:00:00,996 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are the world's most advanced agricultural AI coordinator, creating a comprehensive farming strategy that integrates weather science, soil science, pest management, and financial planning.
+            
+            FARMER PROFILE:
+            Farmer: Unknown Farmer
+            
+            FARMER'S REQUEST: "Error: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}"
+            
+            COMPREHENSIVE INTELLIGENCE:
+            
+SCHEME INTELLIGENCE:
+- sche...
+2025-08-18 23:00:01,135 - OrchestratorAgent - ERROR - LLM call failed: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-08-18 23:00:01,136 - OrchestratorAgent - ERROR - ❌ JSON Decode Error: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+Response: Error: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-08-18 23:00:01,136 - OrchestratorAgent - INFO - ✅ Comprehensive strategy generated successfully
+2025-08-18 23:00:01,136 - OrchestratorAgent - INFO - 🗺️ Creating actionable roadmap
+2025-08-18 23:00:01,137 - OrchestratorAgent - INFO - ✅ Actionable roadmap created
+2025-08-18 23:00:01,137 - OrchestratorAgent - INFO - 📍 Generating hyperlocal guidance
+2025-08-18 23:00:01,137 - OrchestratorAgent - INFO - ✅ Hyperlocal guidance generated
+2025-08-18 23:00:01,137 - OrchestratorAgent - INFO - ✅ Generic pipeline completed successfully
+2025-08-18 23:00:01,138 - OrchestratorAgent - INFO - ✅ Successfully processed farmer request via generic pipeline
+2025-08-18 23:00:01,138 - OrchestratorAgent - INFO - 🔄 Converting JSON response to plain English.
+2025-08-18 23:00:01,138 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an expert agricultural assistant. Your task is to convert a complex JSON object containing agricultural advice into a simple, clear, and actionable response in plain English for a farmer.
+
+            FARMER'S PROFILE:
+            Farmer: Unknown Farmer
+
+            FARMER'S ORIGINAL QUERY: "Error: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}"
+
+            Here is the JSON data with the complete advice:
+            {
+  "status": "success",
+  "pipe...
+2025-08-18 23:00:01,308 - OrchestratorAgent - ERROR - LLM call failed: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-08-18 23:00:01,308 - OrchestratorAgent - INFO - ✅ Successfully converted JSON to English response.
+2025-08-18 23:00:01,308 - OrchestratorAgent - INFO - ✅ Converted final response to plain English for the farmer.

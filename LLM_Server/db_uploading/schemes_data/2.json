@@ -1,0 +1,87 @@
+{
+  "scheme_id": "SCHM-004",
+  "name": "Pradhan Mantri Kisan Maandhan Yojana",
+  "type": "other",
+  "agency": {
+    "name": "Life Insurance Corporation of India",
+    "type": "central_govt",
+    "contact": {
+      "helpline": "1800-267-6888",
+      "email": "",
+      "website": "https://maandhan.in"
+    }
+  },
+  "validity": {
+    "start_date": "2019-09-12",
+    "end_date": null,
+    "application_windows": [
+      { "from": "2025-01-01", "to": "2025-12-31", "season": "Annual" }
+    ]
+  },
+  "eligibility": {
+    "farmer_segments": ["small_and_marginal"],
+    "income_categories": ["No limit"],
+    "income_cap_inr_per_year": null,
+    "caste_categories": ["SC", "ST", "OBC", "General"],
+    "special_status": ["women", "differently_abled", "youth"],
+    "age_min": 18,
+    "age_max": 40,
+    "land_holding_max_ha": 2,
+    "other_conditions": [
+      "Landholding farmer with cultivable land up to 2 hectares",
+      "Not covered under EPFO, ESIC, NPS"
+    ]
+  },
+  "benefits": [
+    {
+      "benefit_type": "direct_cash",
+      "description": "Monthly pension of ₹3,000 after age 60",
+      "financials": {
+        "sum_insured_inr": null,
+        "premium_inr": null,
+        "premium_rate_percent": null,
+        "cost_distribution": {
+          "govt_percent": 50,
+          "beneficiary_percent": 50,
+          "other_sources_percent": 0
+        },
+        "subsidy_percent": null,
+        "cash_transfer_amount_inr": 3000
+      },
+      "coverage": {
+        "crops": [],
+        "seasons": ["Annual"],
+        "perils_covered": [],
+        "stages_covered": []
+      },
+      "conditions": [
+        "Monthly contribution from ₹55 to ₹200 based on entry age",
+        "Equal matching contribution by Government of India"
+      ]
+    }
+  ],
+  "application": {
+    "mode": ["online", "offline"],
+    "portal_urls": ["https://maandhan.in"],
+    "documents_required": [
+      "Aadhaar",
+      "Land record",
+      "Bank passbook"
+    ],
+    "fees_inr": 0
+  },
+  "disbursal": {
+    "mode": "DBT",
+    "timeline_days": 30
+  },
+  "budget": {
+    "fy_allocation_inr": null,
+    "beneficiaries_target": null,
+    "beneficiaries_actual": 2466000
+  },
+  "faqs": [
+    { "q": "Who can enroll?", "a": "Small and marginal farmers aged 18-40 years with landholding up to 2 hectares." },
+    { "q": "What happens on death before 60?", "a": "Spouse can continue or get refund with interest." }
+  ],
+  "last_updated": "2025-08-17T14:00:00Z"
+}

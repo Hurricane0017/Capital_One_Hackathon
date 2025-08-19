@@ -1,0 +1,5 @@
+2025-08-18 23:17:20,529 - OrchestratorTest - INFO - --- Starting Test for Farmer: 7766554433 ---
+2025-08-18 23:17:20,529 - OrchestratorTest - INFO - Input Text: 'I am Kishorilal. I have a farm near Mumbai with black soil. I am growing cotton. Should I irrigate my crop in the next 5 days?'
+2025-08-18 23:17:21,462 - OrchestratorTest - INFO - Orchestrator agent initialized.
+2025-08-18 23:20:32,564 - OrchestratorTest - INFO - Orchestrator processing complete.
+2025-08-18 23:20:32,565 - OrchestratorTest - INFO - Test PASSED: Orchestrator returned a valid string response.

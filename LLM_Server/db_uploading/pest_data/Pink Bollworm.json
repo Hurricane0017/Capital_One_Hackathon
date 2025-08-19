@@ -1,0 +1,156 @@
+{
+  "pest_id": "PST020",
+  "common_name": "Pink Bollworm",
+  "scientific_name": "Pectinophora gossypiella",
+  "category": "Insect",
+  "description": "The most destructive pest of cotton in India, causing 15-60% yield losses. Larvae bore into cotton bolls and feed on developing seeds, affecting both fiber quality and seed production. Has developed resistance to first-generation Bt cotton in several states.",
+
+  "identification": {
+    "physical_signs": [
+      "Pink caterpillars with conspicuous pink banding along dorsum",
+      "Circular exit holes in cotton bolls",
+      "Rosette flowers that fail to open properly",
+      "Locule damage with webbed seeds",
+      "Entry holes with frass deposits on bolls",
+      "Small gray moths with fringed wings (adults)"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["Flowering", "Boll formation", "Boll development", "Maturity"],
+    "seasons": ["Kharif"],
+    "favourable_conditions": {
+      "climate": "Warm temperatures (25-35°C), moderate humidity, dry weather during boll formation",
+      "soil_type": ["All cotton growing soil types"],
+      "soil_conditions": ["Well-drained soils"],
+      "ecological_factors": ["Continuous cotton cultivation", "High plant density", "Bt cotton resistance breakdown"]
+    },
+    "geographical_distribution": [
+      "Gujarat",
+      "Maharashtra",
+      "Andhra Pradesh",
+      "Telangana",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Rajasthan",
+      "Punjab",
+      "Haryana",
+      "Tamil Nadu",
+      "Odisha"
+    ],
+    "crops_attacked": [
+      "Cotton",
+      "Okra",
+      "Hibiscus"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 15,
+    "max_crop_loss_percent": 60,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 20000,
+      "max_loss": 80000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "Pheromone traps for monitoring and mass trapping",
+      "Light traps for adult moth capture",
+      "Collection and destruction of rosette flowers",
+      "Hand picking of infested bolls"
+    ],
+    "cultural_methods": [
+      "Deep summer ploughing to destroy overwintering pupae",
+      "Early sowing and timely harvesting",
+      "Destruction of crop residues after harvest",
+      "Use of Bt cotton varieties with stacked genes",
+      "Crop rotation with non-host crops",
+      "Field sanitation"
+    ],
+    "biological_control": [
+      {
+        "agent": "Bracon lefroyi",
+        "method": "Larval parasitoid release and conservation"
+      },
+      {
+        "agent": "Apanteles angaleti",
+        "method": "Larval parasitoid release"
+      },
+      {
+        "agent": "Beauveria bassiana",
+        "method": "Entomopathogenic fungal application"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Profenofos 50% EC",
+          "dosage": "2 ml/litre water",
+          "application_stage": "Flower initiation stage"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Emamectin benzoate 5% SG",
+          "dosage": "0.4 g/litre water",
+          "application_stage": "Peak boll formation"
+        },
+        {
+          "pesticide_name": "Indoxacarb 14.5% SC",
+          "dosage": "1 ml/litre water",
+          "application_stage": "Severe infestation"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Curacron",
+      "active_ingredient": "Profenofos",
+      "formulation": "50% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 420,
+        "unit": "250ml bottle"
+      }
+    },
+    {
+      "brand_name": "Proclaim",
+      "active_ingredient": "Emamectin benzoate",
+      "formulation": "5% SG",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 420,
+        "unit": "100g pack"
+      }
+    },
+    {
+      "brand_name": "Avaunt",
+      "active_ingredient": "Indoxacarb",
+      "formulation": "14.5% SC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 380,
+        "unit": "100ml bottle"
+      }
+    }
+  ],
+
+  "references": [
+    "https://journaljeai.com/index.php/JEAI/article/view/2128",
+    "https://link.springer.com/10.1007/s10460-022-10301-w",
+    "https://epubs.icar.org.in/index.php/IJAgS/article/view/144462",
+    "https://pubmed.ncbi.nlm.nih.gov/32179772/",
+    "http://www.jeb.co.in/journal_issues/202501_jan25/paper_11.pdf"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}

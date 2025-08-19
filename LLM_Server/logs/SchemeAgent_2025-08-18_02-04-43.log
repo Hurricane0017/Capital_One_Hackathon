@@ -1,0 +1,8 @@
+2025-08-18 02:04:45,086 - SchemeAgent - INFO - ✅ Scheme Agent initialized with database connection
+2025-08-18 02:06:42,044 - SchemeAgent - INFO - Processing scheme query: Identify all relevant schemes and financial opportunities...
+2025-08-18 02:06:42,044 - SchemeAgent - INFO - Processing generic pipeline scheme analysis
+2025-08-18 02:06:42,085 - SchemeAgent - INFO - Retrieved scheme data: Soil Health Card Scheme
+2025-08-18 02:06:42,128 - SchemeAgent - INFO - Retrieved scheme data: Pradhan Mantri Fasal Bima Yojana
+2025-08-18 02:06:42,170 - SchemeAgent - INFO - Retrieved scheme data: Kisan Credit Card
+2025-08-18 02:06:42,213 - SchemeAgent - INFO - Retrieved scheme data: Pradhan Mantri Kisan Maandhan Yojana
+2025-08-18 02:06:42,254 - SchemeAgent - INFO - Retrieved scheme data: National Agriculture Market (e-NAM)

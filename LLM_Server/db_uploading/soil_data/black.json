@@ -1,0 +1,39 @@
+{
+  "soil_key": "black",
+  "soil_name": "Black Soil",
+  "aliases": ["Regur", "Black Cotton Soil", "Vertisol"],
+  "color": ["dark gray", "black"],
+  "texture": "clay to clay loam",
+  "structure": "well-aggregated; deep shrink–swell cracks in dry season",
+  "physical_properties": {
+    "bulk_density_g_cm3": 1.2,
+    "infiltration_rate_mm_hr": 5,
+    "erosion_risk": "low to moderate"
+  },
+  "chemical_properties": {
+    "pH": { "min": 7.2, "max": 8.5 },
+    "cation_exchange_capacity_cmolkg": { "min": 30, "max": 60 },
+    "organic_matter_pct": { "min": 0.5, "max": 1.5 },
+    "salinity_dS_m": { "max": 2 },
+    "sodicity_ESP": { "max": 15 },
+    "free_CaCO3_pct": { "min": 2, "max": 8 }
+  },
+  "water_holding_capacity_pct": { "min": 45, "max": 60 },
+  "nutrients_rich_in": ["calcium", "magnesium", "potassium"],
+  "nutrients_deficient_in": ["nitrogen", "phosphorus", "zinc", "sulfur"],
+  "favoured_crops": ["cotton", "sorghum", "soybean", "pigeon pea", "sugarcane", "wheat"],
+  "favoured_seasons": ["Kharif", "Rabi"],
+  "drainage": "poor to moderately well drained",
+  "typical_depth_cm": { "min": 50, "max": 150 },
+  "regions": [
+    { "state": "Maharashtra", "notes": "Deccan lava plateau" },
+    { "state": "Madhya Pradesh", "notes": "Malwa, Narmada valley" },
+    { "state": "Gujarat", "notes": "Saurashtra, Bharuch regions" },
+    { "state": "Telangana", "notes": "Deccan plateau" },
+    { "state": "Karnataka", "notes": "Deccan plateau" },
+    { "state": "Tamil Nadu", "notes": "Cotton-growing belts" }
+  ],
+  "hazards": ["waterlogging", "salinity build-up (if irrigated poorly)", "soil cracking"],
+  "notes": "High clay (montmorillonite) content gives black soil a high CEC and water-holding capacity. Avoid tillage when wet to prevent compaction. Fertilizers (especially nitrogen and phosphorus) and proper drainage improve productivity.",
+  "sources": ["ClearIAS (2025)", "Medium (2023)"]
+}

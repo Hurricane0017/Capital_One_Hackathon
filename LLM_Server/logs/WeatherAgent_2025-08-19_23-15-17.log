@@ -1,0 +1,32 @@
+2025-08-19 23:18:44,275 - WeatherAgent - INFO - Processing generic weather query: Provide comprehensive weather guidance for farming activities...
+2025-08-19 23:18:44,276 - WeatherAgent - INFO - Processing generic weather pipeline query
+2025-08-19 23:18:46,614 - WeatherAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+You are an expert agricultural consultant providing comprehensive seasonal weather guidance.
+
+FARMER QUERY: "Provide comprehensive weather guidance for farming activities"
+
+SEASONAL CONTEXT:
+- Current Season: KHARIF (growing stage)
+- Location: PIN 175001
+Farmer grows: garden peas
+
+WEATHER FORECAST DATA:
+[
+  {
+    "date": "2025-08-19",
+    "temp_mean": 27.8,
+    "temp_max": 32.0,
+    "temp_min": 23.7,
+    "humidity_mean": 78.0,
+    "rain_sum": 0.0,
+    "wind_speed_mean": 6.3,
+    "wind_gusts_max...
+2025-08-19 23:20:20,087 - WeatherAgent - DEBUG - LLM Call Response:
+### Comprehensive Weather Guidance for Garden Peas in Kharif Season (PIN 175001)  
+
+#### 1. **SEASONAL OVERVIEW**  
+- **Kharif Context**: Monsoon-driven season (June–October) with warm, humid conditions. Ideal for garden peas in Himachal Pradesh's hills (PIN 175001), which thrive in 15–25°C.  
+- **Key Challenges**: High humidity (↑ disease risk), erratic rainfall, and occasional heat spikes (>30°C).  
+- **Crop Stage**: **Active growing phase** (vegetative growth, flowering initiation). Focus on ...

@@ -1,0 +1,25 @@
+2025-08-19 20:30:44,181 - WeatherAgent - INFO - Processing generic weather query: Provide comprehensive weather guidance for farming activities...
+2025-08-19 20:30:44,182 - WeatherAgent - INFO - Processing generic weather pipeline query
+2025-08-19 20:30:46,340 - WeatherAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+You are an expert agricultural consultant providing comprehensive seasonal weather guidance.
+
+FARMER QUERY: "Provide comprehensive weather guidance for farming activities"
+
+SEASONAL CONTEXT:
+- Current Season: KHARIF (growing stage)
+- Location: PIN 175001
+Farmer grows: garden peas
+
+WEATHER FORECAST DATA:
+[
+  {
+    "date": "2025-08-19",
+    "temp_mean": 27.8,
+    "temp_max": 32.0,
+    "temp_min": 23.7,
+    "humidity_mean": 76.8,
+    "rain_sum": 0.0,
+    "wind_speed_mean": 7.3,
+    "wind_gusts_max...

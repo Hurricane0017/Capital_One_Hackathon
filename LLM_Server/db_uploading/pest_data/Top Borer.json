@@ -1,0 +1,159 @@
+{
+  "pest_id": "PST018",
+  "common_name": "Top Borer",
+  "scientific_name": "Scirpophaga nivella",
+  "category": "Insect",
+  "description": "A major borer pest of sugarcane that attacks from 3 months old crop till harvesting. The larvae bore into the growing tips causing bunchy top symptoms and significantly reducing cane yield by 20-30%. It is particularly severe in tropical sugarcane growing regions.",
+
+  "identification": {
+    "physical_signs": [
+      "Bunchy top appearance with multiple side shoots",
+      "Dead heart at the growing tip",
+      "Bore holes visible at internodes",
+      "Stunted growth and reduced cane length",
+      "Presence of pinkish larvae in affected shoots",
+      "Entry holes with frass at nodes"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["Tillering", "Grand growth", "Maturity"],
+    "seasons": ["Monsoon", "Post monsoon", "Winter"],
+    "favourable_conditions": {
+      "climate": "Warm humid conditions (26-32°C), high humidity, moderate rainfall",
+      "soil_type": ["All sugarcane growing soil types"],
+      "soil_conditions": ["High moisture", "Good drainage"],
+      "ecological_factors": ["Continuous sugarcane cultivation", "High nitrogen fertilization", "Dense planting"]
+    },
+    "geographical_distribution": [
+      "Tamil Nadu",
+      "Karnataka",
+      "Andhra Pradesh",
+      "Telangana",
+      "Maharashtra",
+      "Gujarat",
+      "Uttar Pradesh",
+      "Bihar",
+      "West Bengal",
+      "Odisha",
+      "Assam",
+      "Kerala"
+    ],
+    "crops_attacked": [
+      "Sugarcane",
+      "Rice",
+      "Maize",
+      "Sorghum",
+      "Wild grasses"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 20,
+    "max_crop_loss_percent": 50,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 20000,
+      "max_loss": 65000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "Light traps for adult moth capture",
+      "Pheromone traps for monitoring",
+      "Collection and destruction of egg masses",
+      "Removal of bunchy top affected shoots"
+    ],
+    "cultural_methods": [
+      "Use of resistant sugarcane varieties",
+      "Proper field sanitation",
+      "Balanced fertilization avoiding excess nitrogen",
+      "Roguing of affected plants",
+      "Deep summer ploughing",
+      "Crop rotation where possible"
+    ],
+    "biological_control": [
+      {
+        "agent": "Trichogramma chilonis",
+        "method": "Egg parasitoid release at 50,000-1,00,000/ha"
+      },
+      {
+        "agent": "Tetrastichus howardi", 
+        "method": "Larval parasitoid release"
+      },
+      {
+        "agent": "Isotima javensis",
+        "method": "Larval parasitoid conservation"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Carbofuran 3% CG",
+          "dosage": "33 kg/ha",
+          "application_stage": "At planting in soil"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Chlorantraniliprole 18.5% SC",
+          "dosage": "0.4 ml/litre water",
+          "application_stage": "Peak larval activity"
+        },
+        {
+          "pesticide_name": "Fipronil 5% SC",
+          "dosage": "2 ml/litre water",
+          "application_stage": "When symptoms appear"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Furadan",
+      "active_ingredient": "Carbofuran",
+      "formulation": "3% CG",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 850,
+        "unit": "10kg pack"
+      }
+    },
+    {
+      "brand_name": "Coragen",
+      "active_ingredient": "Chlorantraniliprole",
+      "formulation": "18.5% SC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 850,
+        "unit": "100ml bottle"
+      }
+    },
+    {
+      "brand_name": "Regent",
+      "active_ingredient": "Fipronil",
+      "formulation": "5% SC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 600,
+        "unit": "250ml bottle"
+      }
+    }
+  ],
+
+  "references": [
+    "https://journaljabb.com/index.php/JABB/article/view/1012",
+    "https://ijsra.net/content/infestation-early-shoot-borer-top-borer-and-root-borer-sugarcane-varieties-shahjahanpur",
+    "https://justagriculture.in/files/newsletter/2023/september/68%20Identification%20of%20Different%20Insect%20Pests%20of%20Sugarcane%20and%20Their%20Management.pdf",
+    "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_insectpest%20_sugarcanemain.html",
+    "https://link.springer.com/article/10.1007/s10340-024-01750-9"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}

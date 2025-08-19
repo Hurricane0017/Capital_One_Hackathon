@@ -1,0 +1,154 @@
+{
+  "pest_id": "PST025",
+  "common_name": "Jute Semilooper",
+  "scientific_name": "Anomis sabulifera",
+  "category": "Insect",
+  "description": "A major defoliating pest of jute causing up to 50% crop losses. The larvae feed on unopened leaves and top portions of plants, causing repeated damage that checks growth, induces profuse branching, and reduces fiber yield significantly.",
+
+  "identification": {
+    "physical_signs": [
+      "Slender light green larvae with looping movement",
+      "Feeding damage on unopened leaves at plant tops",
+      "Damage confined to upper 9 fully opened leaves",
+      "Profuse branching due to repeated damage",
+      "Stunted plant growth and reduced fiber yield",
+      "Larvae feeding on pods and seeds in seed crops"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["Vegetative", "Flowering", "Seed formation"],
+    "seasons": ["Kharif", "Post monsoon"],
+    "favourable_conditions": {
+      "climate": "Warm humid conditions (25-30°C), moderate to high humidity",
+      "soil_type": ["All jute growing soil types"],
+      "soil_conditions": ["Moderate to high moisture"],
+      "ecological_factors": ["Continuous jute cultivation", "Dense planting", "High nitrogen fertilization"]
+    },
+    "geographical_distribution": [
+      "West Bengal",
+      "Bihar",
+      "Assam",
+      "Odisha",
+      "Uttar Pradesh",
+      "Chhattisgarh",
+      "Jharkhand",
+      "Andhra Pradesh",
+      "Telangana"
+    ],
+    "crops_attacked": [
+      "Jute",
+      "Mesta",
+      "Wild jute plants"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 25,
+    "max_crop_loss_percent": 50,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 12000,
+      "max_loss": 30000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "Light traps for adult moth monitoring",
+      "Pheromone traps for mass trapping",
+      "Hand picking of larvae from top leaves",
+      "Collection and destruction of egg masses"
+    ],
+    "cultural_methods": [
+      "Use of resistant varieties like NDC 8812, NDC 9801",
+      "Optimal sowing time in 4th week of March",
+      "Proper field sanitation",
+      "Crop rotation with non-host crops",
+      "Balanced fertilization",
+      "Regular monitoring and early detection"
+    ],
+    "biological_control": [
+      {
+        "agent": "Anomis sabulifera NPV (AsNPV)",
+        "method": "Nuclear polyhedrosis virus application"
+      },
+      {
+        "agent": "Sisyropa formosa",
+        "method": "Larval parasitoid conservation"
+      },
+      {
+        "agent": "Beauveria bassiana",
+        "method": "Entomopathogenic fungal spray"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Spinosad 45% SC",
+          "dosage": "0.3 ml/litre water",
+          "application_stage": "Early larval stage"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Endosulfan 35% EC",
+          "dosage": "2 ml/litre water",
+          "application_stage": "When 15% defoliation occurs"
+        },
+        {
+          "pesticide_name": "Cypermethrin 10% EC",
+          "dosage": "1 ml/litre water",
+          "application_stage": "Peak larval activity"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Tracer",
+      "active_ingredient": "Spinosad",
+      "formulation": "45% SC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 750,
+        "unit": "100ml bottle"
+      }
+    },
+    {
+      "brand_name": "Thiodan",
+      "active_ingredient": "Endosulfan",
+      "formulation": "35% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 220,
+        "unit": "500ml bottle"
+      }
+    },
+    {
+      "brand_name": "Cypermethrin",
+      "active_ingredient": "Cypermethrin",
+      "formulation": "10% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 180,
+        "unit": "250ml bottle"
+      }
+    }
+  ],
+
+  "references": [
+    "https://www.entomoljournal.com/archives/2020/vol8issue5/PartB/8-4-4-750.pdf",
+    "https://ijaast.com/admin/uploads/V2I1008.pdf",
+    "https://epubs.icar.org.in/index.php/IndFarm/article/download/48734/20888/118665",
+    "https://www.dzarc.com/entomology/article/download/673/632/1017",
+    "https://justagriculture.in/files/newsletter/2022/october/30.%20Major%20and%20Emerging%20Pest%20Complex%20of%20Jute%20and%20Allied%20Fibers%20and%20Its%20Integrated%20Management%20Approach.pdf"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}

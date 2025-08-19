@@ -1,0 +1,39 @@
+{
+  "soil_key": "laterite",
+  "soil_name": "Laterite Soil",
+  "aliases": ["Lateritic Soil"],
+  "color": ["red", "brownish red"],
+  "texture": "gravelly clay to clay loam",
+  "structure": "massive (hardens like brick when dry); ironstone concretions common",
+  "physical_properties": {
+    "bulk_density_g_cm3": 1.4,
+    "infiltration_rate_mm_hr": 8,
+    "erosion_risk": "high"
+  },
+  "chemical_properties": {
+    "pH": { "min": 5.0, "max": 6.5 },
+    "cation_exchange_capacity_cmolkg": { "min": 5, "max": 10 },
+    "organic_matter_pct": { "min": 0.2, "max": 0.8 },
+    "salinity_dS_m": { "max": 1 },
+    "sodicity_ESP": { "max": 2 },
+    "free_CaCO3_pct": { "min": 0, "max": 1 }
+  },
+  "water_holding_capacity_pct": { "min": 20, "max": 30 },
+  "nutrients_rich_in": ["iron", "aluminum"],
+  "nutrients_deficient_in": ["nitrogen", "phosphorus", "potassium", "calcium", "organic matter"],
+  "favoured_crops": ["tea", "coffee", "rubber", "coconut", "arecanut", "cashew", "pepper"],
+  "favoured_seasons": ["Kharif"],
+  "drainage": "well drained (excessively leached)",
+  "typical_depth_cm": { "min": 30, "max": 100 },
+  "regions": [
+    { "state": "Kerala", "notes": "Western Ghats hill tops (high rainfall)" },
+    { "state": "Karnataka", "notes": "Western Ghats and plateau uplands" },
+    { "state": "Maharashtra", "notes": "Konkan & Western Ghats crest" },
+    { "state": "Tamil Nadu", "notes": "Eastern Ghats hills" },
+    { "state": "Jharkhand", "notes": "Rajmahal hills and plateau" },
+    { "state": "Assam", "notes": "Hill areas with high rainfall" }
+  ],
+  "hazards": ["severe leaching of nutrients", "topsoil erosion"],
+  "notes": "Extremely leached and acidic. Requires liming and fertilization for cultivation. Often left under scrub or used for grazing if not used for plantations. When exposed, the soil can harden irreversibly, so maintaining ground cover is important.",
+  "sources": ["ClearIAS (2025)", "Mapsofindia (2025)"]
+}

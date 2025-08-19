@@ -1,0 +1,154 @@
+{
+  "pest_id": "PST030",
+  "common_name": "Tea Looper Caterpillar",
+  "scientific_name": "Biston suppressaria",
+  "category": "Insect",
+  "description": "A major defoliating pest of tea causing up to 40% crop losses through complete defoliation. The larvae have a characteristic looping movement and can strip entire tea gardens bare in severe outbreaks, particularly in Northeast India.",
+
+  "identification": {
+    "physical_signs": [
+      "Complete defoliation leaving only stems and branches",
+      "Characteristic looping caterpillars (25-30mm long)",
+      "Brownish-grey larvae with greenish-white lines",
+      "Egg masses covered with hairs on tree trunks",
+      "Adult moths with outstretched wings on shade trees",
+      "Frass deposits around feeding areas"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["All growth stages", "Young shoots", "Mature leaves"],
+    "seasons": ["Pre-monsoon (March-June)", "Post-monsoon (September-October)"],
+    "favourable_conditions": {
+      "climate": "Moderate temperatures (20-30°C), moderate humidity",
+      "soil_type": ["All tea growing soil types"],
+      "soil_conditions": ["Well-drained soils"],
+      "ecological_factors": ["Presence of shade trees", "Favorable alternate hosts", "Suitable oviposition sites"]
+    },
+    "geographical_distribution": [
+      "Assam (Doomdooma, Tinsukia, Dibrugarh)",
+      "West Bengal (Darjeeling, Dooars)",
+      "Tripura",
+      "Meghalaya",
+      "Manipur",
+      "Mizoram",
+      "Nagaland"
+    ],
+    "crops_attacked": [
+      "Tea",
+      "Shade trees (Dalbergia, Albizzia)",
+      "Green crops",
+      "Forest trees",
+      "Fruit trees"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 20,
+    "max_crop_loss_percent": 40,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 35000,
+      "max_loss": 70000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "Hand collection of caterpillars from tea plants and shade trees",
+      "Collection of chrysalids during cold weather",
+      "Destruction of moths using bamboo pole with grass bundle",
+      "Light traps for adult moth monitoring"
+    ],
+    "cultural_methods": [
+      "Chemical treatment of cracks and crevices in shade trees",
+      "Lime coating on tree trunks to prevent oviposition",
+      "Ground spraying to control young caterpillars",
+      "Proper pruning and maintenance of shade trees",
+      "Field sanitation",
+      "Early detection through regular monitoring"
+    ],
+    "biological_control": [
+      {
+        "agent": "Beauveria bassiana",
+        "method": "Entomopathogenic fungal spray"
+      },
+      {
+        "agent": "Nuclear polyhedrosis virus (NPV)",
+        "method": "Viral pathogen application"
+      },
+      {
+        "agent": "Natural predators",
+        "method": "Conservation of birds and beneficial insects"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Chlorpyrifos 20% EC",
+          "dosage": "2.5 ml/litre water",
+          "application_stage": "Early larval stage"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Quinalphos 25% EC",
+          "dosage": "2 ml/litre water",
+          "application_stage": "Active feeding stage"
+        },
+        {
+          "pesticide_name": "Cypermethrin 10% EC",
+          "dosage": "1 ml/litre water",
+          "application_stage": "Severe defoliation"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Dursban",
+      "active_ingredient": "Chlorpyrifos",
+      "formulation": "20% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 320,
+        "unit": "500ml bottle"
+      }
+    },
+    {
+      "brand_name": "Ekalux",
+      "active_ingredient": "Quinalphos",
+      "formulation": "25% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 280,
+        "unit": "500ml bottle"
+      }
+    },
+    {
+      "brand_name": "Cypermethrin",
+      "active_ingredient": "Cypermethrin",
+      "formulation": "10% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 180,
+        "unit": "250ml bottle"
+      }
+    }
+  ],
+
+  "references": [
+    "https://teaboard.portal.gov.bd/sites/default/files/files/teaboard.portal.gov.bd/publications/b9c9dce0_6473_47e3_81e4_cde3eda4dbb2/LooperCaterpillerAThreat.pdf",
+    "https://www.jbiopestic.com/journals/Soma_Das_S_V31.pdf",
+    "https://www.telegraphindia.com/north-east/pests-damage-tea-bushes-in-assam-caterpillar-migrated-from-west-bengal-a-few-years-ago/cid/165791",
+    "https://bioprotectionportal.com/resources/tea-pests-identification-damage-and-effective-management/",
+    "https://www.slideshare.net/slideshow/pest-of-plantation-crops/70156653"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}

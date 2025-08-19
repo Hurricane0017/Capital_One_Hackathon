@@ -1,0 +1,38 @@
+{
+  "soil_key": "saline",
+  "soil_name": "Saline/Alkaline Soil",
+  "aliases": ["Salt-Affected Soil", "Alkali Soil"],
+  "color": ["white crusty patches", "pale gray"],
+  "texture": "sandy to loamy (often with dispersed clay in sodic soils)",
+  "structure": "poorly structured; often a hard crust or puffed surface due to salts",
+  "physical_properties": {
+    "bulk_density_g_cm3": 1.4,
+    "infiltration_rate_mm_hr": 2,
+    "erosion_risk": "moderate (runoff and crusting)"
+  },
+  "chemical_properties": {
+    "pH": { "min": 7.5, "max": 10.0 },
+    "cation_exchange_capacity_cmolkg": { "min": 10, "max": 25 },
+    "organic_matter_pct": { "min": 0.2, "max": 0.5 },
+    "salinity_dS_m": { "min": 4, "max": 20 },
+    "sodicity_ESP": { "min": 15, "max": 30 },
+    "free_CaCO3_pct": { "min": 0, "max": 5 }
+  },
+  "water_holding_capacity_pct": { "min": 20, "max": 30 },
+  "nutrients_rich_in": [],
+  "nutrients_deficient_in": ["nitrogen", "phosphorus"],
+  "favoured_crops": ["barley", "cotton", "sugar beet", "sunflower", "rice (salt-tolerant varieties)", "pomegranate"],
+  "favoured_seasons": ["Kharif", "Rabi"],
+  "drainage": "poor (waterlogging common without intervention)",
+  "typical_depth_cm": { "min": 50, "max": 100 },
+  "regions": [
+    { "state": "Punjab", "notes": "Canal-irrigated areas with poor drainage (usar lands)" },
+    { "state": "Haryana", "notes": "Excess irrigation areas (saline-sodic patches)" },
+    { "state": "Uttar Pradesh", "notes": "Gangetic plain usar soils" },
+    { "state": "Gujarat", "notes": "Coastal saline areas (Gulf of Khambhat, Rann of Kachchh)" },
+    { "state": "Rajasthan", "notes": "Saline depressions in Thar region" }
+  ],
+  "hazards": ["salinity toxicity", "sodicity (soil crusting and hardpan)"],
+  "notes": "Reclamation is needed for sustained cultivation: techniques include leaching of salts with fresh water, installation of drainage, application of gypsum (to replace sodium), and green manuring. Afforestation with salt-tolerant species and halophytes is also used to rehabilitate such soils.",
+  "sources": ["PMF IAS (2024)", "Vajiram (2025)"]
+}

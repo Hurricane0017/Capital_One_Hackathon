@@ -1,0 +1,86 @@
+{
+  "scheme_id": "SCHM-006",
+  "name": "Soil Health Card Scheme",
+  "type": "other",
+  "agency": {
+    "name": "Ministry of Agriculture & Farmers Welfare",
+    "type": "central_govt",
+    "contact": {
+      "helpline": "",
+      "email": "",
+      "website": "https://www.soilhealth.dac.gov.in"
+    }
+  },
+  "validity": {
+    "start_date": "2015-02-19",
+    "end_date": null,
+    "application_windows": [
+      { "from": "2025-01-01", "to": "2025-12-31", "season": "Annual" }
+    ]
+  },
+  "eligibility": {
+    "farmer_segments": ["small_and_marginal", "tenant_farmers", "FPOs"],
+    "income_categories": ["No limit"],
+    "income_cap_inr_per_year": null,
+    "caste_categories": ["SC", "ST", "OBC", "General"],
+    "special_status": ["women", "differently_abled", "youth"],
+    "age_min": 18,
+    "age_max": null,
+    "land_holding_max_ha": null,
+    "other_conditions": [
+      "All farmers with landholding eligible",
+      "Card issued every 3 years"
+    ]
+  },
+  "benefits": [
+    {
+      "benefit_type": "input_support",
+      "description": "Soil testing and nutrient recommendations",
+      "financials": {
+        "sum_insured_inr": null,
+        "premium_inr": null,
+        "premium_rate_percent": null,
+        "cost_distribution": {
+          "govt_percent": 100,
+          "beneficiary_percent": 0,
+          "other_sources_percent": 0
+        },
+        "subsidy_percent": null,
+        "cash_transfer_amount_inr": null
+      },
+      "coverage": {
+        "crops": ["All crops"],
+        "seasons": ["Kharif", "Rabi", "Zaid"],
+        "perils_covered": [],
+        "stages_covered": ["pre-sowing", "cultivation"]
+      },
+      "conditions": [
+        "Soil samples tested for 12 parameters",
+        "Recommendations for optimal fertilizer use"
+      ]
+    }
+  ],
+  "application": {
+    "mode": ["offline"],
+    "portal_urls": ["https://www.soilhealth.dac.gov.in"],
+    "documents_required": [
+      "Land record",
+      "Aadhaar"
+    ],
+    "fees_inr": 0
+  },
+  "disbursal": {
+    "mode": "direct",
+    "timeline_days": 30
+  },
+  "budget": {
+    "fy_allocation_inr": 56800000000,
+    "beneficiaries_target": 140000000,
+    "beneficiaries_actual": 72500000
+  },
+  "faqs": [
+    { "q": "What parameters are tested?", "a": "12 parameters including N, P, K, pH, organic carbon, and micronutrients." },
+    { "q": "How often is the card issued?", "a": "Every 3 years for each farmer's landholding." }
+  ],
+  "last_updated": "2025-08-17T14:00:00Z"
+}

@@ -1,0 +1,153 @@
+{
+  "pest_id": "PST027",
+  "common_name": "Jute Stem Weevil",
+  "scientific_name": "Apion corchori",
+  "category": "Insect",
+  "description": "A small but highly destructive weevil pest of jute that causes significant fiber quality degradation. The female makes multiple oviposition holes in stems, causing fiber breakage and producing 'knotty fiber' that affects both quality and quantity, with up to 18% yield losses.",
+
+  "identification": {
+    "physical_signs": [
+      "Multiple small holes in stems near nodes",
+      "Knotty fiber formation due to mucilaginous substances",
+      "Fiber breakage during processing",
+      "Loss of apical meristem causing stunted growth",
+      "Induced branching due to growth check",
+      "Small brown or dull black weevils (1.8mm long) on plants"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["Early vegetative", "Vegetative", "Flowering"],
+    "seasons": ["Kharif", "Summer"],
+    "favourable_conditions": {
+      "climate": "Warm conditions (25-32°C), moderate humidity",
+      "soil_type": ["All jute growing soil types"],
+      "soil_conditions": ["Well-drained soils", "Moderate moisture"],
+      "ecological_factors": ["High nitrogen fertilization", "Early sowing", "Dense planting"]
+    },
+    "geographical_distribution": [
+      "West Bengal",
+      "Bihar",
+      "Assam",
+      "Odisha",
+      "Uttar Pradesh",
+      "Chhattisgarh",
+      "Jharkhand",
+      "Bangladesh border areas"
+    ],
+    "crops_attacked": [
+      "Jute (especially Capsularis varieties)",
+      "Mesta",
+      "Various alternate host plants"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 10,
+    "max_crop_loss_percent": 18,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 8000,
+      "max_loss": 15000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "Light traps for adult monitoring",
+      "Collection and destruction of infested stems",
+      "Removal of alternate host plants",
+      "Manual collection of adults during active season"
+    ],
+    "cultural_methods": [
+      "Use of resistant varieties like NDC 8812, NDC 9801, JRO 878",
+      "Avoid early sowing before 4th week of March",
+      "Balanced fertilization avoiding excess nitrogen",
+      "Proper field sanitation",
+      "Crop rotation with non-host crops",
+      "Deep summer ploughing to destroy overwintering adults"
+    ],
+    "biological_control": [
+      {
+        "agent": "Beauveria bassiana",
+        "method": "Entomopathogenic fungal spray"
+      },
+      {
+        "agent": "Natural predators",
+        "method": "Conservation of spiders and other predators"
+      },
+      {
+        "agent": "Parasitoid wasps",
+        "method": "Conservation of natural parasitoids"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Carbofuran 3% G",
+          "dosage": "1 kg a.i./ha",
+          "application_stage": "Soil application at sowing"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Endosulfan 35% EC",
+          "dosage": "2 ml/litre water",
+          "application_stage": "When weevil activity is observed"
+        },
+        {
+          "pesticide_name": "Cypermethrin 10% EC",
+          "dosage": "1 ml/litre water",
+          "application_stage": "Peak weevil activity period"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Furadan",
+      "active_ingredient": "Carbofuran",
+      "formulation": "3% G",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 420,
+        "unit": "5kg pack"
+      }
+    },
+    {
+      "brand_name": "Thiodan",
+      "active_ingredient": "Endosulfan",
+      "formulation": "35% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 220,
+        "unit": "500ml bottle"
+      }
+    },
+    {
+      "brand_name": "Cypermethrin",
+      "active_ingredient": "Cypermethrin",
+      "formulation": "10% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 180,
+        "unit": "250ml bottle"
+      }
+    }
+  ],
+
+  "references": [
+    "http://eagri.org/eagri50/ENTO331/lecture14/jute_005.html",
+    "https://epubs.icar.org.in/index.php/IndFarm/article/download/48734/20888/118665",
+    "https://www.cabidigitallibrary.org/doi/pdf/10.5555/20083208217",
+    "https://justagriculture.in/files/newsletter/2022/october/30.%20Major%20and%20Emerging%20Pest%20Complex%20of%20Jute%20and%20Allied%20Fibers%20and%20Its%20Integrated%20Management%20Approach.pdf",
+    "https://ijaast.com/admin/uploads/V2I1008.pdf"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}

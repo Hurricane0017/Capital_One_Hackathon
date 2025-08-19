@@ -1,0 +1,154 @@
+{
+  "pest_id": "PST029",
+  "common_name": "Red Spider Mite",
+  "scientific_name": "Oligonychus coffeae",
+  "category": "Mite",
+  "description": "The most destructive pest of tea causing 35-40% crop losses. Mites feed on leaf epidermis creating characteristic reddish-brown marks on mature leaves, leading to reduced photosynthesis, premature defoliation, and significant quality deterioration of tea.",
+
+  "identification": {
+    "physical_signs": [
+      "Reddish-brown stippling marks on upper leaf surface",
+      "Bronzing of mature leaves starting from veins and midrib",
+      "Fine webbing on heavily infested leaves",
+      "Premature yellowing and dropping of leaves",
+      "Reduced leaf size and stunted growth",
+      "Microscopic red-orange mites on leaf undersides"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["Mature leaf stage", "Throughout growing period"],
+    "seasons": ["Throughout the year", "Peak in dry sunny periods"],
+    "favourable_conditions": {
+      "climate": "Hot dry conditions (28-35°C), low humidity, bright sunshine",
+      "soil_type": ["All tea growing soil types"],
+      "soil_conditions": ["Drought stress conditions", "Poor soil moisture"],
+      "ecological_factors": ["Absence of shade", "High temperature", "Low humidity", "Light penetration within canopy"]
+    },
+    "geographical_distribution": [
+      "Assam",
+      "West Bengal (Darjeeling, Dooars, Terai)",
+      "Tamil Nadu (Nilgiris)",
+      "Kerala (Munnar, Wayanad)",
+      "Karnataka (Coorg)",
+      "Himachal Pradesh (Palampur)",
+      "Uttarakhand"
+    ],
+    "crops_attacked": [
+      "Tea",
+      "Coffee",
+      "Citrus",
+      "Rose",
+      "Various ornamental plants"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 35,
+    "max_crop_loss_percent": 40,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 25000,
+      "max_loss": 60000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "High pressure water spraying to dislodge mites",
+      "Pruning to improve air circulation",
+      "Maintenance of proper shade (50-60%)",
+      "Regular monitoring with hand lens"
+    ],
+    "cultural_methods": [
+      "Adequate shade management to reduce temperature",
+      "Regular irrigation to maintain soil moisture",
+      "Balanced fertilization",
+      "Proper spacing between bushes",
+      "Mulching to maintain soil moisture",
+      "Removal of severely infested leaves"
+    ],
+    "biological_control": [
+      {
+        "agent": "Stethorus gilvifrons",
+        "method": "Predatory beetle conservation and release"
+      },
+      {
+        "agent": "Amblyseius species",
+        "method": "Predatory mite conservation"
+      },
+      {
+        "agent": "Agistemus species",
+        "method": "Predatory mite release"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Propargite 57% EC",
+          "dosage": "2.5 ml/litre water",
+          "application_stage": "Early dry season"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Dicofol 18.5% EC",
+          "dosage": "2.5 ml/litre water",
+          "application_stage": "When ETL (2-3 mites/cm²) is reached"
+        },
+        {
+          "pesticide_name": "Ethion 50% EC",
+          "dosage": "2 ml/litre water",
+          "application_stage": "Severe infestation"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Omite",
+      "active_ingredient": "Propargite",
+      "formulation": "57% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 480,
+        "unit": "250ml bottle"
+      }
+    },
+    {
+      "brand_name": "Kelthane",
+      "active_ingredient": "Dicofol",
+      "formulation": "18.5% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 380,
+        "unit": "250ml bottle"
+      }
+    },
+    {
+      "brand_name": "Tafgor",
+      "active_ingredient": "Ethion",
+      "formulation": "50% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 250,
+        "unit": "250ml bottle"
+      }
+    }
+  ],
+
+  "references": [
+    "https://darrangcollege.ac.in/upload/publication_scopus/1684861365.pdf",
+    "https://www.entomoljournal.com/archives/2018/vol6issue3/PartH/6-3-2-927.pdf",
+    "https://www.koppert.in/plant-pests/spider-mites-and-other-mites/tea-spider-mite/",
+    "https://hjar.org/index.php/hjar/article/download/172559/116694/415808",
+    "https://bioprotectionportal.com/resources/tea-pests-identification-damage-and-effective-management/"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}

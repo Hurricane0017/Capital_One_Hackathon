@@ -1,0 +1,88 @@
+{
+  "scheme_id": "SCHM-001",
+  "name": "Pradhan Mantri Fasal Bima Yojana",
+  "type": "insurance",
+  "agency": {
+    "name": "Ministry of Agriculture & Farmers Welfare",
+    "type": "central_govt",
+    "contact": {
+      "helpline": "1800-180-1111",
+      "email": "helpdesk@pmfby.gov.in",
+      "website": "https://pmfby.gov.in"
+    }
+  },
+  "validity": {
+    "start_date": "2016-02-18",
+    "end_date": null,
+    "application_windows": [
+      { "from": "2025-04-01", "to": "2025-07-31", "season": "Kharif" },
+      { "from": "2025-10-01", "to": "2025-12-31", "season": "Rabi" }
+    ]
+  },
+  "eligibility": {
+    "farmer_segments": ["small_and_marginal", "tenant_farmers", "FPOs"],
+    "income_categories": ["No limit"],
+    "income_cap_inr_per_year": null,
+    "caste_categories": ["SC", "ST", "OBC", "General"],
+    "special_status": ["women", "differently_abled", "youth"],
+    "age_min": 18,
+    "age_max": null,
+    "land_holding_max_ha": null,
+    "other_conditions": [
+      "Aadhaar-linked bank account",
+      "Cultivation of notified crops in notified area"
+    ]
+  },
+  "benefits": [
+    {
+      "benefit_type": "insurance",
+      "description": "Comprehensive yield loss cover against natural perils",
+      "financials": {
+        "sum_insured_inr": null,
+        "premium_inr": null,
+        "premium_rate_percent": null,
+        "cost_distribution": {
+          "govt_percent": 75,
+          "beneficiary_percent": 25,
+          "other_sources_percent": 0
+        },
+        "subsidy_percent": null,
+        "cash_transfer_amount_inr": null
+      },
+      "coverage": {
+        "crops": ["Food crops", "Oilseeds", "Annual horticultural crops"],
+        "seasons": ["Kharif", "Rabi", "Zaid"],
+        "perils_covered": ["drought", "flood", "pest_attack", "hailstorm", "cyclone"],
+        "stages_covered": ["sowing", "growing", "harvest", "post-harvest"]
+      },
+      "conditions": [
+        "Premium payable before sowing season",
+        "Enrollment within cut-off dates notified by state"
+      ]
+    }
+  ],
+  "application": {
+    "mode": ["online", "offline"],
+    "portal_urls": ["https://pmfby.gov.in"],
+    "documents_required": [
+      "Aadhaar",
+      "Land record",
+      "Bank passbook"
+    ],
+    "fees_inr": 0
+  },
+  "disbursal": {
+    "mode": "direct",
+    "timeline_days": 60
+  },
+  "budget": {
+    "fy_allocation_inr": null,
+    "beneficiaries_target": null,
+    "beneficiaries_actual": null
+  },
+  "faqs": [
+    { "q": "Who can apply?", "a": "All farmers growing notified crops in notified areas." },
+    { "q": "What perils are covered?", "a": "Natural calamities like drought, flood, cyclone, pests, etc." }
+  ],
+  "last_updated": "2025-08-17T14:00:00Z"
+}

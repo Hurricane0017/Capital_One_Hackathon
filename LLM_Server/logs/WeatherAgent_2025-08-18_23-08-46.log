@@ -1,0 +1,65 @@
+2025-08-18 23:09:42,121 - WeatherAgent - INFO - Processing specific weather query: Should I irrigate my cotton crop in the next 5 days?...
+2025-08-18 23:09:42,121 - WeatherAgent - INFO - Processing specific weather pipeline query
+2025-08-18 23:09:42,122 - WeatherAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+You are an expert agricultural parameter extractor. Extract the following information from the farmer's query:
+
+1. **LOCATION** (pincode/place): Look for pincodes, village names, city names, or use farmer profile
+2. **START_DATE** (YYYY-MM-DD): When the weather information should begin
+3. **END_DATE** (YYYY-MM-DD): When the weather information should end
+
+CURRENT DATE: 2025-08-18
+
+
+FARMER PROFILE AVAILABLE:
+- Name: Unknown Farmer
+- Pincode: N/A
+- Location: N/A, N/A, N/A
+- Crops: 
+
+
+FARMER QUERY...
+2025-08-18 23:10:40,709 - WeatherAgent - DEBUG - LLM Call Response:
+{
+  "location": "N/A, N/A, N/A",
+  "start_date": "2025-08-18",
+  "end_date": "2025-08-23",
+  "reasoning": "Location not specified in query; used farmer profile location (N/A, N/A, N/A). Timeframe 'next 5 days' interpreted as current date (2025-08-18) to +5 days (2025-08-23) for irrigation planning."
+}...
+2025-08-18 23:10:40,710 - WeatherAgent - INFO - Extracted parameters: {'location': 'N/A, N/A, N/A', 'start_date': '2025-08-18', 'end_date': '2025-08-23', 'reasoning': "Location not specified in query; used farmer profile location (N/A, N/A, N/A). Timeframe 'next 5 days' interpreted as current date (2025-08-18) to +5 days (2025-08-23) for irrigation planning."}
+2025-08-18 23:10:45,041 - WeatherAgent - ERROR - Geocoding failed for 'N/A, N/A, N/A': HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Max retries exceeded with url: /search?q=N%2FA%2C+N%2FA%2C+N%2FA&format=json&limit=1 (Caused by ReadTimeoutError("HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Read timed out. (read timeout=1)"))
+2025-08-18 23:10:45,859 - WeatherAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+You are an expert agricultural meteorologist providing weather guidance to Indian farmers.
+
+FARMER QUERY: "Should I irrigate my cotton crop in the next 5 days?"
+
+LOCATION: N/A, N/A, N/A
+PERIOD: 2025-08-18 to 2025-08-23
+
+
+WEATHER FORECAST SUMMARY:
+- Period: 6 days
+- Temperature: 25.4°C to 33.1°C (avg: 28.8°C)
+- Total Rainfall: 0.0mm over 0 days
+- Wind Speed: 12.8km/h (max gusts: 35.6km/h)
+
+DETAILED DAILY FORECAST:
+[
+  {
+    "date": "2025-08-18",
+    "temp_mean": 30.0,
+    "temp_max": 33.1,
+    "...
+2025-08-18 23:11:29,919 - WeatherAgent - DEBUG - LLM Call Response:
+### **Direct Answer**  
+**Yes, irrigate your cotton crop between August 20–22.** Avoid irrigation on August 18–19 due to high wind speeds increasing evaporation loss. Soil moisture (0.40–0.41) is borderline for cotton at this stage (likely flowering/boll development), and zero rainfall forecast demands intervention.
+
+---
+
+### **Irrigation Recommendations**  
+- **When & How Much**:  
+  - **August 20–22**: Irrigate deeply (6–7 cm water depth) early morning (5–8 AM) to minimize evaporation.  
+  - *...

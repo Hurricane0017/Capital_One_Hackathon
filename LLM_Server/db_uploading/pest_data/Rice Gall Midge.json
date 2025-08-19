@@ -1,0 +1,155 @@
+{
+  "pest_id": "PST003",
+  "common_name": "Rice Gall Midge",
+  "scientific_name": "Orseolia oryzae",
+  "category": "Insect",
+  "description": "A significant rice pest that causes silver shoots or onion shoots, stunting rice plants and preventing seed head development. It causes an average annual yield loss worth approximately US$80 million in India.",
+
+  "identification": {
+    "physical_signs": [
+      "Silver shoots or onion leaf-like appearance",
+      "Silvery-white, onion leaf-like galls on tillers",
+      "Stunted plant growth",
+      "Failure of panicle emergence in affected tillers",
+      "Orange-colored mosquito-like flies around fields",
+      "Thickened and shortened internodes"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["Seedling", "Tillering"],
+    "seasons": ["Kharif", "Rabi"],
+    "favourable_conditions": {
+      "climate": "High humidity and moderate temperature (25-30°C), cloudy or rainy weather",
+      "soil_type": ["Clay", "Clay loam", "Waterlogged soils"],
+      "soil_conditions": ["High moisture", "Irrigated conditions", "Standing water"],
+      "ecological_factors": ["Dense planting", "High nitrogen fertilization", "Continuous rice cultivation"]
+    },
+    "geographical_distribution": [
+      "Tamil Nadu",
+      "Kerala",
+      "Karnataka",
+      "Andhra Pradesh",
+      "Odisha",
+      "West Bengal",
+      "Chhattisgarh",
+      "Bihar",
+      "Jharkhand",
+      "Assam",
+      "Tripura",
+      "Maharashtra",
+      "Gujarat"
+    ],
+    "crops_attacked": [
+      "Rice"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 15,
+    "max_crop_loss_percent": 70,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 10000,
+      "max_loss": 40000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "Removal of galled tillers",
+      "Light traps for adult monitoring",
+      "Destruction of stubbles after harvest"
+    ],
+    "cultural_methods": [
+      "Use of resistant varieties",
+      "Avoid late transplanting",
+      "Balanced fertilization (reduced nitrogen)",
+      "Proper water management",
+      "Field sanitation",
+      "Crop rotation"
+    ],
+    "biological_control": [
+      {
+        "agent": "Platygaster oryzae",
+        "method": "Natural parasitoid conservation"
+      },
+      {
+        "agent": "Tetrastichus schoenobii",
+        "method": "Parasitic wasp release"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Fipronil 0.3 GR",
+          "dosage": "10 kg/acre",
+          "application_stage": "10-15 days after transplanting"
+        },
+        {
+          "pesticide_name": "Carbofuran 3% CG",
+          "dosage": "10 kg/acre",
+          "application_stage": "At transplanting"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Chlorantraniliprole 18.5% SC",
+          "dosage": "0.3 ml/litre water",
+          "application_stage": "Early infestation stage"
+        },
+        {
+          "pesticide_name": "Thiamethoxam 25 WG",
+          "dosage": "0.2 g/litre water",
+          "application_stage": "When galls are first observed"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Regent",
+      "active_ingredient": "Fipronil",
+      "formulation": "0.3 GR",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 680,
+        "unit": "5kg pack"
+      }
+    },
+    {
+      "brand_name": "Furadan",
+      "active_ingredient": "Carbofuran",
+      "formulation": "3% CG",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 520,
+        "unit": "5kg pack"
+      }
+    },
+    {
+      "brand_name": "Coragen",
+      "active_ingredient": "Chlorantraniliprole",
+      "formulation": "18.5% SC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 850,
+        "unit": "100ml bottle"
+      }
+    }
+  ],
+
+  "references": [
+    "https://kisanvedika.bighaat.com/paddy-gall-midge-an-integrated-pest-management-guide/",
+    "https://www.entomoljournal.com/archives/2020/vol8issue5/PartG/9-2-83-787.pdf",
+    "https://www.plantarchives.org/article/28-%20Seasonal%20Incidence%20of%20rice%20gall%20midge,%20Orseolia%20oryzae%20(Wood-Mason)and%20its%20correlation%20with%20weather%20factors.pdf",
+    "https://journalacri.com/index.php/ACRI/article/view/1282"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}

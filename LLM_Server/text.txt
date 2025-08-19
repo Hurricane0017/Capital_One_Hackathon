@@ -1,0 +1,22 @@
+
+
+Lets now move on to Step 4, which is going to build the most important coordinator agent which will sit on top of the 4 agents that we have built. 
+
+Below is how I want my coordinating agent to work:
+
+1. First task would be to take info coming from the IVR system and saving it in the db. The farmer_input_processor.py has already been implemented for this task. The coordinator agent must ensure this is happening properly and at the beginning always. 
+
+2. Using the info from farmer, essentially using the .json which contains info about the farmer, check if there are any specific queries that the farmer has or should it follow generic pipeline. (Classification of which pipeline to follow)
+-- Specific Queries are those where we just need the output of a few agents from the 4 available ones for the question the farmer is asking. 
+-- Generic Queries are those where we need to guide the farmer end-to-end with all our potential using all the resources that we have at our disposal. In this case, all the agents should return the most important things that will help the coordinator agent to guide the farmer right from planning what to cultivate to the final selling of his harvest. 
+
+3. If the query is specific, specific pipeline must be used by the coordinator agent where only specific agents (which agents are needed can be found out using another LLM Call) should be called and the coordinator agent should just combine the responses from different agents so as to answer the query from the farmer correctly for his case and return it (it will ultimately go to the IVR pipeline when completed, but we can ignore it for now and think this as our final output). 
+If the query is generic, we need to device an exemplary strategy such that we use all our resources and outputs from the db/api and the farmer profile to provide him/her the best roadmap and hyperlocal guidance. This prompt must be super robust and utilize all the reasoning that we have. 
+
+
+
+
+
+
+
+Can you make a new script such that I can put the plain english text somewhere in the code just to check how things are working right from the beginning of orchestrator agent end to end, also add proper logging in every agent and save the file in the logs folder so that it helps in proper debugging. 

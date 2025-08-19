@@ -1,0 +1,43 @@
+2025-08-19 22:25:23,342 - TranscriptMonitor - INFO - 🚀 Starting Transcript Monitor
+2025-08-19 22:25:23,343 - TranscriptMonitor - INFO - ==================================================
+2025-08-19 22:25:23,343 - TranscriptMonitor - INFO - 🔍 Checking for existing files...
+2025-08-19 22:25:23,344 - TranscriptMonitor - WARNING - ⚠️ Could not load processed files log: Expecting value: line 1 column 1 (char 0)
+2025-08-19 22:25:23,344 - TranscriptMonitor - INFO - 🤖 Initializing Orchestrator Agent...
+2025-08-19 22:25:25,949 - TranscriptMonitor - INFO - ✅ Orchestrator Agent initialized successfully
+2025-08-19 22:25:25,949 - TranscriptMonitor - INFO - 🔊 Initializing TTS Processor with Google Cloud Translation API...
+2025-08-19 22:25:26,090 - TranscriptMonitor - INFO - ✅ TTS Processor initialized successfully
+2025-08-19 22:25:26,090 - TranscriptMonitor - INFO - 🌍 Google Cloud Translation API will be prioritized for text translation
+2025-08-19 22:25:26,090 - TranscriptMonitor - INFO - 🎯 Transcript Monitor initialized
+2025-08-19 22:25:26,090 - TranscriptMonitor - INFO - 📁 Monitoring directory: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-19 22:25:26,090 - TranscriptMonitor - INFO - 📱 Default phone number: 9876001234
+2025-08-19 22:25:26,091 - TranscriptMonitor - INFO - 📄 Found 1 existing files
+2025-08-19 22:25:26,091 - TranscriptMonitor - INFO - 📄 Processing existing file: recording-1755619750.01_transcript.json
+2025-08-19 22:25:26,091 - TranscriptMonitor - INFO - 📄 Processing new transcript file: recording-1755619750.01_transcript.json
+2025-08-19 22:25:27,099 - TranscriptMonitor - DEBUG - 📖 Successfully read transcript file: recording-1755619750.01_transcript.json
+2025-08-19 22:25:27,110 - TranscriptMonitor - INFO - 📝 Extracted text: 'I am Pankaj Thakur. Phone 9876001234 P 175001 You have my permission. Total land 0.8 hectare I am cultivating 0.6 hectare in Rabi. Soil is double. Planning to plant garden manure based on the year. Kim ep3 sowing on 15th October 2025 Crop will be ready by end of January. I have ₹40000 cash. I can take ₹20000 if needed. I am not covered under insurance. Nearest Mandi city I like weekly guidance in the evening. I am interested in moving towards organic farming.'
+2025-08-19 22:25:27,113 - TranscriptMonitor - INFO - 🌾 Processing farmer input through orchestrator...
+2025-08-19 22:25:27,114 - TranscriptMonitor - INFO - 📱 Using phone: 9876001234
+2025-08-19 22:25:27,114 - TranscriptMonitor - INFO - 💬 Input: 'I am Pankaj Thakur. Phone 9876001234 P 175001 You have my permission. Total land 0.8 hectare I am cultivating 0.6 hectare in Rabi. Soil is double. Planning to plant garden manure based on the year. Kim ep3 sowing on 15th October 2025 Crop will be ready by end of January. I have ₹40000 cash. I can take ₹20000 if needed. I am not covered under insurance. Nearest Mandi city I like weekly guidance in the evening. I am interested in moving towards organic farming.'
+2025-08-19 22:25:39,061 - TranscriptMonitor - INFO - ✅ Orchestrator processing completed
+2025-08-19 22:25:39,063 - TranscriptMonitor - INFO - 📤 Response length: 79 characters
+2025-08-19 22:25:39,063 - TranscriptMonitor - INFO - 📤 Response preview: Error: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}...
+2025-08-19 22:25:39,066 - TranscriptMonitor - INFO - 💾 Response saved to: recording-1755619750.01_response.json
+2025-08-19 22:25:39,067 - TranscriptMonitor - INFO - 🔊 Generating audio response...
+2025-08-19 22:25:39,068 - TranscriptMonitor - INFO - 📝 English response: 'Error: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}...'
+2025-08-19 22:25:39,068 - TranscriptMonitor - INFO - 🌍 Translating response to Hindi using Google Cloud Translation API...
+2025-08-19 22:25:40,279 - TranscriptMonitor - INFO - ✅ Translation successful using google_cloud
+2025-08-19 22:25:40,279 - TranscriptMonitor - INFO - 📝 Hindi text: 'त्रुटि: त्रुटि कोड: 401 - {'त्रुटि': {'संदेश': 'उपयोगकर्ता नहीं मिला.', 'कोड': 401}}...'
+2025-08-19 22:25:46,828 - TranscriptMonitor - INFO - ✅ Audio response generated successfully!
+2025-08-19 22:25:46,829 - TranscriptMonitor - INFO - 🎵 Audio file: /Users/apple/Desktop/asterisk/recordings/generated_audio/tts_hi_20250819_222540.mp3
+2025-08-19 22:25:46,829 - TranscriptMonitor - INFO - 🌍 Language: hi
+2025-08-19 22:25:46,830 - TranscriptMonitor - INFO - 💾 Audio metadata saved to: recording-1755619750.01_audio_metadata.json
+2025-08-19 22:25:46,832 - TranscriptMonitor - INFO - 🎵 Audio copied for playback: recording-1755619750.01_response.wav
+2025-08-19 22:25:46,832 - TranscriptMonitor - INFO - 📁 Playback location: /Users/apple/Desktop/asterisk/recordings/generated_audio
+2025-08-19 22:25:46,833 - TranscriptMonitor - INFO - ✅ Successfully processed recording-1755619750.01_transcript.json
+2025-08-19 22:25:46,833 - TranscriptMonitor - INFO - 👀 Starting file system monitoring...
+2025-08-19 22:25:46,844 - TranscriptMonitor - INFO - ✅ Transcript Monitor is running
+2025-08-19 22:25:46,845 - TranscriptMonitor - INFO - 📁 Watching: /Users/apple/Desktop/asterisk/recordings/transcripts
+2025-08-19 22:25:46,846 - TranscriptMonitor - INFO - 🔄 Waiting for new transcript files...
+2025-08-19 22:25:46,849 - TranscriptMonitor - INFO - Press Ctrl+C to stop
+2025-08-19 22:26:52,205 - TranscriptMonitor - INFO - 🛑 Stopping Transcript Monitor...
+2025-08-19 22:26:52,209 - TranscriptMonitor - INFO - ✅ Transcript Monitor stopped

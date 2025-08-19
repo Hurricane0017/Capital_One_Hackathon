@@ -1,0 +1,174 @@
+2025-08-19 22:34:29,174 - OrchestratorAgent - INFO - 🎯 Initializing Orchestrator Agent - Master Coordinator
+2025-08-19 22:34:31,418 - OrchestratorAgent - INFO - ✅ All agents and processors initialized successfully
+2025-08-19 22:34:32,474 - OrchestratorAgent - INFO - 🌾 Processing farmer request from 9876001234
+2025-08-19 22:34:32,474 - OrchestratorAgent - INFO - 📝 Processing and storing farmer input data
+2025-08-19 22:34:32,615 - OrchestratorAgent - INFO - 📋 Found existing profile for 9876001234
+2025-08-19 22:34:32,615 - OrchestratorAgent - INFO - 🔍 Extracting farmer query from raw input
+2025-08-19 22:34:32,616 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an agricultural assistant analyzing farmer communication from an IVR system.
+            
+            Raw farmer input: "I am Pankaj Thakur. Phone 9876001234 P 175001 You have my permission. Total land 0.8 hectare I am cultivating 0.6 hectare in Rabi. Soil is double. Planning to plant garden manure based on the year. Kim ep3 sowing on 15th October 2025 Crop will be ready by end of January. I have ₹40000 cash. I can take ₹20000 if needed. I am not covered under insurance. Nea...
+2025-08-19 22:34:50,161 - OrchestratorAgent - DEBUG - LLM Call Response:
+"I am interested in moving towards organic farming and need weekly guidance in the evening."...
+2025-08-19 22:34:50,161 - OrchestratorAgent - INFO - ✅ Extracted query: I am interested in moving towards organic farming and need weekly guidance in the evening....
+2025-08-19 22:34:50,161 - OrchestratorAgent - INFO - 🎯 Classifying pipeline type for farmer query
+2025-08-19 22:34:50,161 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an intelligent agricultural coordinator analyzing farmer queries to determine the best response strategy.
+            
+            FARMER CONTEXT:
+            Farmer: Pankaj Thakur
+Location: 175001
+Total land: 0.8 hectares
+Soil type: Loam
+Crops: garden peas (0.6 ha) - Rabi season
+Available cash: ₹40000
+            
+            FARMER QUERY: "I am interested in moving towards organic farming and need weekly guidance in the evening."
+            
+            CLASSIFICATION TAS...
+2025-08-19 22:35:04,801 - OrchestratorAgent - DEBUG - LLM Call Response:
+```json
+{
+    "pipeline_type": "generic",
+    "reasoning": "The farmer requests ongoing weekly guidance for transitioning to organic farming, which requires comprehensive support across soil management, pest control, crop planning, and certification processes. This is a broad strategic shift rather than a targeted technical issue.",
+    "confidence": 0.95,
+    "required_agents": "all",
+    "urgency": "medium",
+    "complexity": "complex"
+}
+```...
+2025-08-19 22:35:04,804 - OrchestratorAgent - INFO - ✅ Pipeline classified as: generic (confidence: 0.95)
+2025-08-19 22:35:04,804 - OrchestratorAgent - INFO - 🌟 Executing generic pipeline - comprehensive farming guidance
+2025-08-19 22:35:04,804 - OrchestratorAgent - INFO - 🧠 Gathering comprehensive intelligence from all agents
+2025-08-19 22:35:04,804 - OrchestratorAgent - INFO - ☀️ Gathering weather intelligence
+2025-08-19 22:36:24,344 - OrchestratorAgent - INFO - 🌱 Gathering soil intelligence
+2025-08-19 22:36:37,534 - OrchestratorAgent - INFO - 🐛 Gathering pest intelligence
+2025-08-19 22:36:37,917 - OrchestratorAgent - INFO - 🏛️ Gathering scheme intelligence
+2025-08-19 22:36:38,273 - OrchestratorAgent - INFO - ✅ Comprehensive intelligence gathered from all agents
+2025-08-19 22:36:38,274 - OrchestratorAgent - INFO - 🎯 Generating comprehensive farming strategy
+2025-08-19 22:36:38,274 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are the world's most advanced agricultural AI coordinator, creating a comprehensive farming strategy that integrates weather science, soil science, pest management, and financial planning.
+            
+            FARMER PROFILE:
+            Farmer: Pankaj Thakur
+Location: 175001
+Total land: 0.8 hectares
+Soil type: Loam
+Crops: garden peas (0.6 ha) - Rabi season
+Available cash: ₹40000
+            
+            FARMER'S REQUEST: "I am interested in moving towards organic farming an...
+2025-08-19 22:38:06,998 - OrchestratorAgent - DEBUG - LLM Call Response:
+```json
+{
+  "farmer_strategy": {
+    "farmer_details": {
+      "name": "Pankaj Thakur",
+      "location": "175001 (Himachal Pradesh)",
+      "total_land": "0.8 hectares",
+      "soil_type": "Loam",
+      "primary_crop": "Garden Peas (0.6 ha)",
+      "season": "Rabi",
+      "available_cash": "₹40,000",
+      "organic_transition": true
+    },
+
+    "situational_analysis": {
+      "current_assessment": "Small-scale pea cultivation in loam soil with limited capital. Transitioning to organic methods r...
+2025-08-19 22:38:07,000 - OrchestratorAgent - ERROR - ❌ JSON Decode Error: Expecting ',' delimiter: line 56 column 6 (char 2275)
+Response: ```json
+{
+  "farmer_strategy": {
+    "farmer_details": {
+      "name": "Pankaj Thakur",
+      "location": "175001 (Himachal Pradesh)",
+      "total_land": "0.8 hectares",
+      "soil_type": "Loam",
+      "primary_crop": "Garden Peas (0.6 ha)",
+      "season": "Rabi",
+      "available_cash": "₹40,000",
+      "organic_transition": true
+    },
+
+    "situational_analysis": {
+      "current_assessment": "Small-scale pea cultivation in loam soil with limited capital. Transitioning to organic methods requires strategic input management and scheme utilization.",
+      "key_opportunities": [
+        "Premium pricing (20-30% higher) for certified organic peas",
+        "Government subsidies covering 50-80% of organic input costs",
+        "Loam soil's ideal water retention for peas reduces irrigation needs",
+        "Off-season pea market demand in February-March"
+      ],
+      "major_risks": [
+        "Frost damage during flowering (Dec-Jan)",
+        "Aphid/pod borer outbreaks in vegetative stage",
+        "Cash flow constraints during transition phase",
+        "Potential 15-20% initial yield dip during organic conversion"
+      ],
+      "resource_analysis": {
+        "land_utilization": "0.6ha peas, 0.2ha green manure/companion crops",
+        "cash_reserves": "₹40,000 (Prioritize: Bio-inputs > Irrigation > Certification)",
+        "labor_assumption": "Family labor available; minimal hired labor"
+      }
+    },
+
+    "strategic_objectives": {
+      "primary_goals": [
+        "Achieve 90% organic certification compliance this season",
+        "Maintain yield at ≥1,800 kg/0.6ha despite transition",
+        "Reduce synthetic input costs by 100%",
+        "Secure ₹15,000+ scheme benefits before harvest"
+      ],
+      "yield_targets": {
+        "quantity": "1,800-2,000 kg from 0.6ha",
+        "quality": "≥80% Grade-A pods (uniform size, no blemishes)"
+      },
+      "risk_mitigation_priorities": [
+        "Frost protection infrastructure",
+        "Preventive biocontrol systems",
+        "Crop insurance enrollment"
+      ],
+      "financial_improvement": [
+        "Reduce input costs by 40% through organic substitutions",
+        "Increase profit margin by 25% via organic premium",
+        "Leverage schemes for 30% working capital support"
+      ]
+    },
+
+    "integrated_action_plan": {
+
+2025-08-19 22:38:07,002 - OrchestratorAgent - INFO - ✅ Comprehensive strategy generated successfully
+2025-08-19 22:38:07,002 - OrchestratorAgent - INFO - 🗺️ Creating actionable roadmap
+2025-08-19 22:38:07,002 - OrchestratorAgent - INFO - ✅ Actionable roadmap created
+2025-08-19 22:38:07,002 - OrchestratorAgent - INFO - 📍 Generating hyperlocal guidance
+2025-08-19 22:38:07,003 - OrchestratorAgent - INFO - ✅ Hyperlocal guidance generated
+2025-08-19 22:38:07,003 - OrchestratorAgent - INFO - ✅ Generic pipeline completed successfully
+2025-08-19 22:38:07,003 - OrchestratorAgent - INFO - ✅ Successfully processed farmer request via generic pipeline
+2025-08-19 22:38:07,003 - OrchestratorAgent - INFO - 🔄 Converting JSON response to plain English.
+2025-08-19 22:38:07,004 - OrchestratorAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+            You are an expert agricultural assistant. Your task is to convert a complex JSON object containing agricultural advice into a simple, clear, and actionable response in plain English for a farmer.
+
+            FARMER'S PROFILE:
+            Farmer: Pankaj Thakur
+Location: 175001
+Total land: 0.8 hectares
+Soil type: Loam
+Crops: garden peas (0.6 ha) - Rabi season
+Available cash: ₹40000
+
+            FARMER'S ORIGINAL QUERY: "I am interested in moving towards organic farming and need weekl...
+2025-08-19 22:38:47,356 - OrchestratorAgent - DEBUG - LLM Call Response:
+Namaste, Pankajji! Thank you for your query about transitioning to organic farming for your 0.6-hectare garden pea crop in Himachal Pradesh. Based on your location, soil (Loam), and the Rabi season, here’s your clear, weekly guidance:
+
+### 🌱 **Immediate Actions (This Week: 19–26 August 2025)**
+1.  **Protect Crops from Rain & Disease:**  
+    - **Before 24th Aug:** Spray a *sulfur-based organic fungicide* (like wettable sulfur) to prevent fungal diseases (powdery mildew) due to high humidity (78–...
+2025-08-19 22:38:47,358 - OrchestratorAgent - INFO - ✅ Successfully converted JSON to English response.
+2025-08-19 22:38:47,358 - OrchestratorAgent - INFO - ✅ Converted final response to plain English for the farmer.

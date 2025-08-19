@@ -1,0 +1,62 @@
+services:
+  asterisk:
+    image: ${ASTERISK_IMAGE:-andrius/asterisk:latest}
+    container_name: ${CONTAINER_NAME:-asterisk-server}
+    restart: unless-stopped
+    ports:
+      # SIP signaling port
+      - "${SIP_PORT:-5060}:5060/udp"
+      # RTP media ports
+      - "${RTP_PORT_RANGE_START:-10000}-${RTP_PORT_RANGE_END:-10099}:10000-10099/udp"
+      # IAX2 port
+      - "${IAX2_PORT:-4569}:4569/udp"
+      # AMI port
+      - "${AMI_PORT:-5038}:5038/tcp"
+      # HTTP port
+      - "${HTTP_PORT:-8088}:8088/tcp"
+    volumes:
+      # Mount configuration files
+      - ${ASTERISK_CONFIG_PATH:-./etc/asterisk}:/etc/asterisk:rw
+      # Mount sounds directory
+      - ./sounds:/var/lib/asterisk/sounds:rw
+      # Mount monitor directory for call recordings
+      - ./monitor:/var/spool/asterisk/monitor:rw
+      # Mount recordings directory
+      - ${ASTERISK_RECORDINGS_PATH:-./recordings/raw}:/var/lib/asterisk/recordings:rw
+      # Mount logs
+      - ${ASTERISK_LOGS_PATH:-./logs}:/var/log/asterisk:rw
+    environment:
+      - TZ=America/New_York
+      - ASTERISK_UID=${ASTERISK_UID:-1000}
+      - ASTERISK_GID=${ASTERISK_GID:-1000}
+    networks:
+      - asterisk-net
+    healthcheck:
+      test: ["CMD", "asterisk", "-x", "core show version"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
+  recording-processor:
+    build:
+      context: .
+      dockerfile: Dockerfile.processor
+    container_name: ${CONTAINER_NAME:-asterisk-server}-processor
+    restart: unless-stopped
+    volumes:
+      - ./recordings:/app/recordings:rw
+      - ./monitor:/app/monitor:ro
+      - ./.env:/app/.env:ro
+      - ./config:/app/config:ro
+    environment:
+      - PYTHONUNBUFFERED=1
+    depends_on:
+      asterisk:
+        condition: service_healthy
+    networks:
+      - asterisk-net
+
+networks:
+  asterisk-net:
+    driver: bridge

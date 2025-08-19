@@ -1,0 +1,25 @@
+2025-08-19 22:23:11,903 - SoilAgent - INFO - Processing generic soil query: Provide comprehensive soil management and fertilizer guidance...
+2025-08-19 22:23:11,903 - SoilAgent - INFO - Processing generic soil pipeline query
+2025-08-19 22:23:11,993 - SoilAgent - INFO - Retrieved soil data for: alluvial
+2025-08-19 22:23:12,054 - SoilAgent - INFO - Retrieved soil data for: black
+2025-08-19 22:23:12,134 - SoilAgent - INFO - Retrieved soil data for: desert
+2025-08-19 22:23:12,200 - SoilAgent - INFO - Retrieved soil data for: forest
+2025-08-19 22:23:12,267 - SoilAgent - INFO - Retrieved soil data for: laterite
+2025-08-19 22:23:12,342 - SoilAgent - INFO - Retrieved soil data for: mountain
+2025-08-19 22:23:12,415 - SoilAgent - INFO - Retrieved soil data for: peaty
+2025-08-19 22:23:12,476 - SoilAgent - INFO - Retrieved soil data for: red
+2025-08-19 22:23:12,541 - SoilAgent - INFO - Retrieved soil data for: saline
+2025-08-19 22:23:12,541 - SoilAgent - DEBUG - LLM Call Request:
+Model: deepseek/deepseek-r1-0528:free
+Prompt: 
+You are an expert agricultural soil scientist. Determine the most likely soil type for this farmer.
+
+AVAILABLE SOIL TYPES IN DATABASE:
+
+- **alluvial** (Alluvial Soil): Aliases: Alluvium, Found in: Punjab, Uttar Pradesh, Bihar...
+- **black** (Black Soil): Aliases: Regur, Black Cotton Soil, Vertisol, Found in: Maharashtra, Madhya Pradesh, Gujarat...
+- **desert** (Desert (Arid) Soil): Aliases: Arid Soil, Found in: Rajasthan, Gujarat, Haryana...
+- **forest** (Forest Soil): Aliases: Forest & Hill So...
+2025-08-19 22:23:12,936 - SoilAgent - ERROR - LLM call failed: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-08-19 22:23:12,936 - SoilAgent - WARNING - Invalid soil type determined: error: error code: 401 - {'error': {'message': 'user not found.', 'code': 401}}, defaulting to alluvial
+2025-08-19 22:23:13,005 - SoilAgent - INFO - Retrieved soil data for: alluvial

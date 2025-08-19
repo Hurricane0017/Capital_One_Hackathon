@@ -1,0 +1,160 @@
+{
+  "pest_id": "PST019",
+  "common_name": "Sugarcane Pyrilla",
+  "scientific_name": "Pyrilla perpusilla",
+  "category": "Insect",
+  "description": "A serious sap-sucking pest of sugarcane in northern India that occurs in epidemic outbreaks every 5-6 years. Both adults and nymphs suck phloem sap from leaves, secrete honeydew causing sooty mold, and reduce sugar content by up to 30%.",
+
+  "identification": {
+    "physical_signs": [
+      "Yellowing and drying of leaves from tips",
+      "Black sooty mold growth on honeydew-covered leaves",
+      "Stunted plant growth and reduced tillering",
+      "Sticky honeydew secretions on leaf surfaces",
+      "Straw-colored bugs with projecting rostrum",
+      "Presence of both adults and nymphs on leaf undersides"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["Vegetative", "Tillering", "Grand growth"],
+    "seasons": ["Monsoon", "Post monsoon", "Winter"],
+    "favourable_conditions": {
+      "climate": "Warm humid conditions (24-30°C), high humidity, moderate rainfall",
+      "soil_type": ["All sugarcane growing soil types"],
+      "soil_conditions": ["High moisture", "Good drainage"],
+      "ecological_factors": ["Continuous sugarcane cultivation", "Dense canopy", "High humidity within crop"]
+    },
+    "geographical_distribution": [
+      "Uttar Pradesh",
+      "Bihar",
+      "West Bengal",
+      "Punjab",
+      "Haryana",
+      "Madhya Pradesh",
+      "Rajasthan",
+      "Delhi",
+      "Uttarakhand",
+      "Jammu and Kashmir"
+    ],
+    "crops_attacked": [
+      "Sugarcane",
+      "Maize",
+      "Wheat",
+      "Barley",
+      "Oats",
+      "Sorghum",
+      "Pearl millet",
+      "Wild grasses"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 15,
+    "max_crop_loss_percent": 40,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 18000,
+      "max_loss": 55000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "Light traps for adult monitoring",
+      "Sticky traps around field borders",
+      "Manual collection during low population",
+      "High pressure water spray to dislodge nymphs"
+    ],
+    "cultural_methods": [
+      "Crop rotation with non-host crops",
+      "Field sanitation and weed control",
+      "Balanced fertilization",
+      "Proper spacing for good air circulation",
+      "Avoiding water logging",
+      "Destruction of crop residues"
+    ],
+    "biological_control": [
+      {
+        "agent": "Epiricania melanoleuca",
+        "method": "Parasitic fly - most effective natural enemy"
+      },
+      {
+        "agent": "Epipyrops melanoleuca",
+        "method": "Lepidopteran parasite conservation"
+      },
+      {
+        "agent": "Dryinus species",
+        "method": "Parasitic wasp conservation"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Imidacloprid 17.8% SL",
+          "dosage": "0.5 ml/litre water",
+          "application_stage": "Early infestation stage"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Malathion 50% EC",
+          "dosage": "2 ml/litre water",
+          "application_stage": "Peak population buildup"
+        },
+        {
+          "pesticide_name": "Thiamethoxam 25% WG",
+          "dosage": "0.2 g/litre water",
+          "application_stage": "Severe outbreak"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Confidor",
+      "active_ingredient": "Imidacloprid",
+      "formulation": "17.8% SL",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 450,
+        "unit": "250ml bottle"
+      }
+    },
+    {
+      "brand_name": "Cythion",
+      "active_ingredient": "Malathion",
+      "formulation": "50% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 180,
+        "unit": "500ml bottle"
+      }
+    },
+    {
+      "brand_name": "Actara",
+      "active_ingredient": "Thiamethoxam",
+      "formulation": "25% WG",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 280,
+        "unit": "100g pack"
+      }
+    }
+  ],
+
+  "references": [
+    "https://www.upcollege.ac.in/Upload/econtent/1334.pdf",
+    "http://eagri.org/eagri50/ENTO331/lecture13/index.html",
+    "https://justagriculture.in/files/newsletter/2023/september/68%20Identification%20of%20Different%20Insect%20Pests%20of%20Sugarcane%20and%20Their%20Management.pdf",
+    "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_insectpest%20_sugarcanemain.html",
+    "https://www.slideshare.net/slideshow/sugarcane-pests/70096697"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}

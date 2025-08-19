@@ -1,0 +1,150 @@
+{
+  "pest_id": "PST032",
+  "common_name": "Coffee White Stem Borer",
+  "scientific_name": "Xylotrechus quadripes",
+  "category": "Insect",
+  "description": "The most dreaded pest of Arabica coffee in India with 100 years of research history. Larvae bore into coffee stems creating galleries, causing plant death and significant economic losses. More prevalent in Arabica than Robusta coffee, making India unique among coffee-producing countries.",
+
+  "identification": {
+    "physical_signs": [
+      "Circular exit holes (4-6mm diameter) on coffee stems",
+      "Boring dust and frass around entry/exit points",
+      "Wilting and yellowing of branches above borer location",
+      "Swelling or galls on affected stems",
+      "Complete plant death in severe cases",
+      "Adult beetles (15-20mm long) with white markings on black body"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["Young plants", "Mature plants", "Main stems", "Primary branches"],
+    "seasons": ["Throughout the year", "Peak activity during monsoon"],
+    "favourable_conditions": {
+      "climate": "Warm humid conditions with moderate rainfall, high humidity during flight period",
+      "soil_type": ["All Arabica coffee growing soil types"],
+      "soil_conditions": ["Well-drained to moderate moisture"],
+      "ecological_factors": ["Stressed plants", "Poor shade management", "Heavy bearing", "Leaf rust defoliation"]
+    },
+    "geographical_distribution": [
+      "Karnataka (Coorg, Chikkamagaluru, Hassan)",
+      "Kerala (Wayanad, Idukki)",
+      "Tamil Nadu (Nilgiris, Pulneys)",
+      "Andhra Pradesh (Eastern Ghats)",
+      "Limited occurrence in Northeast states"
+    ],
+    "crops_attacked": [
+      "Arabica coffee (primary host)",
+      "Robusta coffee (sporadic)",
+      "Coffea liberica"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 25,
+    "max_crop_loss_percent": 60,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 45000,
+      "max_loss": 120000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "Tracing and plugging of bore holes with cotton soaked in insecticide",
+      "Swabbing of stems with insecticidal solution",
+      "Uprooting and burning of severely affected plants",
+      "Light traps during adult flight period"
+    ],
+    "cultural_methods": [
+      "Maintenance of ideal shade (50-60%)",
+      "Balanced fertilization to avoid plant stress",
+      "Proper pruning and handling practices",
+      "Avoid injuries to plants during cultural operations",
+      "Timely control of leaf rust disease",
+      "Regular monitoring and early detection"
+    ],
+    "biological_control": [
+      {
+        "agent": "Beauveria bassiana",
+        "method": "Entomopathogenic fungal application"
+      },
+      {
+        "agent": "Natural predators",
+        "method": "Conservation of woodpeckers and other beneficial birds"
+      },
+      {
+        "agent": "Parasitoid wasps",
+        "method": "Conservation of natural parasitoids"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Lindane 20% EC",
+          "dosage": "5 ml/litre water",
+          "application_stage": "Stem swabbing before flight period"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Chlorpyrifos 20% EC",
+          "dosage": "3 ml/litre water",
+          "application_stage": "Stem treatment when holes are detected"
+        },
+        {
+          "pesticide_name": "Carbaryl 50% WP",
+          "dosage": "2 g/litre water",
+          "application_stage": "Spot treatment of affected areas"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Lindane",
+      "active_ingredient": "Lindane",
+      "formulation": "20% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 280,
+        "unit": "500ml bottle"
+      }
+    },
+    {
+      "brand_name": "Dursban",
+      "active_ingredient": "Chlorpyrifos",
+      "formulation": "20% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 320,
+        "unit": "500ml bottle"
+      }
+    },
+    {
+      "brand_name": "Sevin",
+      "active_ingredient": "Carbaryl",
+      "formulation": "50% WP",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 220,
+        "unit": "500g pack"
+      }
+    }
+  ],
+
+  "references": [
+    "https://coffeeboard.gov.in/Publications/September_2020%20final.pdf",
+    "https://agriculture.institute/crop-production-technology/managing-coffee-white-stem-borer/",
+    "https://www.slideshare.net/slideshow/insect-pest-of-coffee/157517260",
+    "https://www.slideshare.net/slideshow/pest-of-plantation-crops/70156653",
+    "Central Coffee Research Institute publications"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}

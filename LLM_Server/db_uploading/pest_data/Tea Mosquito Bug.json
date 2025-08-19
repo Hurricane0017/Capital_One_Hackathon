@@ -1,0 +1,156 @@
+{
+  "pest_id": "PST028",
+  "common_name": "Tea Mosquito Bug",
+  "scientific_name": "Helopeltis theivora",
+  "category": "Insect",
+  "description": "A major sap-sucking pest of tea causing 25-50% crop losses. Adults and nymphs pierce plant tissues, extract fluids, and inject toxic saliva containing enzymes that cause browning and necrosis of leaves, buds, and shoots, severely affecting tea quality and yield.",
+
+  "identification": {
+    "physical_signs": [
+      "Brownish-red water-soaked spots on leaves and tender stems",
+      "Necrotic patches that coalesce to form larger brown areas",
+      "Curling and deformation of young leaves",
+      "Drying and withering of tender shoots",
+      "Black specks on damaged areas",
+      "Thin-bodied green or yellow-brown insects (6-8mm long)"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["Young shoots", "Flush formation", "Leaf development"],
+    "seasons": ["Throughout the year", "Peak during monsoon"],
+    "favourable_conditions": {
+      "climate": "Warm humid conditions (24-30°C), high humidity above 80%",
+      "soil_type": ["All tea growing soil types"],
+      "soil_conditions": ["High moisture", "Good drainage"],
+      "ecological_factors": ["Dense canopy", "Poor air circulation", "Alternate host availability"]
+    },
+    "geographical_distribution": [
+      "Assam",
+      "West Bengal (Darjeeling, Dooars)",
+      "Tamil Nadu (Nilgiris)",
+      "Kerala (Munnar, Wayanad)",
+      "Karnataka (Coorg)",
+      "Himachal Pradesh",
+      "Uttarakhand"
+    ],
+    "crops_attacked": [
+      "Tea",
+      "Cashew",
+      "Guava",
+      "Neem",
+      "Moringa",
+      "Cocoa",
+      "Cotton"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 25,
+    "max_crop_loss_percent": 50,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 30000,
+      "max_loss": 80000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "Light traps for adult monitoring and mass trapping",
+      "Sticky traps around plantation periphery",
+      "Pruning to improve air circulation",
+      "Removal of alternate host plants"
+    ],
+    "cultural_methods": [
+      "Proper shade management (50-60% shade)",
+      "Balanced fertilization avoiding excess nitrogen",
+      "Timely pruning and plucking",
+      "Maintenance of proper drainage",
+      "Field sanitation",
+      "Use of resistant tea clones where available"
+    ],
+    "biological_control": [
+      {
+        "agent": "Beauveria bassiana",
+        "method": "Entomopathogenic fungal application at 10⁷ spores/ml"
+      },
+      {
+        "agent": "Predatory spiders",
+        "method": "Conservation of natural predators"
+      },
+      {
+        "agent": "Reduviid bugs",
+        "method": "Predatory bug conservation"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Imidacloprid 17.8% SL",
+          "dosage": "0.3 ml/litre water",
+          "application_stage": "Early flush formation"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Thiamethoxam 25% WG",
+          "dosage": "0.2 g/litre water",
+          "application_stage": "When ETL is reached"
+        },
+        {
+          "pesticide_name": "Deltamethrin 2.8% EC",
+          "dosage": "1 ml/litre water",
+          "application_stage": "Severe infestation"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Confidor",
+      "active_ingredient": "Imidacloprid",
+      "formulation": "17.8% SL",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 450,
+        "unit": "250ml bottle"
+      }
+    },
+    {
+      "brand_name": "Actara",
+      "active_ingredient": "Thiamethoxam",
+      "formulation": "25% WG",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 280,
+        "unit": "100g pack"
+      }
+    },
+    {
+      "brand_name": "Decis",
+      "active_ingredient": "Deltamethrin",
+      "formulation": "2.8% EC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 180,
+        "unit": "100ml bottle"
+      }
+    }
+  ],
+
+  "references": [
+    "https://www.worldteanews.com/teas-botanicals/finding-new-ways-combat-tea-mosquito-bug",
+    "http://eagri.org/eagri50/ENTO331/lecture29/tea/001.html",
+    "https://biospub.com/article-details.php/tea-mosquito-bug---a-new-threat-to-cotton-crop",
+    "https://horizonepublishing.com/journals/index.php/PST/article/view/7327",
+    "https://bioticapublications.com/journal-backend/articlePdf/fbaf3ef156.pdf"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}

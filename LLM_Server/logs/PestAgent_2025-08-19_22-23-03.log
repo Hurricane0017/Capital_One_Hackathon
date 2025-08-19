@@ -1,0 +1,8 @@
+2025-08-19 22:23:04,811 - PestAgent - INFO - Pest database connection imported successfully
+2025-08-19 22:23:06,108 - PestAgent - INFO - Pest Agent initialized
+2025-08-19 22:23:13,005 - PestAgent - INFO - Processing generic pest query: Provide comprehensive pest management and prevention guidance...
+2025-08-19 22:23:13,064 - PestAgent - INFO - Retrieved pest data for: Brown Planthopper
+2025-08-19 22:23:13,153 - PestAgent - INFO - Retrieved pest data for: Pink Bollworm
+2025-08-19 22:23:13,228 - PestAgent - INFO - Retrieved pest data for: Cotton Aphid
+2025-08-19 22:23:13,290 - PestAgent - INFO - Retrieved pest data for: Wheat Aphid
+2025-08-19 22:23:13,355 - PestAgent - INFO - Retrieved pest data for: Fall Armyworm

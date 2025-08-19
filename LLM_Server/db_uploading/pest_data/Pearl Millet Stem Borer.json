@@ -1,0 +1,166 @@
+{
+  "pest_id": "PST006",
+  "common_name": "Pearl Millet Stem Borer",
+  "scientific_name": "Chilo partellus",
+  "category": "Insect",
+  "description": "A major pest of pearl millet that attacks from seedling to harvesting stage, causing dead hearts and complete loss of affected tillers. It causes 20-60% yield losses and is widely distributed across pearl millet growing regions.",
+
+  "identification": {
+    "physical_signs": [
+      "Dead hearts (central shoot withering)",
+      "Bore holes visible on stems near nodes",
+      "Shot holes on unfolding leaves",
+      "Empty or chaffy ear heads at harvest",
+      "Presence of frass near bore holes",
+      "Galleries inside stems"
+    ],
+    "visual_images": [
+      "Note: Actual image URLs would be populated from agricultural databases"
+    ]
+  },
+
+  "attack_details": {
+    "agriculture_stage": ["Seedling", "Vegetative", "Ear head formation"],
+    "seasons": ["Kharif", "Summer"],
+    "favourable_conditions": {
+      "climate": "Warm conditions (25-35°C), moderate humidity",
+      "soil_type": ["Sandy soils", "Sandy loam", "Well-drained soils"],
+      "soil_conditions": ["Moderate moisture", "Good drainage"],
+      "ecological_factors": ["High nitrogen application", "Continuous cereal cropping", "Late sowing"]
+    },
+    "geographical_distribution": [
+      "Rajasthan",
+      "Gujarat",
+      "Maharashtra",
+      "Karnataka",
+      "Andhra Pradesh",
+      "Tamil Nadu",
+      "Haryana",
+      "Punjab",
+      "Uttar Pradesh",
+      "Madhya Pradesh",
+      "Odisha",
+      "Bihar"
+    ],
+    "crops_attacked": [
+      "Pearl millet",
+      "Sorghum",
+      "Maize",
+      "Finger millet",
+      "Foxtail millet",
+      "Sugarcane",
+      "Various grasses"
+    ]
+  },
+
+  "impact": {
+    "min_crop_loss_percent": 20,
+    "max_crop_loss_percent": 60,
+    "economic_loss_estimate": {
+      "currency": "INR",
+      "min_loss": 12000,
+      "max_loss": 30000,
+      "unit": "per hectare"
+    }
+  },
+
+  "management_strategies": {
+    "mechanical_methods": [
+      "Light traps for adult moth capture",
+      "Pheromone traps for monitoring",
+      "Collection and destruction of egg masses",
+      "Removal of stubbles after harvest"
+    ],
+    "cultural_methods": [
+      "Early sowing to avoid peak borer period",
+      "Use of resistant varieties",
+      "Crop rotation with non-host crops",
+      "Intercropping with legumes",
+      "Proper field sanitation",
+      "Balanced fertilization"
+    ],
+    "biological_control": [
+      {
+        "agent": "Trichogramma chilonis",
+        "method": "Egg parasitoid release at 50,000/ha"
+      },
+      {
+        "agent": "Cotesia flavipes",
+        "method": "Larval parasitoid"
+      },
+      {
+        "agent": "Sturmiopsis inferens",
+        "method": "Larval parasite"
+      }
+    ],
+    "chemical_control": {
+      "preventive": [
+        {
+          "pesticide_name": "Carbofuran 3G",
+          "dosage": "20 kg/ha",
+          "application_stage": "30 days after sowing in whorl"
+        },
+        {
+          "pesticide_name": "Fipronil 0.3G",
+          "dosage": "15 kg/ha",
+          "application_stage": "25-30 days after sowing"
+        }
+      ],
+      "curative": [
+        {
+          "pesticide_name": "Chlorantraniliprole 18.5% SC",
+          "dosage": "0.3 ml/litre water",
+          "application_stage": "Early bore hole symptoms"
+        },
+        {
+          "pesticide_name": "Cartap hydrochloride 4G",
+          "dosage": "25 kg/ha",
+          "application_stage": "When 5% plants show damage"
+        }
+      ]
+    }
+  },
+
+  "pesticides_market": [
+    {
+      "brand_name": "Furadan",
+      "active_ingredient": "Carbofuran",
+      "formulation": "3G",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 480,
+        "unit": "5kg pack"
+      }
+    },
+    {
+      "brand_name": "Regent",
+      "active_ingredient": "Fipronil",
+      "formulation": "0.3G",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 680,
+        "unit": "5kg pack"
+      }
+    },
+    {
+      "brand_name": "Coragen",
+      "active_ingredient": "Chlorantraniliprole",
+      "formulation": "18.5% SC",
+      "cost_per_unit": {
+        "currency": "INR",
+        "amount": 850,
+        "unit": "100ml bottle"
+      }
+    }
+  ],
+
+  "references": [
+    "https://bioinfopublication.org/include/download.php?id=BIA0005911",
+    "https://www.entomoljournal.com/archives/2018/vol6issue1/PartX/5-6-368-688.pdf",
+    "https://www.cabidigitallibrary.org/doi/10.1079/cabicompendium.12859",
+    "https://www.agriexam.com/insect-pests-of-pearl-millet-and-finger-millet",
+    "http://eagri.org/eagri50/ENTO331/lecture03/pearl_millet/pdf/lec03.pdf"
+  ],
+
+  "last_updated": "2025-08-17T10:00:00Z"
+}
